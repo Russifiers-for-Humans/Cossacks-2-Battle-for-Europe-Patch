@@ -1,0 +1,503 @@
+[MEMBERS]
+TempMent(PR)   TempMent
+ArtPus1(PR)    ArtPus1
+ArtPus2(PR)    ArtPus2
+ArtPus3(PR)    ArtPus3
+ArtPus4(PR)    ArtPus4PRU
+ArtPus4L(PR)   ArtPus4LPRU
+ArtPus4G(PR)   ArtPus4GPRU
+UnitPus(PR)    PusPru
+ArtPus(PR)     EngKri
+ArtGau(PR)     EngKri
+UnitKri(PR)    EngKri
+UnitPop(PR)    FrnPop
+UnitBar(PR)    PruBar 
+UnitEgrNG(PR)  PruEgr
+UnitFlg(PR)    PruFlg
+UnitGre(PR)    PruGre
+UnitKDrg(PR)   PruKDrg
+UnitKEgr(PR)   PruKEgr
+UnitKKar(PR)   PruKGvr
+UnitOf(PR)     PruOf
+UnitSap(PR)    PruSap
+UnitVol(PR)    PruBkr
+BldArs(PR)     BldArs
+BldKaz(PR)     PruKaz
+BldKir(PR)     BldKir
+BldLes(PR)     BldLes
+BldMan(PR)     BldMan               
+BldMel(PR)     FrnMel               
+BldAka(PR)     PruAka           
+BldCen(PR)     PruCen             
+BldDo1(PR)     PruDo1             
+BldDo2(PR)     PruDo2               
+BldDo3(PR)     PruDo3              
+BldVer(PR)     PruVer           
+BldDvo(PR)     PruDvo             
+BldHra(PR)     PruHra              
+BldKuz(PR)     PruKuz             
+BldSkl(PR)     PruSkl              
+BldMay(PR)     PruVer             
+BldKre(PR)     BldKre                
+BldTow(PR)     BldTow
+BldKro(PR)     BldKro
+BldKon(PR)     PruKon
+BldKonHC(PR)   PruKonHC
+BldRudGold(PR) BldRudGln
+BldRudIron(PR) BldRudRud 
+BldRudCoal(PR) BldRudSel
+BldRudSton(PR) BldRudKam
+BldRudUgl(PR)  BldRudUgl
+BldFor(PR)     BldFor
+BldBlg(PR)     BldBlg
+BldArt(PR)     BldArt
+BldRin(PR)     BldRin
+UnitKKir(PR)   PruKKir
+UnitKGus(PR)   PruKGus 
+UnitKFlg(PR)   PruKFlg
+UnitKDrgG(PR)  FrnKDrg
+UnitKEgrG(PR)  FrnKEgr
+Field(PR)      Field
+UnitFuz(PR)    PruMus
+UnitKGen(PR)   PruKGen
+Bochka(PR)     Bochka
+GuardPruMus(PR)  GuardPruMus
+GuardPruEgr(PR)  GuardPruEgr
+GuardPruKDrg(PR) GuardPruKDrg
+GuardPruGva(PR)  GuardPruGva
+
+[FIXED_PRODUCE]
+
+BldHra(PR)     1
+UnitPop(PR)    0 1 A
+
+BldCen(PR)     1
+UnitKri(PR)    0 1 A
+
+BldKaz(PR)     8
+UnitFuz(PR)    0  1 A
+UnitVol(PR)    2  1 A
+UnitGre(PR)    3  1 A
+UnitOf(PR)     5  1 A
+UnitBar(PR)    6  1 A
+UnitFlg(PR)    7  1 A
+UnitEgrNG(PR)  0  0 A
+UnitSap(PR)    1  0 A
+               
+BldKon(PR)     3
+UnitKFlg(PR)   6  0 A
+UnitKEgr(PR)   0  0 A
+UnitKGus(PR)   1  0 A
+
+BldKonHC(PR)   4
+UnitKDrg(PR)   0  0 A
+UnitKKir(PR)   1  0 A
+UnitKKar(PR)   2  0 A
+UnitKFlg(PR)   6  0 A
+
+BldArt(PR)     4
+ArtPus4L(PR)   0  1 A
+ArtPus4(PR)    1  1 A
+ArtPus4G(PR)   2  1 A
+ArtPus3(PR)    6  1 A
+
+UnitSap(PR)    6
+BldBlg(PR)     0  0 A
+BldTow(PR)     1  0 A
+BldKro(PR)     2  0 A
+BldFor(PR)     3  0 A
+BldKre(PR)     4  0 A
+Bochka(PR)     1  1 A
+
+UnitKri(PR)    16
+BldCen(PR)     0 0 A
+BldKaz(PR)     1 0 A
+BldDo1(PR)     2 0 A
+BldDo2(PR)     3 0 A
+BldKon(PR)     4 0 A
+BldArt(PR)     6 0 A
+BldTow(PR)     7 0 A
+BldBlg(PR)     7 1 A
+BldSkl(PR)     0 1 A
+BldKuz(PR)     1 1 A
+BldAka(PR)     2 1 A
+BldHra(PR)     3 1 A
+BldRin(PR)     4 1 A
+BldDvo(PR)     5 1 A
+BldDo3(PR)     6 1 A
+BldKonHC(PR)   5 0 A
+
+BldMel(PR) 1
+Field(PR)  1 0 A
+
+//BldFor(PR) 4
+//UnitVol(PR)    0 0 A
+//UnitOf(PR)     2 0 A
+//UnitBar(PR)    3 0 A
+//UnitFlg(PR)    4 0 A
+
+BldKre(PR) 8
+GuardPruMus(PR)  1 1 A
+GuardPruEgr(PR)  2 1 A
+GuardPruKDrg(PR) 1 0 A
+GuardPruGva(PR)  2 0 A
+UnitKFlg(PR)     7 1 A
+UnitOf(PR)       5 1 A
+UnitBar(PR)      6 1 A
+UnitFlg(PR)      7 0 A
+
+//BldKro(PR) 4
+//UnitFuz(PR)    0 0 A
+//UnitOf(PR)     2 0 A
+//UnitBar(PR)    3 0 A
+//UnitFlg(PR)    4 0 A
+
+[ENABLED]
+UnitPop(PR)
+ArtPus3(PR)
+ArtPus4(PR)
+ArtPus4L(PR)
+ArtPus4G(PR)
+ArtPus1(PR)    
+ArtPus2(PR)    
+ArtPus3(PR)    
+ArtPus4(PR)    
+
+UnitKDrg(PR)
+UnitKKir(PR)
+UnitKKar(PR)
+UnitKFlg(PR)
+UnitKEgr(PR)
+UnitKGus(PR)
+
+ArtGau(PR)
+ArtPus(PR)
+UnitSap(PR)
+UnitBar(PR)
+UnitFlg(PR)
+UnitOf(PR)
+BldRin(PR)
+BldSkl(PR)
+BldKuz(PR)
+BldArs(PR)
+BldAka(PR)
+BldKaz(PR)
+BldDvo(PR)
+BldDo2(PR)
+BldHra(PR)
+BldArt(PR)
+BldBlg(PR)
+BldKon(PR)
+BldKonHC(PR)
+BldMan(PR)
+BldKir(PR)
+BldTow(PR)
+BldKro(PR)
+BldFor(PR)
+BldKre(PR)
+BldRudGold(PR)
+BldRudIron(PR)
+BldRudCoal(PR)
+BldRudSton(PR)
+BldMel(PR)
+BldCen(PR)
+BldDo1(PR)
+UnitKri(PR)
+UnitFuz(PR)    
+UnitVol(PR)    
+/UnitGre(PR)    
+UnitEgrNG(PR)
+BldDo3(PR)  
+GuardPruMus(PR)
+GuardPruEgr(PR)
+GuardPruKDrg(PR)
+GuardPruGva(PR)
+Bochka(PR)
+
+[UPGRADE]
+UPG01(PR) A18 #POSITION 0 0 #LEVEL 1 UPG01(PR) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldBlg(PR) +15000
+UPG02(PR) A18 #POSITION 0 1 #LEVEL 1 UPG02(PR) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldTow(PR) +15000
+UPG03(PR) A11 #POSITION 0 2 #LEVEL 1 UPG03(PR) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldTow(PR) +80
+UPG04(PR) A18 #POSITION 1 0 #LEVEL 1 UPG04(PR) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldFor(PR) +20000
+UPG05(PR) A18 #POSITION 1 1 #LEVEL 1 UPG05(PR) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldFor(PR) +15000
+UPG06(PR) A18 #POSITION 1 2 #LEVEL 1 UPG06(PR) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldKro(PR) +35000
+Bashnia(PR)PAUSE U3 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(PR) 80
+Bashnia(PR)PAUSE3 U3 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(PR) 60
+Bashnia(PR)PAUSE4 U3 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(PR) 50
+UPG07(PR) A16 #POSITION 2 0 #LEVEL 1 UPG07(PR) #COST 2 GOLD 2000 IRON 18150 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 1 BldFor(PR) +10%
+UPG08(PR) A11 #POSITION 2 1 #LEVEL 1 UPG08(PR) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldFor(PR) +80
+UPG09(PR) A11 #POSITION 2 2 #LEVEL 1 UPG09(PR) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKre(PR) +80
+UPG10(PR) A11 #POSITION 3 0 #LEVEL 1 UPG10(PR) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKre(PR) +80
+UPG11(PR) A11 #POSITION 3 1 #LEVEL 1 UPG11(PR) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKro(PR) +80
+UPG12(PR) A10 #POSITION 3 2 #LEVEL 1 UPG12(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 BldBlg(PR) BldTow(PR) -50%
+UPG13(PR) A10 #POSITION 4 0 #LEVEL 1 UPG13(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 18 BldRin(PR) BldSkl(PR) BldKuz(PR) BldLes(PR) BldAka(PR) BldKaz(PR) BldDvo(PR) BldDo2(PR) BldHra(PR) BldArt(PR) BldKon(PR) BldRudGold(PR) BldRudIron(PR) BldRudCoal(PR) BldRudSton(PR) BldMel(PR) BldCen(PR) BldDo1(PR) -75%
+UPG14(PR) A18 #POSITION 4 1 #LEVEL 1 UPG14(PR) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 18 BldRin(PR) BldSkl(PR) BldKuz(PR) BldLes(PR) BldAka(PR) BldKaz(PR) BldDvo(PR) BldDo2(PR) BldHra(PR) BldArt(PR) BldKon(PR) BldRudGold(PR) BldRudIron(PR) BldRudCoal(PR) BldRudSton(PR) BldMel(PR) BldCen(PR) BldDo1(PR) 200%
+UPG15(PR) A10 #POSITION 4 2 #LEVEL 1 UPG15(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 1 UnitSap(PR) -80%
+UPG16(PR) A19 #POSITION 5 0 #LEVEL 1 UPG16(PR) #COST 1 GOLD 900 #TIME 500
+        ENABLE UNITS UnitKFlg(PR)
+UPG17(PR) A20 #POSITION 5 1 #LEVEL 1 UPG17(PR) #COST 1 COAL 6000 #TIME 500
+        RAZBROS GRP 2 ArtPus(PR) ArtGau(PR) -35%
+UPG18(PR) A20 #POSITION 5 2 #LEVEL 1 UPG18(PR) #COST 1 COAL 6000 #TIME 500
+        RAZBROS GRP 2 ArtPus(PR) ArtGau(PR) -35%
+UPG19(PR) A16 #POSITION 6 0 #LEVEL 1 UPG19(PR) #COST 2 GOLD 2000 IRON 18150 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 6 BldKre(PR) BldTow(PR) BldKro(PR) BldFor(PR) ArtPus(PR) ArtGau(PR) +15%
+UPG20(PR) A10 #POSITION 6 1 #LEVEL 1 UPG20(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 1 UnitKEgr(PR)  -50%
+UPG21(PR) A10 #POSITION 6 2 #LEVEL 1 UPG21(PR) #COST 2 GOLD 315 WOOD 190 #TIME 500
+        EFFECT_FOOD 150
+UPG22(PR) A10 #POSITION 7 0 #LEVEL 1 UPG22(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 ArtPus(PR) ArtGau(PR) -35%
+UPG23(PR) A10 #POSITION 7 1 #LEVEL 1 UPG23(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 ArtPus(PR) ArtGau(PR) -35%
+UPG24(PR) A10 #POSITION 7 2 #LEVEL 1 UPG24(PR) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 ArtPus(PR) ArtGau(PR) -35%
+UPGUNIQ00(PR) U5 #POSITION 2 0 #LEVEL 1 UPGUNIQ00(PR) #COST 2 GOLD 1000 IRON 1500 #TIME 500
+        DAMAGE WEAPONKIND VISTREL UnitFuz(PR) +20
+KUZ02(PR) U4 #POSITION 1 0 #LEVEL 1 KUZ02(AU) #COST 2 IRON 150 GOLD 100 #TIME 2500
+        ENABLE UNITS GRP 1 UnitGre(PR)
+KUZ03(PR) U5 #POSITION 2 0 #LEVEL 1 KUZ03(PR) #COST 2 GOLD 1000 IRON 1500 #TIME 500
+        BUILD GRP 1 UnitFuz(PR) +10%
+
+[UPGRADEPLACE]
+
+BldTow(PR) 3 
+Bashnia(PR)PAUSE
+Bashnia(PR)PAUSE3
+Bashnia(PR)PAUSE4
+
+BldKuz(PR) 2 
+KUZ02(PR)
+UPGUNIQ00(PR)
+
+[UPGRADEENABLE]
+KUZ02(PR)
+Bashnia(PR)PAUSE
+Bashnia(PR)PAUSE3
+Bashnia(PR)PAUSE4
+UPGUNIQ00(PR)
+KUZ03(PR)
+
+[UPGRADELINKS]
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+UPGUNIQ00(PR)   1 KUZ03(PR)
+[ACCESSCONTROL]
+UnitKDrg(PR)    1 BldKuz(PR)
+UnitKKir(PR)    1 BldKuz(PR)
+UnitKKar(PR)    2 BldKuz(PR)
+                  BldDvo(PR)
+UnitKFlg(PR)    1 BldKuz(PR)
+UnitKGus(PR)    1 BldKuz(PR)
+BldKon(PR)      2 BldCen(PR)
+                  BldKaz(PR)
+BldKonHC(PR)    1 BldKuz(PR)
+BldSkl(PR)      1 BldKaz(PR)
+BldAka(PR)      1 BldSkl(PR)
+BldKuz(PR)      2 BldKaz(PR)
+                  BldSkl(PR)
+BldDo1(PR)      1 BldCen(PR)
+BldRin(PR)      1 BldKon(PR)
+BldArt(PR)      1 BldAka(PR)
+BldDvo(PR)      1 BldAka(PR)
+BldDo2(PR)      1 BldAka(PR)
+BldHra(PR)      1 BldDvo(PR)
+BldBlg(PR)      1 BldCen(PR)
+BldTow(PR)      1 BldKaz(PR)
+BldKro(PR)      2 BldArt(PR)
+                  BldAka(PR)
+BldFor(PR)      2 BldArt(PR)
+                  BldAka(PR)
+BldKre(PR)      2 BldDvo(PR)
+                  BldArt(PR)
+UnitEgrNG(PR)   1 BldKon(PR)
+UnitSap(PR)     1 BldAka(PR)
+UnitBar(PR)     1 BldAka(PR)
+UnitOf(PR)      1 BldAka(PR)
+UnitFlg(PR)     1 BldAka(PR)
+BldDo3(PR)      1 BldDvo(PR)
+UnitKKir(PR)    1 BldKuz(PR)
+UnitKKar(PR)    1 BldDvo(PR)
+UnitVol(PR)     1 BldKuz(PR)
+UnitGre(PR)     2 BldKuz(PR)
+                  KUZ02(PR)
+GuardPruMus(PR) 2 BldDvo(PR) BldAka(PR)
+GuardPruEgr(PR) 2 BldDvo(PR) BldAka(PR)
+GuardPruKDrg(PR) 2 BldDvo(PR) BldAka(PR)
+GuardPruGva(PR) 2 BldDvo(PR) BldAka(PR)
+
+[UNITLOCK]
+BldBlg(PR) 3 BldBlg(PR)
+BldSkl(PR) 2 BldSkl(PR)
+BldKuz(PR) 1 BldKuz(PR)
+BldAka(PR) 1 BldAka(PR)
+BldHra(PR) 1 BldHra(PR)
+BldRin(PR) 1 BldRin(PR)
+BldDvo(PR) 1 BldDvo(PR)
+BldKre(PR) 1 BldKre(PR)
+BldFor(PR) 1 BldFor(PR)
+BldKro(PR) 1 BldKro(PR)
+BldKon(PR) 1 BldKon(PR)
+BldKonHC(PR) 1 BldKonHC(PR)
+GuardPruMus(PR) 120 GuardPruMus(PR)
+GuardPruEgr(PR) 30  GuardPruEgr(PR)
+GuardPruKDrg(PR) 45  GuardPruKDrg(PR)
+GuardPruGva(PR) 45  GuardPruGva(PR)
+UnitEgrNG(PR) 65 UnitEgrNG(PR)
+UnitSap(PR) 35 UnitSap(PR)
+
+[CANSETDEST]
+BldArs(PR)
+BldKaz(PR)
+BldKir(PR)
+BldLes(PR)
+BldMan(PR)
+BldMel(PR)
+BldAka(PR)
+BldCen(PR)
+BldDo1(PR)
+BldDo2(PR)
+BldDvo(PR)
+BldHra(PR)
+BldKuz(PR)
+BldSkl(PR)
+BldMay(PR)
+BldKre(PR)
+BldTow(PR)
+BldKro(PR)
+BldKon(PR)
+BldKonHC(PR)
+BldRudGold(PR)
+BldRudIron(PR)
+BldRudCoal(PR)
+BldRudSton(PR)
+BldRudUgl(PR)
+BldFor(PR)
+BldBlg(PR)
+BldArt(PR)
+BldDo3(PR)
+
+[PRIVATE]
+Bashnia(PR)PAUSE
+Bashnia(PR)PAUSE3
+Bashnia(PR)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[AUTOUPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+PRUSSIA 68
+#GUARD
+GuardPruMus(PR)
+GuardPruEgr(PR)
+GuardPruKDrg(PR)
+GuardPruGva(PR)
+#UNITS
+UnitKri(PR)
+UnitBar(PR)
+UnitFlg(PR)
+UnitEgrNG(PR)
+UnitFuz(PR)
+UnitGre(PR)
+UnitOf(PR)
+UnitSap(PR)
+UnitVol(PR)
+TempMent(PR)
+UnitPop(PR)
+#LIGHTCAVALRY
+UnitKEgr(PR)
+UnitKGus(PR)
+#HEAVYCAVALRY
+UnitKDrg(PR)
+UnitKKir(PR)
+UnitKKar(PR)
+UnitKFlg(PR)
+UnitKGen(PR)
+#ARTILARY
+ArtPus(PR)
+ArtGau(PR)
+UnitPus(PR) 
+ArtPus2(PR)
+ArtPus3(PR)
+ArtPus4(PR)
+ArtPus4L(PR)
+ArtPus4G(PR)
+#SHIPS
+#BUILDINGS
+BldMel(PR)
+BldArs(PR)
+BldKaz(PR)
+BldKir(PR)
+BldLes(PR)
+BldMan(PR)
+BldAka(PR)
+BldCen(PR)
+BldDo1(PR)
+BldDo2(PR)
+BldDo3(PR)
+BldVer(PR)
+BldDvo(PR)
+BldHra(PR)
+BldKuz(PR)
+BldSkl(PR)
+BldArt(PR)
+BldKre(PR)
+BldTow(PR)
+BldKro(PR)
+BldKon(PR)
+BldKonHC(PR)
+BldFor(PR)
+BldBlg(PR)
+BldRudIron(PR)
+BldRudSton(PR)
+BldRudGold(PR)
+BldRudUgl(PR)
+BldRudCoal(PR)
+BldMay(PR)
+BldRin(PR)
+
+[OFFICERS]
+UnitOf(PR) UnitBar(PR) UnitFlg(PR)   3
+SQUARE 1 #SQUARE120   4 UnitFuz(PR) UnitGre(PR) UnitVol(PR) GuardPruMus(PR)
+LINE   1 #LINE120COS  4 UnitFuz(PR) UnitGre(PR) UnitVol(PR) GuardPruMus(PR)
+KARE   1 #KARE120COS  4 UnitFuz(PR) UnitGre(PR) UnitVol(PR) GuardPruMus(PR)
+UnitKFlg(PR) NONE    3 
+SHER   1 #MOVR2COS45    7 UnitKDrg(PR) UnitKKir(PR) UnitKKar(PR) UnitKEgr(PR) UnitKGus(PR) GuardPruGva(PR) GuardPruKDrg(PR)
+PRUS   1 #PRUS45COS     7 UnitKDrg(PR) UnitKKir(PR) UnitKKar(PR) UnitKEgr(PR) UnitKGus(PR) GuardPruGva(PR) GuardPruKDrg(PR)
+TRI    1 #TRI1COS45     7 UnitKDrg(PR) UnitKKir(PR) UnitKKar(PR) UnitKEgr(PR) UnitKGus(PR) GuardPruGva(PR) GuardPruKDrg(PR)
+TempMent(PR) NONE 1
+LINE   1 #LINE60MENTCOS  1 TempMent(PR)
+UnitEgrNG(PR) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitEgrNG(PR)
+UnitSap(PR) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitSap(PR)
+GuardPruEgr(PR)  NONE 1
+LINE   1 #LINE30COSEGR  1 GuardPruEgr(PR)
+
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]

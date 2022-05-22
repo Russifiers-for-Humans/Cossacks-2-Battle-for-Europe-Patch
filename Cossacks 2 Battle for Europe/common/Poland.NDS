@@ -1,0 +1,434 @@
+[MEMBERS]
+TempMent(PO)   SpnPar
+ArtPus1(PO)    ArtPus1
+ArtPus2(PO)    ArtPus2
+ArtPus3(PO)    ArtPus3
+ArtPus4(PO)    ArtPus4
+ArtPus4L(PO)   ArtPus4L
+ArtPus4G(PO)   ArtPus4G
+ArtPus4R(PO)   ArtPusR
+ArtPus(PO)     ArtPus4
+UnitPar(PO)    SpnPar
+UnitKri(PO)    EngKri
+UnitPop(PO)    FrnPop
+UnitPus(PO)    PusFrn
+UnitFlg(PO)    PolFlg
+UnitBar(PO)    PolBar 
+UnitOf(PO)     PolOf
+UnitGre(PO)    PolGre
+UnitEgr(PO)    PolEgr
+UnitFuz(PO)    PolFuz
+UnitVol(PO)    PolVol
+UnitSap(PO)    PolSap
+UnitKEgr(PO)   PolKEgr
+UnitKUln(PO)   PolKUln
+UnitKGus(PO)   PolKGus
+UnitKKra(PO)   PolKKra
+UnitKKir(PO)   PolKKir
+UnitKFlg(PO)   PolKFlg
+BldArs(PO)     BldArs
+BldMan(PO)     BldMan
+BldKir(PO)     BldKir
+BldLes(PO)     BldLes
+BldArt(PO)     BldArt
+BldRin(PO)     BldRin
+BldKaz(PO)     PolKaz
+BldAka(PO)     PolAka
+BldCen(PO)     PolCen
+BldDo1(PO)     PolDo1
+BldDo2(PO)     PolDo2
+BldDvo(PO)     PolDvo
+BldHra(PO)     PolHra
+BldKuz(PO)     PolKuz
+BldSkl(PO)     PolSkl
+BldMay(PO)     Gor_Pol_Port
+BldFor(PO)     BldFor
+BldKre(PO)     BldKre
+BldTow(PO)     BldTow
+BldKro(PO)     BldKro
+BldKon(PO)     PolKon
+BldBlg(PO)     BldBlg
+Bochka(PO)     Bochka
+BldKonHC(PO)   PruKonHC
+BldRudGold(PO) BldRudGln
+BldRudIron(PO) BldRudRud 
+BldRudCoal(PO) BldRudSel
+BldRudSton(PO) BldRudKam
+BldRudUgl(PO)  BldRudUgl
+BldMel(PO)     FrnMel
+Field(PO)      Field
+GuardPolGre(PO)   GuardPolGre
+GuardPolKUln(PO)  GuardPolKUln
+GuardPolKGus(PO)  GuardPolKGus
+GuardPolKKra(PO)  GuardPolKKra
+PolPoti(PO)    PolPoti
+PolKKraM(PO)   PolKKraM
+
+[FIXED_PRODUCE]
+BldHra(PO)      1
+UnitPop(PO)     0 1 A
+
+BldCen(PO)      1
+UnitKri(PO)     0 1 A
+
+BldKaz(PO)      7
+UnitFuz(PO)     1 1 A
+UnitVol(PO)     2 1 A
+UnitGre(PO)     3 1 A
+UnitOf(PO)      5 1 A
+UnitBar(PO)     6 1 A
+UnitFlg(PO)     7 1 A
+UnitSap(PO)     1 0 A
+
+
+BldKon(PO)     4
+UnitKEgr(PO)   0  0 A
+UnitKUln(PO)   1  0 A
+UnitKGus(PO)   2  0 A
+UnitKFlg(PO)   7  0 A
+
+BldKonHC(PO)   3
+UnitKKra(PO)   0  0 A
+UnitKKir(PO)   1  0 A
+UnitKFlg(PO)   7  0 A
+
+BldArt(PO)     4
+ArtPus4L(PO)   0  1 A
+ArtPus4(PO)    1  1 A
+ArtPus4G(PO)   2  1 A
+ArtPus3(PO)    6  1 A
+
+UnitSap(PO)    6
+BldBlg(PO)     0  0 A
+BldTow(PO)     1  0 A
+BldKro(PO)     2  0 A
+BldFor(PO)     3  0 A
+BldKre(PO)     4  0 A
+Bochka(PO)     1  1 A
+
+UnitKri(PO)    15
+BldCen(PO)     0 0 A
+BldKaz(PO)     1 0 A
+BldDo1(PO)     2 0 A
+BldDo2(PO)     3 0 A
+BldKon(PO)     4 0 A
+BldArt(PO)     6 0 A
+BldTow(PO)     7 0 A
+BldSkl(PO)     0 1 A
+BldRin(PO)     4 1 A
+BldAka(PO)     2 1 A
+BldDvo(PO)     5 1 A
+BldHra(PO)     3 1 A
+BldBlg(PO)     7 1 A
+BldKuz(PO)     1 1 A
+BldKonHC(PO)   5 0 A
+
+BldMel(PO)     1
+Field(PO)      1 0 A
+
+//BldFor(PO)        4
+//UnitVol(PO)       0 0 A
+//UnitOf(PO)        2 0 A
+//UnitBar(PO)       3 0 A
+//UnitFlg(PO)       4 0 A
+
+BldKre(PO)        8
+GuardPolGre(PO)   1 1 A
+GuardPolKUln(PO)  1 0 A
+GuardPolKGus(PO)  2 0 A
+GuardPolKKra(PO)  3 0 A
+UnitKFlg(PO)      7 0 A
+UnitOf(PO)        5 1 A
+UnitBar(PO)       6 1 A
+UnitFlg(PO)       7 1 A
+
+//BldKro(PO)        4
+//UnitFuz(PO)       0 0 A
+//UnitOf(PO)        2 0 A
+//UnitBar(PO)       3 0 A
+//UnitFlg(PO)       4 0 A
+
+[ENABLED]
+UnitVol(PO)
+UnitKUln(PO)
+UnitKKra(PO)
+UnitPop(PO)
+ArtPus3(PO)
+ArtPus4(PO)
+ArtPus4L(PO)
+ArtPus4G(PO)
+ArtPus4R(PO)
+Bochka(PO)
+BldKir(PO)
+UnitKGus(PO)
+UnitKFlg(PO)
+UnitKEgr(PO)
+ArtPus4(PO)
+UnitSap(PO)
+UnitBar(PO)
+UnitFlg(PO)
+UnitOf(PO)
+BldRin(PO)
+BldSkl(PO)
+BldKuz(PO)
+BldLes(PO)
+BldAka(PO)
+BldKaz(PO)
+BldDvo(PO)
+BldDo2(PO)
+BldHra(PO)
+BldArt(PO)
+BldBlg(PO)
+BldKon(PO)
+BldTow(PO)
+BldKro(PO)
+BldFor(PO)
+BldKre(PO)
+BldRudGold(PO)
+BldRudIron(PO)
+BldRudCoal(PO)
+BldRudSton(PO)
+BldMel(PO)
+BldCen(PO)
+BldDo1(PO)
+UnitKri(PO)
+UnitFuz(PO)        
+UnitGre(PO)     
+/UnitEgr(PO)
+GuardPolKUln(PO)
+GuardPolKGus(PO)
+GuardPolKKra(PO)
+GuardPolGre(PO)
+UnitKKir(PO)
+BldKonHC(PO)
+
+[UPGRADE]
+Bashnia(PO)PAUSE U3 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(PO) 80
+Bashnia(PO)PAUSE3 U3 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(PO) 60
+Bashnia(PO)PAUSE4 U3 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(PO) 50
+KUZ02(PO) U4 #POSITION 1 0 #LEVEL 1 KUZ02(PO) #COST 2 IRON 150 GOLD 100 #TIME 2500
+        ENABLE UNITS GRP 1 UnitGre(PO)
+UpgPush01(PO) U11 #POSITION 7 0 #LEVEL 2 UpgPush01(PO) #COST 2 IRON 300 COAL 300 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 1 BldKaz(PO) +10%
+UpgPush02(PO) U12 #POSITION 7 0 #LEVEL 3 UpgPush02(PO) #COST 2 IRON 600 COAL 600 #TIME 800
+        ATTRANGE ATTINDEX 0 GRP 1 BldKaz(PO) +20% 
+UPGKra(PO) U5 #POSITION 6 0 #LEVEL 1 UPGKra(PO) #COST 3 GOLD 1000 WOOD 4000 IRON 200 #TIME 1000
+ENABLE UNITS UnitKKra(PO) 
+        
+
+[UPGRADEPLACE]
+BldKaz(PO) 2
+UpgPush01(PO)
+UpgPush02(PO)
+
+BldKuz(PO) 1 
+KUZ02(PO)
+
+BldTow(PO) 3 
+Bashnia(PO)PAUSE
+Bashnia(PO)PAUSE3
+Bashnia(PO)PAUSE4
+
+BldDvo(PO) 1
+UPGKra(PO)
+
+[UPGRADEENABLE]
+KUZ02(PO)
+Bashnia(PO)PAUSE
+Bashnia(PO)PAUSE3
+Bashnia(PO)PAUSE4
+UpgPush01(PO)
+UpgPush02(PO)
+UPGKra(PO)
+
+[UPGRADELINKS]
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+
+[ACCESSCONTROL]
+UnitVol(PO)     1 BldKuz(PO)
+UnitKKir(PO)    2 BldDvo(PO)
+                  BldKuz(PO)
+UnitKKra(PO)    1 UPGKra(PO)
+UnitKGus(PO)    1 BldKuz(PO)
+UnitKFlg(PO)    1 BldKuz(PO)
+Bochka(PO)      1 BldArt(PO)
+BldSkl(PO)      2 BldCen(PO)
+                  BldKaz(PO)
+BldRin(PO)      1 BldCen(PO)
+BldDo1(PO)      1 BldCen(PO)
+BldKon(PO)      1 BldSkl(PO)
+BldAka(PO)      2 BldKaz(PO)
+                  BldSkl(PO)
+BldHra(PO)      2 BldCen(PO)
+                  BldDvo(PO)
+BldTow(PO)      1 BldAka(PO)
+BldKro(PO)      2 BldArt(PO)
+                  BldAka(PO)
+BldFor(PO)      2 BldArt(PO)
+                  BldAka(PO)
+BldKre(PO)      2 BldDvo(PO)
+                  BldArt(PO)
+BldDo2(PO)      1 BldDvo(PO)
+BldDvo(PO)      1 BldAka(PO)
+BldKir(PO)      1 BldAka(PO)
+BldArt(PO)      1 BldAka(PO)
+BldMan(PO)      1 BldAka(PO)
+BldArs(PO)      1 BldArt(PO)
+BldKuz(PO)      1 BldKaz(PO)
+UnitGre(PO)     2 BldKuz(PO)
+                  KUZ02(PO)
+UnitSap(PO)     1 BldAka(PO)
+UnitOf(PO)      1 BldAka(PO)
+UnitKFlg(PO)    1 BldAka(PO)
+UnitBar(PO)     1 BldAka(PO)
+UnitFlg(PO)     1 BldDvo(PO)
+GuardPolKUln(PO) 2 BldDvo(PO) BldAka(PO)
+GuardPolKGus(PO) 2 BldDvo(PO) BldAka(PO)
+GuardPolKKra(PO) 2 BldDvo(PO) BldAka(PO) 
+GuardPolGre(PO) 3 BldDvo(PO) BldAka(PO) 
+UpgPush02(PO) 1 UpgPush01(PO)
+BldKonHC(PO) 2 BldAka(PO) BldKuz(PO)
+
+[UNITLOCK]
+BldBlg(PO) 3 BldBlg(PO)
+BldSkl(PO) 2 BldSkl(PO)
+BldKuz(PO) 1 BldKuz(PO)
+BldAka(PO) 1 BldAka(PO)
+BldHra(PO) 1 BldHra(PO)
+BldRin(PO) 1 BldRin(PO)
+BldDvo(PO) 1 BldDvo(PO)
+BldKre(PO) 1 BldKre(PO)
+BldFor(PO) 1 BldFor(PO)
+BldKro(PO) 1 BldKro(PO)
+BldKon(PO) 1 BldKon(PO)
+BldKonHC(PO) 1 BldKonHC(PO)
+GuardPolKUln(PO) 45 GuardPolKUln(PO)
+GuardPolKGus(PO) 45 GuardPolKGus(PO)
+GuardPolKKra(PO) 45 GuardPolKKra(PO)
+GuardPolGre(PO) 120 GuardPolGre(PO)
+UnitSap(PO) 35 UnitSap(PO)
+
+[CANSETDEST]
+BldKaz(PO)
+BldLes(PO)
+BldMel(PO)
+BldAka(PO)
+BldCen(PO)
+BldDo1(PO)
+BldDo2(PO)
+BldDvo(PO)
+BldHra(PO)
+BldKuz(PO)
+BldSkl(PO)
+BldMay(PO)
+BldKre(PO)
+BldTow(PO)
+BldKro(PO)
+BldKon(PO)
+BldRudGold(PO)
+BldRudIron(PO) 
+BldRudCoal(PO)
+BldRudSton(PO)
+BldRudUgl(PO)
+BldFor(PO)
+BldBlg(PO)
+BldArt(PO)
+BldKonHC(PO)
+
+[PRIVATE]
+Bashnia(PO)PAUSE
+Bashnia(PO)PAUSE3
+Bashnia(PO)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+POLAND 61
+#GUARD
+GuardPolKUln(PO)
+GuardPolKGus(PO)
+GuardPolKKra(PO)
+GuardPolGre(PO)
+#UNITS
+UnitKri(PO)
+UnitFuz(PO)
+UnitVol(PO)
+UnitGre(PO)
+UnitBar(PO)
+UnitFlg(PO)
+UnitOf(PO)
+UnitSap(PO)
+UnitPop(PO)
+#LIGHTCAVALRY
+UnitKEgr(PO)
+UnitKUln(PO)
+UnitKGus(PO)
+#HEAVYCAVALRY
+UnitKKir(PO)
+UnitKKra(PO)
+UnitKFlg(PO)
+#ARTILARY
+ArtPus1(PO)
+ArtPus2(PO)
+ArtPus3(PO)
+ArtPus4(PO)
+ArtPus4L(PO)
+ArtPus4G(PO)
+#BUILDINGS
+BldKaz(PO)
+BldCen(PO)
+BldKuz(PO)
+BldSkl(PO)
+BldDo1(PO)
+BldDo2(PO)
+BldDvo(PO)
+BldAka(PO)
+BldHra(PO)
+BldArt(PO)
+BldKre(PO)
+BldTow(PO)
+BldKro(PO)
+BldKon(PO)
+BldKonHC(PO)
+BldFor(PO)
+BldBlg(PO)
+BldRudIron(PO)
+BldRudSton(PO)
+BldRudGold(PO)
+BldRudUgl(PO)
+BldRudCoal(PO)
+BldRin(PO)
+BldKir(PO) 
+BldLes(PO)      
+BldMel(PO)
+BldMay(PO)
+#MISSION
+PolPoti(PO)
+PolKKraM(PO)
+[OFFICERS]
+UnitOf(PO) UnitBar(PO) UnitFlg(PO)   3
+SQUARE 1 #SQUARE120   4 UnitFuz(PO) UnitGre(PO) UnitVol(PO) GuardPolGre(PO)
+LINE   1 #LINE120COS  4 UnitFuz(PO) UnitGre(PO) UnitVol(PO) GuardPolGre(PO)
+KARE   1 #KARE120COS  4 UnitFuz(PO) UnitGre(PO) UnitVol(PO) GuardPolGre(PO)
+UnitKFlg(PO) NONE    3
+SHER   1 #MOVR2COS45    8 UnitKGus(PO) UnitKEgr(PO) UnitKKra(PO) UnitKUln(PO) UnitKKir(PO) GuardPolKUln(PO) GuardPolKGus(PO) GuardPolKKra(PO)
+PRUS   1 #PRUS45COS     8 UnitKGus(PO) UnitKEgr(PO) UnitKKra(PO) UnitKUln(PO) UnitKKir(PO) GuardPolKUln(PO) GuardPolKGus(PO) GuardPolKKra(PO)
+TRI    1 #TRI1COS45     8 UnitKGus(PO) UnitKEgr(PO) UnitKKra(PO) UnitKUln(PO) UnitKKir(PO) GuardPolKUln(PO) GuardPolKGus(PO) GuardPolKKra(PO)
+UnitEgr(PO) NONE 1
+LINE   1 #LINE15COSEGR  1 UnitEgr(PO)
+UnitSap(PO) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitSap(PO)
+
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]

@@ -1,0 +1,340 @@
+ABLINE0  GSC Game World
+ABLINE1 
+ABLINE2  Credits 
+ABLINE3 
+ABLINE4  Cossacks II: Battle for Europe
+ABLINE5 
+ABLINE6  Management
+ABLINE7  Producer: Sergey "-GSC-" Grygorovych
+ABLINE8  Project Manager: Anton Bolshakov
+ABLINE9  
+ABLINE10  Project Leader: Andrey Zakoliykin
+ABLINE11 
+ABLINE12  
+ABLINE13  Art
+ABLINE14  Lead Designer: Andrey Zavolokin
+ABLINE15  Art Director: Roman Nesin
+ABLINE16  3D Modeling: Sergey Zavolokin
+ABLINE17  2D Designer: Olga Troekurova
+ABLINE18  Artist/Map Designer: Timofey Ursulenko
+ABLINE19  Artist: Valentina Kuzmicheva
+ABLINE20  Artist: Innokentiy Korshunov
+ABLINE21  Artist: Sofiya Gapich
+ABLINE22  Artist: Sergey Redchenko
+ABLINE23  
+ABLINE24  Special Effects
+ABLINE25  Pavel Markevich
+ABLINE26  
+ABLINE27  Programming Global Map Mode
+ABLINE28  Sergey "Mobydick" Deshko
+ABLINE29  
+ABLINE30  Technical Render
+ABLINE31  Alexander "Alex" Demidenko
+ABLINE32 
+ABLINE33  Sound
+ABLINE34  Sound&Music Supervisor: Dmitry Kuzmenko
+ABLINE35  Composer: Alexey Omelchuk
+ABLINE36  
+ABLINE37  Sales Department
+ABLINE38  Sales Director: Sergey "nelper" Grushko
+ABLINE39  Sales Manager: Victoria Boyko
+ABLINE40  
+ABLINE41  Public Relations
+ABLINE42  Senior PR-manager: Oleg Yavorsky
+ABLINE43  PR-manager: Roman "ShoDan" Lupashevsky
+ABLINE44  PR-manager: Sergey "Pako" Storozhenko
+ABLINE45  Teaser Movie Director: Vasiliy Guralevich
+ABLINE46  
+ABLINE47  Technical Support
+ABLINE48  Yury "Sepul" Skripal
+ABLINE49  
+ABLINE50  Localization
+ABLINE51  Head of Localization: Eugene Kuchma
+ABLINE52  Texts Writing: Vladimir Litvinenko
+ABLINE53  Localization: Olga Ishyna
+ABLINE54  
+ABLINE55  
+ABLINE56 
+ABLINE57  Cossacks II: Napoleonic Wars
+ABLINE58    
+ABLINE59  Management
+ABLINE60  CEO/Producer:   Sergey "-GSC-" Grygorovych
+ABLINE61  Project Leader/Manager:   Eugeniy "-GEC-" Grygorovych
+ABLINE62  COO:   Anton Bolshakov
+ABLINE63 
+ABLINE64 Programming
+ABLINE65 Lead Programmer:   Andrew Shpagin 
+ABLINE66  Programmer:   Vitaliy Lysenko 
+ABLINE67  Programmer:   Alexander Lazar 
+ABLINE68  Programmer:   Ruslan Shestopalyuk 
+ABLINE69  Programmer:   Andrew Frolov 
+ABLINE70  Programmer "Battle for Europe":   Sergey "Mobydick" Deshko
+ABLINE71  Programmer:   Anatoly Shestopalyuk 
+ABLINE72  Programmer:   Serguei "ManOwaR" Ivantsov
+ABLINE73  
+ABLINE74  Game Designers
+ABLINE75  Game Designer:   Alexander Chuchkevich 
+ABLINE76  Game Designer Assistant:   Anjey "Diallin" Stabrovsky                                                                                                                                                
+ABLINE77  
+ABLINE78  QA Testers
+ABLINE79  Lead QA Tester:   Alexander "Diehard" Vasilkonov
+ABLINE80  QA Tester:   Denis "Hireling" Shubovskiy
+ABLINE81  QA Tester:   Sergey "Freeman" Gritsay
+ABLINE82  QA Tester:   Victor "Unforgiven" Kontsevich
+ABLINE83  QA Tester:   Vladimir "Fresh" Yezhov
+ABLINE84  QA Tester:   Maksim "Max" Emets
+ABLINE85  QA Tester:   Eugeniy "John" Gordienko
+ABLINE86  QA Tester:   Alexander "Olimp" Ilnitsky
+ABLINE87  QA Tester:   Vladislav "Ataman" Nasad
+ABLINE88  QA Tester:   Sergey Salnikov
+ABLINE89  
+ABLINE90  Mission Design
+ABLINE91  Lead Mission Designer:   Victor Levchenko 
+ABLINE92  Mission Designer:   Andrew "Matron" Matuzkov 
+ABLINE93  Mission Designer:   Daniel "BugCop" Meranov 
+ABLINE94  Mission Designer:   Yaroslav "Smoke" Shklyar 
+ABLINE95  Mission Designer:   Sergey "Pako" Storozhenko
+ABLINE96  
+ABLINE97  Map Design
+ABLINE98  Lead Map Designer:   Timofey "TimUr" Ursulenko
+ABLINE99  Lead Map Designer Assistant:   Nikolay "Tiamat" Morozov
+ABLINE100  Map Designer:   Alexey "Fara" Onischenko
+ABLINE101  Map Designer:   Vladimir "Razor" Motluah
+ABLINE102  Map Designer:   Alex Dragon
+ABLINE103 
+ABLINE104  Artists
+ABLINE105  Lead designer:  Andrey Zavolokin
+ABLINE106  Lead Interface Designer:  Roman Nesin 
+ABLINE107  Interface Designer:  Olga Troekurova
+ABLINE108  Interface Designer:  Vladimir Kotov
+ABLINE109  Artist:   Ivan Hivrenko
+ABLINE110  
+ABLINE111  3D Design
+ABLINE112  Lead 3D Designer:   Sergey Zavolokin
+ABLINE113  3D Designer:   Vitaliy Misyutin
+ABLINE114  3D Designer:   Sergey Kruzhelniy
+ABLINE115  3D Designer:   Andrey Eskov
+ABLINE116  3D Designer:   Andrey Lutskevich
+ABLINE117  
+ABLINE118  Animation
+ABLINE119  Lead Animator:   Pavel Markevych 
+ABLINE120  Animator:   Alexey Kublitsky
+ABLINE121  Animator:   Nadya Babaryka
+ABLINE122  
+ABLINE123  Technical render  
+ABLINE124  Alexander "Alex" Demidenko
+ABLINE125  
+ABLINE126  Video editing  
+ABLINE127  Pavel Markevich
+ABLINE128  
+ABLINE129  Sound
+ABLINE130  Sound and music supervisor:   Dmitriy Kuzmenko
+ABLINE131  Composer:   Alexey Omelchuk
+ABLINE132  Trailer VO recording:   Randall Thomas (Fader8 Production)
+ABLINE133  
+ABLINE134  Sales Department
+ABLINE135  Sales Director:   Sergey "nelper" Gryshko
+ABLINE136  Sales Manager:   Andrey Salnikov
+ABLINE137  
+ABLINE138  PR
+ABLINE139  Senior PR-manager:   Oleg Yavorsky
+ABLINE140  Project PR-manager:   Yuriy "Drakon v palto" Besarab
+ABLINE141  PR-manager:   Anna Zinchenko
+ABLINE142  PR-manager:   Alexey "Giraffe" Savchenko
+ABLINE143  
+ABLINE144  Technical Support
+ABLINE145  Roman "ShoDan" Lupashevsky
+ABLINE146  
+ABLINE147  Localisation
+ABLINE148  Localisation Manager:   Roman "ShoDan" Lupashevsky
+ABLINE149  Localisation:   Eugene Kuchma
+ABLINE150  
+ABLINE151  Historic support
+ABLINE152  Historic consultant:   Andrey Zavolokin
+ABLINE153  Historic consultant's assistant:   Nikolay "Alador" Volchkov
+ABLINE154  Historic consultant's assistant:   Vladimir "Vic" Avdeyev
+ABLINE155  Text's correction:   Vladimir Litvinenko
+ABLINE156  Encyclopedia:   Andrey "Nestor_Izuit" Bodnar
+ABLINE157 
+ABLINE158 Special thanks
+ABLINE159 
+ABLINE160 Department of Military and Cultural Anthropology
+ABLINE161 of the Archaeology and Anthropology Society
+ABLINE162 2nd Visla Legion regiment (Fr) (Kiev)
+ABLINE163 Minsk infantry regiment (Rus) (Minsk)
+ABLINE164 Guard Naval depot (Rus) (Saint-Petersburg)
+ABLINE165 "Lesta" Sudio
+ABLINE166 Martin Walter (Austria)
+ABLINE167 Rostovcev "=Patron=" Mikhail for the help in development
+ABLINE168 As well as Nataliy Lugovaya, Natalia Avdeenko,
+ABLINE169 Tatyana Perepichay
+ABLINE170 
+ABLINE171 
+ABLINE172 CDV Software Entertainment AG
+ABLINE173 
+ABLINE174 Credits 
+ABLINE175 
+ABLINE176 Development
+ABLINE177 
+ABLINE178 Producer
+ABLINE179 Gregor Bellman
+ABLINE180 
+ABLINE181 Senior Technical Engineer
+ABLINE182 Johannes Bickle
+ABLINE183 
+ABLINE184 Technical Engineer
+ABLINE185 Christoph Weinstein
+ABLINE186 Thomas Kroell
+ABLINE187 
+ABLINE188 Quality Assurance
+ABLINE189 
+ABLINE190 Senior QA Manager
+ABLINE191 Thomas Heil
+ABLINE192 
+ABLINE193 Senior QA Coordinator
+ABLINE194 Andre Dordel
+ABLINE195 
+ABLINE196 Leadtester
+ABLINE197 Daniel Schoemperlen
+ABLINE198 Sebastian Reichert
+ABLINE199 
+ABLINE200 
+ABLINE201 QA Tester
+ABLINE202 Bogdan Trifan
+ABLINE203 Christian Oly
+ABLINE204 Christian Schaffer
+ABLINE205 Christian Schuepf
+ABLINE206 Daniel Mrugala
+ABLINE207 Daniel Pathmaperuma
+ABLINE208 Daniela Grebe
+ABLINE209 Florian Foos
+ABLINE210 Hanno Schneider
+ABLINE211 Matthias Loeble
+ABLINE212 Michael Benz
+ABLINE213 Michael Fochler
+ABLINE214 Michael Hoferer
+ABLINE215 Michael Schulz
+ABLINE216 Oliver Schuﬂ
+ABLINE217 Pascal Renschler
+ABLINE218 Patrick Saelzler
+ABLINE219 Pedro Pinto
+ABLINE220 Ralf Leichtle
+ABLINE221 Roland Thimister
+ABLINE222 Sebastian Merkel
+ABLINE223 Stefan Kostov
+ABLINE224 Stefan Proell
+ABLINE225 Stefan Schreiber
+ABLINE226 Sven Burst
+ABLINE227 Thomas Heilbronner
+ABLINE228 Thorsten Of
+ABLINE229 Thorsten Zastrow
+ABLINE230 Torsten Biller
+ABLINE231 Werner Aron
+ABLINE232 
+ABLINE233 
+ABLINE234 Marketing & PR
+ABLINE235 
+ABLINE236 Marketing Director
+ABLINE237 Christian Hermann
+ABLINE238 
+ABLINE239 PR Director
+ABLINE240 Bernd Berheide
+ABLINE241 
+ABLINE242 Marketing Coordinator
+ABLINE243 Thomas Liebhold
+ABLINE244 
+ABLINE245 International Marketing & PR Manager 	
+ABLINE246 Evelyn Reina
+ABLINE247 
+ABLINE248 Marketing Manager
+ABLINE249 Randy Dohack
+ABLINE250 
+ABLINE251 Product Manager
+ABLINE252 Roger Joswig
+ABLINE253 
+ABLINE254 Community Manager
+ABLINE255 Thomas Wagner
+ABLINE256 
+ABLINE257 Chief Graphic Designer
+ABLINE258 Oliver Krainhoefner
+ABLINE259 
+ABLINE260 Senior Graphic Designer
+ABLINE261 Adrian Alonso
+ABLINE262 
+ABLINE263 Graphic Designer
+ABLINE264 Monika Gola
+ABLINE265 Silvija Svetec
+ABLINE266 Oliver Moritz	
+ABLINE267 
+ABLINE268 Web Developer
+ABLINE269 Stefan Schwoebel
+ABLINE270 
+ABLINE271 Special Thanks
+ABLINE272 Achim Heidelauf
+ABLINE273 Christopher Schmitz
+ABLINE274 Daniel Jaensch
+ABLINE275 Daniel Grunder
+ABLINE276 Elmar Grunenberg
+ABLINE277 Guido Eickmeyer
+ABLINE278 Matthias Siedlaczek
+ABLINE279 Wolfgang Gaebler
+ABLINE280 
+ABLINE281 
+ABLINE282 
+ABLINE283 CDV US
+ABLINE284 
+ABLINE285 CEO
+ABLINE286 Tom Gross
+ABLINE287 
+ABLINE288 Marketing / PR Manager
+ABLINE289 Mario Kroll
+ABLINE290 Wendy Beasley
+ABLINE291 
+ABLINE292 Office Manager
+ABLINE293 Barb Wendel
+ABLINE294 
+ABLINE295 Accounting
+ABLINE296 David Green
+ABLINE297 
+ABLINE298 Accountant
+ABLINE299 Allan Kalbarczyk
+ABLINE300 
+ABLINE301 Localization Agency
+ABLINE302 
+ABLINE303 Translocacell Localization Services
+ABLINE304 http://www.translocacell.com
+ABLINE305 
+ABLINE306 Project Manager
+ABLINE307 Martin Ruiz Torreblanca
+ABLINE308 
+ABLINE309 Audio Superviser
+ABLINE310 Friedrich Klemme
+ABLINE311 
+ABLINE312 
+ABLINE313 Patch 1.2
+ABLINE314 
+ABLINE315 Authors
+ABLINE316 
+ABLINE317 Programmer
+ABLINE318 Mariusz "Jarema" Gadek
+ABLINE319 
+ABLINE320 Great thanks to:
+ABLINE321 
+ABLINE322 Florian "Flo" Foos
+ABLINE323 [RUKA]Zet
+ABLINE324 Tricky Tiger
+ABLINE325 Members of [RUKA] clan (http://www.clan-ruka.com)
+ABLINE326 
+ABLINE327 
+ABLINE328 Patch 1.4
+ABLINE329 
+ABLINE330 Authors
+ABLINE331 
+ABLINE332 Zakoliykin "[RUKA]GeneraL" Andrey
+ABLINE333 [RUKA]Zet
+ABLINE334 [RUKA]Horse
+ABLINE335 
+ABLINE336 Special thanks for supporting the game:
+ABLINE337 
+ABLINE338 Members of [RUKA] clan (http://www.clan-ruka.com)
+ABLINE339 CDV QA

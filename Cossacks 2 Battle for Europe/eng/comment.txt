@@ -1,0 +1,115 @@
+WINNER VICTORY! Press ESC to exit.
+LOOSER DEFEAT! Press ESC to exit.
+Wood Wood
+Gold Gold
+Stone Stone
+Food Food
+Iron Iron
+Coal Coal
+EATTACK Enable Attack.
+DATTACK Disable Attack.
+PATROL Patrol
+GOATTA Attack
+DELSYNC WARNING!!! SYNCHRONIZATION FAILURE!!!
+HIEDMOD Edit Heights.
+ADDSPOB Add Sprite Objects.
+DELSPOB Delete Objects.
+TEXMODE Texturing Mode
+UNBLOCK Forced Unblocking Mode
+DOBLOCK Forced Blocking Mode
+DFBLOCK Default Blocking Mode
+PEACMOD Peace Mode
+SETWATT Water Editing: Place Water.
+DELWATT Water Editing: Remove Water.
+SETCOST Water Editing: Place a Sandbank.
+DELCOST Water Editing: Remove a Sandbank.
+GETSPOS Player %d: Selecting a Starting Point.
+PLAYMES Player %d
+ECONOM1 -10 units
+ECONOM2 +10 units
+ECONOM3 -1,000 units
+ECONOM4 +1,000 units
+ECONOM5 Exchange Resources.
+ECONOM6 -100 Units of Resource
+ECONOM7 +100 Units of Resource
+ECONOM8 Cancel bargain.
+ECONOM9 -10,000 Units of Resource
+ECONOMA +10,000 Units of Resource
+ECOSELL Supply
+ECOBUY Demand
+VERYHUN WARNING! A famine is ravaging your state!
+MESHPOV %s: The terrain profile prevents you from firing.
+MESHOBJ %s: %s prevents you from firing.
+NETRESS Insufficient Resources: %s
+NETRES1 Insufficient Resources: %s
+NOFARMS You don't have enough dwellings!
+OPENGAT Open the Gates.
+CLOSGAT Close the Gates.
+STANDGR Stand Ground mode.
+NOSTAND Cancel Stand Ground mode.
+SFREORD Dismiss the squad.
+ARMYSTR Army
+KILLUNI Kills: %d
+FISHSTR Fish: %d/%d
+HABITAN Population: %d
+MAXHABI Max. Population: %d
+INSISTR Inside: %d
+MAXINSI Max. Inside: %d+%d
+MAXINS1 Max. Inside: %d
+SDS_Str Set Rally Point (CTRL + Right click).
+ARMATTACK Melee Attack only.
+ANYATTACK Allow both Skirmish and Melee attacks.
+SHOTMYUNITS Allow firing at mob containing friendly troops.
+KEEPMYUNITS Make sure your troops are not damaged.
+STOPBUILD_ON Enable Defensive Fire. (PAUSE UNIT CREATION) 
+STOPBUILD_OFF Disable Defensive Fire. (ENABLE UNIT CREATION) 
+KARTECH_TXT Fire Grapeshot. 
+PREKARTECH_TXT Prepare to fire.
+FISHING_ON Fish.
+FISHING_OFF Do not fish.
+FISHING_ON_TXT Fish.
+FISHING_OFF_TXT Do not fish.
+TXT_UPG1 {FS}{C FF502515}Invite Engineer.
+TXT_UPG1F {FS}{C FF502515}Invite Agronomist.
+TXT_UPG2 {FS}{C FF502515}Allocate Resources for Infrastructure Development.
+TXT_UPG3 {FS}{C FF502515}Allocate Subsidies for building Dwellings.
+TXT_UPG1_5 {FS}{C FF502515}Invite Engineer (+4 WORKERS).
+TXT_UPG1F_5 {FS}{C FF502515}Invite Agronomist. (+4 WORKERS).
+TXT_UPG2_5 {FS}{C FF502515}Allocate Resources for Infrastructure Development (+4 WORKERS).
+TXT_UPG3_5 {FS}{C FF502515}Allocate Subsidies for building Dwellings (+4 WORKERS).
+TXT_UPG1_10 {FS}{C FF502515}Invite Agronomist (+10 WORKERS).
+TXT_UPG1F_10 {FS}{C FF502515}Invite Agronomist (+10 WORKERS).
+TXT_UPG2_10 {FS}{C FF502515}Allocate Resources for Infrastructure Development (+10 WORKERS).
+TXT_UPG3_10 {FS}{C FF502515}Allocate Subsidies for building Dwellings (+10 WORKERS).
+TXT_UPG1_3 {FS}{C FF502515}Invite Engineer (+2 WORKERS).
+TXT_UPG1F_3 {FS}{C FF502515}Invite Agronomist (+2 WORKERS).
+TXT_UPG2_3 {FS}{C FF502515}Allocate Resources for Infrastructure Development (+2 WORKERS).
+TXT_UPG3_4 {FS}{C FF502515}Allocate Subsidies for building Dwellings (+2 WORKERS).
+
+Bashnia(fr)PAUSE Install Additional Guns (+20% Tower Rate of Fire).
+Bashnia(fr)PAUSE3 Install Additional Guns (+20% Tower Rate of Fire).
+Bashnia(fr)PAUSE4 Install Additional Guns (+10% Tower Rate of Fire).
+UPGUNIQ00(EG) Master new Fencing Techniques (+4 Warrior with Yataghan melee damage).
+UNIQ01(EN) Decrease Taxes (+50% peasant creation speed).
+Bashnia(AU)PAUSE Install Additional Guns (+20% Tower Rate of Fire).
+Bashnia(AU)PAUSE3 Install Additional Guns (+20% Tower Rate of Fire).
+Bashnia(AU)PAUSE4 Install Additional Guns (+10% Tower Rate of Fire).
+KUZ02(AU) Establish Grenade Production (allows you to create Grenadiers).
+
+KUZ02(PO) Establish Grenade Production (allows you to create Grenadiers).
+KUZ02(RE) Establish Grenade Production (allows you to create Grenadiers).
+KUZ02(SP) Establish Grenade Production (allows you to create Grenadiers).
+WoodUp01(RE) Increase Wood-Cutter wages (+20% logging).
+StoneUp01(RE) Erect New Quarries (+20% stone extraction).
+WoodUp(FR) Increase Wood-Cutter wages (+20% logging).
+StoneUp(FR) Erect New Quarries (+20% stone extraction).
+UPGUNIQ00(PR) Rearm Musketeers (+20 shot damage, -10% creation speed).
+UPGUNIQ00(EN) Reorganize Musketeers training (+2 melee damage, -1 iron creation cost, -50% creation speed).
+
+UpgPush01(PO) Install Additional Guns (+10% Barracks Rate of Fire).
+UpgPush02(PO) Install Additional Guns (+20% Barracks Rate of Fire).
+
+DefendUp01(RE) Establish New Defense Scheme (+25% defense against Grenades and Cannonballs).
+UPGUNIQ00(EN) Reorganize Musketeers training (+2 melee damage, -1 iron creation cost, -50% creation speed).
+UPGUNIQ00(PR) Buy new muskets (+20 shot damage, +10% creation time).
+UPGKra(PO) Napoleon's 1812 order to create Krakuse squadrons.

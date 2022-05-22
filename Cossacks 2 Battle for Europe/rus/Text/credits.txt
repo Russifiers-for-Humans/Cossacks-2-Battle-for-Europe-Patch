@@ -1,0 +1,252 @@
+ABLINE0 GSC Game World
+ABLINE1  
+ABLINE2 Авторы
+ABLINE3 
+ABLINE4  Казаки II: Битва за Европу
+ABLINE5 
+ABLINE6 
+ABLINE7  Продюсер: Сергей "-GSC-" Григорович
+ABLINE8  Менеджер проекта: Антон Большаков
+ABLINE9  
+ABLINE10  Руководитель проекта: Андрей Заколюкин
+ABLINE11 
+ABLINE12  
+ABLINE13  Художники
+ABLINE14  Ведущий дизайнер: Андрей Заволокин
+ABLINE15  Главный художник: Роман Несин
+ABLINE16  3D моделирование: Сергей Заволокин
+ABLINE17  Дизайнер: Ольга Троекурова
+ABLINE18  Художник/Дизайнер карт: Тимофей Урсуленко
+ABLINE19  Художник: Валентина Кузмичева
+ABLINE20  Художник: Иннокентий Коршунов
+ABLINE21  Художник: София Гапич
+ABLINE22  Художник: Сергей Редченко
+ABLINE23  
+ABLINE24  Спецэффекты
+ABLINE25  Павел Маркевич
+ABLINE26  
+ABLINE27  Программирование "Битвы за Европу"
+ABLINE28  Сергей "Mobydick" Дешко
+ABLINE29  
+ABLINE30  Технический рендер
+ABLINE31  Александр "Alex" Демиденко
+ABLINE32 
+ABLINE33  Звуковое оформление
+ABLINE34  Звукорежиссер: Дмитрий Кузьменко
+ABLINE35  Композитор: Алексей Омельчук
+ABLINE36  
+ABLINE37  Отдел продаж
+ABLINE38  Главный продавец: Сергей "nelper" Грушко
+ABLINE39  Менеджер по продажам: Виктория Бойко
+ABLINE40  
+ABLINE41  Связь с общественностью
+ABLINE42  Главный связной: Олег Яворский
+ABLINE43  PR-менеджер: Роман "ShoDan" Лупашевский
+ABLINE44  PR-менеджер: Сергей "Pako" Стороженко
+ABLINE45  Режиссура рекламного ролика: Василий Гуралевич
+ABLINE46  
+ABLINE47  Техническая поддержка
+ABLINE48  Юрий "Sepul" Скрипаль
+ABLINE49  
+ABLINE50  Локализация
+ABLINE51  Организовал: Евгений Кучма
+ABLINE52  Работа с текстами: Владимир "Fiachna" Литвиненко
+ABLINE53  Осуществила: Ольга Ишина
+ABLINE54  
+ABLINE55  
+ABLINE56 Казаки II: Наполеоновские войны
+ABLINE57  
+ABLINE58 Продюсер/директор
+ABLINE59 Сергей "-GSC-" Григорович
+ABLINE60  
+ABLINE61 Руководитель проекта
+ABLINE62 Евгений "-GEC-" Григорович
+ABLINE63  
+ABLINE64 Заместитель директора
+ABLINE65 Антон Большаков
+ABLINE66 
+ABLINE67 Ведущий программист
+ABLINE68 Андрей Шпагин
+ABLINE69 
+ABLINE70 Программирование
+ABLINE71 Виталий Лысенко
+ABLINE72 Александр Лазарь
+ABLINE73 Руслан Шестопалюк
+ABLINE74 Андрей Фролов
+ABLINE75 Анатолий Чистопалюк
+ABLINE76 Сергей "ManOwaR" Иванцов
+ABLINE77 
+ABLINE78 Программирование "Битвы за Европу"
+ABLINE79 Сергей "Moby dick" Дешко
+ABLINE80 
+ABLINE81 Гейм-дизайнер
+ABLINE82 Александр Чучкевич
+ABLINE83 
+ABLINE84 Ассистент гейм-дизайнера 
+ABLINE85 Андрей "Diallin" Стабровский
+ABLINE86 
+ABLINE87 Ведущий тестер
+ABLINE88 Александр "Diehard" Васильконов
+ABLINE89 
+ABLINE90 Тестеры
+ABLINE91 Денис "Hireling" Шубовский
+ABLINE92 Сергей "Freeman" Грицай
+ABLINE93 Виктор "Unforgiven" Концевич
+ABLINE94 Владимир "Fresh" Ежов
+ABLINE95 Максим "Max" Емец
+ABLINE96 Евгений "John" Гордиенко
+ABLINE97 Александр "Olimp" Ильницкий
+ABLINE98 Владислав "Ataman" Насад
+ABLINE99 Сергей Сальников
+ABLINE100 
+ABLINE101 Ведущий дизайнер миссий
+ABLINE102 Виктор Левченко
+ABLINE103 
+ABLINE104 Дизайнеры миссий
+ABLINE105 Андрей "Matron" Мотузков
+ABLINE106 Даниил "BugCop" Меранов
+ABLINE107 Ярослав "Smoke" Шкляр
+ABLINE108 Сергей "Pako" Стороженко
+ABLINE109 
+ABLINE110 Ведущие дизайнеры карт
+ABLINE111 Тимофей "TimUr" Урсуленко
+ABLINE112 Николай "Tiamat" Морозов
+ABLINE113 
+ABLINE114 Дизайнеры карт
+ABLINE115 Алексей "Fara" Онищенко
+ABLINE116 Владимир "Razor" Мотлях
+ABLINE117 Алекс Драгон
+ABLINE118 
+ABLINE119 Ведущий дизайнер
+ABLINE120 Андрей Заволокин
+ABLINE121 
+ABLINE122 Главный дизайнер интерфейса
+ABLINE123 Роман Несин
+ABLINE124 
+ABLINE125 Дизайнеры интерфейса
+ABLINE126 Ольга Троекурова
+ABLINE127 Владимир Котов
+ABLINE128 
+ABLINE129 Художник
+ABLINE130 Иван Хивренко
+ABLINE131 
+ABLINE132 Ведущий 3D дизайнер
+ABLINE133 Сергей Заволокин
+ABLINE134 
+ABLINE135 ЗD дизайнеры
+ABLINE136 Виталий Мисютин
+ABLINE137 Сергей Кружельный
+ABLINE138 Андрей Еськов
+ABLINE139 Андрей Луцкевич
+ABLINE140 
+ABLINE141 Ведущий аниматор
+ABLINE142 Павел Маркевич
+ABLINE143 
+ABLINE144 Аниматоры
+ABLINE145 Алексей Кублицкий
+ABLINE146 Надежда Бабарыка
+ABLINE147 
+ABLINE148 Технический рендер
+ABLINE149 Александр "Alex" Демиденко
+ABLINE150            
+ABLINE151 Видеомонтаж
+ABLINE152 Павел Маркевич
+ABLINE153 
+ABLINE154 Звукорежиссёр
+ABLINE155 Дмитрий Кузьменко
+ABLINE156 
+ABLINE157 Композитор
+ABLINE158 Алексей Омельчук
+ABLINE159 
+ABLINE160 Озвучивание видео-ролика
+ABLINE161 Randall Thomas (Fader8 Production)
+ABLINE162                    
+ABLINE163 Директор по продажам
+ABLINE164 Сергей "nelper" Грушко
+ABLINE165 
+ABLINE166 Менеджер по продажам
+ABLINE167 Андрей Сальников
+ABLINE168 
+ABLINE169 Главный PR-менеджер
+ABLINE170 Олег Яворский
+ABLINE171 
+ABLINE172 PR-менеджер проекта
+ABLINE173 Юрий "Drakon v palto" Бесараб
+ABLINE174  
+ABLINE175 PR-менеджеры
+ABLINE176 Анна Зинченко
+ABLINE177 Алексей "Giraffe" Савченко
+ABLINE178                      
+ABLINE179 Техническая поддержка
+ABLINE180 Роман "ShoDan" Лупашевский
+ABLINE181 
+ABLINE182 Менеджер по локализации
+ABLINE183 Роман "ShoDan" Лупашевский
+ABLINE184 
+ABLINE185 Локализация
+ABLINE186 Евгений Кучма
+ABLINE187  
+ABLINE188 Исторический консультант
+ABLINE189 Андрей Заволокин
+ABLINE190 
+ABLINE191 Ассистент исторического консультанта
+ABLINE192 Николай "Alador" Волчков
+ABLINE193  
+ABLINE194 Ассистент исторического консультанта
+ABLINE195 Владимир "Vic" Авдеев
+ABLINE196 
+ABLINE197 Корректировка текстов
+ABLINE198 Владимир Литвиненко
+ABLINE199 
+ABLINE200 Энциклопедия
+ABLINE201 Андрей "Nestor_Izuit" Боднар
+ABLINE202 
+ABLINE203                                                 
+ABLINE204 Отдельная благодарность
+ABLINE205 
+ABLINE206 Обществу археологии и антропологии при
+ABLINE207 Государственном Университете
+ABLINE208 
+ABLINE209 2-му полку Легиона Вислы (фр.) (Киев)
+ABLINE210 
+ABLINE211 Минскому пехотному полку (рус.) (Минск)
+ABLINE212 
+ABLINE213 Гвардейскому Морскому экипажу (рус.) (СПБ)
+ABLINE214 
+ABLINE215 Студии "Леста"
+ABLINE216 
+ABLINE217 Martin Walter (Австрия)
+ABLINE218 
+ABLINE219 Ростовцеву "=Patron=" Михаилу за помощь в
+ABLINE220 доработке проекта
+ABLINE221 
+ABLINE222 А также Наталье Луговой, Наталье Авдеенко,
+ABLINE223 Татьяне Перепичай
+ABLINE224 
+ABLINE225 Патч 1.2
+ABLINE226 
+ABLINE227 Авторы
+ABLINE228 
+ABLINE229 Программист
+ABLINE230 Mariusz "Jarema" Gadek
+ABLINE231 
+ABLINE232 Большое спасибо
+ABLINE233 
+ABLINE234 Florian "Flo" Foos
+ABLINE235 [RUKA]Zet and [RUKA]Horse
+ABLINE236 Tricky Tiger
+ABLINE237 Членам клана [RUKA] (http://www.clan-ruka.com)
+ABLINE238 
+ABLINE239 
+ABLINE240 Патч 1.4
+ABLINE241 
+ABLINE242 Авторы
+ABLINE243 
+ABLINE244 Заколюкин "[RUKA]GeneraL" Андрей
+ABLINE245 [RUKA]Zet
+ABLINE246 [RUKA]Horse
+ABLINE247 
+ABLINE248 Отдельная благодарность за поддержку игры
+ABLINE249 
+ABLINE250 Членам клана [RUKA] (http://www.clan-ruka.com)
+ABLINE251 

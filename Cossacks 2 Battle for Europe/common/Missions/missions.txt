@@ -1,0 +1,500 @@
+#TUTORIAL
+Tutorial
+-
+Missions\Campains\27xDeliverance.m3d
+-
+0
+#SECTOR00@
+Mission Name - Sector00.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector00\Sector00.m3d
+Missions\StatData\Sector00\Sector00.txt
+1
+Missions\StatData\Sector00\Sector00.txt
+#SECTOR01@
+Mission Name - Sector01.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector01\Sector01.m3d
+Missions\StatData\Sector01\Sector01.txt
+1
+Missions\StatData\Sector01\Sector01.txt
+#SECTOR02@
+Mission Name - Sector02.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector02\Sector02.m3d
+Missions\StatData\Sector02\Sector02.txt
+1
+Missions\StatData\Sector02\Sector02.txt
+#SECTOR03@
+Mission Name - Sector03.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector03\Sector03.m3d
+Missions\StatData\Sector03\Sector03.txt
+1
+Missions\StatData\Sector03\Sector03.txt
+#SECTOR04@
+Mission Name - Sector04.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector04\Sector04.m3d
+Missions\StatData\Sector04\Sector04.txt
+1
+Missions\StatData\Sector04\Sector04.txt
+#SECTOR05@
+Mission Name - Sector05.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector05\Sector05.m3d
+Missions\StatData\Sector05\Sector05.txt
+1
+Missions\StatData\Sector05\Sector05.txt
+#SECTOR06@
+Mission Name - Sector06.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector06\Sector06.m3d
+Missions\StatData\Sector06\Sector06.txt
+1
+Missions\StatData\Sector06\Sector06.txt
+#SECTOR07@
+Mission Name - Sector07.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector07\Sector07.m3d
+Missions\StatData\Sector07\Sector07.txt
+1
+Missions\StatData\Sector07\Sector07.txt
+#SECTOR08@
+Mission Name - Sector08.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector08\Sector08.m3d
+Missions\StatData\Sector08\Sector08.txt
+1
+Missions\StatData\Sector08\Sector08.txt
+#SECTOR09@
+Mission Name - Sector09.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector09\Sector09.m3d
+Missions\StatData\Sector09\Sector09.txt
+1
+Missions\StatData\Sector09\Sector09.txt
+#SECTOR10@
+Mission Name - Sector10.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector10\Sector10.m3d
+Missions\StatData\Sector10\Sector10.txt
+1
+Missions\StatData\Sector10\Sector10.txt
+#SECTOR11@
+Mission Name - Sector11.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector11\Sector11.m3d
+Missions\StatData\Sector11\Sector11.txt
+1
+Missions\StatData\Sector11\Sector11.txt
+#SECTOR12@
+Mission Name - Sector12.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector12\Sector12.m3d
+Missions\StatData\Sector12\Sector12.txt
+1
+Missions\StatData\Sector12\Sector12.txt
+#SECTOR13@
+Mission Name - Sector13.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector13\Sector13.m3d
+Missions\StatData\Sector13\Sector13.txt
+1
+Missions\StatData\Sector13\Sector13.txt
+#SECTOR14@
+Mission Name - Sector14.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector14\Sector14.m3d
+Missions\StatData\Sector14\Sector14.txt
+1
+Missions\StatData\Sector14\Sector14.txt
+#SECTOR15@
+Mission Name - Sector15.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector15\Sector15.m3d
+Missions\StatData\Sector15\Sector15.txt
+1
+Missions\StatData\Sector15\Sector15.txt
+#SECTOR16@
+Mission Name - Sector16.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector16\Sector16.m3d
+Missions\StatData\Sector16\Sector16.txt
+1
+Missions\StatData\Sector16\Sector16.txt
+#SECTOR17@
+Mission Name - Sector17.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector17\Sector17.m3d
+Missions\StatData\Sector17\Sector17.txt
+1
+Missions\StatData\Sector17\Sector17.txt
+#SECTOR18@
+Mission Name - Sector18.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector18\Sector18.m3d
+Missions\StatData\Sector18\Sector18.txt
+1
+Missions\StatData\Sector18\Sector18.txt
+#SECTOR19@
+Mission Name - Sector19.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector19\Sector19.m3d
+Missions\StatData\Sector19\Sector19.txt
+1
+Missions\StatData\Sector19\Sector19.txt
+#SECTOR20@
+Mission Name - Sector20.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector20\Sector20.m3d
+Missions\StatData\Sector20\Sector20.txt
+1
+Missions\StatData\Sector20\Sector20.txt
+#SECTOR21@
+Mission Name - Sector21.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector21\Sector21.m3d
+Missions\StatData\Sector21\Sector21.txt
+1
+Missions\StatData\Sector21\Sector21.txt
+#SECTOR22@
+Mission Name - Sector22.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector22\Sector22.m3d
+Missions\StatData\Sector22\Sector22.txt
+1
+Missions\StatData\Sector22\Sector22.txt
+#SECTOR23@
+Mission Name - Sector23.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector23\Sector23.m3d
+Missions\StatData\Sector23\Sector23.txt
+1
+Missions\StatData\Sector23\Sector23.txt
+#SECTOR24@
+Mission Name - Sector24.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector24\Sector24.m3d
+Missions\StatData\Sector24\Sector24.txt
+1
+Missions\StatData\Sector24\Sector24.txt
+#SECTOR25@
+Mission Name - Sector25.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector25\Sector25.m3d
+Missions\StatData\Sector25\Sector25.txt
+1
+Missions\StatData\Sector25\Sector25.txt
+#SECTOR26@
+Mission Name - Sector26.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector26\Sector26.m3d
+Missions\StatData\Sector26\Sector26.txt
+1
+Missions\StatData\Sector26\Sector26.txt
+#SECTOR27@
+Mission Name - Sector27.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector27\Sector27.m3d
+Missions\StatData\Sector27\Sector27.txt
+1
+Missions\StatData\Sector27\Sector27.txt
+#SECTOR28@
+Mission Name - Sector28.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector28\Sector28.m3d
+Missions\StatData\Sector28\Sector28.txt
+1
+Missions\StatData\Sector28\Sector28.txt
+#SECTOR29@
+Mission Name - Sector29.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector29\Sector29.m3d
+Missions\StatData\Sector29\Sector29.txt
+1
+Missions\StatData\Sector29\Sector29.txt
+#SECTOR30@
+Mission Name - Sector30.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector30\Sector30.m3d
+Missions\StatData\Sector30\Sector30.txt
+1
+Missions\StatData\Sector30\Sector30.txt
+#SECTOR31@
+Mission Name - Sector31.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector31\Sector31.m3d
+Missions\StatData\Sector31\Sector31.txt
+1
+Missions\StatData\Sector31\Sector31.txt
+#SECTOR32@
+Mission Name - Sector32.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector32\Sector32.m3d
+Missions\StatData\Sector32\Sector32.txt
+1
+Missions\StatData\Sector32\Sector32.txt
+#SECTOR33@
+Mission Name - Sector33.
+Missions\MissionEngin\MissionEngine.dll
+Missions\StatData\Sector33\Sector33.m3d
+Missions\StatData\Sector33\Sector33.txt
+1
+Missions\StatData\Sector33\Sector33.txt
+#HBattle13
+#HBattle13_TXT
+-
+Missions\Battles\HbattleLepcig.m3d
+Missions\Battles\HbattleLepcig.txt
+2
+Interf3\maps\battles\HbattleLeipcig.jpg 444 211
+236 125 1007 400
+#HBattle12
+#HBattle12_TXT
+-
+Missions\Battles\HbattleBorodino.m3d
+Missions\Battles\HbattleBorodino.txt
+2
+Interf3\maps\battles\HbattleBorodino.jpg 444 211
+236 125 1007 400
+#HBattle11
+#HBattle11_TXT
+-
+Missions\Battles\HbattleVeterlo.m3d
+Missions\Battles\HbattleVeterlo.txt
+2
+Interf3\maps\battles\HBattleVaterloo.jpg 444 211
+236 125 1007 400
+#HBattle1
+#HBattle1_TXT
+-
+Missions\Battles\HbattleAspern.m3d
+Missions\Battles\HbattleAspern.txt
+2
+Interf3\maps\battles\HBattleAspern.jpg 444 211
+236 125 1007 400
+#HBattle2
+#HBattle2_TXT
+-
+Missions\Battles\HbattleAusterlitz.m3d
+Missions\Battles\HbattleAusterlitz.txt
+2
+Interf3\maps\battles\HBattleAusterlitz.jpg 354 155
+258 350 539 90
+#HBattle3
+#HBattle3_TXT
+-
+Missions\Battles\Hbattleegp.m3d
+Missions\Battles\Hbattleegp.txt
+2
+Interf3\maps\battles\HBattleEgp.jpg 261 228
+118 298 721 212
+#HBattle4
+#HBattle4_TXT
+-
+Missions\Battles\HbattleEilau.m3d
+Missions\Battles\HbattleEilau.txt
+2
+Interf3\maps\battles\HbattleEilau.jpg 450 277
+43 249 420 269
+#HBattle5
+#HBattle5_TXT
+-
+Missions\Battles\HbattleUlm.m3d
+Missions\Battles\HbattleUlm.txt
+2
+Interf3\maps\battles\HbattleUlm.jpg 380 95
+391 55 253 393
+#HBattle6
+#HBattle6_TXT
+-
+Missions\Battles\HbattleVaagram.m3d
+Missions\Battles\HbattleVaagram.txt
+2
+Interf3\maps\battles\HbattleVaagram.jpg 535 105
+186 87 1063 90
+#Battle7
+#Battle7_TXT
+-
+Missions\Battles\Battle1.m3d
+Missions\Battles\Battle1.txt
+2
+Interf3\maps\battles\battle1.jpg 525 260
+124 276 543 87
+#Battle8
+#Battle8_TXT
+-
+Missions\Battles\Battle2.m3d
+Missions\Battles\Battle2.txt
+2
+Interf3\maps\battles\battle2.jpg 595 350
+254 159 525 382
+#Battle9
+#Battle9_TXT
+-
+Missions\Battles\Battle3.m3d
+Missions\Battles\Battle3.txt
+2
+Interf3\maps\battles\battle3.jpg 165 515
+771 291 252 81
+#Battle10
+#Battle10_TXT
+-
+Missions\Battles\Battle4.m3d
+Missions\Battles\Battle4.txt
+2
+Interf3\maps\battles\battle4.jpg 320 100
+131 118 1293 522
+#Skirmish1
+#Skirmish1_TXT
+-
+Missions\Skirmish\Skirmish1.m3d
+Missions\Skirmish\Skirmish1.txt
+2
+Interf3\maps\skirmish\skirmish1.jpg 60 505
+134 473 902 71
+#Skirmish2
+#Skirmish2_TXT
+-
+Missions\Skirmish\Skirmish2.m3d
+Missions\Skirmish\Skirmish2.txt
+2
+Interf3\maps\skirmish\skirmish2.jpg 800 165
+76 315 985 248
+#Skirmish3
+#Skirmish3_TXT
+-
+Missions\Skirmish\Skirmish3.m3d
+Missions\Skirmish\Skirmish3.txt
+2
+Interf3\maps\skirmish\skirmish3.jpg 925 95
+158 76 953 84
+#Skirmish4
+#Skirmish4_TXT
+-
+Missions\Skirmish\Skirmish4.m3d
+Missions\Skirmish\Skirmish4.txt
+2
+Interf3\maps\skirmish\skirmish4.jpg 510 245
+82 474 928 86
+#Skirmish5
+#Skirmish5_TXT
+-
+Missions\Skirmish\Skirmish5.m3d
+Missions\Skirmish\Skirmish5.txt
+2
+Interf3\maps\skirmish\skirmish5.jpg 685 150
+232 89 930 419
+#Skirmish6
+#Skirmish6_TXT
+-
+Missions\Skirmish\Skirmish6.m3d
+Missions\Skirmish\Skirmish6.txt
+2
+Interf3\maps\skirmish\skirmish6.jpg 465 350
+220 434 828 125
+#Skirmish7
+#Skirmish7_TXT
+-
+Missions\Skirmish\Skirmish7.m3d
+Missions\Skirmish\Skirmish7.txt
+2
+Interf3\maps\skirmish\skirmish7.jpg 735 190
+184 382 876 192
+#Skirmish8
+#Skirmish8_TXT
+-
+Missions\Skirmish\Skirmish8.m3d
+Missions\Skirmish\Skirmish8.txt
+2
+Interf3\maps\skirmish\skirmish8.jpg 350 165
+101 304 945 102
+#Skirmish9
+#Skirmish9_TXT
+-
+Missions\Skirmish\Skirmish9.m3d
+Missions\Skirmish\Skirmish9.txt
+2
+Interf3\maps\skirmish\skirmish9.jpg 210 100
+103 350 899 164
+#Skirmish10
+#Skirmish10_TXT
+-
+Missions\Skirmish\Skirmish10.m3d
+Missions\Skirmish\Skirmish10.txt
+2
+Interf3\maps\skirmish\skirmish10.jpg 700 330
+91 305 847 229
+#Skirmish11
+#Skirmish11_TXT
+-
+Missions\Skirmish\Skirmish11.m3d
+Missions\Skirmish\Skirmish11.txt
+2
+Interf3\maps\skirmish\skirmish11.jpg 700 330
+91 305 847 229
+#Skirmish12
+#Skirmish12_TXT
+-
+Missions\Skirmish\Skirmish12.m3d
+Missions\Skirmish\Skirmish12.txt
+2
+Interf3\maps\skirmish\skirmish12.jpg 700 330
+91 305 847 229
+#Skirmish13
+#Skirmish13_TXT
+-
+Missions\Skirmish\Skirmish13.m3d
+Missions\Skirmish\Skirmish13.txt
+2
+Interf3\maps\skirmish\skirmish13.jpg 700 330
+91 305 847 229
+#Skirmish14
+#Skirmish14_TXT
+-
+Missions\Skirmish\Skirmish14.m3d
+Missions\Skirmish\Skirmish14.txt
+2
+Interf3\maps\skirmish\skirmish14.jpg 700 330
+91 305 847 229
+#Skirmish15
+#Skirmish15_TXT
+-
+Missions\Skirmish\Skirmish15.m3d
+Missions\Skirmish\Skirmish15.txt
+2
+Interf3\maps\skirmish\skirmish15.jpg 700 330
+91 305 847 229
+#Skirmish16
+#Skirmish16_TXT
+-
+Missions\Skirmish\Skirmish16.m3d
+Missions\Skirmish\Skirmish16.txt
+2
+Interf3\maps\skirmish\skirmish16.jpg 700 330
+91 305 847 229
+#Skirmish17
+#Skirmish17_TXT
+-
+Missions\Skirmish\Skirmish17.m3d
+Missions\Skirmish\Skirmish17.txt
+2
+Interf3\maps\skirmish\skirmish17.jpg 700 330
+91 305 847 229
+#Skirmish18
+#Skirmish18_TXT
+-
+Missions\Skirmish\Skirmish18.m3d
+Missions\Skirmish\Skirmish18.txt
+2
+Interf3\maps\skirmish\skirmish18.jpg 700 330
+91 305 847 229
+#Skirmish19
+#Skirmish19_TXT
+-
+Missions\Skirmish\Skirmish19.m3d
+Missions\Skirmish\Skirmish19.txt
+2
+Interf3\maps\skirmish\skirmish19.jpg 700 330
+91 305 847 229

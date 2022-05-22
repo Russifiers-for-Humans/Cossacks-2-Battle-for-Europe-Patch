@@ -1,0 +1,32 @@
+#HBattle1_TXT Aspen-Essling
+#HBattle2_TXT Austerlitz
+#HBattle3_TXT Battle of Pyramids
+#HBattle4_TXT Preisish-Ailau
+#HBattle5_TXT Ulm
+#HBattle6_TXT Wagram
+#Battle7_TXT Winter Fight
+#Battle8_TXT Distributed Disposition
+#Battle9_TXT Embrasures
+#Battle10_TXT General Mobilization
+#HBattle11_TXT Waterloo
+#HBattle12_TXT Borodino
+#HBattle13_TXT Battle of the Nations
+#Skirmish1_TXT Opposition Force
+#Skirmish2_TXT Crossing the Rubicon
+#Skirmish3_TXT Dangerous Neighbors
+#Skirmish4_TXT Siege
+#Skirmish5_TXT Battle on Shore
+#Skirmish6_TXT Maneuvers
+#Skirmish7_TXT Burning the Bridges
+#Skirmish8_TXT King of the Hill
+#Skirmish9_TXT Swamp Fever
+#Skirmish10_TXT Key to Victory
+#Skirmish11_TXT Winter Fight
+#Skirmish12_TXT Desert
+#Skirmish13_TXT The Southern Town
+#Skirmish14_TXT Endless War
+#Skirmish15_TXT Peninsula
+#Skirmish16_TXT War Path
+#Skirmish17_TXT The Four Kings
+#Skirmish18_TXT No Way Out
+#Skirmish19_TXT The Four Kings II

@@ -1,0 +1,17 @@
+{FC12}{C FF707070}Type: {C FF100801}Team game
+\
+{FS} 
+\
+{FC12}{C FF707070}Patch 1.4{C FF100801}
+\
+{FS} 
+\
+{FC12}{C FF707070}Description: {C FF100801}On this map you're surrounded by the enemies, thus you have to act carefully and cautiously. You need to plan your actions right in order to achieve victory!
+\
+{FS} 
+\
+{FC12}{C FF640100}Victory Conditions: {C FF100801}Destroy or capture enemy town centres or capture all enemy villages on the map.
+\
+{FS} 
+\
+{FC12}{C FF640100}Defeat Conditions: {C FF100801}You will be defeated if you lose your town centres or enemy captures all the villages on the map.

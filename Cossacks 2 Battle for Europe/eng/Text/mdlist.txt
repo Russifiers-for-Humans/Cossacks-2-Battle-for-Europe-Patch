@@ -1,0 +1,950 @@
+UNITSMD\FRNBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\FRNEGRNG.MD.HINT {FC12}{C FFE74634}Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\FRNFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\FRNFUZ.MD.HINT {FC12}{C FFE74634}Fusilier{FS}{C FF502515}\ - average in hand-to-hand combat, light coal consumption when shooting, fast training speed.
+UNITSMD\FRNFUZNG.MD.HINT {FC12}{C FFE74634}National Guard{FS}{C FF502515}\ - weak in hand-to-hand combat, very fast training speed.
+UNITSMD\FRNGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSMD\FRNKDRG.MD.HINT {FC12}{C FFE74634}Mounted Dragoon{FS}{C FF502515}\ - average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSMD\FRNKEGR.MD.HINT {FC12}{C FFE74634}Mounted Chasseur{FS}{C FF502515} - low melee damage, uses rifle.
+UNITSMD\FRNKKAR.MD.HINT {FC12}{C FFE74634}Mounted Carabineer{FS}{C FF502515}\ - very high melee damage, uses rifle, effectively demoralizes enemy in melee, increased level of health, is hard to shoot.
+UNITSMD\FRNOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\FRNSAP.MD.HINT {FC12}{C FFE74634}Sapper{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\AUSSAP.MD.HINT {FC12}{C FFE74634}Combat Engineer{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\PRUSAP.MD.HINT {FC12}{C FFE74634}Combat Engineer{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\FRNVOL.MD.HINT {FC12}{C FFE74634}Voltiger{FS}{C FF502515}\ - weak in hand-to-hand combat, good shot, light coal consumption when shooting, highly resistant to fatigue, fast training speed.
+UNITSMD\FRNAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - a place to create and train officers, drummers, and standard bearers.
+UNITSMD\FRNCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living spaces, a place to create peasants.
+UNITSMD\FRNDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\FRNDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - a place to train standard bearers and drummers, place for building a large dwelling, provides extra gold income.
+UNITSMD\FRNHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\ - a place to train priests.
+UNITSMD\FRNKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - a place to create and train voltigers and sappers and, after an upgrade, grenadiers.
+UNITSMD\FRNSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone and wood is stored.
+UNITSMD\FRNMAY.MD.HINT {FC12}{C FFE74634}Lighthouse{FS}{C FF502515}\ - Empty
+UNITSMD\FRNDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 240 living spaces.
+UNITSMD\FRNKULN.MD.HINT {FC12}{C FFE74634}Mounted Uhlan{FS}{C FF502515}\ - low melee damage, hand-to-hand combat only, quickly gains experience.
+UNITSMD\FRNKMAM.MD.HINT {FC12}{C FFE74634}Mounted Mameluke{FS}{C FF502515}\ - high melee damage, pistols (double-shot), increased level of health.
+UNITSMD\FRNKKIR.MD.HINT {FC12}{C FFE74634}Mounted Cuirassier{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSMD\FRNKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\FRNKGRE.MD.HINT {FC12}{C FFE74634}Mounted Grenadier{FS}{C FF502515}\ - high melee damage, heavy rifle, effectively demoralizes enemy in melee.
+UNITSMD\FRNKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\FRNMEL.MD.HINT {FC12}{C FFE74634}Mill
+UNITSMD\FRNKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for creating and training the infantry. 
+UNITSMD\FRNKGEN.MD.HINT {FC12}{C FFE74634}Napoleon
+
+UNITSMD\BLDKRE.MD.HINT {FC12}{C FFE74634}Fortress{FS}{C FF502515}\ - defensive fortification, a place for training the infantry.
+UNITSMD\BLDTOW.MD.HINT {FC12}{C FFE74634}Tower{FS}{C FF502515}\ - defensive fortification.
+UNITSMD\BLDKRO.MD.HINT {FC12}{C FFE74634}Kronwerk{FS}{C FF502515}\ - defensive fortification, a place for training the infantry.
+UNITSMD\BLDKON.MD.HINT {FC12}{C FFE74634}Stables{FS}{C FF502515}\ - a place for creating and training cavalry.
+UNITSMD\BLDRUDKAM.MD.HINT {FC12}{C FFE74634}Stone Mine
+UNITSMD\BLDFOR.MD.HINT {FC12}{C FFE74634}Fort{FS}{C FF502515}\ - defensive fortification, a place for training the infantry.
+UNITSMD\BLDBLG.MD.HINT {FC12}{C FFE74634}Blockhouse{FS}{C FF502515}\ - defensive fortification, effective against rear cavalry attacks.
+UNITSMD\BLDART.MD.HINT {FC12}{C FFE74634}Artillery Depot{FS}{C FF502515}\ - a place for building and storing artillery.
+UNITSMD\BLDRUDSEL.MD.HINT {FC12}{C FFE74634}Coal Mine
+UNITSMD\BLDRUDRUD.MD.HINT {FC12}{C FFE74634}Iron Mine
+UNITSMD\BLDRUDGLN.MD.HINT {FC12}{C FFE74634}Gold Mine
+UNITSMD\BLDRIN.MD.HINT {FC12}{C FFE74634}Market{FS}{C FF502515}\ - a place to trade resources.
+UNITSMD\BLDARS.MD.HINT {FC12}{C FFE74634}
+UNITSMD\BLDKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for creating and training the infantry. 
+UNITSMD\BLDKIR.MD.HINT {FC12}{C FFE74634}Factory{FS}{C FF502515}\ - provides coal.
+UNITSMD\BLDLES.MD.HINT {FC12}{C FFE74634}
+UNITSMD\BLDMAN.MD.HINT {FC12}{C FFE74634}
+UNITSMD\BLDRUDUGL.MD.HINT {FC12}{C FFE74634}Coal
+UNITSMD\BOCHKA.MD.HINT {FC12}{C FFE74634}Powder Barrel{FS}{C FF502515}\ - place near an enemy building to explode it.
+
+UNITSMD\ENGEGR.MD.HINT {FC12}{C FFE74634}Highlander{FS}{C FF502515}\ - weak in hand-to-hand combat, good shot, light coal consumption when shooting, has high morale, highly resistant to fatigue, fast training speed.
+UNITSMD\ENGFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\ENGGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, has high morale, highly resistant to fatigue, medium training speed.
+UNITSMD\ENGKRI.MD.HINT {FC12}{C FFE74634}Peasant{FS}{C FF502515}\ - procures wood, stone, builds buildings.
+UNITSMD\ENGMUS.MD.HINT {FC12}{C FFE74634}Musketeer{FS}{C FF502515}\ - average in hand-to-hand combat, heavy coal consumption when shooting, very fast training speed.
+UNITSMD\ENGOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\ENGSAP.MD.HINT {FC12}{C FFE74634}Sapper{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\ENGKDRGL.MD.HINT {FC12}{C FFE74634}Mounted Light Dragoon{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\ENGKDRGT.MD.HINT {FC12}{C FFE74634}Mounted Heavy Dragoon{FS}{C FF502515}\ - high melee damage, heavy rifle, effectively demoralizes enemy in melee.
+UNITSMD\ENGKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\ENGKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\ENGAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - a place to train officers, drummers, and standard bearers.
+UNITSMD\ENGCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living spaces, a place for peasants to build.
+UNITSMD\ENGDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\ENGDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 240 living spaces.
+UNITSMD\ENGDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - a place to train standard bearers and drummers, place for building a large dwelling,  provides extra gold income.
+UNITSMD\ENGHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\ - a place to train priests.
+UNITSMD\ENGSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone and wood are stored.
+UNITSMD\ENGKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for training the infantry. 
+
+UNITSMD\PRUBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\PRUBKR.MD.HINT {FC12}{C FFE74634}Black Corps{FS}{C FF502515}\ - average in hand-to-hand combat, light coal consumption when shooting, has high morale, highly resistant to fatigue, fast training speed.
+UNITSMD\PRUEGR.MD.HINT {FC12}{C FFE74634}Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\PRUFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\PRUGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSMD\PRUKDRG.MD.HINT {FC12}{C FFE74634}Mounted Dragoon{FS}{C FF502515}\ - average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSMD\PRUKEGR.MD.HINT {FC12}{C FFE74634}Mounted Chasseur{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\PRUKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\PRUKGEN.MD.HINT {FC12}{C FFE74634}PruKGen 
+UNITSMD\PRUKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\PRUKKIR.MD.HINT {FC12}{C FFE74634}Mounted Cuirassier{FS}{C FF502515}\ - low melee damage, pistols (double-shot), effectively demoralizes enemy in melee.
+UNITSMD\PRUMUS.MD.HINT {FC12}{C FFE74634}Musketeer{FS}{C FF502515}\ - weak in hand-to-hand combat, very fast training speed.
+UNITSMD\PRUOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\PRUKGVR.MD.HINT {FC12}{C FFE74634}Mounted Guard{FS}{C FF502515}\ - very high melee damage, uses rifle, effectively demoralizes enemy in melee, increased level of health.
+UNITSMD\PRUKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for creating and training the infantry .
+UNITSMD\PRUKON.MD.HINT {FC12}{C FFE74634}Stables{FS}{C FF502515}\ - a place for creating and training cavalry.
+UNITSMD\PRUAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - a place to train officers, drummers and standard bearers.
+UNITSMD\PRUCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living spaces, a place for peasants to build.
+UNITSMD\PRUDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\PRUDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 180 living spaces.
+UNITSMD\PRUDO3.MD.HINT {FC12}{C FFE74634}Enormous Dwelling{FS}{C FF502515}\ - provides 240 living spaces
+UNITSMD\PRUDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - a place for building large dwellings, temple, provides additional gold income.
+UNITSMD\PRUSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - place where stone and wood are stored.
+
+UNITSMD\AUSOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\AUSBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\AUSEGR.MD.HINT {FC12}{C FFE74634}Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\AUSFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\AUSGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, fast grenade reload, highly resistant to fatigue, fast training speed.
+UNITSMD\AUSKULN.MD.HINT {FC12}{C FFE74634}Mounted Uhlan{FS}{C FF502515}\ - low melee damage, hand-to-hand combat only, quickly gains experience.
+UNITSMD\AUSKKIR.MD.HINT {FC12}{C FFE74634}Mounted Cuirassier{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSMD\AUSKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\AUSKDRGT.MD.HINT {FC12}{C FFE74634}Mounted Heavy Dragoon{FS}{C FF502515}\ - average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSMD\AUSKDRG.MD.HINT {FC12}{C FFE74634}Mounted Light Dragoon{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\AUSGRN.MD.HINT {FC12}{C FFE74634}Borders Man{FS}{C FF502515}\ - weak hand-to-hand combat, good shot, light coal consumption when shooting, highly resistant to fatigue, fast training speed.
+UNITSMD\AUSLAN.MD.HINT {FC12}{C FFE74634}Landwer{FS}{C FF502515}\ - weak in hand-to-hand combat, very fast training speed.
+UNITSMD\AUSMUS.MD.HINT {FC12}{C FFE74634}Fusilier{FS}{C FF502515}\ - average in hand-to-hand combat, light coal consumption when shooting.
+UNITSMD\AUSAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - a place to train officers, drummers, standard bearers.
+UNITSMD\AUSCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living spaces, a place for peasants to build.
+UNITSMD\AUSDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\AUSDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 240 living spaces.
+UNITSMD\AUSDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - a place to train standard bearers and drummers, place for building a large dwelling,  provides extra gold income.
+UNITSMD\AUSHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\ - a place to train priests.
+UNITSMD\AUSKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - a place to create and train voltigers and sappers and, after an upgrade,{FS}{C FF502515}\ grenadiers.
+UNITSMD\AUSMAY.MD.HINT {FC12}{C FFE74634}Lighthouse
+UNITSMD\AUSSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - Place where stone and wood are stored.
+UNITSMD\AUSKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for training infantry. 
+UNITSMD\AUSKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+
+UNITSMD\RUSBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\RUSEGR.MD.HINT {FC12}{C FFE74634}Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\RUSFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\RUSKRI.MD.HINT {FC12}{C FFE74634}Serf{FS}{C FF502515}\ - procures wood, stone,  constructs buildings.
+UNITSMD\RUSMUS.MD.HINT {FC12}{C FFE74634}Musketeer{FS}{C FF502515}\ - weak hand-to-hand combat capabilities, light coal consumption when shooting, fast training speed.
+UNITSMD\RUSOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\RUSPAR.MD.HINT {FC12}{C FFE74634}Home Guard{FS}{C FF502515}\ - average combat capabilities, hand-to-hand combat only.
+UNITSMD\RUSPIO.MD.HINT {FC12}{C FFE74634}Pioneer{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\RUSGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ -  strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue.
+UNITSMD\RUSKCHKOZ.MD.HINT {FC12}{C FFE74634}Black Sea Cossack{FS}{C FF502515}\ - very high melee damage, uses rifle, increased level of health.
+UNITSMD\RUSKDKOZ.MD.HINT {FC12}{C FFE74634}Don Cossack{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\RUSKDRG.MD.HINT {FC12}{C FFE74634}Mounted Dragoon{FS}{C FF502515}\ - average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSMD\RUSKEGR.MD.HINT {FC12}{C FFE74634}Mounted Chasseur{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\RUSKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\RUSKGEN.MD.HINT {FC12}{C FFE74634}RusKGen 
+UNITSMD\RUSKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\RUSKKIR.MD.HINT {FC12}{C FFE74634}Mounted Cuirassier{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSMD\RUSKULN.MD.HINT {FC12}{C FFE74634}Mounted Uhlan{FS}{C FF502515}\ - low melee damage, hand-to-hand combat only, quickly gains experience.
+UNITSMD\RUSKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for training the infantry. 
+UNITSMD\RUSAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - a place to train chasseurs, sappers, and standard bearers, place for building stables and large dwellings.
+UNITSMD\RUSCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 120 living spaces, a place for peasants to build.
+UNITSMD\RUSDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\RUSDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 240 living spaces.
+UNITSMD\RUSDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - a place to train Black Sea Cossacks, and for building large dwellings, provides additional gold income. 
+UNITSMD\RUSHRA.MD.HINT {FC12}{C FFE74634}Church{FS}{C FF502515}\ - a place to train priests.
+UNITSMD\RUSKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - a place to train Musketeers and, after an upgrade, grenadiers.
+UNITSMD\RUSMEL.MD.HINT {FC12}{C FFE74634}Mill{FS}{C FF502515}\ - a place for serfs to harvest food.
+UNITSMD\RUSSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone, wood and food is stored.
+UNITSMD\RUSTER.MD.HINT {FC12}{C FFE74634}Tower Room{FS}{C FF502515}\ - provides 12- living spaces, allows to train drummers.
+
+UNITSMD\EGPLUC.MD.HINT {FC12}{C FFE74634}Archer{FS}{C FF502515}\ - armed with bow, sets enemy buildings on fire with arrows, consumes no resources when shooting, tireless, fast training speed.
+UNITSMD\EGPKMAM.MD.HINT {FC12}{C FFE74634}Mounted Mameluke{FS}{C FF502515}\ - high melee damage, pistols (double-shot), increased level of health.
+UNITSMD\EGPKCEM.MD.HINT {FC12}{C FFE74634}Bedouin{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\EGPEGR.MD.HINT {FC12}{C FFE74634}Tuareg{FS}{C FF502515}\ - strongest in hand-to-hand combat and strongest shot, fast soldier, good for killing enemy officers.
+UNITSMD\EGPMUS.MD.HINT {FC12}{C FFE74634}Janissary{FS}{C FF502515}\ - weak in hand-to hand combat, good shot, fast training speed.
+UNITSMD\TURMEC.MD.HINT {FC12}{C FFE74634}Warrior with Yataghan{FS}{C FF502515}\ - weak in hand-to-hand combat, increased level of health, is hard to shoot, highly resistant to fatigue, fast training speed.
+UNITSMD\TUROF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\TURKBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\EGPKRI.MD.HINT {FC12}{C FFE74634}Peasant{FS}{C FF502515}\ - procures wood, stone, constructs buildings.
+UNITSMD\EGPCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living spaces, a place for peasants to build.
+UNITSMD\EGPDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\EGPDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 240 living spaces.
+UNITSMD\EGPDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - a place to train officers, drummers and to upgrade Warriors with Yataghan damage, provides additional gold income.
+UNITSMD\EGPHRA.MD.HINT {FC12}{C FFE74634}Mosque{FS}{C FF502515}\ - a place to train Mullahs.
+UNITSMD\EGPKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for training the infantry. 
+UNITSMD\EGPSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone and wood is stored.
+UNITSMD\EGPKRE.MD.HINT {FC12}{C FFE74634}Fortress{FS}{C FF502515}\ - a place for cavalry training and building artillery.
+UNITSMD\TURKARB.MD.HINT {FC12}{C FFE74634}Light Cavalry{FS}{C FF502515}\ - average melee damage, pistols (double-shot).
+
+UNITSMD\FRNBAR.MD Drummer
+UNITSMD\FRNEGRNG.MD Chasseur
+UNITSMD\FRNFLG.MD Standard Bearer
+UNITSMD\FRNFUZ.MD Fusilier
+UNITSMD\FRNFUZNG.MD National Guard
+UNITSMD\FRNGRE.MD Grenadier 
+UNITSMD\FRNKDRG.MD Mounted Dragoon
+UNITSMD\FRNKEGR.MD Mounted Chasseur
+UNITSMD\FRNKKAR.MD Mounted Carabineer
+UNITSMD\FRNOF.MD Officer
+UNITSMD\FRNSAP.MD Sapper
+UNITSMD\FRNVOL.MD Voltiger
+UNITSMD\FRNAKA.MD Academy
+UNITSMD\FRNCEN.MD Town Center
+UNITSMD\FRNDO1.MD Dwelling
+UNITSMD\FRNDO2.MD Large Dwelling
+UNITSMD\FRNDVO.MD Palace
+UNITSMD\FRNHRA.MD Temple
+UNITSMD\FRNKUZ.MD Blacksmith
+UNITSMD\FRNSKL.MD Storehouse
+UNITSMD\FRNMAY.MD Lighthouse
+UNITSMD\FRNKULN.MD Mounted Uhlan
+UNITSMD\FRNKMAM.MD Mounted Mameluke
+UNITSMD\FRNKKIR.MD Mounted Cuirassier
+UNITSMD\FRNKGUS.MD Mounted Hussar
+UNITSMD\FRNKGRE.MD Mounted Grenadier
+UNITSMD\FRNKFLG.MD Standard Bearer
+UNITSMD\FRNMEL.MD Mill
+UNITSMD\FRNKAZ.MD Barracks
+UNITSMD\FRNKGEN.MD Napoleon
+
+UNITSMD\BLDKRE.MD Fortress
+UNITSMD\BLDTOW.MD Tower
+UNITSMD\BLDKRO.MD Kronwerk
+UNITSMD\BLDKON.MD Stables
+UNITSMD\BLDRUDKAM.MD Stone Mine
+UNITSMD\BLDFOR.MD Fort
+UNITSMD\BLDBLG.MD Blockhouse
+UNITSMD\BLDART.MD Artillery Depot
+UNITSMD\BLDRUDSEL.MD Coal Mine
+UNITSMD\BLDRUDRUD.MD Iron Mine
+UNITSMD\BLDRUDGLN.MD Gold Mine
+UNITSMD\BLDRIN.MD Market
+UNITSMD\BLDARS.MD Arsenal
+UNITSMD\BLDKAZ.MD Barracks
+UNITSMD\BLDKIR.MD Factory
+UNITSMD\BLDLES.MD Sawmill
+UNITSMD\BLDMAN.MD Manufacture
+UNITSMD\BLDRUDUGL.MD Coal
+UNITSMD\ENGKRI.MD Peasant
+
+UNITSMD\EGPCEM.MD EgpCem
+UNITSMD\ENGAKA.MD Academy 
+UNITSMD\ENGCEN.MD Town Center
+UNITSMD\ENGDO1.MD Dwelling 
+UNITSMD\ENGDO2.MD Large Dwelling
+UNITSMD\ENGDVO.MD Palace
+UNITSMD\ENGHRA.MD Temple
+UNITSMD\ENGMAY.MD Lighthouse
+UNITSMD\ENGSKL.MD Storehouse
+UNITSMD\ENGBAR.MD Drummer
+UNITSMD\ENGFLG.MD Standard Bearer
+UNITSMD\ENGGRE.MD Grenadier
+UNITSMD\ENGKRI.MD Peasant
+UNITSMD\ENGMUS.MD Musketeer
+UNITSMD\ENGOF.MD Officer
+UNITSMD\ENGSAP.MD Sapper
+UNITSMD\ENGEGR.MD Highlander
+UNITSMD\SPNM18.MD SpnM18
+UNITSMD\ARTPUS.MD Cannon
+UNITSMD\SHPPAROM.MD ShpParom
+UNITSMD\AUSOF.MD Officer
+UNITSMD\GORFRADOM1_1.MD GorFraDom1_1
+UNITSMD\GORFRADOM1_2.MD GorFraDom1_2
+UNITSMD\GORFRADOM1_3.MD GorFraDom1_3
+UNITSMD\GORFRADOM1_4.MD GorFraDom1_4
+UNITSMD\GORFRADOM2_1.MD GorFraDom2_1
+UNITSMD\GORFRADOM2_2.MD GorFraDom2_2
+UNITSMD\GORFRADOM2_3.MD GorFraDom2_3
+UNITSMD\GORFRADOM2_4.MD GorFraDom2_4
+UNITSMD\GORFRADOM3_1.MD GorFraDom3_1
+UNITSMD\GORFRADOM3_2.MD GorFraDom3_2
+UNITSMD\GORFRADOM4_1.MD GorFraDom4_1
+UNITSMD\GORFRADOM4_2.MD GorFraDom4_2
+UNITSMD\GORFRADOM4_3.MD GorFraDom4_3
+UNITSMD\GORFRADOM4_4.MD GorFraDom4_4
+UNITSMD\GORFRADOM5_1.MD GorFraDom5_1
+UNITSMD\GORFRADOM5_2.MD GorFraDom5_2
+UNITSMD\GORFRADOM6_1.MD GorFraDom6_1
+UNITSMD\GORFRADOM6_2.MD GorFraDom6_2
+UNITSMD\GORFRAMAG1_2.MD GorFraMag1_2
+UNITSMD\GORFRAMAG1_1.MD GorFraMag1_1
+UNITSMD\GORFRAUTI1_1.MD GorFraUti1_1 
+UNITSMD\GORFRADOM8_1.MD GorFraDom8_1
+UNITSMD\GORFRADOM7_1.MD GorFraDom7_1
+UNITSMD\AUSAKA.MD Academy
+UNITSMD\AUSCEN.MD Town Center
+UNITSMD\AUSDO1.MD Dwelling
+UNITSMD\AUSDO2.MD Large Dwelling
+UNITSMD\AUSDVO.MD Palace
+UNITSMD\AUSHRA.MD Temple
+UNITSMD\AUSKUZ.MD Blacksmith
+UNITSMD\AUSMAY.MD Lighthouse
+UNITSMD\AUSSKL.MD Storehouse
+
+UNITSMD\AUSBAR.MD Drummer
+UNITSMD\AUSEGR.MD Chasseur
+UNITSMD\AUSFLG.MD Standard Bearer
+UNITSMD\AUSGRE.MD Grenadier
+UNITSMD\AUSOF.MD Officer
+
+UNITSMD\AUSKGUS.MD Mounted Hussar
+UNITSMD\AUSMUS.MD Fusilier
+UNITSMD\FIELD.MD Field
+UNITSMD\FIELD.MD Field
+UNITSMD\ARTPUS.MD Cannon
+UNITSMD\ARTGAU.MD Mortar
+
+UNITSMD\ARTPUS1.MD ArtPus1
+UNITSMD\ARTPUS2.MD ArtPus2
+UNITSMD\ARTPUS3.MD Limber
+UNITSMD\ARTPUS3.MD.HINT {FC12}{C FFE74634}Limber{FS}{C FF502515}\ - for fast transportation of artillery over long distances.
+
+UNITSMD\TEMPMENT.MD Militia
+UNITSMD\TURMENT.MD Militia
+
+UNITSMD\RUSBAR.MD Drummer
+UNITSMD\RUSEGR.MD Chasseur
+UNITSMD\RUSFLG.MD Standard Bearer
+UNITSMD\RUSKRI.MD Serf
+UNITSMD\RUSMUS.MD Musketeer
+UNITSMD\RUSOF.MD Officer
+UNITSMD\RUSPAR.MD Home Guard
+UNITSMD\RUSPIO.MD Pioner
+
+UNITSMD\RUSAKA.MD Academy
+UNITSMD\RUSCEN.MD Town Center
+UNITSMD\RUSDO1.MD Dwelling
+UNITSMD\RUSDO2.MD Large Dwelling
+UNITSMD\RUSDVO.MD Palace
+UNITSMD\RUSHRA.MD Church
+UNITSMD\RUSKUZ.MD Blacksmith
+UNITSMD\RUSMEL.MD Mill
+UNITSMD\RUSSKL.MD Storehouse
+UNITSMD\RUSTER.MD Tower Room
+
+UNITSMD\PRUAKA.MD Academy
+UNITSMD\PRUCEN.MD Town Center
+UNITSMD\PRUDO1.MD Dwelling
+UNITSMD\PRUDO2.MD Enormous Dwelling
+UNITSMD\PRUDO3.MD Large Dwelling
+UNITSMD\PRUDVO.MD Palace
+UNITSMD\PRUSKL.MD Storehouse
+UNITSMD\PRUVER.MD PruVer
+
+UNITSMD\AUSKULN.MD Mounted Uhlan
+UNITSMD\AUSKKIR.MD Mounted Cuirassier
+UNITSMD\AUSKFLG.MD Standard Bearer
+UNITSMD\AUSKDRGT.MD Mounted Heavy Dragoon
+UNITSMD\AUSKDRG.MD Mounted Light Dragoon
+UNITSMD\AUSGRN.MD Borders Man
+UNITSMD\AUSLAN.MD Landwer
+
+UNITSMD\GORTURDOM1_1.MD GorTurDom1_1 
+UNITSMD\GORTURDOM10_1.MD GorTurDom10_1 
+UNITSMD\GORTURDOM10_2.MD GorTurDom10_2 
+UNITSMD\GORTURDOM11_1.MD GorTurDom11_1 
+UNITSMD\GORTURDOM11_2.MD GorTurDom11_2 
+UNITSMD\GORTURDOM2_1.MD GorTurDom2_1 
+UNITSMD\GORTURDOM3_1.MD GorTurDom3_1 
+UNITSMD\GORTURDOM4_1.MD GorTurDom4_1 
+UNITSMD\GORTURDOM5_1.MD GorTurDom5_1 
+UNITSMD\GORTURDOM6_1.MD GorTurDom6_1 
+UNITSMD\GORTURDOM7_1.MD GorTurDom7_1 
+UNITSMD\GORTURDOM8_1.MD GorTurDom8_1 
+UNITSMD\GORTURDOM8_2.MD GorTurDom8_2 
+UNITSMD\GORTURDOM9_1.MD GorTurDom9_1 
+UNITSMD\GORTURDOM9_2.MD GorTurDom9_2 
+
+UNITSMD\GORRUSDOM1_1.MD GorRusDom1_1
+UNITSMD\GORRUSDOM2_1.MD GorRusDom2_1
+UNITSMD\GORRUSDOM2_2.MD GorRusDom2_2
+UNITSMD\GORRUSDOM3_1.MD GorRusDom3_1
+UNITSMD\GORRUSDOM3_2.MD GorRusDom3_2
+UNITSMD\GORRUSDOM4_1.MD GorRusDom4_1
+UNITSMD\GORRUSDOM5_1.MD GorRusDom5_1
+UNITSMD\GORRUSDOM5_2.MD GorRusDom5_2
+UNITSMD\GORRUSDOM6_1.MD GorRusDom6_1
+UNITSMD\GORRUSDOM7_1.MD GorRusDom7_1
+UNITSMD\GORRUSDOM8_1.MD GorRusDom8_1
+UNITSMD\GORRUSDOM8_2.MD GorRusDom8_2
+
+UNITSMD\GORAUSDOM1_1.MD GorAusDom1_1
+UNITSMD\GORAUSDOM1_2.MD GorAusDom1_2
+UNITSMD\GORAUSDOM2_1.MD GorAusDom2_1
+UNITSMD\GORAUSDOM2_2.MD GorAusDom2_2
+UNITSMD\GORAUSDOM3_1.MD GorAusDom3_1
+UNITSMD\GORAUSDOM3_2.MD GorAusDom3_2
+UNITSMD\GORAUSDOM4_1.MD GorAusDom4_1
+UNITSMD\GORAUSDOM4_2.MD GorAusDom4_2
+UNITSMD\GORAUSDOM5_1.MD GorAusDom5_1
+UNITSMD\GORAUSDOM5_2.MD GorAusDom5_2
+UNITSMD\GORAUSDOM5_3.MD GorAusDom5_3
+UNITSMD\GORAUSDOM5_4.MD GorAusDom5_4
+UNITSMD\GORAUSDOM6_1.MD GorAusDom6_1
+UNITSMD\GORAUSDOM6_2.MD GorAusDom6_2
+UNITSMD\GORAUSDOM6_3.MD GorAusDom6_3
+UNITSMD\GORAUSDOM6_4.MD GorAusDom6_4
+UNITSMD\GORAUSDOM7_1.MD GorAusDom7_1
+UNITSMD\GORAUSDOM7_2.MD GorAusDom7_2
+UNITSMD\GORAUSDOM7_3.MD GorAusDom7_3
+UNITSMD\GORAUSDOM7_4.MD GorAusDom7_4
+UNITSMD\GORAUSDOM7_5.MD GorAusDom7_5
+UNITSMD\GORAUSDOM7_6.MD GorAusDom7_6
+UNITSMD\GORAUSDOM7_7.MD GorAusDom7_7
+UNITSMD\GORAUSDOM7_8.MD GorAusDom7_8
+UNITSMD\GORAUSDOM8_1.MD GorAusDom8_1 
+UNITSMD\GORAUSDOM9_1.MD GorAusDom9_1
+UNITSMD\GORAUSDOM9_2.MD GorAusDom9_2
+UNITSMD\GORAUSDOM9_3.MD GorAusDom9_3
+UNITSMD\GORAUSDOM9_4.MD GorAusDom9_4
+UNITSMD\GORAUSDOM9_5.MD GorAusDom9_5
+UNITSMD\GORAUSDOM9_6.MD GorAusDom9_6
+UNITSMD\GORAUSDOM9_7.MD GorAusDom9_7
+UNITSMD\GORAUSDOM9_8.MD GorAusDom9_8
+
+UNITSMD\SELFRADOM1_1.MD SelFraDom1_1
+UNITSMD\SELFRADOM1_2.MD SelFraDom1_2
+UNITSMD\SELFRADOM1_3.MD SelFraDom1_3
+UNITSMD\SELFRADOM1_4.MD SelFraDom1_4
+UNITSMD\SELFRADOM2_1.MD SelFraDom2_1
+UNITSMD\SELFRADOM2_2.MD SelFraDom2_2
+UNITSMD\SELFRADOM2_3.MD SelFraDom2_3
+UNITSMD\SELFRADOM2_4.MD SelFraDom2_4
+UNITSMD\SELFRADOM3_1.MD SelFraDom3_1
+UNITSMD\SELFRADOM3_2.MD SelFraDom3_2
+UNITSMD\SELFRADOM3_3.MD SelFraDom3_3
+UNITSMD\SELFRADOM3_4.MD SelFraDom3_4
+UNITSMD\SELFRADOM4_1.MD SelFraDom4_1
+UNITSMD\SELFRADOM4_2.MD SelFraDom4_2
+UNITSMD\SELFRADOM4_3.MD SelFraDom4_3
+UNITSMD\SELFRADOM4_4.MD SelFraDom4_4
+UNITSMD\SELFRADOM5_1.MD SelFraDom5_1
+UNITSMD\SELFRADOM5_2.MD SelFraDom5_2
+UNITSMD\SELFRADOM5_3.MD SelFraDom5_3
+UNITSMD\SELFRADOM5_4.MD SelFraDom5_4
+UNITSMD\SELFRADOM6_1.MD SelFraDom6_1
+UNITSMD\SELFRADOM6_2.MD SelFraDom6_2
+
+UNITSMD\FRNBARIN.MD Gentleman
+UNITSMD\FRNDAMA.MD Lady
+UNITSMD\HGU.MD Packhorse
+UNITSMD\HGU.MD.HINT {FC12}{C FFE74634}Packhorse{FS}{C FF502515}\ - carries resources from villages.
+
+UNITSMD\RUSDAMA.MD Lady
+UNITSMD\FRNDAMA.MD Lady
+UNITSMD\FRNDAMA2.MD Lady
+UNITSMD\FRNBARIN.MD Gentleman
+UNITSMD\FRNBARIN2.MD Gentleman
+
+UNITSMD\NETPAL2.MD Tent
+UNITSMD\TEMPCOMMANDCENTER.MD Command Center
+
+UNITSMD\PRUBAR.MD Drummer
+UNITSMD\PRUBKR.MD Black Corps
+UNITSMD\PRUEGR.MD Chasseur
+UNITSMD\PRUFLG.MD Standard Bearer
+UNITSMD\PRUGRE.MD Grenadier
+UNITSMD\PRUKDRG.MD Mounted Dragoon
+UNITSMD\PRUKEGR.MD Mounted Chasseur
+UNITSMD\PRUKFLG.MD Standard Bearer
+UNITSMD\PRUKGEN.MD PruKGen
+UNITSMD\PRUKGUS.MD Mounted Hussar
+UNITSMD\PRUKKIR.MD Mounted Cuirassier
+UNITSMD\PRUMUS.MD Musketeer
+UNITSMD\PRUOF.MD Officer
+UNITSMD\PRUKGVR.MD Mounted Guard
+
+UNITSMD\EGPLUC.MD Archer
+UNITSMD\EGPKMAM.MD Mounted Mameluke
+UNITSMD\EGPKCEM.MD Bedouin
+UNITSMD\EGPEGR.MD Tuareg
+
+UNITSMD\EGPARS.MD Arsenal
+UNITSMD\EGPCEN.MD Town Center
+UNITSMD\EGPDO1.MD Dwelling
+UNITSMD\EGPDO2.MD Large Dwelling
+UNITSMD\EGPDVO.MD Palace
+UNITSMD\EGPHRA.MD Mosque
+UNITSMD\EGPKAZ.MD Barracks
+UNITSMD\EGPMAN.MD Market
+UNITSMD\EGPRIN.MD.HINT {FC12}{C FFE74634}Market{FS}{C FF502515}\Resources trade
+UNITSMD\EGPMAY.MD Lighthouse
+UNITSMD\EGPMEL.MD EgpMel
+UNITSMD\EGPSKL.MD Storehouse
+UNITSMD\EGPMUS.MD Janissary
+
+UNITSMD\RUSGRE.MD Grenadier
+
+UNITSMD\TURMEC.MD Warrior with Yataghan
+UNITSMD\TUROF.MD Officer
+
+UNITSMD\RUSKCHKOZ.MD Black Sea Cossack
+UNITSMD\RUSKDKOZ.MD Don Cossack
+UNITSMD\RUSKDRG.MD Mounted Dragoon
+UNITSMD\RUSKEGR.MD Mounted Chasseur
+UNITSMD\RUSKFLG.MD Standard Bearer
+UNITSMD\RUSKGEN.MD RusKGen
+UNITSMD\RUSKGUS.MD Mounted Hussar
+UNITSMD\RUSKKIR.MD Mounted Cuirassier
+UNITSMD\RUSKULN.MD Mounted Uhlan
+
+UNITSMD\RUSKAZ.MD Barracks
+
+UNITSMD\EGPKRI.MD Peasant
+
+UNITSMD\PRUKAZ.MD Barracks
+UNITSMD\PRUKON.MD Stables
+
+UNITSMD\RUSKDRG.MD Mounted Dragoon
+UNITSMD\TURKBAR.MD Drummer
+UNITSMD\ENGBAR.MD Drummer
+UNITSMD\ENGFLG.MD Standard Bearer
+UNITSMD\ENGGRE.MD Grenadier
+UNITSMD\ENGKDRGL.MD Mounted Light Dragoon
+UNITSMD\ENGKDRGT.MD Mounted Heavy Dragoon
+UNITSMD\ENGKFLG.MD Standard Bearer
+UNITSMD\ENGKGEN.MD EngKGen
+UNITSMD\ENGKGUS.MD Mounted Hussar
+UNITSMD\ENGMUS.MD Musketeer
+UNITSMD\ENGOF.MD Officer
+UNITSMD\ENGSAP.MD Sapper
+UNITSMD\ENGKAZ.MD Barracks
+
+UNITSMD\ENGAKA.MD Academy
+UNITSMD\ENGCEN.MD Town Center
+UNITSMD\ENGDVO.MD Palace
+UNITSMD\ENGDO1.MD Dwelling
+UNITSMD\ENGDO2.MD Large Dwelling
+UNITSMD\ENGHRA.MD Church
+UNITSMD\ENGSKL.MD Storehouse
+UNITSMD\ENGVER.MD EngVer
+
+UNITSMD\AUSKAZ.MD Barracks
+
+UNITSMD\EGPKRE.MD Fortress
+
+UNITSMD\ANMVEP.MD AnmVep
+UNITSMD\ANMOLNG.MD AnmOlnG
+UNITSMD\ANMOLNT.MD AnmOlnT
+UNITSMD\ANMKOSG.MD AnmKosG
+UNITSMD\ANMKOST.MD AnmKosT
+UNITSMD\ANMBIK.MD AnmBik
+UNITSMD\ANMKOR1.MD AnmKor1
+UNITSMD\ANMKOR2.MD AnmKor2
+UNITSMD\ANMBAR.MD AnmBar
+UNITSMD\ANMOVC.MD AnmOvc
+UNITSMD\ANMSWIW.MD AnmSwiW
+UNITSMD\ANMSWIB.MD AnmSwiB
+
+UNITSMD\OBOZ.MD Carts
+
+UNITSMD\ENGEGRNG.MD Rifles
+UNITSMD\ENGEGRNG.MD.HINT {FC12}{C FFE74634}Rifles{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, good for killing enemy officers, heavy coal consumption when shooting.
+
+UNITSMD\ARTPUSR.MD Rocket
+UNITSMD\ARTPUSR.MD.HINT {FC12}{C FFE74634}Rocket{FS}{C FF502515}\ - long range, fast shooting speed.
+UNITSMD\PUSKON1.MD PusKon1
+UNITSMD\PUSKON2.MD PusKon2
+
+UNITSMD\BLDRED2.MD BldRed2
+UNITSMD\BLDRED3.MD BldRed3
+UNITSMD\BLDRED4.MD BldRed4
+UNITSMD\BLDRED6.MD BldRed6
+UNITSMD\BLDRED7.MD BldRed7
+UNITSMD\BLDRED8.MD BldRed8
+
+UNITSMD\PUSFRN.MD Gunner
+UNITSMD\PUSFRN.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\ - operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\ARTPUS4.MD Heavy Cannon
+UNITSMD\ARTPUS4L.MD Light Cannon
+UNITSMD\ARTPUS4G.MD Howitzer
+UNITSMD\ARTPUS4.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\ - long range artillery, shoots cannonballs and case shot. Cannonballs pierce enemy formation and kill everybody in their way.
+UNITSMD\ARTPUS4L.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - short range artillery, shoots cannonballs and case shot. Cannonballs pierce enemy formation and kill everybody in their way.
+UNITSMD\ARTPUS4G.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\ - long range artillery, shoots bombs over objects, bombs deal high damage.
+UNITSMD\PUSEGP.MD Gunner
+UNITSMD\PUSEGP.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\ - operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\ARTPUS4E.MD Heavy Cannon
+UNITSMD\ARTPUS4LE.MD Light Cannon
+UNITSMD\ARTPUS4GE.MD Howitzer
+UNITSMD\PUSRUS.MD Gunner
+UNITSMD\PUSRUS.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\ - operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\ARTPUS4R.MD Heavy Cannon
+UNITSMD\ARTPUS4LR.MD Light Cannon
+UNITSMD\ARTPUS4GR.MD Howitzer
+UNITSMD\PUSENG.MD Gunner
+UNITSMD\PUSENG.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\ - operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\PUSPRU.MD Gunner
+UNITSMD\PUSPRU.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\ - operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\PUSAUS.MD Gunner
+UNITSMD\PUSAUS.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\ - operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\ARTPUS4AUS.MD Heavy Cannon
+UNITSMD\ARTPUS4ENG.MD Heavy Cannon
+UNITSMD\ARTPUS4PRU.MD Heavy Cannon
+UNITSMD\ARTPUS4GAUS.MD Howitzer
+UNITSMD\ARTPUS4GENG.MD Howitzer
+UNITSMD\ARTPUS4GPRU.MD Howitzer
+UNITSMD\ARTPUS4LAUS.MD Light Cannon
+UNITSMD\ARTPUS4LENG.MD Light Cannon
+UNITSMD\ARTPUS4LPRU.MD Light Cannon
+
+UNITSMD\BOCHKA.MD Powder Barrel
+UNITSMD\SHPFREGAT.MD Frigate
+UNITSMD\SHPFREGAT.MD.HINT {FC12}{C FFE74634}Frigate{FS}{C FF502515}\ - heavy assault ship, deals devastating area damage.
+
+UNITSMD\NETPAL1.MD Tent
+UNITSMD\NETPAL2.MD Tent
+UNITSMD\NETPAL3.MD Tent
+UNITSMD\NETPAL4.MD Tent
+UNITSMD\NETPAL5.MD Tent
+
+UNITSMD\SPNPAR.MD Policeman
+UNITSMD\TURKARB.MD Light Cavalry
+UNITSMD\FRNPOP.MD Priest
+UNITSMD\TURPOP.MD Mullah
+UNITSMD\RUSPOP.MD Priest
+UNITSMD\FRNPOP.MD.HINT {FC12}{C FFE74634}Priest{FS}{C FF502515}\heals soldiers and increases the troops' morale.
+UNITSMD\TURPOP.MD.HINT {FC12}{C FFE74634}Mullah{FS}{C FF502515}\heals soldiers and increases the troops' morale.
+UNITSMD\RUSPOP.MD.HINT {FC12}{C FFE74634}Priest{FS}{C FF502515}\heals soldiers and increases the troops' morale
+UNITSMD\ENGKUZ.MD Blacksmith
+UNITSMD\PRUKUZ.MD Blacksmith
+UNITSMD\ENGKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\a place to create and train voltigers and sappers and, after an upgrade, grenadiers.
+UNITSMD\PRUKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\a place to create and train voltigers and sappers and, after an upgrade, grenadiers.
+UNITSMD\HGUDEATH.MD Packhorse
+UNITSMD\HGUDEATH.MD.HINT {FC12}{C FFE74634}Packhorse{FS}{C FF502515}\carries resources from villages.
+
+UNITSMD\NENGMUS.MD Musketeer
+UNITSMD\MISGREG.MD Greg Chaffy
+UNITSMD\MISWIL.MD Wilford Chaffy
+UNITSMD\MISEBE.MD Ebenezer McKeith
+UNITSMD\MISABR.MD Abraham Sheffsley
+UNITSMD\MISHEM.MD Humphrey Collin Coup
+UNITSMD\MISFAB.MD Fabrice de Guile
+UNITSMD\MISEMI.MD Emily
+UNITSMD\MISKER.MD Curtis Farnbroe
+UNITSMD\MISFER.MD Officer Ferguson
+UNITSMD\MISTRI.MD Sergeant Trinity
+UNITSMD\MISWILD.MD Corporal Wildings
+UNITSMD\MISJON.MD Sergeant Jones
+UNITSMD\BLDFLAG.MD Flag
+UNITSMD\REBENGMUS.MD Rebel Soldier
+UNITSMD\ENGSKLNC.MD Storehouse
+
+UNITSMD\NFRNMEL.MD Mill
+
+UNITSMD\AUSSAP.MD Combat Engineer
+UNITSMD\PRUSAP.MD Combat Engineer
+UNITSMD\PUSENGR.MD Gunner
+UNITSMD\PUSENGR.MD.HINT {FC12}{C FFE74634}Gunner{FS}{C FF502515}\operates artillery, can be recruited from any squad when filling the artillery crew.
+UNITSMD\ENGKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\Allows to train Voltigers and Sappers and after upgrade - Grenadiers.
+UNITSMD\PRUKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\Allows to train Voltigers and Sappers and after upgrade - Grenadiers.
+UNITSMD\ENGKUZ.MD Blacksmith
+UNITSMD\PRUKUZ.MD Blacksmith
+UNITSMD\PRUHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\Allows to build Priests
+UNITSMD\PRUHRA.MD Temple
+
+//////////////ADDON_HINTS/////////////////////////////////////////////////////////////////////////////
+
+///////////////SPAIN_B////////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\SPNKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for creating and training the infantry.
+UNITSMD\SPNSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone and wood is stored.
+UNITSMD\SPNAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - allows to train Officers.
+UNITSMD\SPNCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living spaces, a place to create peasants.
+UNITSMD\SPNDO1.MD.HINT {FC12}{C FFE74634}House{FS}{C FF502515}\ - provides 120 living spaces.
+UNITSMD\SPNDO2.MD.HINT {FC12}{C FFE74634}Mansion{FS}{C FF502515}\ - provides 240 living spaces.
+UNITSMD\SPNDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - allows to build Mansions, Temple, provides additional gold income, allows to train Drummers and Standard Bearers.
+UNITSMD\SPNHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\ - allows to educate Padres.
+UNITSMD\SPNKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - allows to train Sappers, and after upgrade Grenadiers. 
+UNITSMD\SPNMEL.MD.HINT {FC12}{C FFE74634}Windmill{FS}{C FF502515}\ - allows peasants to gather food resource.
+UNITSMD\SPNMAY.MD.HINT {FC12}{C FFE74634}Lighthouse
+UNITSMD\SPNKUZ.MD Blacksmith
+UNITSMD\SPNKAZ.MD Barracks
+UNITSMD\SPNDO1.MD House
+UNITSMD\SPNDO2.MD Mansion
+UNITSMD\SPNKUZ.MD Blacksmith
+UNITSMD\SPNSKL.MD Warehouse
+UNITSMD\SPNCEN.MD Town Center
+UNITSMD\SPNAKA.MD Academy
+UNITSMD\SPNHRA.MD Temple
+UNITSMD\SPNMIL.MD Windmill
+UNITSMD\SPNMAY.MD Lighthouse
+UNITSMD\SPNDVO.MD Palace
+
+///////////////POLAND_B///////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\POLKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for creating and training the infantry, provides cannon fire.
+UNITSMD\POLSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone and wood is stored.
+UNITSMD\POLAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - allows to train Officers, Drummers.
+UNITSMD\POLCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living places, enables to engage peasants.
+UNITSMD\POLDO1.MD.HINT {FC12}{C FFE74634}Dwelling{FS}{C FF502515}\ - provides 120 living places.
+UNITSMD\POLDO2.MD.HINT {FC12}{C FFE74634}Large Dwelling{FS}{C FF502515}\ - provides 240 living places.
+UNITSMD\POLDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - allows to build Large Dwellings, Cathedral, provides additional gold income, allows to train Standard Bearers.
+UNITSMD\POLHRA.MD.HINT {FC12}{C FFE74634}Cathedral{FS}{C FF502515}\ - allows to educate Bishops.
+UNITSMD\POLKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - allows to train Voltigers and Sappers, and after upgrade  {FS}{C FF502515}\Grenadiers.
+UNITSMD\POLMAY.MD.HINT {FC12}{C FFE74634}Lighthouse
+UNITSMD\POLKAZ.MD Barracks
+UNITSMD\POLDO1.MD Dwelling
+UNITSMD\POLDO2.MD Large Dwelling
+UNITSMD\POLKUZ.MD Blacksmith
+UNITSMD\POLSKL.MD Warehouse
+UNITSMD\POLCEN.MD Town Center
+UNITSMD\POLAKA.MD Academy
+UNITSMD\POLHRA.MD Cathedral
+UNITSMD\POLDVO.MD Palace
+
+///////////////REIN_B////////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\VESKAZ.MD.HINT {FC12}{C FFE74634}Barracks{FS}{C FF502515}\ - a place for creating and training the infantry.
+UNITSMD\VESSKL.MD.HINT {FC12}{C FFE74634}Storehouse{FS}{C FF502515}\ - a place where stone and wood is stored.
+UNITSMD\VESAKA.MD.HINT {FC12}{C FFE74634}Academy{FS}{C FF502515}\ - allows to train Officers, Drummers and Standard Bearers.
+UNITSMD\VESCEN.MD.HINT {FC12}{C FFE74634}Town Center{FS}{C FF502515}\ - provides 240 living places, enables to engage peasants.
+UNITSMD\VESDO1.MD.HINT {FC12}{C FFE74634}House{FS}{C FF502515}\ - provides 120 living places.
+UNITSMD\VESDO2.MD.HINT {FC12}{C FFE74634}Large house{FS}{C FF502515}\ - provides 240 living places.
+UNITSMD\VESDVO.MD.HINT {FC12}{C FFE74634}Palace{FS}{C FF502515}\ - allows to build Large houses, Temple, provides additional gold icome.
+UNITSMD\VESHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\ - allows to educate Clerics.
+UNITSMD\VESKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - allows to train Voltigers and Sappers, and after upgrade {FS}{C FF502515}\Grenadiers. 
+UNITSMD\VESMAY.MD.HINT {FC12}{C FFE74634}Lighthouse
+UNITSMD\VESKUZ.MD Blacksmith
+UNITSMD\VESKAZ.MD Barracks
+UNITSMD\VESDO1.MD House
+UNITSMD\VESDO2.MD Large house
+UNITSMD\VESSKL.MD Warehouse
+UNITSMD\VESCEN.MD Town Center
+UNITSMD\VESAKA.MD Academy
+UNITSMD\VESHRA.MD Temple
+UNITSMD\VESMAY.MD Lighthouse
+UNITSMD\VESDVO.MD Palace
+
+///////////////POLAND_UNITS///////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\POLKKIR.MD.HINT {FC12}{C FFE74634}Mounted Cuirassier{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSMD\POLKULN.MD.HINT {FC12}{C FFE74634}Mounted Uhlan{FS}{C FF502515}\ - low melee damage, hand-to-hand combat only, quickly gains experience.
+UNITSMD\POLKKRA.MD.HINT {FC12}{C FFE74634}Mounted Krakuse{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSMD\POLKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\POLKEGR.MD.HINT {FC12}{C FFE74634}Mounted Chasseur{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\POLKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\POLFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\POLGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSMD\POLFUZ.MD.HINT {FC12}{C FFE74634}Fusilier{FS}{C FF502515}\ - average in hand-to-hand combat, light coal consumption when shooting, fast training speed.
+UNITSMD\POLSAP.MD.HINT {FC12}{C FFE74634}Sapper{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\POLEGR.MD.HINT {FC12}{C FFE74634}Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\POLBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\POLOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\POLVOL.MD.HINT {FC12}{C FFE74634}Voltiger{FS}{C FF502515}\ - weak in hand-to-hand combat, good shot, light coal consumption when shooting, highly resistant to fatigue, fast training speed.
+
+UNITSMD\SPNPARNEW.MD.HINT {FC12}{C FFE74634}Guerrilla{FS}{C FF502515}\ - average in hand-to-hand combat, very fast training speed, rather resistant to fatigue, cannot be enhanced by officer staff.
+UNITSMD\SPNMUS.MD.HINT {FC12}{C FFE74634}Musketeer{FS}{C FF502515}\ - average in hand-to-hand combat, heavy coal consumption when shooting, very fast training speed.
+UNITSMD\SPNGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSMD\SPNOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\SPNFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\SPNBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\SPNEGR.MD.HINT {FC12}{C FFE74634}Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\SPNSAP.MD.HINT {FC12}{C FFE74634}Sapper{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\SPNKEGR.MD.HINT {FC12}{C FFE74634}Mounted Cazador{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\SPNKGUS.MD.HINT {FC12}{C FFE74634}Mounted Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\SPNKDRG.MD.HINT {FC12}{C FFE74634}Mounted Dragoon{FS}{C FF502515}\ - average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSMD\SPNKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\SPNKGVR.MD.HINT {FC12}{C FFE74634}Prince regiment cavalryman{FS}{C FF502515}\ - very high melee damage, uses rifle, effectively demoralizes enemy in melee, increased level of health.
+
+///////////////VES_UNITS///////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\VESKDRG.MD.HINT {FC12}{C FFE74634}Bavarian Dragoon{FS}{C FF502515}\ - average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSMD\VESKFLG.MD.HINT {FC12}{C FFE74634}Mounted Standard Bearer{FS}{C FF502515}\ - raises the morale of the troops.
+UNITSMD\VESKGUS.MD.HINT {FC12}{C FFE74634}Baden Hussar{FS}{C FF502515}\ - average melee damage, short rifle (case-shot).
+UNITSMD\VESKEGR.MD.HINT {FC12}{C FFE74634}Wurttemberg Mounted Chasseur{FS}{C FF502515}\ - low melee damage, uses rifle.
+UNITSMD\VESKKIR.MD.HINT {FC12}{C FFE74634}Wurttemberg  Cuirassier{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSMD\VESKLAN.MD.HINT {FC12}{C FFE74634}Light Cavalryman{FS}{C FF502515}\ - low melee damage, uses rifle, quickly gains experience.
+UNITSMD\VESGRE.MD.HINT {FC12}{C FFE74634}Westfalen Kingdom Grenadier{FS}{C FF502515}\ - strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSMD\VESBAR.MD.HINT {FC12}{C FFE74634}Drummer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\VESEGR.MD.HINT {FC12}{C FFE74634}Westfalen Kingdom Chasseur{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSMD\VESOF.MD.HINT {FC12}{C FFE74634}Officer{FS}{C FF502515}\ - raises morale of the troops.
+UNITSMD\VESFLG.MD.HINT {FC12}{C FFE74634}Standard Bearer{FS}{C FF502515}\ - raises attack, defense and morale levels of the troops.
+UNITSMD\VESSAP.MD.HINT {FC12}{C FFE74634}Nassau Sapper{FS}{C FF502515}\ - average combat capabilities, builds defensive fortifications, can explode buildings with a powder barrel.
+UNITSMD\VESVOL.MD.HINT {FC12}{C FFE74634}Oldenburg Duchy Voltiger{FS}{C FF502515}\ - weak in hand-to-hand combat, good shot, light coal consumption when shooting, highly resistant to fatigue, fast training speed.
+UNITSMD\VESMUS.MD.HINT {FC12}{C FFE74634}Anhalt Duchy Musketeer{FS}{C FF502515}\ - average in hand-to-hand combat, light coal consumption when shooting.
+UNITSMD\VESFUZ.MD.HINT {FC12}{C FFE74634}Нассау Duchy Fusilier{FS}{C FF502515}\ - average in hand-to-hand combat, fast training speed.
+
+
+//////////////OTHER///////////////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\TURTOW.MD.HINT {FC12}{C FFE74634}Tower{FS}{C FF502515}\ - defensive fortification.
+UNITSMD\TURTOW.MD Tower 
+
+//////////////GUARD///////////////////////////////////////////////////////////////////////////////////////
+
+UNITSGUARDMD\GUARDVESGRE.MD Guards Grenadier
+UNITSGUARDMD\GUARDVESEGR.MD Guards Chasseur
+UNITSGUARDMD\GUARDVESKLAN.MD Guards Pikeman
+UNITSGUARDMD\GUARDVESKGUS.MD Guards Hussar
+UNITSGUARDMD\GUARDPOLGRE.MD Guards Grenadier
+UNITSGUARDMD\GUARDPOLKULN.MD Guards Uhlan
+UNITSGUARDMD\GUARDPOLKGUS.MD Guards Hussar
+UNITSGUARDMD\GUARDPOLKKRA.MD Guards Krakuse
+UNITSGUARDMD\GUARDSPNMUS.MD Guards Musketeer
+UNITSGUARDMD\GUARDSPNGRE.MD Guards Grenadier
+UNITSGUARDMD\GUARDSPNKEGR.MD Guards Cazador
+UNITSGUARDMD\GUARDSPNKDRG.MD Guards Dragoon
+UNITSGUARDMD\GUARDFRNGRE.MD Guards Grenadier
+UNITSGUARDMD\GUARDFRNKMAM.MD Guards Mameluke
+UNITSGUARDMD\GUARDFRNKGRE.MD Guards Mounted Grenadier
+UNITSGUARDMD\GUARDFRNKKAR.MD Guards Carabineer
+UNITSGUARDMD\GUARDEGPEGR.MD Guards Tuareg
+UNITSGUARDMD\GUARDEGPMUS.MD Guards Janissary
+UNITSGUARDMD\GUARDEGPKMAML.MD Guards Light Mameluke
+UNITSGUARDMD\GUARDEGPKMAMT.MD Guards Heavy Mameluke
+UNITSGUARDMD\GUARDAUSEGR.MD Guards Chasseur
+UNITSGUARDMD\GUARDAUSGRE.MD Guards Grenadier
+UNITSGUARDMD\GUARDAUSKGUS.MD Guards Hussar
+UNITSGUARDMD\GUARDAUSKKIR.MD Guards Cuirassier
+UNITSGUARDMD\GUARDPRUEGR.MD Guards Chasseur
+UNITSGUARDMD\GUARDPRUMUS.MD Guards Musketeer
+UNITSGUARDMD\GUARDPRUGVA.MD Guards Cavalryman
+UNITSGUARDMD\GUARDPRUKDRG.MD Guards Dragoon
+UNITSGUARDMD\GUARDRUSKCHKOZ.MD Black See Cossack 
+UNITSGUARDMD\GUARDRUSEGR.MD Guards Chasseur
+UNITSGUARDMD\GUARDRUSKKIR.MD Cavalier-guard
+UNITSGUARDMD\GUARDRUSMUS.MD Preobrazhenskiy Regiment
+UNITSGUARDMD\GUARDENGEGR.MD Guards Riflemen
+UNITSGUARDMD\GUARDENGKDRGT.MD Royal Dragoon
+UNITSGUARDMD\GUARDENGGRE.MD Royal Grenadier
+UNITSGUARDMD\GUARDENGEGRNG.MD Guards Chassuer
+UNITSGUARDMD\GUARDVESEGR.MD.HINT {FC12}{C FFE74634}Guards Chasseur{FS}{C FF502515}\ - elite warrior, fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSGUARDMD\GUARDVESGRE.MD.HINT {FC12}{C FFE74634}Guards Grenadier{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSGUARDMD\GUARDVESKLAN.MD.HINT {FC12}{C FFE74634}Guards Mounted Pikeman{FS}{C FF502515}\ - elite warrior, average melee damage, hand-to-hand combat only, quickly gains experience.
+UNITSGUARDMD\GUARDVESKGUS.MD.HINT {FC12}{C FFE74634}Guards Hussar{FS}{C FF502515}\ - elite warrior, strong melee damage, short rifle (case-shot).
+UNITSGUARDMD\GUARDPOLKULN.MD.HINT {FC12}{C FFE74634}Guards Uhlan{FS}{C FF502515}\ - elite warrior, average melee damage, armed with a rifle, quickly gains experience.
+UNITSGUARDMD\GUARDPOLKGUS.MD.HINT {FC12}{C FFE74634}Guards Hussar{FS}{C FF502515}\ - elite warrior, good melee damage, short rifle (case-shot).
+UNITSGUARDMD\GUARDPOLKKRA.MD.HINT {FC12}{C FFE74634}Guards Krakuse{FS}{C FF502515}\ - elite warrior, high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSGUARDMD\GUARDPOLGRE.MD.HINT {FC12}{C FFE74634}Guards Grenadier{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSGUARDMD\GUARDSPNMUS.MD.HINT {FC12}{C FFE74634}Guards Musketeer{FS}{C FF502515}\ - elite warrior, weak hand-to-hand combat capabilities, light coal consumption when shooting, fast training speed, good accuracy.
+UNITSGUARDMD\GUARDSPNGRE.MD.HINT {FC12}{C FFE74634}Guards Grenadier{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSGUARDMD\GUARDSPNKEGR.MD.HINT {FC12}{C FFE74634}Guards Cazador Regiment{FS}{C FF502515}\ - elite warrior, low melee damage, very high firepower, but low reloading speed.
+UNITSGUARDMD\GUARDSPNKDRG.MD.HINT {FC12}{C FFE74634}Guards Dragoon Regiment{FS}{C FF502515}\ - elite warrior, average melee damage, uses heavy rifle with high firepower.
+UNITSGUARDMD\GUARDFRNGRE.MD.HINT {FC12}{C FFE74634}Guards Grenadier{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSGUARDMD\GUARDFRNKMAM.MD.HINT {FC12}{C FFE74634}Guards Mounted Mameluke{FS}{C FF502515}\ - elite warrior, high melee damage, pistols (double-shot), increased level of health.
+UNITSGUARDMD\GUARDFRNKGRE.MD.HINT {FC12}{C FFE74634}Guards Mounted Grenadier{FS}{C FF502515}\ - elite warrior, high melee damage, uses heavy rifle, effectively demoralizes enemy in melee. 
+UNITSGUARDMD\GUARDFRNKKAR.MD.HINT {FC12}{C FFE74634}Guards Mounted Carabineer{FS}{C FF502515}\ - elite warrior, very high melee damage, uses rifle, effectively demoralizes enemy in melee, increased level of health, is hard to shoot. 
+UNITSGUARDMD\GUARDEGPEGR.MD.HINT {FC12}{C FFE74634}Guards Tuareg{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat and strong shot, fast soldier, good for killing enemy officers.
+UNITSGUARDMD\GUARDEGPMUS.MD.HINT {FC12}{C FFE74634}Guards Janissary{FS}{C FF502515}\ - elite warrior, weak in hand-to-hand combat, good shot, fast training speed.
+UNITSGUARDMD\GUARDEGPKMAML.MD.HINT {FC12}{C FFE74634}Guards Light Mameluke{FS}{C FF502515}\ - elite warrior, high melee damage, pistols (double-shot), increased level of health.
+UNITSGUARDMD\GUARDEGPKMAMT.MD.HINT {FC12}{C FFE74634}Guards Heavy Mameluke{FS}{C FF502515}\ - elite warrior, high melee damage, pistols (double-shot), increased level of health.
+UNITSGUARDMD\GUARDAUSEGR.MD.HINT {FC12}{C FFE74634}Guards Chasseur{FS}{C FF502515}\ - elite warrior, fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSGUARDMD\GUARDAUSGRE.MD.HINT {FC12}{C FFE74634}Guards Grenadier{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSGUARDMD\GUARDAUSKGUS.MD.HINT {FC12}{C FFE74634}Guards Hussar{FS}{C FF502515}\ - elite warrior, average melee damage, short rifle (case-shot).
+UNITSGUARDMD\GUARDAUSKKIR.MD.HINT {FC12}{C FFE74634}Guards Cuirassier{FS}{C FF502515}\ - elite warrior, high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSGUARDMD\GUARDPRUEGR.MD.HINT {FC12}{C FFE74634}Guards Chasseur Regiment{FS}{C FF502515}\ - elite warrior, fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+UNITSGUARDMD\GUARDPRUMUS.MD.HINT {FC12}{C FFE74634}Guards Musketeer Regiment{FS}{C FF502515}\ - elite warrior, weak hand-to-hand combat capabilities, fast training speed.
+UNITSGUARDMD\GUARDPRUGVA.MD.HINT {FC12}{C FFE74634}Guards Cavalry Regiment{FS}{C FF502515}\ - elite warrior, high melee damage, uses heavy rifle, effectively demoralizes enemy in melee, increased level of health.
+UNITSGUARDMD\GUARDPRUKDRG.MD.HINT {FC12}{C FFE74634}Guards Dragoon Regiment{FS}{C FF502515}\ - elite warrior, average melee damage, uses rifle, effectively demoralizes enemy in melee.
+UNITSGUARDMD\GUARDRUSMUS.MD.HINT {FC12}{C FFE74634}Preobrazhenskiy Lifeguard Regiment{FS}{C FF502515}\ - elite warrior, weak in hand-to-hand combat, light coal consumption when shooting, fast training speed.
+UNITSGUARDMD\GUARDRUSKCHKOZ.MD.HINT {FC12}{C FFE74634}Black See Cossack{FS}{C FF502515}\ - elite warrior, very high melee damage, uses rifle, increased level of health.
+UNITSGUARDMD\GUARDRUSKKIR.MD.HINT {FC12}{C FFE74634}Cavalier-guard{FS}{C FF502515}\ - elite warrior, high melee damage, pistols (double-shot), effectively demoralizes enemy in melee, is hard to shoot.
+UNITSGUARDMD\GUARDRUSEGR.MD.HINT {FC12}{C FFE74634}Chasseur Lifeguard Regiment{FS}{C FF502515}\ - elite warrior, low melee damage, uses rifle.
+UNITSGUARDMD\GUARDENGEGR.MD.HINT {FC12}{C FFE74634}Guards Scotland Marksman{FS}{C FF502515}\ - elite warrior, weak in hand-to-hand combat, good shot, light coal consumption when shooting, highly resistant to fatigue, fast training speed.
+UNITSGUARDMD\GUARDENGKDRGT.MD.HINT {FC12}{C FFE74634}Royal Dragoon Regiment{FS}{C FF502515}\ - elite warrior, high melee damage, uses heavy rifle, effectively demoralizes enemy in melee.
+UNITSGUARDMD\GUARDENGGRE.MD.HINT {FC12}{C FFE74634}Royal Grenadier Regiment{FS}{C FF502515}\ - elite warrior, strong in hand-to-hand combat, can explode buildings with grenades, highly resistant to fatigue, medium training speed.
+UNITSGUARDMD\GUARDENGEGRNG.MD.HINT {FC12}{C FFE74634}Guards Chasseur{FS}{C FF502515}\ - elite warrior, fast soldier, weak in hand-to-hand combat, good shot, tireless, good for killing enemy officers, heavy coal consumption when shooting.
+
+//////////////ADDON_HINTS_END///////////////////////////////////////////////////////////////////////////
+
+
+---------------------ADDON-----------------------
+
+UNITSMD\POLKULN.MD Mounted Uhlan
+UNITSMD\POLKKRA.MD Mounted Krakuse
+UNITSMD\POLKGUS.MD Mounted Hussar
+UNITSMD\POLKFLG.MD Standard Bearer
+UNITSMD\POLKEGR.MD Mounted Chasseur
+UNITSMD\POLKKIR.MD Mounted Cuirassier
+UNITSMD\POLFUZ.MD Fusilier
+UNITSMD\POLVOL.MD Voltiger
+UNITSMD\POLGRE.MD Grenadier
+UNITSMD\POLSAP.MD Sapper
+UNITSMD\POLEGR.MD Chasseur
+UNITSMD\POLOF.MD Officer
+UNITSMD\POLBAR.MD Drummer
+UNITSMD\POLFLG.MD Standard Bearer
+
+UNITSMD\VESEGR.MD Chasseur
+UNITSMD\VESFLG.MD Standard Bearer
+UNITSMD\VESOF.MD Officer
+UNITSMD\VESBAR.MD Drummer
+UNITSMD\VESKLAN.MD Light Cavalryman
+UNITSMD\VESKEGR.MD Mounted Chasseur
+UNITSMD\VESKGUS.MD Mounted Hussar
+UNITSMD\VESKDRG.MD Mounted Dragoon
+UNITSMD\VESKKIR.MD Mounted Cuirassier
+UNITSMD\VESKFLG.MD Standard Bearer
+UNITSMD\VESVOL.MD Voltiger
+UNITSMD\VESMUS.MD Musketeer
+UNITSMD\VESFUZ.MD Fusilier
+UNITSMD\VESGRE.MD Grenadier
+UNITSMD\VESSAP.MD Sapper
+
+UNITSMD\SPNSAP.MD Sapper
+UNITSMD\SPNEGR.MD Chasseur
+UNITSMD\SPNMUS.MD Musketeer
+UNITSMD\SPNGRE.MD Grenadier
+UNITSMD\SPNPARNEW.MD Guerrilla
+UNITSMD\SPNKDRG.MD Mounted Dragoon
+UNITSMD\SPNKFLG.MD Standard Bearer
+UNITSMD\SPNKGUS.MD Mounted Hussar
+UNITSMD\SPNKEGR.MD Mounted Cazador
+UNITSMD\SPNFLG.MD Standard Bearer
+UNITSMD\SPNOF.MD Officer
+UNITSMD\SPNBAR.MD Drummer
+UNITSMD\SPNKGVR.MD Mounted Guard
+
+UNITSMD\FRNKGEN.MD.HINT {FC12}{C FFE74634}Napoleon{FS}{C FF502515}\The French Emperor
+UNITSMD\FRNKGEN.MD Napoleon
+UNITSMD\SPNPUS4.MD Heavy Cannon
+UNITSMD\SPNPUS4L.MD Light Cannon
+UNITSMD\SPNPUS4G.MD Howitzer
+UNITSMD\POLPOTI.MD Poniatowski
+UNITSMD\SPNKGVRM.MD Espos-y-Mina
+UNITSMD\PUSREIN.MD Artilleryman
+UNITSMD\PUSSPN.MD Artilleryman
+UNITSMD\SPNKDRGM.MD Castanos
+UNITSMD\FRNKGREM.MD Marshal Ney
+UNITSMD\POLKKRAM.MD Krakowski
+UNITSMD\FRNKKARM.MD Gerard
+UNITSMD\FRNKKIRM.MD Grouchy
+UNITSMD\FRNKKIRM2.MD Adjutant
+UNITSMD\FRNKDRGM.MD Adjutant
+
+UNITSMD\ARTPUS4SPN.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\ - long range artillery, shoots cannonballs and case shot. Cannonballs pierce enemy formation and kill everybody in their way.
+UNITSMD\ARTPUS4LSPN.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - short range artillery, shoots cannonballs and case shot. Cannonballs pierce enemy formation and kill everybody in their way. 
+UNITSMD\ARTPUS4GSPN.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\ - long range artillery, shoots bombs over objects, bombs deal high damage.
+
+UNITSMD\SPNKGUSM.MD Adjutant
+
+UNITSMD\ARTPUS4SPN.MD Heavy Cannon
+UNITSMD\ARTPUS4LSPN.MD Light Cannon
+UNITSMD\ARTPUS4GSPN.MD Howitzer
+
+UNITSMD\FRNKGUSM.MD Adjutant
+UNITSMD\FRNKGUSM.MD.HINT {FC12}{C FFE74634}Adjutant{FS}{C FF502515}\Adjutant of general de Groachy 
+
+UNITSMD\FILLIPON.MD Phillipon
+UNITSMD\FILLIPON.MD.HINT FC12}{C FFE74634}Phillipon{FS}{C FF502515}\Phillipon
+
+UNITSMD\BLDKRE.MD.HINT {FC12}{C FFE74634}Fortress{FS}{C FF502515}\ - defensive fortification, allows to train guard infantry and cavaly, shoots cannons {FC12}{C FFE74634}(Attack 1000){FS}{C FF502515}.
+UNITSMD\BLDTOW.MD.HINT {FC12}{C FFE74634}Tower{FS}{C FF502515}\ - defensive fortification, shoots cannons {FC12}{C FFE74634}(Attack 1000){FS}{C FF502515}.
+UNITSMD\BLDKRO.MD.HINT {FC12}{C FFE74634}Kronwerk{FS}{C FF502515}\ - defensive fortification, allows to train infantry, shoots cannons {FC12}{C FFE74634}(Attack 1000){FS}{C FF502515}.
+UNITSMD\BLDKON.MD.HINT {FC12}{C FFE74634}Light Cavalry Stables{FS}{C FF502515}\ - allows to train light cavalry.
+UNITSMD\BLDFOR.MD.HINT {FC12}{C FFE74634}Fort{FS}{C FF502515}\ - defensive fortification, allows to train infantry, shoots cannons {FC12}{C FFE74634}(Attack 1000){FS}{C FF502515}.
+UNITSMD\EGPKRE.MD.HINT {FC12}{C FFE74634}Fortress{FS}{C FF502515}\ - allows to train cavalry and build artillery, shoots cannons {FC12}{C FFE74634}(Attack 1000){FS}{C FF502515}.
+UNITSMD\TURTOW.MD.HINT {FC12}{C FFE74634}Tower{FS}{C FF502515}\ - defensive fortification, shoots cannons {FC12}{C FFE74634}(Attack 1000){FS}{C FF502515}.
+UNITSMD\PRUKON.MD.HINT {FC12}{C FFE74634}Light Cavalry Stables{FS}{C FF502515}\ - allows to train light cavalry.
+UNITSMD\BLDKON.MD Stables
+UNITSMD\POLKON.MD Stables
+UNITSMD\PRUKON.MD Stables
+UNITSMD\PRUVER.MD Lighthouse
+UNITSMD\POLKON.MD.HINT {FC12}{C FFE74634}Light Cavalry Stables{FS}{C FF502515}\ - allows to train light cavalry.
+
+UNITSMD\FRNKGEN.MD.HINT {FC12}{C FFE74634}Napoleon
+UNITSMD\HGU.MD Cart
+UNITSMD\HGUDEATH.MD Cart
+UNITSMD\HGUDEATHEG.MD Cart
+UNITSMD\HGUDEATHRU.MD Cart
+UNITSMD\HGUEG.MD Cart
+UNITSMD\HGURU.MD Cart
+
+UNITSMD\SPNPARNEW.MD.HINT {FC12}{C FFE74634}Guerrilla{FS}{C FF502515}\ - average in hand-to-hand combat, very fast training speed, rather resistant to fatigue, cannot be enhanced by officer staff.
+---------------------ADDON-----------------------
+
+UNITSMD\VESBLDMAN.MD Ironworks
+UNITSMD\VESBLDMAN.MD.HINT {FC12}{C FFE74634}Ironworks{FS}{C FF502515}\ - provides iron

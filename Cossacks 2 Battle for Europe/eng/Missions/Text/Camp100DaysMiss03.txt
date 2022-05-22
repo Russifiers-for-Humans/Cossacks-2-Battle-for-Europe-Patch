@@ -1,0 +1,34 @@
+#NameLeft01 de Grouchy
+#NameRight01 Hussar
+
+#Movie05Text01 Soldiers. The insidious enemy desires to invade our lands. The cowardly British want to put the hateful king on our throne and thus outrage out freedom. We are here not to let them do this. 
+#Movie05Text02 We'll show them the power of our weapons, we'll kick out those scums, who thought themselves to be soldiers. Long live the Emperor! 
+
+#Movie06Text01 A column of the Prussian forces detected. They move towards us and soon they'll be here.
+#Movie06Text02 Are there many of them? Prussian... and what is more marching?
+#Movie06Text03 Yes, and quite a number of them. It seems that they've already spotted out avant-guard and now turn to a battle order.
+#Movie06Text04 Well, the battle is good. Convey my order to the avant-guard: take the defense near the river-passages and resist the enemy attacks at all costs.
+#Movie06Text05 May I proceed?
+#Movie06Text06 Yes. Immediately proceed with my order.
+
+#FrenchM3Task01 Defend two fords from the attacks of the Prussian forces
+#FrenchM3Task02 Destroy the Prussian fortress, situated on the crossing of two rivers
+#FrenchM3Task03 Destroy two Prussian camps
+
+#FM3V1 Victory! We've dispersed the Prussian forces and destroyed two enemy camps!
+#FM3L1 Defeat! Our army has been crushed!
+#FM3L2 Defeat! One of the fords has been captured by the enemy!
+
+#Movie07Text01 The attacks of the Prussian forces near the fords are stopped. The part of the Prussian soldiers escaped to the fortress.
+#Movie07Text02 What are our casualties?
+#Movie07Text03 Losses exist but the soldiers are eager to fight. Everyone waits for the order to attack.
+#Movie07Text04 The order will be to attack immediately. First of all it's necessary to attack the Prussian fortifications. The fortress must be taken as soon as possible. Ride hard and deliver my order.
+#Movie07Text05 Acknowledged.
+
+#FM3M1 Congratulations, the fort is in your hands! Now it's vitally important to capture two enemy camps on the East.
+
+#FrenchM3Hint01 General de Grouchy and his adjutant must stay alive
+
+#FM3L1 Defeat! Your army has been crushed
+#FM3L2 Defeat! Adjutant's dead!
+#FM3L3 Defeat! General de Grouchy is dead!

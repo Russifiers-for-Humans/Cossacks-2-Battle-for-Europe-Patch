@@ -1,0 +1,965 @@
+UNITSMD\FRNBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\FRNEGRNG.MD.HINT {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый воин, слаб в рукопашном бою, но наносит высокий урон при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, потребляет много пороха на выстрел
+UNITSMD\FRNFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает атаку, защиту и боевой дух соединения
+UNITSMD\FRNFUZ.MD.HINT {FC12}{C FFE74634}Фузилер{FS}{C FF502515}\Средние показатели рукопашного боя, быстро тренируется
+UNITSMD\FRNFUZNG.MD.HINT {FC12}{C FFE74634}Национальная гвардия{FS}{C FF502515}\Воин, слаб в рукопашном бою, но очень быстро тренируется
+UNITSMD\FRNGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Сильная рукопашная атака, могут взрывать здания с помощью гранат, выносливы, средняя скорость тренировки, на содержание требуется золото
+UNITSMD\FRNKDRG.MD.HINT {FC12}{C FFE74634}Конный драгун{FS}{C FF502515}\Средние рукопашные повреждения, вооружен ружьем, эффективно деморализует противника в рукопашной схватке
+UNITSMD\FRNKEGR.MD.HINT {FC12}{C FFE74634}Конный егерь{FS}{C FF502515}\Слабые повреждения в рукопашной, вооружен ружьем
+UNITSMD\FRNKKAR.MD.HINT {FC12}{C FFE74634}Конный карабинер{FS}{C FF502515}\Очень высокие урон в рукопашной, вооружен ружьем, эффективно деморализует противника в рукопашной схватке, имеет больше здоровья и лучше защищен от пуль 
+UNITSMD\FRNOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\FRNSAP.MD.HINT {FC12}{C FFE74634}Сапер{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\AUSSAP.MD.HINT {FC12}{C FFE74634}Военный инженер{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\PRUSAP.MD.HINT {FC12}{C FFE74634}Военный инженер{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\FRNVOL.MD.HINT {FC12}{C FFE74634}Вольтижер{FS}{C FF502515}\Слаб в рукопашном бою, мощный выстрел, небольшие затраты пороха при стрельбе, очень выносливы, большая скорость тренировки
+UNITSMD\FRNAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет производить Офицеров, Барабанщиков и Знаменосцев
+UNITSMD\FRNCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\FRNDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\FRNDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет строить Большие дома, Храм, обеспечивает дополнительный приток золота
+UNITSMD\FRNHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\FRNKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет тренировать Вольтижеров и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров
+UNITSMD\FRNSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\FRNMAY.MD.HINT {FC12}{C FFE74634}Маяк{FS}{C FF502515}\
+UNITSMD\FRNDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает 240 жилых мест
+UNITSMD\FRNKULN.MD.HINT {FC12}{C FFE74634}Конный улан{FS}{C FF502515}\Слабые повреждения в рукопашной, сражается только в ближнем бою, быстро набирает опыт
+UNITSMD\FRNKMAM.MD.HINT {FC12}{C FFE74634}Конный мамелюк{FS}{C FF502515}\Высокий урон в рукопашной, два пистоля, крепкий и здоровый воин
+UNITSMD\FRNKKIR.MD.HINT {FC12}{C FFE74634}Конный кирасир{FS}{C FF502515}\Высокий урон в рукопашной, два пистоля, сильно деморализует противника в рукопашной схватке, имеет защиту от пуль
+UNITSMD\FRNKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной, вооружен коротким ружьем (стреляет картечью)
+UNITSMD\FRNKGRE.MD.HINT {FC12}{C FFE74634}Конный гренадер{FS}{C FF502515}\Высокий урон в рукопашной, вооружен тяжелой винтовкой, сильно деморализует противника в рукопашной схватке
+UNITSMD\FRNKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\FRNMEL.MD.HINT {FC12}{C FFE74634}Мельница
+UNITSMD\FRNKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\FRNKGEN.MD.HINT {FC12}{C FFE74634}Наполеон
+
+UNITSMD\BLDKRE.MD.HINT {FC12}{C FFE74634}Крепость{FS}{C FF502515}\Защитное сооружение, позволяет тренировать гвардейскую пехоту и кавалерию, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDTOW.MD.HINT {FC12}{C FFE74634}Башня{FS}{C FF502515}\Защитное сооружение, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDKRO.MD.HINT {FC12}{C FFE74634}Кронверк{FS}{C FF502515}\Защитное сооружение, позволяет тренировать пехоту, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDKON.MD.HINT {FC12}{C FFE74634}Конюшни легкой кавалерии{FS}{C FF502515}\Позволяет тренировать легкую конницу
+UNITSMD\BLDRUDKAM.MD.HINT {FC12}{C FFE74634}Каменный карьер
+UNITSMD\BLDFOR.MD.HINT {FC12}{C FFE74634}Форт{FS}{C FF502515}\Защитное сооружение, позволяет тренировать пехоту, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDBLG.MD.HINT {FC12}{C FFE74634}Блокгауз{FS}{C FF502515}\Фортификационное сооружение, эффективно для защиты тылов от рейдов кавалерии и для блокирования дорог и перекрестков {FC12}{C FFE74634}(Атака 75){FS}{C FF502515}
+UNITSMD\BLDART.MD.HINT {FC12}{C FFE74634}Артиллерийское депо{FS}{C FF502515}\Позволяет строить артиллерию
+UNITSMD\BLDRUDSEL.MD.HINT {FC12}{C FFE74634}Угольная шахта
+UNITSMD\BLDRUDRUD.MD.HINT {FC12}{C FFE74634}Железный рудник
+UNITSMD\BLDRUDGLN.MD.HINT {FC12}{C FFE74634}Золотоносный рудник
+UNITSMD\BLDRIN.MD.HINT {FC12}{C FFE74634}Рынок{FS}{C FF502515}\Обмен ресурсов
+UNITSMD\BLDARS.MD.HINT {FC12}{C FFE74634}
+UNITSMD\BLDKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту 
+UNITSMD\BLDKIR.MD.HINT {FC12}{C FFE74634}Фабрика{FS}{C FF502515}\Производит порох
+UNITSMD\BLDLES.MD.HINT {FC12}{C FFE74634}
+UNITSMD\BLDMAN.MD.HINT {FC12}{C FFE74634}
+UNITSMD\BLDRUDUGL.MD.HINT {FC12}{C FFE74634}Уголь
+UNITSMD\BOCHKA.MD.HINT {FC12}{C FFE74634}Бочка пороха{FS}{C FF502515}\Используется для разрушения зданий врага
+UNITSMD\ENGEGR.MD.HINT {FC12}{C FFE74634}Горец{FS}{C FF502515}\Слабы в рукопашном бою, наносят высокие повреждения при стрельбе, небольшие затраты пороха на выстрел, высокий боевой дух, выносливы, быстро тренируются
+UNITSMD\ENGFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает уровень атаки, защиты и боевого духа соединения
+UNITSMD\ENGGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Сильны в рукопашном бою, могут взрывать здания с помощью гранат, выносливы, средняя скорость тренировки, на содержание требуется золото
+UNITSMD\ENGKRI.MD.HINT {FC12}{C FFE74634}Крестьянин{FS}{C FF502515}\Добывает дерево, камень, строит здания
+UNITSMD\ENGMUS.MD.HINT {FC12}{C FFE74634}Мушкетер{FS}{C FF502515}\Средний урон в рукопашной, большие затраты пороха на выстрел, очень большая скорость тренировки
+UNITSMD\ENGOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\ENGSAP.MD.HINT {FC12}{C FFE74634}Сапер{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\ENGKDRGL.MD.HINT {FC12}{C FFE74634}Легкий драгун{FS}{C FF502515}\Низкий урон в рукопашной, вооружен винтовкой
+UNITSMD\ENGKDRGT.MD.HINT {FC12}{C FFE74634}Тяжелый драгун{FS}{C FF502515}\Высокий урон в рукопашной, тяжелая винтовка, сильно деморализует противника в рукопашной схватке
+UNITSMD\ENGKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\ENGKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной, короткая винтовка (стреляет картечью)
+UNITSMD\ENGAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет тренировать офицеров
+UNITSMD\ENGCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\ENGDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\ENGDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\ENGDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет тренировать Барабанщиков и Знаменосцев, позволяет строить Большие дома, Храм, обеспечивает дополнительный приток золота
+UNITSMD\ENGHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\ENGSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\ENGKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\ENGBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+
+UNITSMD\PRUBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\PRUBKR.MD.HINT {FC12}{C FFE74634}Черный корпус{FS}{C FF502515}\Средний урон в рукопашной, небольшие затраты пороха на выстрел, высокий боевой духа, высокие показатели выносливости, высокая скорость тренировки
+UNITSMD\PRUEGR.MD.HINT {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, при стрельбе расходует много пороха
+UNITSMD\PRUFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает уровень атаки, защиты и боевого духа соединения
+UNITSMD\PRUGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Силен в рукопашном бою, может использовать гранаты для разрушения зданий, вынослив, средняя скорость тренировки, на содержание требуется золото
+UNITSMD\PRUKDRG.MD.HINT {FC12}{C FFE74634}Конный драгун{FS}{C FF502515}\Средний урон в рукопашной, вооружен винтовкой, эффективно деморализует противника в рукопашной схватке
+UNITSMD\PRUKEGR.MD.HINT {FC12}{C FFE74634}Конный егерь{FS}{C FF502515}\Низкий урон в рукопашной, вооружен винтовкой
+UNITSMD\PRUKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\PRUKGEN.MD.HINT {FC12}{C FFE74634}PruKGen 
+UNITSMD\PRUKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной, имеет короткую винтовку (заряженную картечью)
+UNITSMD\PRUKKIR.MD.HINT {FC12}{C FFE74634}Конный кирасир{FS}{C FF502515}\Низкий урон в рукопашной, вооружен двумя пистолями, деморализует противника в рукопашной схватке 
+UNITSMD\PRUMUS.MD.HINT {FC12}{C FFE74634}Мушкетер{FS}{C FF502515}\Низкий урон в рукопашной, очень высокая скорость производства, перезаряжаються на 30% быстрее других пехотинцев
+UNITSMD\PRUOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\PRUKGVR.MD.HINT {FC12}{C FFE74634}Конный гвардеец{FS}{C FF502515}\Очень высокий урон в рукопашной, вооружен винтовкой, деморализует противника в рукопашной схватке, большой уровень здоровья
+UNITSMD\PRUKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\PRUKON.MD.HINT {FC12}{C FFE74634}Конюшни{FS}{C FF502515}\Сооружение для производства конницы
+UNITSMD\PRUAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Сооружение для производства Офицеров, Барабанщиков и Знаменосцев
+UNITSMD\PRUCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\PRUDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\PRUDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 180 человек
+UNITSMD\PRUDO3.MD.HINT {FC12}{C FFE74634}Огромный дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\PRUDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Обеспечивает дополнительный приток золота; позволяет строить Большие дома и Храм
+UNITSMD\PRUSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+
+UNITSMD\AUSOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\AUSBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\AUSEGR.MD.HINT {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, потребляет много пороха при стрельбе
+UNITSMD\AUSFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает уровень атаки, защиты и морали соединения
+UNITSMD\AUSGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Силен в рукопашном бою, может взрывать здания с помощью гранат, быстрая подготовка гранат, вынослив, большая скорость тренировки, на содержание требуется золото
+UNITSMD\AUSKULN.MD.HINT {FC12}{C FFE74634}Конный улан{FS}{C FF502515}\Низкий урон в рукопашной, сражаются только в ближнем бою, быстро получают опыт
+UNITSMD\AUSKKIR.MD.HINT {FC12}{C FFE74634}Конный кирасир{FS}{C FF502515}\Высокий урон в рукопашной, вооружен двумя пистолями, деморализует противника при рукопашной схватке, хорошо защищен от пуль
+UNITSMD\AUSKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\AUSKDRGT.MD.HINT {FC12}{C FFE74634}Тяжелый драгун{FS}{C FF502515}\Средний урон в рукопашной, винтовка, деморализует противника при рукопашной схватке
+UNITSMD\AUSKDRG.MD.HINT {FC12}{C FFE74634}Легкий драгун{FS}{C FF502515}\Низкий урон в рукопашной, винтовка
+UNITSMD\AUSGRN.MD.HINT {FC12}{C FFE74634}Граничар{FS}{C FF502515}\Низкий урон в рукопашной, мощный выстрел, небольшие затраты пороха на выстрел, вынослив, высокая скорость тренировки
+UNITSMD\AUSLAN.MD.HINT {FC12}{C FFE74634}Ландвер{FS}{C FF502515}\Низкий урон в рукопашной, очень высокая скорость тренировки
+UNITSMD\AUSMUS.MD.HINT {FC12}{C FFE74634}Фузилер{FS}{C FF502515}\Средний урон в рукопашной, небольшие затраты пороха на выстрел
+UNITSMD\AUSAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет тренировать Офицеров, Барабанщиков и Знаменосцев
+UNITSMD\AUSCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\AUSDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\AUSDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\AUSDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет строить Большие дома, Храм, обеспечивает дополнительный приток золота
+UNITSMD\AUSHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\AUSKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет тренировать Вольтижеров и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров
+UNITSMD\AUSMAY.MD.HINT {FC12}{C FFE74634}Маяк
+UNITSMD\AUSSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\AUSKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\AUSKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной, короткая винтовка (стреляет картечью)
+
+UNITSMD\RUSBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\RUSEGR.MD.HINT {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения огнестрельным оружием, неутомим в маршах на большие дистанции, хорош для уничтожения вражеских офицеров, потребляет много пороха на стрельбу
+UNITSMD\RUSFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает уровень атаки, защиты и морали соединения
+UNITSMD\RUSKRI.MD.HINT {FC12}{C FFE74634}Крестьянин{FS}{C FF502515}\Добывает дерево, камень, строит здания
+UNITSMD\RUSMUS.MD.HINT {FC12}{C FFE74634}Мушкетер{FS}{C FF502515}\Низкий урон в рукопашной, небольшие затраты пороха на выстрел, высокая скорость тренировки
+UNITSMD\RUSOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения, может быть произведен сразу
+UNITSMD\RUSPAR.MD.HINT {FC12}{C FFE74634}Ополченец{FS}{C FF502515}\Средний урон в рукопашной, сражается только в рукопашном бою
+UNITSMD\RUSPIO.MD.HINT {FC12}{C FFE74634}Пионер{FS}{C FF502515}\Средний урон в рукопашной, строят  фортификации, может взрывать здания с помощью пороховых бочек
+UNITSMD\RUSGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Силен в рукопашном бою, может взрывать здания с помощью гранат, вынослив, на содержание требуется золото
+UNITSMD\RUSKCHKOZ.MD.HINT {FC12}{C FFE74634}Черноморский казак{FS}{C FF502515}\Очень высокий урон в рукопашной, вооружен ружьем, большой уровень здоровья
+UNITSMD\RUSKDKOZ.MD.HINT {FC12}{C FFE74634}Донской казак{FS}{C FF502515}\Низкий урон в рукопашной, вооружен ружьем
+UNITSMD\RUSKDRG.MD.HINT {FC12}{C FFE74634}Конный драгун{FS}{C FF502515}\Средний урон в рукопашной, вооружен ружьем, деморализует противника при рукопашной схватке
+UNITSMD\RUSKEGR.MD.HINT {FC12}{C FFE74634}Конный егерь{FS}{C FF502515}\Низкий урон в рукопашной, вооружен ружьем
+UNITSMD\RUSKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\RUSKGEN.MD.HINT {FC12}{C FFE74634}RusKGen 
+UNITSMD\RUSKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной,  вооружен коротким ружьем (стреляет картечью)
+UNITSMD\RUSKKIR.MD.HINT {FC12}{C FFE74634}Конный кирасир{FS}{C FF502515}\Высокий урон в рукопашной, вооружен двумя пистолями, деморализует противника при рукопашной схватке, хорошо защищен от пуль
+UNITSMD\RUSKULN.MD.HINT {FC12}{C FFE74634}Конный улан{FS}{C FF502515}\Низкий урон в рукопашной, сражается только в рукопашном бою, быстро получает опыт
+UNITSMD\RUSKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\RUSAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет тренировать Егерей, Саперов, Знаменосцев, позволяет строить конюшни и Большие дома
+UNITSMD\RUSCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\RUSDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\RUSDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\RUSDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет тренировать Черноморских казаков, позволяет строить Большие дома, обеспечивает дополнительный приток золота
+UNITSMD\RUSHRA.MD.HINT {FC12}{C FFE74634}Церковь{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\RUSKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет тренировать  Мушкетеров, после усовершенствования {FS}{C FF502515}\Гренадеров
+UNITSMD\RUSMEL.MD.HINT {FC12}{C FFE74634}Мельница{FS}{C FF502515}\Позволяет крестьянам собирать еду
+UNITSMD\RUSSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\RUSTER.MD.HINT {FC12}{C FFE74634}Терем{FS}{C FF502515}\Позволяет тренировать Барабанщика
+
+UNITSMD\EGPLUC.MD.HINT {FC12}{C FFE74634}Лучник{FS}{C FF502515}\Вооружен луком, может поджигать вражеские строения (горящие стрелы), не тратит ресурсы при стрельбе, неутомим, высокая скорость тренировки
+UNITSMD\EGPKMAM.MD.HINT {FC12}{C FFE74634}Конный мамелюк{FS}{C FF502515}\Высокий урон в рукопашной, вооружен двумя пистолями, большой уровень здоровья
+UNITSMD\EGPKCEM.MD.HINT {FC12}{C FFE74634}Бедуин{FS}{C FF502515}\Низкий урон в рукопашной, вооружен ружьем
+UNITSMD\EGPEGR.MD.HINT {FC12}{C FFE74634}Туарег{FS}{C FF502515}\Большой урон как при стрельбе, так и в рукопашной, быстр, хорош для уничтожения вражеских офицеров
+UNITSMD\EGPMUS.MD.HINT {FC12}{C FFE74634}Янычар{FS}{C FF502515}\Слаб в рукопашном бою, мощный выстрел, высокая скорость тренировки
+UNITSMD\TURMEC.MD.HINT {FC12}{C FFE74634}Воин с ятаганом{FS}{C FF502515}\Низкий урон в рукопашной, большой уровень здоровья, хорошо защищен от пуль, вынослив, высокая скорость тренировки
+UNITSMD\TUROF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\TURKBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\EGPKRI.MD.HINT {FC12}{C FFE74634}Крестьянин{FS}{C FF502515}\Добывает дерево, камень, строит здания
+UNITSMD\EGPCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\EGPDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\EGPDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\EGPDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет тренировать Офицеров, Барабанщиков. Дает возможность улучшить атаку Воинов с ятаганами. Обеспечивает дополнительный приток золота
+UNITSMD\EGPHRA.MD.HINT {FC12}{C FFE74634}Мечеть{FS}{C FF502515}\Позволяет воспитывать мулл
+UNITSMD\EGPKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\EGPSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\EGPKRE.MD.HINT {FC12}{C FFE74634}Крепость{FS}{C FF502515}\Позволяет тренировать кавалерию и производить артиллерию, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\TURKARB.MD.HINT {FC12}{C FFE74634}Легкая кавалерия{FS}{C FF502515}\Средний урон в рукопашной, вооружен двумя пистолями
+
+UNITSMD\POLOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\POLBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+
+UNITSMD\POLCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+
+
+UNITSMD\FRNBAR.MD Барабанщик
+UNITSMD\FRNEGRNG.MD Егерь
+UNITSMD\FRNFLG.MD Знаменосец
+UNITSMD\FRNFUZ.MD Фузилер
+UNITSMD\FRNFUZNG.MD Нац. гвардия
+UNITSMD\FRNGRE.MD Гренадер 
+UNITSMD\FRNKDRG.MD Конный драгун
+UNITSMD\FRNKEGR.MD Конный егерь
+UNITSMD\FRNKKAR.MD Кон. карабинер
+UNITSMD\FRNOF.MD Офицер
+UNITSMD\FRNSAP.MD Сапер
+UNITSMD\FRNVOL.MD Вольтижер
+UNITSMD\FRNAKA.MD Академия
+UNITSMD\FRNCEN.MD Городской центр
+UNITSMD\FRNDO1.MD Дом
+UNITSMD\FRNDO2.MD Большой дом
+UNITSMD\FRNDVO.MD Дворец
+UNITSMD\FRNHRA.MD Храм
+UNITSMD\FRNKUZ.MD Кузница
+UNITSMD\FRNSKL.MD Склад
+UNITSMD\FRNMAY.MD Маяк
+UNITSMD\FRNKULN.MD Конный улан
+UNITSMD\FRNKMAM.MD Кон. мамелюк
+UNITSMD\FRNKKIR.MD Конный кирасир
+UNITSMD\FRNKGUS.MD Конный гусар
+UNITSMD\FRNKGRE.MD Кон. гренадер
+UNITSMD\FRNKFLG.MD Кон. знаменосец
+UNITSMD\FRNMEL.MD Мельница
+UNITSMD\FRNKAZ.MD Казарма
+
+UNITSMD\BLDKRE.MD Крепость
+UNITSMD\BLDTOW.MD Башня
+UNITSMD\BLDKRO.MD Кронверк
+UNITSMD\BLDKON.MD Конюшни
+UNITSMD\BLDRUDKAM.MD Каменный карьер
+UNITSMD\BLDFOR.MD Форт
+UNITSMD\BLDBLG.MD Блокгауз
+UNITSMD\BLDART.MD Арт. депо
+UNITSMD\BLDRUDSEL.MD Угольная шахта
+UNITSMD\BLDRUDRUD.MD Железный рудник
+UNITSMD\BLDRUDGLN.MD Золотая шахта
+UNITSMD\BLDRIN.MD Рынок
+UNITSMD\BLDARS.MD Арсенал
+UNITSMD\BLDKAZ.MD Казарма
+UNITSMD\BLDKIR.MD Фабрика
+UNITSMD\BLDLES.MD Лесопилка
+UNITSMD\BLDRUDUGL.MD Уголь
+UNITSMD\ENGKRI.MD Крестьянин
+
+UNITSMD\EGPCEM.MD EgpCem
+UNITSMD\ENGAKA.MD Академия 
+UNITSMD\ENGCEN.MD Городской центр
+UNITSMD\ENGDO1.MD Дом  
+UNITSMD\ENGDO2.MD Большой дом
+UNITSMD\ENGDVO.MD Дворец
+UNITSMD\ENGHRA.MD Храм
+UNITSMD\ENGMAY.MD Маяк
+UNITSMD\ENGSKL.MD Склад
+UNITSMD\ENGBAR.MD Барабанщик
+UNITSMD\ENGFLG.MD Знаменосец
+UNITSMD\ENGGRE.MD Гренадер
+UNITSMD\ENGKRI.MD Крестьянин
+UNITSMD\ENGMUS.MD Мушкетер
+UNITSMD\ENGOF.MD Офицер
+UNITSMD\ENGSAP.MD Сапер
+UNITSMD\ENGEGR.MD Горец
+UNITSMD\SPNM18.MD SpnM18
+UNITSMD\ARTPUS.MD Пушка
+UNITSMD\SHPPAROM.MD ShpParom
+UNITSMD\AUSOF.MD Офицер
+UNITSMD\GORFRADOM1_1.MD GorFraDom1_1
+UNITSMD\GORFRADOM1_2.MD GorFraDom1_2
+UNITSMD\GORFRADOM1_3.MD GorFraDom1_3
+UNITSMD\GORFRADOM1_4.MD GorFraDom1_4
+UNITSMD\GORFRADOM2_1.MD GorFraDom2_1
+UNITSMD\GORFRADOM2_2.MD GorFraDom2_2
+UNITSMD\GORFRADOM2_3.MD GorFraDom2_3
+UNITSMD\GORFRADOM2_4.MD GorFraDom2_4
+UNITSMD\GORFRADOM3_1.MD GorFraDom3_1
+UNITSMD\GORFRADOM3_2.MD GorFraDom3_2
+UNITSMD\GORFRADOM4_1.MD GorFraDom4_1
+UNITSMD\GORFRADOM4_2.MD GorFraDom4_2
+UNITSMD\GORFRADOM4_3.MD GorFraDom4_3
+UNITSMD\GORFRADOM4_4.MD GorFraDom4_4
+UNITSMD\GORFRADOM5_1.MD GorFraDom5_1
+UNITSMD\GORFRADOM5_2.MD GorFraDom5_2
+UNITSMD\GORFRADOM6_1.MD GorFraDom6_1
+UNITSMD\GORFRADOM6_2.MD GorFraDom6_2
+UNITSMD\GORFRAMAG1_2.MD GorFraMag1_2
+UNITSMD\GORFRAMAG1_1.MD GorFraMag1_1
+UNITSMD\GORFRAUTI1_1.MD GorFraUti1_1 
+UNITSMD\GORFRADOM8_1.MD GorFraDom8_1
+UNITSMD\GORFRADOM7_1.MD GorFraDom7_1
+UNITSMD\AUSAKA.MD Академия
+UNITSMD\AUSCEN.MD Городской центр
+UNITSMD\AUSDO1.MD Дом
+UNITSMD\AUSDO2.MD Большой дом
+UNITSMD\AUSDVO.MD Дворец
+UNITSMD\AUSHRA.MD Храм
+UNITSMD\AUSKUZ.MD Кузница
+UNITSMD\AUSMAY.MD Маяк
+UNITSMD\AUSSKL.MD Склад
+
+UNITSMD\AUSBAR.MD Барабанщик
+UNITSMD\AUSEGR.MD Егерь
+UNITSMD\AUSFLG.MD Знаменосец
+UNITSMD\AUSGRE.MD Гренадер
+UNITSMD\AUSOF.MD Офицер
+
+UNITSMD\AUSKGUS.MD Конный гусар
+UNITSMD\AUSMUS.MD Фузилер
+UNITSMD\FIELD.MD Поле
+UNITSMD\FIELD.MD Поле
+UNITSMD\ARTPUS.MD Пушка
+UNITSMD\ARTGAU.MD Мортира
+
+UNITSMD\ARTPUS1.MD ArtPus1
+
+UNITSMD\ARTPUS2.MD ArtPus2
+UNITSMD\ARTPUS3.MD Передок
+UNITSMD\ARTPUS3.MD.HINT {FC12}{C FFE74634}Передок{FS}{C FF502515}\Предназначен для перевозки артиллерийских снарядов на большие расстояния
+
+UNITSMD\TEMPMENT.MD Ополченцы
+UNITSMD\TURMENT.MD Ополченцы
+
+UNITSMD\RUSBAR.MD Барабанщик
+UNITSMD\RUSEGR.MD Егерь
+UNITSMD\RUSFLG.MD Знаменосец
+UNITSMD\RUSKRI.MD Крестьяне
+UNITSMD\RUSMUS.MD Мушкетер
+UNITSMD\RUSOF.MD Офицер
+UNITSMD\RUSPAR.MD Ополченец
+UNITSMD\RUSPIO.MD Пионер
+
+UNITSMD\RUSAKA.MD Академия
+UNITSMD\RUSCEN.MD Городской центр
+UNITSMD\RUSDO1.MD Дом
+UNITSMD\RUSDO2.MD Большой дом
+UNITSMD\RUSDVO.MD Дворец
+UNITSMD\RUSHRA.MD Церковь
+UNITSMD\RUSKUZ.MD Кузница
+
+UNITSMD\RUSMEL.MD Мельница
+UNITSMD\RUSSKL.MD Склад
+UNITSMD\RUSTER.MD Терем
+
+UNITSMD\PRUAKA.MD Академия
+UNITSMD\PRUCEN.MD Городской центр
+UNITSMD\PRUDO1.MD Дом
+UNITSMD\PRUDO2.MD Огромный дом
+UNITSMD\PRUDO3.MD Большой дом
+UNITSMD\PRUDVO.MD Дворец
+UNITSMD\PRUSKL.MD Склад
+UNITSMD\PRUVER.MD PruVer
+
+UNITSMD\AUSKULN.MD Конный улан
+UNITSMD\AUSKKIR.MD Конный кирасир
+UNITSMD\AUSKFLG.MD Кон. знаменосец
+UNITSMD\AUSKDRGT.MD Тяжелый драгун
+UNITSMD\AUSKDRG.MD Легкий драгун
+UNITSMD\AUSGRN.MD Граничар
+UNITSMD\AUSLAN.MD Ландвер
+
+UNITSMD\GORTURDOM1_1.MD GorTurDom1_1 
+UNITSMD\GORTURDOM10_1.MD GorTurDom10_1 
+UNITSMD\GORTURDOM10_2.MD GorTurDom10_2 
+UNITSMD\GORTURDOM11_1.MD GorTurDom11_1 
+UNITSMD\GORTURDOM11_2.MD GorTurDom11_2 
+UNITSMD\GORTURDOM2_1.MD GorTurDom2_1 
+UNITSMD\GORTURDOM3_1.MD GorTurDom3_1 
+UNITSMD\GORTURDOM4_1.MD GorTurDom4_1 
+UNITSMD\GORTURDOM5_1.MD GorTurDom5_1 
+UNITSMD\GORTURDOM6_1.MD GorTurDom6_1 
+UNITSMD\GORTURDOM7_1.MD GorTurDom7_1 
+UNITSMD\GORTURDOM8_1.MD GorTurDom8_1 
+UNITSMD\GORTURDOM8_2.MD GorTurDom8_2 
+UNITSMD\GORTURDOM9_1.MD GorTurDom9_1 
+UNITSMD\GORTURDOM9_2.MD GorTurDom9_2 
+
+UNITSMD\GORRUSDOM1_1.MD GorRusDom1_1
+UNITSMD\GORRUSDOM2_1.MD GorRusDom2_1
+UNITSMD\GORRUSDOM2_2.MD GorRusDom2_2
+UNITSMD\GORRUSDOM3_1.MD GorRusDom3_1
+UNITSMD\GORRUSDOM3_2.MD GorRusDom3_2
+UNITSMD\GORRUSDOM4_1.MD GorRusDom4_1
+UNITSMD\GORRUSDOM5_1.MD GorRusDom5_1
+UNITSMD\GORRUSDOM5_2.MD GorRusDom5_2
+UNITSMD\GORRUSDOM6_1.MD GorRusDom6_1
+UNITSMD\GORRUSDOM7_1.MD GorRusDom7_1
+UNITSMD\GORRUSDOM8_1.MD GorRusDom8_1
+UNITSMD\GORRUSDOM8_2.MD GorRusDom8_2
+
+UNITSMD\GORAUSDOM1_1.MD GorAusDom1_1
+UNITSMD\GORAUSDOM1_2.MD GorAusDom1_2
+UNITSMD\GORAUSDOM2_1.MD GorAusDom2_1
+UNITSMD\GORAUSDOM2_2.MD GorAusDom2_2
+UNITSMD\GORAUSDOM3_1.MD GorAusDom3_1
+UNITSMD\GORAUSDOM3_2.MD GorAusDom3_2
+UNITSMD\GORAUSDOM4_1.MD GorAusDom4_1
+UNITSMD\GORAUSDOM4_2.MD GorAusDom4_2
+UNITSMD\GORAUSDOM5_1.MD GorAusDom5_1
+UNITSMD\GORAUSDOM5_2.MD GorAusDom5_2
+UNITSMD\GORAUSDOM5_3.MD GorAusDom5_3
+UNITSMD\GORAUSDOM5_4.MD GorAusDom5_4
+UNITSMD\GORAUSDOM6_1.MD GorAusDom6_1
+UNITSMD\GORAUSDOM6_2.MD GorAusDom6_2
+UNITSMD\GORAUSDOM6_3.MD GorAusDom6_3
+UNITSMD\GORAUSDOM6_4.MD GorAusDom6_4
+UNITSMD\GORAUSDOM7_1.MD GorAusDom7_1
+UNITSMD\GORAUSDOM7_2.MD GorAusDom7_2
+UNITSMD\GORAUSDOM7_3.MD GorAusDom7_3
+UNITSMD\GORAUSDOM7_4.MD GorAusDom7_4
+UNITSMD\GORAUSDOM7_5.MD GorAusDom7_5
+UNITSMD\GORAUSDOM7_6.MD GorAusDom7_6
+UNITSMD\GORAUSDOM7_7.MD GorAusDom7_7
+UNITSMD\GORAUSDOM7_8.MD GorAusDom7_8
+UNITSMD\GORAUSDOM8_1.MD GorAusDom8_1 
+UNITSMD\GORAUSDOM9_1.MD GorAusDom9_1
+UNITSMD\GORAUSDOM9_2.MD GorAusDom9_2
+UNITSMD\GORAUSDOM9_3.MD GorAusDom9_3
+UNITSMD\GORAUSDOM9_4.MD GorAusDom9_4
+UNITSMD\GORAUSDOM9_5.MD GorAusDom9_5
+UNITSMD\GORAUSDOM9_6.MD GorAusDom9_6
+UNITSMD\GORAUSDOM9_7.MD GorAusDom9_7
+UNITSMD\GORAUSDOM9_8.MD GorAusDom9_8
+
+UNITSMD\SELFRADOM1_1.MD SelFraDom1_1
+UNITSMD\SELFRADOM1_2.MD SelFraDom1_2
+UNITSMD\SELFRADOM1_3.MD SelFraDom1_3
+UNITSMD\SELFRADOM1_4.MD SelFraDom1_4
+UNITSMD\SELFRADOM2_1.MD SelFraDom2_1
+UNITSMD\SELFRADOM2_2.MD SelFraDom2_2
+UNITSMD\SELFRADOM2_3.MD SelFraDom2_3
+UNITSMD\SELFRADOM2_4.MD SelFraDom2_4
+UNITSMD\SELFRADOM3_1.MD SelFraDom3_1
+UNITSMD\SELFRADOM3_2.MD SelFraDom3_2
+UNITSMD\SELFRADOM3_3.MD SelFraDom3_3
+UNITSMD\SELFRADOM3_4.MD SelFraDom3_4
+UNITSMD\SELFRADOM4_1.MD SelFraDom4_1
+UNITSMD\SELFRADOM4_2.MD SelFraDom4_2
+UNITSMD\SELFRADOM4_3.MD SelFraDom4_3
+UNITSMD\SELFRADOM4_4.MD SelFraDom4_4
+UNITSMD\SELFRADOM5_1.MD SelFraDom5_1
+UNITSMD\SELFRADOM5_2.MD SelFraDom5_2
+UNITSMD\SELFRADOM5_3.MD SelFraDom5_3
+UNITSMD\SELFRADOM5_4.MD SelFraDom5_4
+UNITSMD\SELFRADOM6_1.MD SelFraDom6_1
+UNITSMD\SELFRADOM6_2.MD SelFraDom6_2
+
+UNITSMD\FRNBARIN.MD Джентльмен
+UNITSMD\FRNDAMA.MD Дама
+UNITSMD\HGU.MD Вьючная лошадь
+UNITSMD\HGU.MD.HINT {FC12}{C FFE74634}Вьючная лошадь{FS}{C FF502515}\Перевозит ресурсы из селений
+
+UNITSMD\RUSDAMA.MD Дама
+UNITSMD\FRNDAMA.MD Дама
+UNITSMD\FRNDAMA2.MD Дама
+UNITSMD\FRNBARIN.MD Джентльмен
+UNITSMD\FRNBARIN2.MD Джентльмен
+
+UNITSMD\NETPAL2.MD Тент
+UNITSMD\TEMPCOMMANDCENTER.MD Командный центр
+
+UNITSMD\PRUBAR.MD Барабанщик
+UNITSMD\PRUBKR.MD Черный корпус
+UNITSMD\PRUEGR.MD Егерь
+UNITSMD\PRUFLG.MD Знаменосец
+UNITSMD\PRUGRE.MD Гренадер
+UNITSMD\PRUKDRG.MD Конный драгун
+UNITSMD\PRUKEGR.MD Конный егерь
+UNITSMD\PRUKFLG.MD Кон. знаменосец
+UNITSMD\PRUKGEN.MD PruKGen
+UNITSMD\PRUKGUS.MD Конный гусар
+UNITSMD\PRUKKIR.MD Конный кирасир
+UNITSMD\PRUMUS.MD Мушкетер
+UNITSMD\PRUOF.MD Офицер
+UNITSMD\PRUKGVR.MD Гвардеец
+
+UNITSMD\EGPLUC.MD Лучник
+UNITSMD\EGPKMAM.MD Кон. мамелюк
+UNITSMD\EGPKCEM.MD Бедуин
+UNITSMD\EGPEGR.MD Туарег
+
+UNITSMD\EGPARS.MD Арсенал
+UNITSMD\EGPCEN.MD Городской центр
+UNITSMD\EGPDO1.MD Дом
+UNITSMD\EGPDO2.MD Большой дом
+UNITSMD\EGPDVO.MD Дворец
+UNITSMD\EGPHRA.MD Мечеть
+UNITSMD\EGPKAZ.MD Казарма
+UNITSMD\EGPMAN.MD Рынок
+UNITSMD\EGPRIN.MD.HINT {FC12}{C FFE74634}Рынок{FS}{C FF502515}\Позволяет торговать
+UNITSMD\EGPMAY.MD Маяк
+UNITSMD\EGPMEL.MD EgpMel
+UNITSMD\EGPSKL.MD Склад
+UNITSMD\EGPMUS.MD Янычар
+
+UNITSMD\RUSGRE.MD Гренадер
+
+UNITSMD\TURMEC.MD Воин с ятаганом
+UNITSMD\TUROF.MD Офицер
+
+UNITSMD\RUSKCHKOZ.MD Черномор. казак
+UNITSMD\RUSKDKOZ.MD Донской казак
+UNITSMD\RUSKDRG.MD Конный драгун
+UNITSMD\RUSKEGR.MD Конный егерь
+UNITSMD\RUSKFLG.MD Кон. знаменосец
+UNITSMD\RUSKGEN.MD RusKGen
+UNITSMD\RUSKGUS.MD Конный гусар
+
+UNITSMD\RUSKKIR.MD Конный кирасир
+UNITSMD\RUSKULN.MD Конный улан
+
+UNITSMD\RUSKAZ.MD Казарма
+
+UNITSMD\EGPKRI.MD Крестьянин
+
+UNITSMD\PRUKAZ.MD Казарма
+UNITSMD\PRUKON.MD Конюшни
+
+UNITSMD\RUSKDRG.MD Конный драгун
+UNITSMD\TURKBAR.MD Барабанщик
+UNITSMD\ENGBAR.MD Барабанщик
+UNITSMD\ENGFLG.MD Знаменосец
+UNITSMD\ENGGRE.MD Гренадер
+UNITSMD\ENGKDRGL.MD Легкий драгун
+UNITSMD\ENGKDRGT.MD Тяжелый драгун
+UNITSMD\ENGKFLG.MD Кон. знаменосец
+UNITSMD\ENGKGEN.MD EngKGen
+UNITSMD\ENGKGUS.MD Конный гусар
+UNITSMD\ENGMUS.MD Мушкетер
+UNITSMD\ENGOF.MD Офицер
+UNITSMD\ENGSAP.MD Сапер
+UNITSMD\ENGKAZ.MD Казарма
+
+UNITSMD\ENGAKA.MD Академия
+UNITSMD\ENGCEN.MD Городской центр
+UNITSMD\ENGDVO.MD Дворец
+UNITSMD\ENGDO1.MD Дом
+UNITSMD\ENGDO2.MD Большой дом
+UNITSMD\ENGHRA.MD Церковь
+UNITSMD\ENGSKL.MD Склад
+UNITSMD\ENGVER.MD EngVer
+
+UNITSMD\AUSKAZ.MD Казарма
+
+UNITSMD\EGPKRE.MD Крепость
+
+UNITSMD\ANMVEP.MD AnmVep
+UNITSMD\ANMOLNG.MD AnmOlnG
+UNITSMD\ANMOLNT.MD AnmOlnT
+UNITSMD\ANMKOSG.MD AnmKosG
+UNITSMD\ANMKOST.MD AnmKosT
+UNITSMD\ANMBIK.MD AnmBik
+UNITSMD\ANMKOR1.MD AnmKor1
+UNITSMD\ANMKOR2.MD AnmKor2
+UNITSMD\ANMBAR.MD AnmBar
+UNITSMD\ANMOVC.MD AnmOvc
+UNITSMD\ANMSWIW.MD AnmSwiW
+UNITSMD\ANMSWIB.MD AnmSwiB
+
+UNITSMD\OBOZ.MD Обозы
+
+UNITSMD\ENGEGRNG.MD Егерь
+
+UNITSMD\ENGEGRNG.MD.Hint {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош для уничтожения вражеских офицеров, потребляет много пороха при стрельбе
+
+UNITSMD\ARTPUSR.MD Ракета
+UNITSMD\ARTPUSR.MD.HINT {FC12}{C FFE74634}Ракета{FS}{C FF502515}\Дальнобойное орудие, высокая скорость стрельбы 
+UNITSMD\PUSKON1.MD PusKon1
+UNITSMD\PUSKON2.MD PusKon2
+
+UNITSMD\BLDRED2.MD BldRed2
+UNITSMD\BLDRED3.MD BldRed3
+UNITSMD\BLDRED4.MD BldRed4
+UNITSMD\BLDRED6.MD BldRed6
+UNITSMD\BLDRED7.MD BldRed7
+UNITSMD\BLDRED8.MD BldRed8
+
+UNITSMD\PUSFRN.MD Канонир
+UNITSMD\PUSFRN.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Обслуга орудия, может быть нанят из любого подразделения для пополнения орудийного расчета
+UNITSMD\ARTPUS4.MD Тяжелая Пушка
+UNITSMD\ARTPUS4L.MD Легкая Пушка
+UNITSMD\ARTPUS4G.MD Гаубица
+UNITSMD\ARTPUS4.MD.HINT {FC12}{C FFE74634}Тяжелая пушка{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4L.MD.HINT {FC12}{C FFE74634}Легкая пушка{FS}{C FF502515}\Артиллерия с малой дальностью стрельбы, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4G.MD.HINT {FC12}{C FFE74634}Гаубица{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\PUSEGP.MD Канонир 
+UNITSMD\PUSEGP.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Обслуга орудия, может быть нанят из любого подразделения для пополнения орудийного расчета
+UNITSMD\ARTPUS4E.MD Тяжелая Пушка 
+UNITSMD\ARTPUS4LE.MD Легкая Пушка
+UNITSMD\ARTPUS4GE.MD Гаубица
+UNITSMD\PUSRUS.MD Канонир
+UNITSMD\PUSRUS.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Обслуга орудия, может быть нанят из любого подразделения для пополнения орудийного расчета
+UNITSMD\ARTPUS4R.MD Тяжелая Пушка 
+UNITSMD\ARTPUS4LR.MD Легкая Пушка 
+UNITSMD\ARTPUS4GR.MD Гаубица 
+UNITSMD\PUSENG.MD Канонир
+UNITSMD\PUSENG.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Обслуга орудия, может быть нанят из любого подразделения для пополнения орудийного расчета
+UNITSMD\PUSPRU.MD Канонир
+UNITSMD\PUSPRU.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Обслуга орудия, может быть нанят из любого подразделения для пополнения орудийного расчета 
+UNITSMD\PUSAUS.MD Канонир
+UNITSMD\PUSAUS.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Обслуга орудия, может быть нанят из любого подразделения для пополнения орудийного расчета 
+UNITSMD\ARTPUS4AUS.MD {FC12}{C FFE74634}Тяжелая пушка{FS}{C FF502515}\Дальнобойная артиллерия, пушечные ядра пробивают строй врага и убивают солдат на своем пути 
+UNITSMD\ARTPUS4ENG.MD {FC12}{C FFE74634}Тяжелая пушка{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4PRU.MD {FC12}{C FFE74634}Тяжелая пушка{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4GAUS.MD {FC12}{C FFE74634}Гаубица{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4GENG.MD {FC12}{C FFE74634}Гаубица{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4GPRU.MD {FC12}{C FFE74634}Гаубица{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4LAUS.MD {FC12}{C FFE74634}Легкая пушка {FS}{C FF502515}\Артиллерия с малой дальностью стрельбы, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4LENG.MD {FC12}{C FFE74634}Легкая пушка{FS}{C FF502515}\Артиллерия с малой дальностью стрельбы, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4LPRU.MD {FC12}{C FFE74634}Легкая пушка{FS}{C FF502515}\Артиллерия с малой дальностью стрельбы, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\BOCHKA.MD Бочка пороха
+UNITSMD\SHPFREGAT.MD Фрегат
+UNITSMD\SHPFREGAT.MD.HINT {FC12}{C FFE74634}Фрегат{FS}{C FF502515}\Тяжелый военный корабль, его орудия имеют огромную дальность стрельбы и мощность
+
+UNITSMD\NETPAL1.MD Тент
+UNITSMD\NETPAL2.MD Тент 
+UNITSMD\NETPAL3.MD Тент 
+UNITSMD\NETPAL4.MD Тент 
+UNITSMD\NETPAL5.MD Тент
+
+UNITSMD\SPNPAR.MD Ополченцы
+UNITSMD\TURKARB.MD Легкая Кавалерия
+UNITSMD\FRNPOP.MD Священник
+UNITSMD\TURPOP.MD Мулла
+UNITSMD\RUSPOP.MD Священник
+
+UNITSMD\FRNPOP.MD.HINT {FC12}{C FFE74634}Священник{FS}{C FF502515}\Лечит солдат и поднимает боевой дух войск 
+UNITSMD\TURPOP.MD.HINT {FC12}{C FFE74634}Мулла{FS}{C FF502515}\Лечит солдат и поднимает боевой дух войск
+UNITSMD\RUSPOP.MD.HINT {FC12}{C FFE74634}Поп{FS}{C FF502515}\Лечит солдат и поднимает боевой дух войск 
+UNITSMD\ENGKUZ.MD Кузница
+UNITSMD\PRUKUZ.MD Кузница 
+UNITSMD\ENGKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет производить Вольтижеров и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров 
+UNITSMD\PRUKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет производить Вольтижеров и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров 
+UNITSMD\HGUDEATH.MD Обоз
+UNITSMD\HGUDEATH.MD.HINT {FC12}{C FFE74634}Обоз{FS}{C FF502515}\Перевозит ресурсы между деревнями
+
+UNITSMD\NENGMUS.MD Мушкетер
+UNITSMD\MISGREG.MD Грег Чеффи 
+UNITSMD\MISWIL.MD Вилфорд Чеффи 
+UNITSMD\MISEBE.MD Эбенестер МакКейт 
+UNITSMD\MISABR.MD Авраам Шеффсли 
+UNITSMD\MISHEM.MD Хамфри Колин Коуп 
+UNITSMD\MISFAB.MD Фабрис де Гойль
+UNITSMD\MISEMI.MD Эмили
+UNITSMD\MISKER.MD Кёртис Фарнбро 
+UNITSMD\MISFER.MD Офицер Фергисон 
+UNITSMD\MISTRI.MD Сержант Тринити
+UNITSMD\MISWILD.MD Капрал Вилдингс
+UNITSMD\MISJON.MD Сержант Джонс
+UNITSMD\BLDFLAG.MD Флаг
+UNITSMD\REBENGMUS.MD Бунтарь
+UNITSMD\ENGSKLNC.MD Склад
+
+UNITSMD\NFRNMEL.MD Мельница
+
+UNITSMD\AUSSAP.MD Военный Инженер
+UNITSMD\PRUSAP.MD Военный Инженер
+UNITSMD\PUSENGR.MD Канонир
+UNITSMD\PUSENGR.MD.HINT {FC12}{C FFE74634}Канонир{FS}{C FF502515}\Управляет артиллерией, может быть нанят из любого подразделения при пополнении орудийного расчета 
+UNITSMD\ENGKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет производить Вольтижеров и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров 
+UNITSMD\PRUKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет производить Вольтижеров и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров 
+UNITSMD\ENGKUZ.MD Кузница
+UNITSMD\PRUKUZ.MD Кузница
+UNITSMD\PRUHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать священников
+UNITSMD\PRUHRA.MD Храм
+
+//////////////ADDON_HINTS/////////////////////////////////////////////////////////////////////////////
+
+///////////////SPAIN_B////////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\SPNKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\SPNSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\SPNAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет тренировать Офицеров
+UNITSMD\SPNCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\SPNDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\SPNDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\SPNDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет строить Большие дома, Храм, обеспечивает дополнительный приток золота, позволяет тренировать Барабанщиков и Знаменосцев
+UNITSMD\SPNHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\SPNKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет тренировать Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров
+UNITSMD\SPNMEL.MD.HINT {FC12}{C FFE74634}Мельница{FS}{C FF502515}\Позволяет крестьянам собирать еду
+UNITSMD\SPNMAY.MD.HINT {FC12}{C FFE74634}Маяк
+UNITSMD\SPNKUZ.MD Кузница
+UNITSMD\SPNKAZ.MD Казарма
+UNITSMD\SPNDO1.MD Дом
+UNITSMD\SPNDO2.MD Большой дом
+UNITSMD\SPNKUZ.MD Кузница
+UNITSMD\SPNSKL.MD Склад 
+UNITSMD\SPNCEN.MD Городской центр
+UNITSMD\SPNAKA.MD Академия
+UNITSMD\SPNHRA.MD Храм 
+UNITSMD\SPNMIL.MD Мельница
+UNITSMD\SPNMAY.MD Маяк
+UNITSMD\SPNDVO.MD Дворец
+
+///////////////POLAND_B///////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\POLKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту, можно использовать как оборонительное сооружение
+UNITSMD\POLSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\POLAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет тренировать Офицеров и Барабанщиков
+UNITSMD\POLCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\POLDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\POLDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\POLDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет строить Большие дома, Храм, обеспечивает дополнительный приток золота, позволяет тренировать Знаменосцев
+UNITSMD\POLHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\POLKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет тренировать Вольтижеров, а после усовершенствования {FS}{C FF502515}\Гренадеров
+UNITSMD\POLMAY.MD.HINT {FC12}{C FFE74634}Маяк
+UNITSMD\POLKAZ.MD Казарма
+UNITSMD\POLDO1.MD Дом
+UNITSMD\POLDO2.MD Большой дом
+UNITSMD\POLKUZ.MD Кузница
+UNITSMD\POLSKL.MD Склад 
+UNITSMD\POLCEN.MD Городской центр
+UNITSMD\POLAKA.MD Академия
+UNITSMD\POLHRA.MD Храм 
+UNITSMD\POLDVO.MD Дворец
+
+///////////////REIN_B////////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\VESKAZ.MD.HINT {FC12}{C FFE74634}Казарма{FS}{C FF502515}\Позволяет тренировать пехоту
+UNITSMD\VESSKL.MD.HINT {FC12}{C FFE74634}Склад{FS}{C FF502515}\Место, куда крестьяне приносят добытые дерево и камень
+UNITSMD\VESAKA.MD.HINT {FC12}{C FFE74634}Академия{FS}{C FF502515}\Позволяет тренировать Офицеров, Барабанщиков и Знаменосцев
+UNITSMD\VESCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 240 человек, позволяет строить крестьян
+UNITSMD\VESDO1.MD.HINT {FC12}{C FFE74634}Дом{FS}{C FF502515}\Обеспечивает жильем 120 человек
+UNITSMD\VESDO2.MD.HINT {FC12}{C FFE74634}Большой дом{FS}{C FF502515}\Обеспечивает жильем 240 человек
+UNITSMD\VESDVO.MD.HINT {FC12}{C FFE74634}Дворец{FS}{C FF502515}\Позволяет строить Большие дома, Храм, обеспечивает дополнительный приток золота
+UNITSMD\VESHRA.MD.HINT {FC12}{C FFE74634}Храм{FS}{C FF502515}\Позволяет воспитывать Священников
+UNITSMD\VESKUZ.MD.HINT {FC12}{C FFE74634}Кузница{FS}{C FF502515}\Позволяет тренировать Вольтижеров, Егерей и Саперов, а после усовершенствования {FS}{C FF502515}\Гренадеров
+UNITSMD\VESMAY.MD.HINT {FC12}{C FFE74634}Маяк
+UNITSMD\VESKUZ.MD Кузница
+UNITSMD\VESKAZ.MD Казарма
+UNITSMD\VESDO1.MD Дом
+UNITSMD\VESDO2.MD Большой дом
+UNITSMD\VESSKL.MD Склад 
+UNITSMD\VESCEN.MD Городской центр
+UNITSMD\VESAKA.MD Академия
+UNITSMD\VESHRA.MD Храм 
+UNITSMD\VESMAY.MD Маяк
+UNITSMD\VESDVO.MD Дворец
+
+///////////////POLAND_UNITS///////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\POLKKIR.MD.HINT {FC12}{C FFE74634}Конный кирасир{FS}{C FF502515}\Высокий урон в рукопашной, два пистоля, сильно деморализует противника в рукопашной схватке, имеет защиту от пуль
+UNITSMD\POLKULN.MD.HINT {FC12}{C FFE74634}Конный улан{FS}{C FF502515}\Низкий урон в рукопашной, вооружен ружьем, быстро набирает опыт
+UNITSMD\POLKKRA.MD.HINT {FC12}{C FFE74634}Конный кракуз{FS}{C FF502515}\Высокий урон в рукопашной, вооружен двумя пистолями, деморализует противника при рукопашной схватке, хорошо защищен от пуль
+UNITSMD\POLKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\POLKEGR.MD.HINT {FC12}{C FFE74634}Конный газадор{FS}{C FF502515}\Слабые повреждения в рукопашной, вооружен ружьем
+UNITSMD\POLKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной, вооружен коротким ружьем (стреляет картечью)
+UNITSMD\POLFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает атаку, защиту и боевой дух соединения
+UNITSMD\POLGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Сильная рукопашная атака, могут взрывать здания с помощью гранат, выносливы, средняя скорость тренировки, на содержание требуется золото
+UNITSMD\POLFUZ.MD.HINT {FC12}{C FFE74634}Фузилер{FS}{C FF502515}\Средние показатели рукопашного боя, быстро тренируется
+UNITSMD\POLSAP.MD.HINT {FC12}{C FFE74634}Сапер{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\POLEGR.MD.HINT {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, потребляет много пороха при стрельбе
+UNITSMD\POLBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\POLOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\POLVOL.MD.HINT {FC12}{C FFE74634}Вольтижер{FS}{C FF502515}\Слаб в рукопашном бою, мощный выстрел, небольшие затраты пороха при стрельбе, очень выносливы, высокая скорость тренировки
+
+UNITSMD\SPNPARNEW.MD.HINT {FC12}{C FFE74634}Гарильяс{FS}{C FF502515}\Средний урон в рукопашной, очень высокая скорость тренировки, вооружен ружьем, невозможно присоединить офицерский состав
+UNITSMD\SPNMUS.MD.HINT {FC12}{C FFE74634}Мушкетер{FS}{C FF502515}\Универсальный воин, средний урон в рукопашной, небольшие затраты пороха на выстрел
+UNITSMD\SPNGRE.MD.HINT {FC12}{C FFE74634}Гренадер{FS}{C FF502515}\Сильная рукопашная атака, могут взрывать здания с помощью гранат, выносливы, средняя скорость тренировки, на содержание требуется золото
+UNITSMD\SPNOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\SPNFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает уровень атаки, защиты и мораль соединения
+UNITSMD\SPNBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\SPNEGR.MD.HINT {FC12}{C FFE74634}Егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, потребляет много пороха при стрельбе
+UNITSMD\SPNSAP.MD.HINT {FC12}{C FFE74634}Сапер{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\SPNKEGR.MD.HINT {FC12}{C FFE74634}Конный егерь{FS}{C FF502515}\Слабые повреждения в рукопашной, вооружен ружьем
+UNITSMD\SPNKGUS.MD.HINT {FC12}{C FFE74634}Конный гусар{FS}{C FF502515}\Средний урон в рукопашной, вооружен коротким ружьем (стреляет картечью)
+UNITSMD\SPNKDRG.MD.HINT {FC12}{C FFE74634}Конный драгун{FS}{C FF502515}\Средние рукопашные повреждения, вооружен ружьем, эффективно деморализует противника в рукопашной схватке
+UNITSMD\SPNKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\SPNKGVR.MD.HINT {FC12}{C FFE74634}Кавалеристы полка принца{FS}{C FF502515}\Очень высокие повреждения в ближнем бою, вооружен винтовкой, эффективно деморализует противника в рукопашной схватке, высокий уровень здоровья
+
+///////////////VES_UNITS///////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\VESKDRG.MD.HINT {FC12}{C FFE74634}Баварский драгун{FS}{C FF502515}\Средние рукопашные повреждения, вооружен ружьем, эффективно деморализует противника в рукопашной схватке
+UNITSMD\VESKFLG.MD.HINT {FC12}{C FFE74634}Конный знаменосец{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\VESKGUS.MD.HINT {FC12}{C FFE74634}Баденский гусар{FS}{C FF502515}\Средний урон в рукопашной,  вооружен коротким ружьем (стреляет картечью)
+UNITSMD\VESKEGR.MD.HINT {FC12}{C FFE74634}Вюртембергский конный егерь{FS}{C FF502515}\Слабые повреждения в рукопашной, вооружен ружьем
+UNITSMD\VESKKIR.MD.HINT {FC12}{C FFE74634}Вюртембергский кирасир{FS}{C FF502515}\Высокий урон в рукопашной, вооружен двумя пистолями, деморализует противника при рукопашной схватке, хорошо защищен от пуль
+UNITSMD\VESKLAN.MD.HINT {FC12}{C FFE74634}Легкий кавалерист{FS}{C FF502515}\Низкий урон в рукопашной, вооружен ружьем, быстро получает опыт
+UNITSMD\VESGRE.MD.HINT {FC12}{C FFE74634}Гренадер королевства Вестфалия{FS}{C FF502515}\Сильная рукопашная атака, могут взрывать здания с помощью гранат,  выносливы, средняя скорость тренировки, на содержание требуется золото
+UNITSMD\VESBAR.MD.HINT {FC12}{C FFE74634}Барабанщик{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\VESEGR.MD.HINT {FC12}{C FFE74634}Вестфальский егерь{FS}{C FF502515}\Быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, потребляет много пороха при стрельбе
+UNITSMD\VESOF.MD.HINT {FC12}{C FFE74634}Офицер{FS}{C FF502515}\Повышает боевой дух соединения
+UNITSMD\VESFLG.MD.HINT {FC12}{C FFE74634}Знаменосец{FS}{C FF502515}\Повышает уровень атаки, защиты и морали соединения
+UNITSMD\VESSAP.MD.HINT {FC12}{C FFE74634}Сапер герцогства Нассау{FS}{C FF502515}\Средние боевые возможности, строит фортификационные сооружения, может взрывать здания с помощью пороховых бочек
+UNITSMD\VESVOL.MD.HINT {FC12}{C FFE74634}Вольтижер герцогства Ольденбург{FS}{C FF502515}\Слаб в рукопашном бою, мощный выстрел, небольшие затраты пороха при стрельбе, очень выносливы, большая скорость тренировки
+UNITSMD\VESMUS.MD.HINT {FC12}{C FFE74634}Фузилер герцогства Анхальт{FS}{C FF502515}\Средний урон в рукопашной, небольшие затраты пороха на выстрел, перезаряжаються на 30% быстрее других пехотинцев
+UNITSMD\VESFUZ.MD.HINT {FC12}{C FFE74634}Фузилер герцогства Нассау{FS}{C FF502515}\Средние показатели рукопашного боя, быстро тренируется
+
+
+//////////////OTHER///////////////////////////////////////////////////////////////////////////////////////
+
+UNITSMD\TURTOW.MD.HINT {FC12}{C FFE74634}Башня{FS}{C FF502515}\Оборонительное сооружение, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\TURTOW.MD Башня 
+
+//////////////GUARD///////////////////////////////////////////////////////////////////////////////////////
+
+UNITSGUARDMD\GUARDVESGRE.MD Гв. гренадер
+UNITSGUARDMD\GUARDVESEGR.MD Гвардейский егерь
+UNITSGUARDMD\GUARDVESKLAN.MD Гв. пикинер
+UNITSGUARDMD\GUARDVESKGUS.MD Гвардейский гусар
+UNITSGUARDMD\GUARDPOLGRE.MD Гв. гренадер
+UNITSGUARDMD\GUARDPOLKULN.MD Гвардейский улан
+UNITSGUARDMD\GUARDPOLKGUS.MD Гвардейский гусар
+UNITSGUARDMD\GUARDPOLKKRA.MD Гв. кракуз
+UNITSGUARDMD\GUARDSPNMUS.MD Гв. мушкетер
+UNITSGUARDMD\GUARDSPNGRE.MD Гв. гренадер
+UNITSGUARDMD\GUARDSPNKEGR.MD Гв. газадор
+UNITSGUARDMD\GUARDSPNKDRG.MD Гв. драгун
+UNITSGUARDMD\GUARDFRNGRE.MD Гв. гренадер
+UNITSGUARDMD\GUARDFRNKMAM.MD Гв. мамелюк
+UNITSGUARDMD\GUARDFRNKGRE.MD Гв. кон. гренадер
+UNITSGUARDMD\GUARDFRNKKAR.MD Гв. карабинер
+UNITSGUARDMD\GUARDEGPEGR.MD Гв. туарег
+UNITSGUARDMD\GUARDEGPMUS.MD Гв. янычар
+UNITSGUARDMD\GUARDEGPKMAML.MD Гв. л. мамелюк
+UNITSGUARDMD\GUARDEGPKMAMT.MD Гв. т. мамелюк
+UNITSGUARDMD\GUARDAUSEGR.MD Гвардейский егерь
+UNITSGUARDMD\GUARDAUSGRE.MD Гв. гренадер
+UNITSGUARDMD\GUARDAUSKGUS.MD Гвардейский гусар
+UNITSGUARDMD\GUARDAUSKKIR.MD Гв. кирасир
+UNITSGUARDMD\GUARDPRUEGR.MD Гвардейский егерь
+UNITSGUARDMD\GUARDPRUMUS.MD Гв. мушкетер
+UNITSGUARDMD\GUARDPRUGVA.MD Гв. кавалерист
+UNITSGUARDMD\GUARDPRUKDRG.MD Гв. драгун
+UNITSGUARDMD\GUARDRUSKCHKOZ.MD Казак чер. сотни
+UNITSGUARDMD\GUARDRUSEGR.MD Гвардейский егерь
+UNITSGUARDMD\GUARDRUSKKIR.MD Кавалергард
+UNITSGUARDMD\GUARDRUSMUS.MD Преображен. полк
+UNITSGUARDMD\GUARDENGEGR.MD Гв. стрелки
+UNITSGUARDMD\GUARDENGKDRGT.MD Корол. драгун
+UNITSGUARDMD\GUARDENGGRE.MD Корол. гренадер
+UNITSGUARDMD\GUARDENGEGRNG.MD Гвардейский егерь
+UNITSGUARDMD\GUARDVESEGR.MD.HINT {FC12}{C FFE74634}Гвардейский егерь{FS}{C FF502515}\Элитный воин, очень быстрый, но слабый в рукопашном бою, наносит очень высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош для уничтожения вражеских офицеров, потребляет много пороха при стрельбе
+UNITSGUARDMD\GUARDVESGRE.MD.HINT {FC12}{C FFE74634}Гвардейский гренадер{FS}{C FF502515}\Элитный воин, сильная рукопашная атака, может взрывать здания с помощью гранат, вынослив
+UNITSGUARDMD\GUARDVESKLAN.MD.HINT {FC12}{C FFE74634}Гвардейский конный пикинер{FS}{C FF502515}\Элитный воин, средние повреждения в рукопашной, сражается только в ближнем бою, быстро передвигается и набирает опыт
+UNITSGUARDMD\GUARDVESKGUS.MD.HINT {FC12}{C FFE74634}Гвардейский гусар{FS}{C FF502515}\Элитный воин, сильный урон в рукопашной, вооружен коротким ружьем (стреляет картечью), наносит низкие повреждения при стрельбе
+UNITSGUARDMD\GUARDPOLKULN.MD.HINT {FC12}{C FFE74634}Гвардейский улан{FS}{C FF502515}\Элитный воин, средние повреждения в рукопашной, сражается хорошо в ближнем бою, так же вооружен ружьем, наносит средние повреждения при стрельбе и быстро набирает опыт
+UNITSGUARDMD\GUARDPOLKGUS.MD.HINT {FC12}{C FFE74634}Гвардейский гусар{FS}{C FF502515}\Элитный воин, сильный урон в рукопашной, вооружен коротким ружьем (стреляет картечью), наносит низкие повреждения при стрельбе
+UNITSGUARDMD\GUARDPOLKKRA.MD.HINT {FC12}{C FFE74634}Гвардейский кракуз{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, вооружен пистолями, деморализует противника при рукопашной схватке
+UNITSGUARDMD\GUARDPOLGRE.MD.HINT {FC12}{C FFE74634}Гвардейский гренадер{FS}{C FF502515}\Элитный воин, сильная рукопашная атака, может взрывать здания с помощью гранат, вынослив
+UNITSGUARDMD\GUARDSPNMUS.MD.HINT {FC12}{C FFE74634}Гвардейский мушкетер{FS}{C FF502515}\Элитный воин, низкий урон в рукопашной, небольшие затраты пороха на выстрел, высокая сила выстрела и меткость
+UNITSGUARDMD\GUARDSPNGRE.MD.HINT {FC12}{C FFE74634}Гвардейский гренадер{FS}{C FF502515}\Элитный воин, сильная рукопашная атака, может взрывать здания с помощью гранат, вынослив
+UNITSGUARDMD\GUARDSPNKEGR.MD.HINT {FC12}{C FFE74634}Гвардейский газадорский полк{FS}{C FF502515}\Элитный воин, слабые повреждения в рукопашной, очень высокие повреждения при стрельбе, большая скорость перемещения, низкая скорость перезарядки
+UNITSGUARDMD\GUARDSPNKDRG.MD.HINT {FC12}{C FFE74634}Гвардейский драгунский полк{FS}{C FF502515}\Элитный воин, средний урон в рукопашной, тяжелая винтовка, высокая сила выстрела
+UNITSGUARDMD\GUARDFRNGRE.MD.HINT {FC12}{C FFE74634}Гвардейский гренадер{FS}{C FF502515}\Элитный воин, сильная рукопашная атака, может взрывать здания с помощью гранат, вынослив, средняя скорость тренировки
+UNITSGUARDMD\GUARDFRNKMAM.MD.HINT {FC12}{C FFE74634}Гвардейский конный мамелюк{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, два пистоля, крепкий и здоровый солдат
+UNITSGUARDMD\GUARDFRNKGRE.MD.HINT {FC12}{C FFE74634}Гвардейский конный гренадер{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, вооружен тяжелой винтовкой, сильно деморализует противника в рукопашной схватке 
+UNITSGUARDMD\GUARDFRNKKAR.MD.HINT {FC12}{C FFE74634}Гвардейский конный карабинер{FS}{C FF502515}\Элитный воин, очень высокие урон в рукопашной, вооружен ружьем, эффективно деморализует противника при рукопашной схватке, имеет больше здоровья и лучше защищен от пуль 
+UNITSGUARDMD\GUARDEGPEGR.MD.HINT {FC12}{C FFE74634}Гвардейский туарег{FS}{C FF502515}\Элитный воин, большой урон как при стрельбе, так и в рукопашной, быстр, хорош для уничтожения вражеских офицеров
+UNITSGUARDMD\GUARDEGPMUS.MD.HINT {FC12}{C FFE74634}Гвардейский янычар{FS}{C FF502515}\Элитный воин, слаб в рукопашном бою, мощный выстрел, высокая скорость тренировки
+UNITSGUARDMD\GUARDEGPKMAML.MD.HINT {FC12}{C FFE74634}Гвардейский легкий мамелюк{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, два пистоля, крепкий и здоровый солдат
+UNITSGUARDMD\GUARDEGPKMAMT.MD.HINT {FC12}{C FFE74634}Гвардейский тяжелый мамелюк{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, вооружен двумя пистолями, большой уровень здоровья
+UNITSGUARDMD\GUARDAUSEGR.MD.HINT {FC12}{C FFE74634}Гвардейский егерь{FS}{C FF502515}\Элитный воин, быстрый, но слабый в рукопашном бою, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, потребляет много пороха при стрельбе 
+UNITSGUARDMD\GUARDAUSGRE.MD.HINT {FC12}{C FFE74634}Гвардейский гренадер{FS}{C FF502515}\Элитный воин, силен в рукопашном бою, может взрывать здания с помощью гранат, быстрая подготовка гранат, вынослив, большая скорость тренировки
+UNITSGUARDMD\GUARDAUSKGUS.MD.HINT {FC12}{C FFE74634}Гвардейский гусар{FS}{C FF502515}\Элитный воин, средний урон в рукопашной, короткая винтовка (стреляет картечью) 
+UNITSGUARDMD\GUARDAUSKKIR.MD.HINT {FC12}{C FFE74634}Гвардейский кирасир{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, вооружен двумя пистолями, деморализует противника при рукопашной схватке, хорошо защищен от пуль
+UNITSGUARDMD\GUARDPRUEGR.MD.HINT {FC12}{C FFE74634}Гвардейский егерьский полк{FS}{C FF502515}\Элитный воин, быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош в уничтожении вражеских офицеров, при стрельбе расходует много пороха
+UNITSGUARDMD\GUARDPRUMUS.MD.HINT {FC12}{C FFE74634}Гвардейский полк мушкетер{FS}{C FF502515}\Элитный воин, низкий урон в рукопашной, очень высокая скорость производства
+UNITSGUARDMD\GUARDPRUGVA.MD.HINT {FC12}{C FFE74634}Гвардейский кавалерийский полк{FS}{C FF502515}\Элитный воин, очень высокий урон в рукопашной, вооружен винтовкой, деморализует противника в рукопашной схватке, большой уровень здоровья
+UNITSGUARDMD\GUARDPRUKDRG.MD.HINT {FC12}{C FFE74634}Гвардейский драгунский полк{FS}{C FF502515}\Элитный воин, средний урон в рукопашной, вооружен винтовкой, эффективно деморализует противника в рукопашной схватке
+UNITSGUARDMD\GUARDRUSMUS.MD.HINT {FC12}{C FFE74634}Преображенский полк лейб-гвардии{FS}{C FF502515}\Элитный воин, низкий урон в рукопашной, небольшие затраты пороха на выстрел, высокая скорость тренировки
+UNITSGUARDMD\GUARDRUSKCHKOZ.MD.HINT {FC12}{C FFE74634}Казак черноморской сотни{FS}{C FF502515}\Элитный воин, очень высокий урон в рукопашной, вооружен ружьем, большой уровень здоровья
+UNITSGUARDMD\GUARDRUSKKIR.MD.HINT {FC12}{C FFE74634}Кавалергард{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, вооружен двумя пистолями, деморализует противника при рукопашной схватке, хорошо защищен от пуль
+UNITSGUARDMD\GUARDRUSEGR.MD.HINT {FC12}{C FFE74634}Егерский полк лейб-гвардии{FS}{C FF502515}\Элитный воин, низкий урон в рукопашной, вооружен ружьем
+UNITSGUARDMD\GUARDENGEGR.MD.HINT {FC12}{C FFE74634}Гвардейские шотландские стрелки{FS}{C FF502515}\Элитный воин, слаб в рукопашном бою, наносит высокие повреждения при стрельбе, небольшие затраты пороха на выстрел, высокий боевой дух, вынослив, быстро набирает опыт
+UNITSGUARDMD\GUARDENGKDRGT.MD.HINT {FC12}{C FFE74634}Королевский драгунский полк{FS}{C FF502515}\Элитный воин, высокий урон в рукопашной, тяжелая винтовка, сильно деморализует противника в рукопашной схватке
+UNITSGUARDMD\GUARDENGGRE.MD.HINT {FC12}{C FFE74634}Королевский гренадерский полк{FS}{C FF502515}\Элитный воин, сильны в рукопашном бою, могут взрывать здания с помощью гранат, выносливы, средняя скорость тренировки
+UNITSGUARDMD\GUARDENGEGRNG.MD.HINT {FC12}{C FFE74634}Гвардейский егерь{FS}{C FF502515}\Элитный воин, быстрый, но слабый в рукопашном бою воин, наносит высокие повреждения при стрельбе, неутомим в маршах на большие дистанции, хорош для уничтожения вражеских офицеров, потребляет много пороха при стрельбе
+
+//////////////ADDON_HINTS_END///////////////////////////////////////////////////////////////////////////
+
+
+---------------------ADDON-----------------------
+
+UNITSMD\POLKULN.MD Конный улан
+UNITSMD\POLKKRA.MD Конный кракуз
+UNITSMD\POLKGUS.MD Конный гусар
+UNITSMD\POLKFLG.MD Кон. знаменосец
+UNITSMD\POLKEGR.MD Конный егерь
+UNITSMD\POLKKIR.MD Конный кирасир
+UNITSMD\POLFUZ.MD Фузилер
+UNITSMD\POLVOL.MD Вольтижер
+UNITSMD\POLGRE.MD Гренадер
+UNITSMD\POLSAP.MD Сапер
+UNITSMD\POLEGR.MD Егерь
+UNITSMD\POLOF.MD Офицер
+UNITSMD\POLBAR.MD Барабанщик
+UNITSMD\POLFLG.MD Знаменосец
+
+
+UNITSMD\VESGRE.MD Гренадер
+UNITSMD\VESSAP.MD Сапер
+UNITSMD\VESEGR.MD Егерь
+UNITSMD\VESFLG.MD Знаменосец
+UNITSMD\VESOF.MD Офицер
+UNITSMD\VESBAR.MD Барабанщик
+UNITSMD\VESKLAN.MD Легкий кавалерист
+UNITSMD\VESKEGR.MD Конный егерь
+UNITSMD\VESKGUS.MD Конный гусар
+UNITSMD\VESKDRG.MD Конный драгун 
+UNITSMD\VESKKIR.MD Конный кирасир
+UNITSMD\VESKFLG.MD Кон. знаменосец
+UNITSMD\VESVOL.MD Вольтижер
+UNITSMD\VESMUS.MD Мушкетер
+UNITSMD\VESFUZ.MD Фузилер
+
+UNITSMD\SPNSAP.MD Сапер
+UNITSMD\SPNEGR.MD Егерь
+UNITSMD\SPNMUS.MD Мушкетер
+UNITSMD\SPNGRE.MD Гренадер
+UNITSMD\SPNPARNEW.MD Гарильяс
+UNITSMD\SPNKDRG.MD Конный драгун
+UNITSMD\SPNKFLG.MD Кон. знаменосец
+UNITSMD\SPNKGUS.MD Конный гусар
+UNITSMD\SPNKEGR.MD Конный газадор
+UNITSMD\SPNFLG.MD Знаменосец
+UNITSMD\SPNOF.MD Офицер
+UNITSMD\SPNBAR.MD Барабанщик
+UNITSMD\SPNKGVR.MD Конный гвардеец
+
+UNITSMD\FRNKGEN.MD.HINT {FC12}{C FFE74634}Наполеон{FS}{C FF502515}\Император Франции
+UNITSMD\FRNKGEN.MD Наполеон
+UNITSMD\SPNPUS4.MD Тяжелая Пушка
+UNITSMD\SPNPUS4L.MD Легкая Пушка
+UNITSMD\SPNPUS4G.MD Гаубица
+UNITSMD\POLPOTI.MD Понятовский
+UNITSMD\SPNKGVRM.MD Эспос-и-Мина
+UNITSMD\PUSREIN.MD Артиллерист
+UNITSMD\PUSSPN.MD Артиллерист
+UNITSMD\SPNKDRGM.MD Кастаньос
+UNITSMD\FRNKGREM.MD Маршал Ней
+UNITSMD\POLKKRAM.MD Краcинский
+UNITSMD\FRNKKARM.MD Генерал Жерар
+UNITSMD\FRNKKIRM.MD Генерал Груши
+UNITSMD\FRNKKIRM2.MD Адъютант
+UNITSMD\FRNKDRGM.MD Адъютант
+
+UNITSMD\ARTPUS4SPN.MD.HINT {FC12}{C FFE74634}Тяжелая пушка{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4LSPN.MD.HINT {FC12}{C FFE74634}Легкая пушка{FS}{C FF502515}\Артиллерия с малой дальностью стрельбы, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+UNITSMD\ARTPUS4GSPN.MD.HINT {FC12}{C FFE74634}Гаубица{FS}{C FF502515}\Дальнобойная артиллерия, стреляет ядрами и картечью, пушечные ядра наносят значительный урон вражеским войскам 
+
+UNITSMD\SPNKGUSM.MD Адъютант
+
+UNITSMD\ARTPUS4SPN.MD Тяжелая пушка
+UNITSMD\ARTPUS4LSPN.MD Легкая пушка
+UNITSMD\ARTPUS4GSPN.MD Гаубица
+
+UNITSMD\FRNKGUSM.MD Адъютант
+UNITSMD\FRNKGUSM.MD.HINT {FC12}{C FFE74634}Адъютант{FS}{C FF502515}\Адъютант генерал Груши
+
+UNITSMD\FILLIPON.MD Филлипон
+UNITSMD\FILLIPON.MD.HINT FC12}{C FFE74634}Филлипон{FS}{C FF502515}\Филлипон
+
+
+UNITSMD\BLDKRE.MD.HINT {FC12}{C FFE74634}Крепость{FS}{C FF502515}\Защитное сооружение, позволяет тренировать гвардейскую пехоту и кавалерию, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDTOW.MD.HINT {FC12}{C FFE74634}Башня{FS}{C FF502515}\Защитное сооружение, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDKRO.MD.HINT {FC12}{C FFE74634}Кронверк{FS}{C FF502515}\Защитное сооружение, позволяет тренировать пехоту, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\BLDKON.MD.HINT {FC12}{C FFE74634}Конюшни легкой кавалерии{FS}{C FF502515}\Позволяет тренировать легкую кавалерию
+UNITSMD\BLDFOR.MD.HINT {FC12}{C FFE74634}Форт{FS}{C FF502515}\Защитное сооружение, позволяет тренировать пехоту, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\EGPKRE.MD.HINT {FC12}{C FFE74634}Крепость{FS}{C FF502515}\Позволяет тренировать кавалерию и производить артиллерию, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\TURTOW.MD.HINT {FC12}{C FFE74634}Башня{FS}{C FF502515}\Оборонительное сооружение, стреляет ядрами {FC12}{C FFE74634}(Атака 1000){FS}{C FF502515}
+UNITSMD\PRUKON.MD.HINT {FC12}{C FFE74634}Конюшни легкой кавалерии{FS}{C FF502515}\Позволяет тренировать легкую кавалерию
+UNITSMD\BLDKON.MD Конюшни
+UNITSMD\PRUKON.MD Конюшни
+UNITSMD\PRUVER.MD Маяк
+
+UNITSMD\FRNKGEN.MD.HINT {FC12}{C FFE74634}Наполеон
+UNITSMD\RUSCEN.MD.HINT {FC12}{C FFE74634}Городской центр{FS}{C FF502515}\Обеспечивает жильем 120 человек, позволяет строить крестьян
+
+UNITSMD\HGU.MD Обоз
+UNITSMD\HGUDEATH.MD Обоз
+UNITSMD\HGUDEATHEG.MD Обоз
+UNITSMD\HGUDEATHRU.MD Обоз
+UNITSMD\HGUEG.MD Обоз
+UNITSMD\HGURU.MD Обоз
+
+UNITSMD\SPNPARNEW.MD.HINT {FC12}{C FFE74634}Гарильяс{FS}{C FF502515}\Низкий урон в рукопашной, очень высокая скорость тренировки, достаточно вынослив, вооружен ружьем, невозможно присоединить офицерский состав
+
+UNITSMD\POLKON.MD.HINT {FC12}{C FFE74634}Конюшни легкой кавалерии{FS}{C FF502515}\Позволяет тренировать легкую кавалерию
+UNITSMD\POLKON.MD Конюшни
+
+
+---------------------ADDON-----------------------
+
+UNITSMD\VESBLDMAN.MD Металургический завод
+UNITSMD\VESBLDMAN.MD.HINT {FC12}{C FFE74634}Металургический Завод{FS}{C FF502515}\Производит метал

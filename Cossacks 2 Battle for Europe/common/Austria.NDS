@@ -1,0 +1,483 @@
+[MEMBERS]
+ArtPus1(AU)    ArtPus1
+ArtPus2(AU)    ArtPus2
+ArtPus3(AU)    ArtPus3
+ArtPus4(AU)    ArtPus4AUS
+ArtPus4L(AU)   ArtPus4LAUS
+ArtPus4G(AU)   ArtPus4GAUS
+UnitPus(AU)    PusAus
+ArtPus(AU)    EngKri
+ArtGau(AU)    EngKri
+UnitKri(AU)   EngKri
+UnitPop(AU)   FrnPop
+UnitBar(AU)   AusBar
+UnitEgrNG(AU) AusEgr
+UnitFlg(AU)   AusFlg
+UnitFuz(AU)   AusMus
+UnitFuzNG(AU) AusLan
+UnitGre(AU)   AusGre
+UnitKEgr(AU)  AusKDrg
+UnitKDrg(AU)  AusKDrgT
+UnitKGus(AU)  AusKGus
+UnitKFlg(AU)  AusKFlg
+UnitKUln(AU)  AusKUln
+UnitKKir(AU)  AusKKir
+UnitOf(AU)    AusOf
+UnitSap(AU)   AusSap
+UnitVol(AU)   AusGrn
+BldMel(AU)    FrnMel
+BldArs(AU)    BldArs
+BldKaz(AU)    AusKaz
+BldKir(AU)    BldKir
+BldLes(AU)    BldLes
+BldMan(AU)    BldMan
+BldAka(AU)    AusAka
+BldCen(AU)    AusCen
+BldDo1(AU)    AusDo1
+BldDo2(AU)    AusDo2
+BldDvo(AU)    AusDvo
+BldHra(AU)    AusHra
+BldKuz(AU)    AusKuz
+BldSkl(AU)    AusSkl
+BldMay(AU)    AusMay
+BldKre(AU)    BldKre
+BldTow(AU)    BldTow
+BldKro(AU)    BldKro
+BldKon(AU)    BldKon
+BldKonHC(AU)  BldKonHC
+BldRudGold(AU) BldRudGln
+BldRudIron(AU) BldRudRud
+BldRudCoal(AU) BldRudSel
+BldRudSton(AU) BldRudKam
+BldRudUgl(AU)  BldRudUgl
+BldFor(AU)    BldFor
+BldBlg(AU)    BldBlg
+BldArt(AU)    BldArt
+BldRin(AU)    BldRin
+Field(AU)     Field
+Bochka(AU)    Bochka
+GuardAusGre(AU)   GuardAusGre
+GuardAusEgr(AU)   GuardAusEgr
+GuardAusKGus(AU)  GuardAusKGus
+GuardAusKKir(AU)  GuardAusKKir
+
+[FIXED_PRODUCE]
+
+BldHra(AU)     1
+UnitPop(AU)    0 1 A
+
+BldCen(AU)     1
+UnitKri(AU)    0 1 A
+
+BldKaz(AU)     9
+UnitFuzNG(AU)  0  1 A
+UnitFuz(AU)    1  1 A
+UnitVol(AU)    2  1 A
+UnitGre(AU)    3  1 A
+UnitOf(AU)     5  1 A
+UnitBar(AU)    6  1 A
+UnitFlg(AU)    7  1 A
+UnitEgrNG(AU)  0  0 A
+UnitSap(AU)    1  0 A
+
+BldKon(AU)     4
+UnitKFlg(AU)   6  0 A
+UnitKEgr(AU)   0  0 A
+UnitKUln(AU)   1  0 A
+UnitKGus(AU)   2  0 A
+
+BldKonHC(AU)   3
+UnitKDrg(AU)   0  0 A
+UnitKKir(AU)   1  0 A
+UnitKFlg(AU)   6  0 A
+
+BldArt(AU)     4
+ArtPus4L(AU)   0  1 A
+ArtPus4(AU)    1  1 A
+ArtPus4G(AU)   2  1 A
+ArtPus3(AU)    6  1 A
+
+UnitSap(AU)    6
+BldBlg(AU)     0  0 A
+BldTow(AU)     1  0 A
+BldKro(AU)     2  0 A
+BldFor(AU)     3  0 A
+BldKre(AU)     4  0 A
+Bochka(AU)     1  1 A
+
+UnitKri(AU)    15
+BldCen(AU)     0 0 A
+BldKaz(AU)     1 0 A
+BldDo1(AU)     2 0 A
+BldDo2(AU)     3 0 A
+BldKon(AU)     4 0 A
+BldArt(AU)     6 0 A
+BldTow(AU)     7 0 A
+BldBlg(AU)     7 1 A
+BldSkl(AU)     0 1 A
+BldKuz(AU)     1 1 A
+BldAka(AU)     2 1 A
+BldHra(AU)     3 1 A
+BldRin(AU)     4 1 A
+BldDvo(AU)     5 1 A
+BldKonHC(AU)     5 0 A
+
+BldMel(AU) 1
+Field(AU)  1 0 A
+
+//BldFor(AU) 4
+//UnitVol(AU)    0 0 A
+//UnitOf(AU)     2 0 A
+//UnitBar(AU)    3 0 A
+//UnitFlg(AU)    4 0 A
+
+BldKre(AU) 8
+GuardAusGre(AU)   1 1 A
+GuardAusEgr(AU)   2 1 A
+GuardAusKGus(AU)  1 0 A
+GuardAusKKir(AU)  2 0 A
+UnitKFlg(AU)      7 0 A
+UnitOf(AU)        5 1 A
+UnitBar(AU)       6 1 A
+UnitFlg(AU)       7 1 A
+
+//BldKro(AU) 4
+//UnitFuz(AU)    0 0 A
+//UnitOf(AU)     2 0 A
+//UnitBar(AU)    3 0 A
+//UnitFlg(AU)    4 0 A
+
+
+[ENABLED]
+ArtPus3(AU)
+Bochka(AU)
+UnitPop(AU)
+ArtPus4(AU)
+ArtPus4L(AU)
+ArtPus4G(AU)
+ArtPus1(AU)  
+ArtPus2(AU)  
+ArtPus3(AU)  
+ArtPus4(AU)  
+
+UnitKDrg(AU)
+UnitKKir(AU)
+UnitKFlg(AU)
+UnitKEgr(AU)
+UnitKUln(AU)
+UnitKGus(AU)
+
+ArtGau(AU)
+ArtPus(AU)
+UnitSap(AU)
+UnitBar(AU)
+UnitFlg(AU)
+UnitOf(AU)
+BldRin(AU)
+BldSkl(AU)
+BldKuz(AU)
+BldLes(AU)
+BldArs(AU)
+BldAka(AU)
+BldKaz(AU)
+BldDvo(AU)
+BldDo2(AU)
+BldHra(AU)
+BldArt(AU)
+BldBlg(AU)
+BldKon(AU)
+BldKonHC(AU)
+BldMan(AU)
+BldKir(AU)
+BldTow(AU)
+BldKro(AU)
+BldFor(AU)
+BldKre(AU)
+BldRudGold(AU)
+BldRudIron(AU)
+BldRudCoal(AU)
+BldRudSton(AU)
+BldMel(AU)
+BldCen(AU)
+BldDo1(AU)
+UnitKri(AU)
+UnitFuz(AU)    
+UnitFuzNG(AU)  
+UnitVol(AU)    
+/UnitGre(AU)    
+UnitEgrNG(AU)  
+GuardAusGre(AU)   
+GuardAusEgr(AU)   
+GuardAusKGus(AU)  
+GuardAusKKir(AU)  
+
+[UPGRADE]
+UPG01(AU) A18 #POSITION 0 0 #LEVEL 1 UPG01(AU) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldBlg(AU) +15000
+UPG02(AU) A18 #POSITION 0 1 #LEVEL 1 UPG02(AU) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldTow(AU) +15000
+UPG03(AU) A11 #POSITION 0 2 #LEVEL 1 UPG03(AU) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldTow(AU) +80
+UPG04(AU) A18 #POSITION 1 0 #LEVEL 1 UPG04(AU) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldFor(AU) +20000
+UPG05(AU) A18 #POSITION 1 1 #LEVEL 1 UPG05(AU) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldFor(AU) +15000
+UPG06(AU) A18 #POSITION 1 2 #LEVEL 1 UPG06(AU) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldKro(AU) +35000
+Bashnia(AU)PAUSE U3 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(AU) 80
+Bashnia(AU)PAUSE3 U3 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(AU) 60
+Bashnia(AU)PAUSE4 U3 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(AU) 50
+UPG07(AU) A16 #POSITION 2 0 #LEVEL 1 UPG07(AU) #COST 2 GOLD 2000 IRON 18150 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 1 BldFor(AU) +10%
+UPG08(AU) A11 #POSITION 2 1 #LEVEL 1 UPG08(AU) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldFor(AU) +80
+UPG09(AU) A11 #POSITION 2 2 #LEVEL 1 UPG09(AU) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKre(AU) +80
+UPG10(AU) A11 #POSITION 3 0 #LEVEL 1 UPG10(AU) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKre(AU) +80
+UPG11(AU) A11 #POSITION 3 1 #LEVEL 1 UPG11(AU) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKro(AU) +80
+UPG12(AU) A10 #POSITION 3 2 #LEVEL 1 UPG12(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 BldBlg(AU) BldTow(AU) -50%
+UPG13(AU) A10 #POSITION 4 0 #LEVEL 1 UPG13(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 18 BldRin(AU) BldSkl(AU) BldKuz(AU) BldLes(AU) BldAka(AU) BldKaz(AU) BldDvo(AU) BldDo2(AU) BldHra(AU) BldArt(AU) BldKon(AU) BldRudGold(AU) BldRudIron(AU) BldRudCoal(AU) BldRudSton(AU) BldMel(AU) BldCen(AU) BldDo1(AU) -75%
+UPG14(AU) A18 #POSITION 4 1 #LEVEL 1 UPG14(AU) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 18 BldRin(AU) BldSkl(AU) BldKuz(AU) BldLes(AU) BldAka(AU) BldKaz(AU) BldDvo(AU) BldDo2(AU) BldHra(AU) BldArt(AU) BldKon(AU) BldRudGold(AU) BldRudIron(AU) BldRudCoal(AU) BldRudSton(AU) BldMel(AU) BldCen(AU) BldDo1(AU) 200%
+UPG15(AU) A10 #POSITION 4 2 #LEVEL 1 UPG15(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 1 UnitSap(AU) -80%
+UPG16(AU) A19 #POSITION 5 0 #LEVEL 1 UPG16(AU) #COST 1 GOLD 900 #TIME 500
+        ENABLE UNITS UnitKFlg(AU)
+UPG17(AU) A20 #POSITION 5 1 #LEVEL 1 UPG17(AU) #COST 1 COAL 6000 #TIME 500
+        RAZBROS GRP 2 ArtPus(AU) ArtGau(AU) -35%
+UPG18(AU) A20 #POSITION 5 2 #LEVEL 1 UPG18(AU) #COST 1 COAL 6000 #TIME 500
+        RAZBROS GRP 2 ArtPus(AU) ArtGau(AU) -35%
+UPG19(AU) A16 #POSITION 6 0 #LEVEL 1 UPG19(AU) #COST 2 GOLD 2000 IRON 18150 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 6 BldKre(AU) BldTow(AU) BldKro(AU) BldFor(AU) ArtPus(AU) ArtGau(AU) +15%
+UPG20(AU) A10 #POSITION 6 1 #LEVEL 1 UPG20(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 UnitKEgr(AU) UnitKUln(AU) -50%
+UPG21(AU) A10 #POSITION 6 2 #LEVEL 1 UPG21(AU) #COST 2 GOLD 315 WOOD 190 #TIME 500
+        EFFECT_FOOD 150
+UPG22(AU) A10 #POSITION 7 0 #LEVEL 1 UPG22(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 ArtPus(AU) ArtGau(AU) -35%
+UPG23(AU) A10 #POSITION 7 1 #LEVEL 1 UPG23(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 ArtPus(AU) ArtGau(AU) -35%
+UPG24(AU) A10 #POSITION 7 2 #LEVEL 1 UPG24(AU) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 ArtPus(AU) ArtGau(AU) -35%
+KUZ02(AU) U4 #POSITION 1 0 #LEVEL 1 KUZ02(AU) #COST 2 IRON 150 GOLD 100 #TIME 2500
+        ENABLE UNITS GRP 1 UnitGre(AU)
+
+[UPGRADEPLACE]
+
+BldTow(AU) 3 
+Bashnia(AU)PAUSE
+Bashnia(AU)PAUSE3
+Bashnia(AU)PAUSE4
+
+BldKuz(AU) 1 
+KUZ02(AU)
+
+[UPGRADEENABLE]
+KUZ02(AU)
+Bashnia(AU)PAUSE
+Bashnia(AU)PAUSE3
+Bashnia(AU)PAUSE4
+
+[UPGRADELINKS]
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+
+[ACCESSCONTROL]
+UnitKDrg(AU)    1 BldKuz(AU)
+UnitKKir(AU)    2 BldKuz(AU)
+                  BldDvo(AU)
+UnitKFlg(AU)    1 BldKuz(AU)
+UnitKGus(AU)    1 BldKuz(AU)
+UnitEgrNG(AU)   1 BldAka(AU)
+BldBlg(AU)      1 BldCen(AU)
+BldKaz(AU)      1 BldCen(AU)
+BldKon(AU)      1 BldCen(AU)
+BldKonHC(AU)    1 BldKuz(AU)
+BldSkl(AU)      1 BldCen(AU)
+BldArs(AU)      1 BldKaz(AU)
+BldAka(AU)      1 BldKaz(AU)
+BldKuz(AU)      1 BldKaz(AU)
+BldDo1(AU)      1 BldSkl(AU)
+BldRin(AU)      1 BldSkl(AU)
+BldArt(AU)      1 BldCen(AU)
+BldDvo(AU)      1 BldAka(AU)
+BldDo2(AU)      1 BldDvo(AU)
+BldHra(AU)      1 BldDvo(AU)
+BldTow(AU)      1 BldAka(AU)
+BldKro(AU)      2 BldArt(AU)
+                  BldAka(AU)
+BldFor(AU)      2 BldArt(AU)
+                  BldAka(AU)
+BldKre(AU)      2 BldDvo(AU)
+                  BldArt(AU)
+BldMan(AU)      1 BldDvo(AU)
+BldKir(AU)      1 BldDvo(AU)
+BldLes(AU)      1 BldDvo(AU)
+UnitSap(AU)     1 BldAka(AU)
+UnitBar(AU)     1 BldAka(AU)
+UnitVol(AU)     1 BldKuz(AU)
+UnitGre(AU)     2 BldKuz(AU)
+                  KUZ02(AU)
+UnitOf(AU)      1 BldAka(AU)
+UnitFlg(AU)     1 BldAka(AU)
+UnitFuzNG(AU)   1 BldRin(AU)
+GuardAusEgr(AU) 2 BldAka(AU) BldDvo(AU)
+GuardAusGre(AU) 3 BldAka(AU) BldDvo(AU) KUZ02(AU)
+GuardAusKGus(AU) 2 BldAka(AU) BldDvo(AU)
+GuardAusKKir(AU) 2 BldAka(AU) BldDvo(AU)
+
+
+[UNITLOCK]
+BldBlg(AU) 3 BldBlg(AU)
+BldSkl(AU) 2 BldSkl(AU)
+BldKuz(AU) 1 BldKuz(AU)
+BldAka(AU) 1 BldAka(AU)
+BldHra(AU) 1 BldHra(AU)
+BldRin(AU) 1 BldRin(AU)
+BldDvo(AU) 1 BldDvo(AU)
+BldKre(AU) 1 BldKre(AU)
+BldFor(AU) 1 BldFor(AU)
+BldKro(AU) 1 BldKro(AU)
+BldKon(AU) 1 BldKon(AU)
+BldKonHC(AU) 1 BldKonHC(AU)
+GuardAusGre(AU)   120 GuardAusGre(AU)   
+GuardAusEgr(AU)   30 GuardAusEgr(AU)  
+GuardAusKGus(AU)  45 GuardAusKGus(AU)
+GuardAusKKir(AU)  45 GuardAusKKir(AU)
+UnitEgrNG(AU) 65 UnitEgrNG(AU)
+UnitSap(AU) 35 UnitSap(AU)
+UnitFuzNG(AU) 240 UnitFuzNG(AU)
+
+[CANSETDEST]
+BldArs(AU)
+BldKaz(AU)
+BldKir(AU)
+BldLes(AU)
+BldMan(AU)
+BldMel(AU)
+BldAka(AU)
+BldCen(AU)
+BldDo1(AU)
+BldDo2(AU)
+BldDvo(AU)
+BldHra(AU)
+BldKuz(AU)
+BldSkl(AU)
+BldMay(AU)
+BldKre(AU)
+BldTow(AU)
+BldKro(AU)
+BldKon(AU)
+BldKonHC(AU)
+BldRudGold(AU)
+BldRudIron(AU)
+BldRudCoal(AU)
+BldRudSton(AU)
+BldRudUgl(AU) 
+BldFor(AU)
+BldBlg(AU)
+BldArt(AU)
+
+[PRIVATE]
+Bashnia(AU)PAUSE
+Bashnia(AU)PAUSE3
+Bashnia(AU)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+AUSTRIA 61
+#GUARD
+GuardAusEgr(AU)
+GuardAusGre(AU)
+GuardAusKGus(AU)
+GuardAusKKir(AU)
+#UNITS
+UnitKri(AU)
+UnitBar(AU)
+UnitFlg(AU)
+UnitEgrNG(AU)
+UnitFuz(AU)
+UnitFuzNG(AU)
+UnitGre(AU)
+UnitOf(AU)
+UnitSap(AU)
+UnitVol(AU)
+UnitPop(AU)
+#LIGHTCAVALRY
+UnitKEgr(AU)
+UnitKGus(AU)
+UnitKUln(AU)
+#HEAVYCAVALRY
+UnitKDrg(AU)
+UnitKKir(AU)
+UnitKFlg(AU)
+#BUILDINGS
+BldArs(AU)
+BldKaz(AU)
+BldKir(AU)
+BldLes(AU)
+BldMan(AU)
+BldAka(AU)
+BldCen(AU)
+BldDo1(AU)
+BldDo2(AU)
+BldDvo(AU)
+BldHra(AU)
+BldKuz(AU)
+BldSkl(AU)
+BldArt(AU)
+BldKre(AU)
+BldTow(AU)
+BldKro(AU)
+BldKon(AU)
+BldKonHC(AU)
+BldFor(AU)
+BldBlg(AU)
+BldRudGold(AU)
+BldRudIron(AU)
+BldRudCoal(AU)
+BldRudSton(AU)
+BldRudUgl(AU)
+BldMay(AU)
+BldRin(AU)
+#ARTILARY
+ArtPus1(AU)
+ArtPus2(AU)  
+ArtPus3(AU)
+ArtPus4(AU)
+ArtPus4L(AU)
+ArtPus4G(AU)
+
+[OFFICERS]
+UnitOf(AU) UnitBar(AU) UnitFlg(AU)   3
+SQUARE 1 #SQUARE120   5 UnitFuzNG(AU) UnitFuz(AU) UnitGre(AU) UnitVol(AU) GuardAusGre(AU)
+LINE   1 #LINE120COS  5 UnitFuzNG(AU) UnitFuz(AU) UnitGre(AU) UnitVol(AU) GuardAusGre(AU)
+KARE   1 #KARE120COS  5 UnitFuzNG(AU) UnitFuz(AU) UnitGre(AU) UnitVol(AU) GuardAusGre(AU)
+UnitKFlg(AU) NONE    3
+SHER   1 #MOVR2COS45      7 UnitKDrg(AU) UnitKKir(AU) UnitKEgr(AU) UnitKGus(AU) UnitKUln(AU) GuardAusKGus(AU) GuardAusKKir(AU)
+PRUS   1 #PRUS45COS       7 UnitKDrg(AU) UnitKKir(AU) UnitKEgr(AU) UnitKGus(AU) UnitKUln(AU) GuardAusKGus(AU) GuardAusKKir(AU)
+TRI    1 #TRI1COS45       7 UnitKDrg(AU) UnitKKir(AU) UnitKEgr(AU) UnitKGus(AU) UnitKUln(AU) GuardAusKGus(AU) GuardAusKKir(AU)
+UnitEgrNG(AU) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitEgrNG(AU)
+UnitSap(AU) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitSap(AU)
+GuardAusEgr(AU)  NONE 1
+LINE   1 #LINE30COSEGR  1 GuardAusEgr(AU) 
+
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]

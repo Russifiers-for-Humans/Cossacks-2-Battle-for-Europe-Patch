@@ -1,0 +1,54 @@
+Morale_DamageDec           0.6
+Morale_BackDamageDec       2.0
+
+Morale_DamageDec1          0.40
+Morale_BackDamageDec1      0.40
+
+Morale_DamageDec2          0.10
+Morale_BackDamageDec2      0.30
+
+Morale_DamageDec3          0.50
+Morale_BackDamageDec3      2.00
+
+Morale_DamageDec4          -1.70
+Morale_BackDamageDec4      -1.70
+
+Morale_DamageDec5          0.25
+Morale_BackDamageDec5      1.00
+
+Morale_DamageDec6          0.01
+Morale_BackDamageDec6      5.00
+
+Morale_DamageDec7          0.10
+Morale_BackDamageDec7      0.10
+
+Morale_DamageDec8          10.00
+Morale_BackDamageDec8      10.00
+
+Morale_DamageDec9          0.0
+Morale_BackDamageDec9      0.0
+
+Morale_DamageDec10         0.0
+Morale_BackDamageDec10     0.0
+
+Morale_DecWhen30Lost       0.0
+Morale_KillDec             3.00
+Morale_FearDec             0.3
+Morale_IncTime             0.003
+MaxMorale_CenterInc        0.0
+MaxMorale_FormIncPerUnit   0.209
+MaxMorale_CenterRadius     2000
+MaxMorale_FormIncOfficer   10.0
+MaxMorale_FormIncBaraban   10.0
+MaxMorale_FormIncFlag      10.0
+MaxMorale_FormIncPerFrag   0.5
+MaxMorale_LostCriticalPercent 37
+MaxMorale_DecWhen30Lost    0.0
+
+Morale_FormationShield15   50
+Morale_FormationShield196  50
+
+Morale_MinDueToTired       35.0
+Morale_DecWhenTired        0.20
+
+MAX_PANIC_STEPS            150

@@ -1,0 +1,451 @@
+[MEMBERS]
+TempMent(EN)   SpnPar
+TempBarin(EN)  FrnBarin
+TempDama(EN)   FrnDama
+ArtPus1(EN)    ArtPus1
+ArtPus2(EN)    ArtPus2
+ArtPus3(EN)    ArtPus3
+ArtPus4(EN)    ArtPus4ENG
+ArtPus4L(EN)   ArtPus4LENG
+ArtPus4G(EN)   ArtPus4GENG
+ArtPus4R(EN)   ArtPusR
+UnitPus(EN)    PusEng
+ArtGau(EN)     EngKri
+UnitPop(EN)    FrnPop
+UnitKri(EN)    EngKri
+UnitBar(EN)    EngBar 
+UnitEgrNG(EN)  EngEgrNG
+UnitFlg(EN)    EngFlg
+UnitFuz(EN)    EngMus
+UnitFuzNG(EN)  FrnFuzNG
+UnitGre(EN)    EngGre
+UnitKDrg(EN)   EngKDrgT
+UnitKEgr(EN)   EngKDrgL
+UnitKKar(EN)   FrnKKar
+UnitOf(EN)     EngOf
+UnitSap(EN)    EngSap
+UnitVol(EN)    EngEgr
+BldArs(EN)     BldArs
+BldMan(EN)     BldMan
+BldKir(EN)     BldKir
+BldKaz(EN)     EngKaz
+BldLes(EN)     BldLes
+BldMel(EN)     FrnMel
+BldAka(EN)     EngAka
+BldCen(EN)     EngCen
+BldDo1(EN)     EngDo1
+BldDo2(EN)     EngDo2
+BldDvo(EN)     EngDvo
+BldHra(EN)     EngHra
+BldKuz(EN)     EngKuz
+BldSkl(EN)     EngSkl
+BldMay(EN)     EngVer
+BldKre(EN)     BldKre
+BldTow(EN)     BldTow
+BldKro(EN)     BldKro
+BldKon(EN)     BldKon
+BldKonHC(EN)   BldKonHC
+BldRudGold(EN) BldRudGln
+BldRudIron(EN) BldRudRud 
+BldRudCoal(EN) BldRudSel
+BldRudSton(EN) BldRudKam
+BldRudUgl(EN)  BldRudUgl
+BldFor(EN)     BldFor
+BldBlg(EN)     BldBlg
+BldArt(EN)     BldArt
+BldRin(EN)     BldRin
+UnitKUln(EN)   FrnKUln
+UnitKMam(EN)   FrnKMam
+UnitKKir(EN)   FrnKKir
+UnitKGus(EN)   EngKGus
+UnitKGre(EN)   FrnKGre
+UnitKFlg(EN)   EngKFlg
+Field(EN)      Field
+Bochka(EN)    Bochka
+Greg(NE)       misgreg
+Wilford(NE)    miswil
+Ebeneser(NE)   misebe
+Abraham(NE)    misabr
+Hemphry(NE)    mishem
+Fabricio(NE)   misfab
+Emyli(NE)      misemi
+Curtis(NE)     misker
+Fergisson(NE)  misfer
+Trinity(NE)    mistri
+Wildings(NE)   miswild
+Jons(NE)       misjon
+Flag(NE)       bldflag
+RebEngMus(NE)  RebEngMus
+ArtPus(EN)     ArtPus4ENG
+EngSklNC(NE)   EngSklNC
+GuardEngEgr(EN)   GuardEngEgr
+GuardEngEgrNG(EN) GuardEngEgrNG
+GuardEngGre(EN)   GuardEngGre
+GuardEngKDrgT(EN)  GuardEngKDrgT
+
+[FIXED_PRODUCE]
+BldHra(EN)     1
+UnitPop(EN)    0 1 A
+
+BldCen(EN)     1
+UnitKri(EN)    0 1 A
+
+BldKaz(EN)      8
+UnitFuz(EN)     1 1 A
+UnitVol(EN)     2 1 A
+UnitGre(EN)     3 1 A
+UnitOf(EN)      5 1 A
+UnitBar(EN)     6 1 A
+UnitFlg(EN)     7 1 A
+UnitEgrNG(EN)   0 0 A
+UnitSap(EN)     1 0 A
+
+BldKon(EN)     3
+UnitKEgr(EN)   0  0 A
+UnitKGus(EN)   1  0 A
+UnitKFlg(EN)   6  0 A
+
+BldKonHC(EN)   2
+UnitKDrg(EN)   0  0 A
+UnitKFlg(EN)   6  0 A
+
+BldArt(EN)     5
+ArtPus4L(EN)   0  1 A
+ArtPus4(EN)    1  1 A
+ArtPus4G(EN)   2  1 A
+ArtPus4R(EN)   3  1 A
+ArtPus3(EN)    6  1 A
+
+UnitSap(EN)    6
+BldBlg(EN)     0  0 A
+BldTow(EN)     1  0 A
+BldKro(EN)     2  0 A
+BldFor(EN)     3  0 A
+BldKre(EN)     4  0 A
+Bochka(EN)     1  1 A
+
+
+UnitKri(EN)    16
+BldCen(EN)     0 0 A
+BldKaz(EN)     1 0 A
+BldDo1(EN)     2 0 A
+BldDo2(EN)     3 0 A
+BldKon(EN)     4 0 A
+BldArt(EN)     6 0 A
+BldKir(EN)     6 1 A
+BldTow(EN)     7 0 A
+BldSkl(EN)     0 1 A
+BldRin(EN)     4 1 A
+BldAka(EN)     2 1 A
+BldDvo(EN)     5 1 A
+BldHra(EN)     3 1 A
+BldBlg(EN)     7 1 A
+BldKuz(EN)     1 1 A
+BldKonHC(EN)   5 0 A
+
+BldMel(EN) 1
+Field(EN)  1 0 A
+
+//BldFor(EN)     4
+//UnitVol(EN)    0 0 A
+//UnitOf(EN)     2 0 A
+//UnitBar(EN)    3 0 A
+//UnitFlg(EN)    4 0 A
+
+BldKre(EN)         8 
+GuardEngEgr(EN)    1 1 A
+GuardEngEgrNG(EN)  3 1 A
+GuardEngGre(EN)    2 1 A
+GuardEngKDrgT(EN)  1 0 A
+UnitKFlg(EN)       7 0 A
+UnitOf(EN)         5 1 A
+UnitBar(EN)        6 1 A
+UnitFlg(EN)        7 1 A
+
+//BldKro(EN)     4
+//UnitFuz(EN)    0 0 A
+//UnitOf(EN)     2 0 A
+//UnitBar(EN)    3 0 A
+//UnitFlg(EN)    4 0 A
+
+[ENABLED]
+UnitPop(EN)
+ArtPus3(EN)
+ArtPus4(EN)
+ArtPus4L(EN)
+ArtPus4G(EN)
+ArtPus4R(EN)
+Bochka(EN)
+BldKir(EN)
+UnitKDrg(EN)
+UnitKKir(EN)
+UnitKGre(EN)
+UnitKKar(EN)
+UnitKFlg(EN)
+UnitKEgr(EN)
+UnitKUln(EN)
+UnitKGus(EN)
+UnitKMam(EN)
+ArtPus4(EN)
+UnitSap(EN)
+UnitBar(EN)
+UnitFlg(EN)
+UnitOf(EN)
+BldRin(EN)
+BldSkl(EN)
+BldKuz(EN)
+BldLes(EN)
+BldAka(EN)
+BldKaz(EN)
+BldDvo(EN)
+BldDo2(EN)
+BldHra(EN)
+BldArt(EN)
+BldBlg(EN)
+BldKon(EN)
+BldKonHC(EN)
+BldTow(EN)
+BldKro(EN)
+BldFor(EN)
+BldKre(EN)
+BldRudGold(EN)
+BldRudIron(EN)
+BldRudCoal(EN)
+BldRudSton(EN)
+BldMel(EN)
+BldCen(EN)
+BldDo1(EN)
+UnitKri(EN)
+UnitFuz(EN)    
+UnitFuzNG(EN)  
+UnitVol(EN)    
+/UnitGre(EN)    
+UnitEgrNG(EN)  
+GuardEngEgr(EN)   
+GuardEngEgrNG(EN) 
+GuardEngGre(EN)   
+GuardEngKDrgT(EN)  
+
+[UPGRADE]
+UNIQ01(EN) U7 #POSITION 6 0 #LEVEL 1 UNIQ01(EN) #COST 2 GOLD 2000 IRON 3000 #TIME 500
+        BUILD GRP 1 UnitKri(EN) -50%
+UPG01(EN) A18 #POSITION 0 0 #LEVEL 1 UPG01(EN) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldBlg(EN) +15000
+UPG02(EN) A18 #POSITION 0 1 #LEVEL 1 UPG02(EN) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldTow(EN) +15000
+UPG03(EN) A11 #POSITION 0 2 #LEVEL 1 UPG03(EN) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldTow(EN) +80
+UPG04(EN) A18 #POSITION 1 0 #LEVEL 1 UPG04(EN) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldFor(EN) +20000
+UPG05(EN) A18 #POSITION 1 1 #LEVEL 1 UPG05(EN) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldFor(EN) +15000
+UPG06(EN) A18 #POSITION 1 2 #LEVEL 1 UPG06(EN) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 1 BldKro(EN) +35000
+Bashnia(EN)PAUSE U3 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(EN) 80
+Bashnia(EN)PAUSE3 U3 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(EN) 60
+Bashnia(EN)PAUSE4 U3 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(EN) 50
+UPG07(EN) A16 #POSITION 2 0 #LEVEL 1 UPG07(EN) #COST 2 GOLD 2000 IRON 18150 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 1 BldFor(EN) +10%
+UPG08(EN) A11 #POSITION 2 1 #LEVEL 1 UPG08(EN) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldFor(EN) +80
+UPG09(EN) A11 #POSITION 2 2 #LEVEL 1 UPG09(EN) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKre(EN) +80
+UPG10(EN) A11 #POSITION 3 0 #LEVEL 1 UPG10(EN) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKre(EN) +80
+UPG11(EN) A11 #POSITION 3 1 #LEVEL 1 UPG11(EN) #COST 1  STONE 12500 #TIME 500
+        SHIELD GRP 1 BldKro(EN) +80
+UPG12(EN) A10 #POSITION 3 2 #LEVEL 1 UPG12(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 BldBlg(EN) BldTow(EN) -50%
+UPG13(EN) A10 #POSITION 4 0 #LEVEL 1 UPG13(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 18 BldRin(EN) BldSkl(EN) BldKuz(EN) BldLes(EN) BldAka(EN) BldKaz(EN) BldDvo(EN) BldDo2(EN) BldHra(EN) BldArt(EN) BldKon(EN) BldRudGold(EN) BldRudIron(EN) BldRudCoal(EN) BldRudSton(EN) BldMel(EN) BldCen(EN) BldDo1(EN) -75%
+UPG14(EN) A18 #POSITION 4 1 #LEVEL 1 UPG14(EN) #COST 2 GOLD 999 IRON 9999 #TIME 500
+        LIFE GRP 18 BldRin(EN) BldSkl(EN) BldKuz(EN) BldLes(EN) BldAka(EN) BldKaz(EN) BldDvo(EN) BldDo2(EN) BldHra(EN) BldArt(EN) BldKon(EN) BldRudGold(EN) BldRudIron(EN) BldRudCoal(EN) BldRudSton(EN) BldMel(EN) BldCen(EN) BldDo1(EN) 200%
+UPG15(EN) A10 #POSITION 4 2 #LEVEL 1 UPG15(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 1 UnitSap(EN) -80%
+UPG16(EN) A19 #POSITION 5 0 #LEVEL 1 UPG16(EN) #COST 1 GOLD 900 #TIME 500
+        ENABLE UNITS UnitKFlg(EN)
+UPG17(EN) A20 #POSITION 5 1 #LEVEL 1 UPG17(EN) #COST 1 COAL 6000 #TIME 500
+        RAZBROS GRP 2 UnitGre(EN) UnitGre(EN) -35%
+UPG18(EN) A20 #POSITION 5 2 #LEVEL 1 UPG18(EN) #COST 1 COAL 6000 #TIME 500
+        RAZBROS GRP 2 UnitGre(EN) UnitGre(EN) -35%
+UPG19(EN) A16 #POSITION 6 0 #LEVEL 1 UPG19(EN) #COST 2 GOLD 2000 IRON 18150 #TIME 500
+        ATTRANGE ATTINDEX 0 GRP 6 BldKre(EN) BldTow(EN) BldKro(EN) BldFor(EN) UnitGre(EN) UnitGre(EN) +15%
+UPG20(EN) A10 #POSITION 6 1 #LEVEL 1 UPG20(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 UnitKEgr(EN) UnitKUln(EN) -50%
+UPG21(EN) A10 #POSITION 6 2 #LEVEL 1 UPG21(EN) #COST 2 GOLD 315 WOOD 190 #TIME 500
+        EFFECT_FOOD 150
+UPG22(EN) A10 #POSITION 7 0 #LEVEL 1 UPG22(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 UnitGre(EN) UnitGre(EN) -35%
+UPG23(EN) A10 #POSITION 7 1 #LEVEL 1 UPG23(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 UnitGre(EN) UnitGre(EN) -35%
+UPG24(EN) A10 #POSITION 7 2 #LEVEL 1 UPG24(EN) #COST 1 WOOD 9000 #TIME 500
+        BUILD GRP 2 UnitGre(EN) UnitGre(EN) -35%
+KUZ02(EN) U4 #POSITION 1 0 #LEVEL 1 KUZ02(AU) #COST 2 IRON 500 GOLD 500 #TIME 2800
+        ENABLE UNITS GRP 1 UnitGre(EN)
+UPGUNIQ00(EN) U5 #POSITION 2 0 #LEVEL 1 UPGUNIQ00(EN) #COST 2 GOLD 1000 IRON 1000 #TIME 1000
+        DAMAGE WEAPONKIND MECH UnitFuz(EN) +2
+KUZ03(EN) U5 #POSITION 2 0 #LEVEL 1 KUZ03(EN) #COST 2 GOLD 0 IRON 0 #TIME 0
+        BUILD GRP 1 UnitFuz(EN) +50%
+KUZ04(EN) U5 #POSITION 2 0 #LEVEL 1 KUZ04(EN) #COST 2 GOLD 0 IRON 0 #TIME 0
+	COST GRP 1 UnitFuz(EN) GRP 1 IRON -20%
+[UPGRADEPLACE]
+
+BldDvo(EN) 1
+UNIQ01(EN)
+
+BldKuz(EN) 2
+KUZ02(EN)
+UPGUNIQ00(EN)
+
+BldTow(EN) 3 
+Bashnia(EN)PAUSE
+Bashnia(EN)PAUSE3
+Bashnia(EN)PAUSE4
+
+[UPGRADEENABLE]
+KUZ02(EN)
+UNIQ01(EN)
+Bashnia(EN)PAUSE
+Bashnia(EN)PAUSE3
+Bashnia(EN)PAUSE4
+KUZ03(EN)
+UPGUNIQ00(EN)
+KUZ04(EN)
+
+[UPGRADELINKS]
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+UPGUNIQ00(EN) 2 KUZ03(EN)
+                KUZ04(EN)
+[ACCESSCONTROL]
+UnitKDrg(EN)    2 BldKuz(EN)
+                  BldDvo(EN)
+UnitKGus(EN)    1 BldKuz(EN)
+UnitKFlg(EN)    1 BldKuz(EN)
+Bochka(EN)      1 BldArt(EN)
+BldKaz(EN)      1 BldCen(EN)
+BldSkl(EN)      1 BldCen(EN)
+BldRin(EN)      1 BldCen(EN)
+BldDo1(EN)      1 BldCen(EN)
+BldKon(EN)      1 BldSkl(EN)
+BldKonHC(EN)    1 BldKuz(EN)
+BldAka(EN)      2 BldKaz(EN)
+                  BldSkl(EN)
+BldHra(EN)      2 BldCen(EN)
+                  BldDvo(EN)
+BldTow(EN)      1 BldAka(EN)
+BldKro(EN)      2 BldArt(EN)
+                  BldAka(EN)
+BldFor(EN)      2 BldArt(EN)
+                  BldAka(EN)
+BldKre(EN)      2 BldDvo(EN)
+                  BldArt(EN)
+BldDo2(EN)      1 BldDvo(EN)
+BldDvo(EN)      1 BldAka(EN)
+BldKir(EN)      1 BldAka(EN)
+BldArt(EN)      1 BldAka(EN)
+BldMan(EN)      1 BldAka(EN)
+BldArs(EN)      1 BldArt(EN)
+BldKuz(EN)      1 BldKaz(EN)
+UnitVol(EN)     1 BldKuz(EN)
+UnitGre(EN)     2 BldKuz(EN)
+                  KUZ02(EN)
+UnitEgrNG(EN)   1 BldAka(EN)
+UnitSap(EN)     1 BldKir(EN)
+UnitOf(EN)      1 BldAka(EN)
+UnitKFlg(EN)    1 BldAka(EN)
+UnitKDrg(EN)    1 BldAka(EN)
+UnitBar(EN)     1 BldDvo(EN)
+UnitFlg(EN)     1 BldDvo(EN)
+GuardEngEgr(EN)   2 BldAka(EN) BldDvo(EN)
+GuardEngEgrNG(EN) 2 BldAka(EN) BldDvo(EN)
+GuardEngGre(EN)   3 BldAka(EN) BldDvo(EN) KUZ02(EN)
+GuardEngKDrgT(EN) 2 BldAka(EN) BldDvo(EN)  
+
+[UNITLOCK]
+BldBlg(EN) 3 BldBlg(EN)
+BldSkl(EN) 2 BldSkl(EN)
+BldKuz(EN) 1 BldKuz(EN)
+BldAka(EN) 1 BldAka(EN)
+BldHra(EN) 1 BldHra(EN)
+BldRin(EN) 1 BldRin(EN)
+BldDvo(EN) 1 BldDvo(EN)
+BldKre(EN) 1 BldKre(EN)
+BldFor(EN) 1 BldFor(EN)
+BldKro(EN) 1 BldKro(EN)
+BldKon(EN) 1 BldKon(EN)
+BldKonHC(EN) 1 BldKonHC(EN)
+GuardEngEgr(EN)   120  GuardEngEgr(EN)
+GuardEngEgrNG(EN) 30   GuardEngEgrNG(EN)
+GuardEngGre(EN)   120  GuardEngGre(EN)
+GuardEngKDrgT(EN) 45   GuardEngKDrgT(EN)
+UnitEgrNG(EN) 65 UnitEgrNG(EN)
+UnitSap(EN) 35 UnitSap(EN)
+
+[CANSETDEST]
+BldKaz(EN)
+BldLes(EN)
+BldMel(EN)
+BldAka(EN)
+BldCen(EN)
+BldDo1(EN)
+BldDo2(EN)
+BldDvo(EN)
+BldHra(EN)
+BldKuz(EN)
+BldSkl(EN)
+BldMay(EN)
+BldKre(EN)
+BldTow(EN)
+BldKro(EN)
+BldKon(EN)
+BldKonHC(EN)
+BldRudGold(EN)
+BldRudIron(EN) 
+BldRudCoal(EN)
+BldRudSton(EN)
+BldRudUgl(EN)
+BldFor(EN)
+BldBlg(EN)
+BldArt(EN)
+
+[PRIVATE]
+Bashnia(EN)PAUSE
+Bashnia(EN)PAUSE3
+Bashnia(EN)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+ENGLAND 0
+
+[OFFICERS]
+UnitOf(EN) UnitBar(EN) UnitFlg(EN)   3
+SQUARE 1 #SQUARE120   5 UnitFuz(EN) UnitGre(EN) UnitVol(EN) GuardEngEgr(EN) GuardEngGre(EN)
+LINE   1 #LINE120COS  5 UnitFuz(EN) UnitGre(EN) UnitVol(EN) GuardEngEgr(EN) GuardEngGre(EN)
+KARE   1 #KARE120COS  5 UnitFuz(EN) UnitGre(EN) UnitVol(EN) GuardEngEgr(EN) GuardEngGre(EN)
+UnitKFlg(EN) NONE    3
+SHER   1 #MOVR2COS45    9 UnitKDrg(EN) UnitKKir(EN) UnitKGre(EN) UnitKKar(EN) UnitKEgr(EN) UnitKGus(EN) UnitKUln(EN) UnitKMam(EN) GuardEngKDrgT(EN)
+PRUS   1 #PRUS45COS     9 UnitKDrg(EN) UnitKKir(EN) UnitKGre(EN) UnitKKar(EN) UnitKEgr(EN) UnitKGus(EN) UnitKUln(EN) UnitKMam(EN) GuardEngKDrgT(EN)
+TRI    1 #TRI1COS45     9 UnitKDrg(EN) UnitKKir(EN) UnitKGre(EN) UnitKKar(EN) UnitKEgr(EN) UnitKGus(EN) UnitKUln(EN) UnitKMam(EN) GuardEngKDrgT(EN)
+TempMent(EN) NONE 1
+LINE   1 #LINE60MENTCOS  2 TempMent(EN) RebEngMus(NE)  
+UnitEgrNG(EN) NONE 1
+LINE   1 #LINE15COSEGR  1 UnitEgrNG(EN)
+UnitSap(EN) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitSap(EN)
+GuardEngEgrNG(EN)  NONE 1
+LINE   1 #LINE30COSEGR  1 GuardEngEgrNG(EN) 
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]
+
