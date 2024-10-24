@@ -1,0 +1,17 @@
+#CUR_PROFILE: Current Profile:
+#Tab_Skirmish Skirmish
+#Tab_Battles Battles
+#SingleBattle_Start Start
+#MAP_DESCRIPTION MAP DESCRIPTION
+#SINGLE_MISSION SKIRMISH-BATTLES ROOM
+#SELECT_SCENARIO GAME ROOM
+#Skirmish_List_Hint Select skirmish
+#Battles_List_Hint Select battle
+#SingleBattle_Start_Hint Press to start
+#Back_SingleBattle_Hint Back to single player menu
+#Load_InGame_Title LOAD GAME
+#LoadAccept Load
+#Save_InGame_Title SAVE GAME
+#SaveAccept Save
+#Help_InGame_Title HELP
+#Help_InGame_Close Close

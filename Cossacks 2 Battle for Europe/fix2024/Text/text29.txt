@@ -1,0 +1,11 @@
+NEUTRAL Neutrals
+ANIMALS Animals
+SHIPS Ships
+SOUND Sound
+
+INFANTRY Infantry
+CAVALRY Cavalry
+ARTILERY Artillery
+BUILDINGS Buildings
+
+FORMATION Formation

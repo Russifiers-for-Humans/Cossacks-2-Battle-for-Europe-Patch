@@ -1,0 +1,92 @@
+MMSINGLE Single Player Mode\Click here to play against the computer on a random map\or to play a single mission or a campaign.
+MMMULTI Multiplayer Mode\Click here to play against 1-6 opponents via a network.
+MMLOAD Click here to load a saved game.
+MMOPTIONS Click here to adjust game settings.
+MMVIDEO Click here to enter the Map & Mission Editor
+MMEXIT Click here to exit the game.
+SCOMPAGIN Click here to play a campaign.
+SMISSION Click here to play a single mission.
+SRANDOM Click here to play against the computer on a random or designed map.
+SHISTORICAL Click here to play a historical battle.
+SBACK Back to the menu.
+MDEATHM Click here to play a network game.
+MHISTBATT Click here to play a historical battle via a network.
+MBACK Back to the menu.
+SOSTART Click here to start a single player game.
+SOCANCEL Back to the menu.
+SOPAGES Click on DESIGNED MAP to select a previously designed map.\Click on RANDOM MAP to adjust the settings for the Random Map Generator.
+SOMAPSTYLE Landscape Type: LAND - firm ground with a few small ponds. \MEDITERRANEAN - a large sea surrounded by land.\PENINSULA - peninsulas surrounded by a vast expanse of water. \ISLAND - isolated land surrounded by the sea. \CONTINENTS - large continents divided by sea. \CONTINENT - a large region of land bordered by the sea.
+SOMOUNT Nature of Ground: PLAIN - a flat plain with a few hills. \LOW MOUNTAINS - a landscape with a few low mountains. \HIGH MOUNTAINS -  a landscape with several high mountains. \HIGHLANDS - highlands with numerous low mountains. \PLATEAUS: a landscape with plateaus.
+SORESONMAP Minerals: LEAN - the map lacks resources (players fight for deposits).\MEDIUM - normal amount of resources (deposits are strategically important).\RICH - the map is rich in resources (no worrying about deposits).
+SORESTOT Initial Resources: NORMAL - normal amount of initial resources (development starts immediately).\RICH - large amount of initial resources (fast development).\THOUSANDS - enormous amount of initial resources (quick start).
+SOCHANGENAME Click here to change your name.
+SOCHANGECOMP Click here to toggle computer opponent on and off.
+MOREADY Click here when you are ready to play the network game.
+MOSTART Click here to start the network game.
+MOCANCEL Back to the menu.
+MOCHANGENAME Click here to change the player's name.
+MMCHANGECOLOR Click here to change the nation's color.
+MMCHANGENAT Click here to change the nation the player will control.
+MOPAGES Click on DESIGNED MAP to select a previously designed map.\Click on RANDOM MAP to adjust the settings for the Random Map Generator.\Click on SAVED GAME to select and resume a saved network game.
+DIFFICULTY Here you can select one of four difficulty levels.
+OLDVER Game version outdated, cannot connect. For updates please see www.americanconquest.com
+??? Random
+
+--------------------- Addon --------------------------
+
+
+#C1M1 Марш на Брюссель
+
+#C1M1Des
+
+#C1M2 Битва при Линьи
+
+#C1M2Des
+
+#C1M3 Битва при Вавре
+
+#C1M3Des
+
+#C1M4 Бой при Кватр-Бра
+
+#C1M4Des
+
+#C1M5 Осада Угумона
+
+#C1M5Des
+
+#C1M6 Последний бой
+
+#C1M6Des
+
+
+#C2M1 Вторжение Австрийцев
+#C2M1Des
+#C2M2 Битва при Абенсберге
+#C2M2Des
+#C2M3 Сражение при Экмюлле  
+#C2M3Des
+#C2M4 Битва при Регенсбурге
+#C2M4Des
+
+
+#C3M1 Осада Бадахоса 
+#C3M1Des
+#C3M2 Рейд «герильяс» по Наварре 
+#C3M2Des
+#C3M3 Дело при Байлене
+#C3M3Des
+#C3M4 Прорыв французской блокады
+#C3M4Des
+
+
+#C4M1 Первые бои
+#C4M1Des 
+#C4M2 Поход на русских	
+#C4M2Des 
+#C4M3 Понятовский и «Бородино» 
+#C4M3Des 
+#C4M4 Лейпциг и последний бой
+#C4M4Des 
+
+

@@ -1,0 +1,141 @@
+AI AI
+PLAYER Player
+#CannonUnLink_Hint Unhitch cannon
+#neResourceForProduce You don't have enough resources to produce %s
+#EW2_PeasantAutoWork Automatic labor search for idle peasants mode on/off
+#EW2_PeasantSelectIdle Select all idle peasants
+#EW2_KickMessage Host has kicked you from the room
+#EW2_KickButtonHint
+#EW2_KickMessageTitle INFORMATION
+UNITSMD\RUSTER.MD.HINT {FC12}{C FFE74634}Towerroom{FS}{C FF502515}\ - Allows you to train Drummers, and adds 120 living spaces
+UNITSMD\ARTPUS4AUS.MD Heavy Cannon
+UNITSMD\ARTPUS4ENG.MD Heavy Cannon
+UNITSMD\ARTPUS4PRU.MD Heavy Cannon
+UNITSMD\ARTPUS4GAUS.MD Howitzer
+UNITSMD\ARTPUS4GENG.MD Howitzer
+UNITSMD\ARTPUS4GPRU.MD Howitzer
+UNITSMD\ARTPUS4LAUS.MD Light Cannon
+UNITSMD\ARTPUS4LENG.MD Light Cannon
+UNITSMD\ARTPUS4LPRU.MD Light Cannon
+UNITSMD\ARTPUS4AUS.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\- long range artillery, shoots cannonballs and case shot, cannonballs pierce enemy formations and kill everybody in their way.
+UNITSMD\ARTPUS4ENG.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\- long range artillery, shoots cannonballs and case shot, cannonballs pierce enemy formations and kill everybody in their way.
+UNITSMD\ARTPUS4PRU.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\- long range artillery, shoots cannonballs and case shot, cannonballs pierce enemy formations and kill everybody in their way.
+UNITSMD\ARTPUS4GAUS.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\- long range artillery, shoots bombs with a flat trajectory and inflict much damage.
+UNITSMD\ARTPUS4GENG.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\- long range artillery, shoots bombs with a flat trajectory and inflict much damage.
+UNITSMD\ARTPUS4GPRU.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\- long range artillery, shoots bombs with a flat trajectory and inflict much damage.
+UNITSMD\ARTPUS4LAUS.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - short range artillery, shoots cannonballs and case shot, cannonballs pierce enemy formations and kill everybody in their way.
+UNITSMD\ARTPUS4LENG.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - short range artillery, shoots cannonballs and case shot, cannonballs pierce enemy formations and kill everybody in their way.
+UNITSMD\ARTPUS4LPRU.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - short range artillery, shoots cannonballs and case shot, cannonballs pierce enemy formations and kill everybody in their way.
+UNITSMD\PRUKKIR.MD.HINT {FC12}{C FFE74634}Mounted Cuirassier{FS}{C FF502515}\ - high melee damage, pistols (double-shot), effectively demoralizes enemy in melee.
+UNITSMD\ENGEGRNG.MD.HINT {FC12}{C FFE74634}Rifles{FS}{C FF502515}\ - fast soldier, weak in hand-to-hand combat, good shot, good for killing enemy officers, heavy coal consumption when shooting.
+#EW2_LeaveBattle Postpone battle
+
+#GSR_Total Total
+#GSR_OnUpgrade Upgrades
+#GSR_OnMines Mines
+#GSR_OnUnits Units
+#GSR_OnBuildings Structures
+#GSR_OnLife Maintain
+#GSR_Buy Buying
+#GSR_Sell Selling
+
+#GSR_Total_hint Amount of total gathered resources
+#GSR_OnUpgrade_hint Amount of resources spent on upgrades
+#GSR_OnMines_hint For Mines
+#GSR_OnUnits_hint Amount of resources spent on units' training
+#GSR_OnBuildings_hint Amount of resources spent on the construction of buildings
+#GSR_OnLife_hint Amount of resources spent on the upkeep of units and buildings
+#GSR_Buy_hint Amount of bought resources
+#GSR_Sell_hint Amount of sold resources
+
+UNITSMD\AUSGRE.MD.HINT {FC12}{C FFE74634}Grenadier{FS}{C FF502515}\ - average in hand-to-hand combat, can explode buildings with grenades, fast grenade recharging, highly resistant to fatigue, fast training speed.
+#MaxSquads You have reached the maximum number of squads your commander can lead. In order to increase the number of squads, you must get your commander promoted via successful combat operations.
+#GetTribe0 Having searched through the storehouses of the captured village, soldiers discovered resources: {CR}%d{C} %s.
+#Miss miss
+
+WZR_H0 Cossacks II Internet Wizard
+CANJOIN3 Think you're a real Cossacks II professional? Join this game to beat them all!
+#ALTTABDEFEAT You have been defeated, because the Cossacks II multiplayer game has been inactive for more than 10 seconds.
+OLDVER Game version outdated, cannot connect. For updates please see www.Cossacks2.com
+
+UNITSMD\FRNPOP.MD.HINT {FC12}{C FFE74634}Priest{FS}{C FF502515}\ - heals soldiers and increases the troops' morale.
+UNITSMD\TURPOP.MD.HINT {FC12}{C FFE74634}Mullah{FS}{C FF502515}\ - heals soldiers and increases the troops' morale.
+UNITSMD\RUSPOP.MD.HINT {FC12}{C FFE74634}Priest{FS}{C FF502515}\ - heals soldiers and increases the troops' morale
+
+#PM_Difficulty Diff
+
+ESC Escape
+ENTER Enter
+SPACE Space
+BACK Backspace
+PAUSE Pause
+
+#G_TranspB Turn on/off the transparency mode.
+#G_ImpassB Show/hide places, where the land units can't move.
+#G_HealthModeB Turn on/off floating damage values.
+#G_MiniMapB Change the minimap mode (standard, minimized, hidden).
+#G_LModeB Turn on/off the bird's-eye view mode (move the camera off the ground).
+#SECRETREAT Your resources are too low to continue the battle. You can retreat and lose the battle but save your troops. Choose "Withdraw troops" from the GAME MENU {C FF60A05A}(F12){C FF502515}.
+#SEC_FOODRETREAT Your food stock is too low to continue the battle. You can retreat and lose the battle but save your troops. Choose "Withdraw troops" from the GAME MENU {C FF60A05A}(F12){C FF502515}.
+#SEC_COALRETREAT Your coal supply is too low to continue the battle. You can retreat and lose the battle but save your troops. Choose "Withdraw troops" from the GAME MENU {C FF60A05A}(F12){C FF502515}.
+#PreviewMap_hint Click and drag to move map.
+#UPDEFLOWP Upgrades is not available because the population levels in the sector are too low. The population of the sector will be increased on your next turn.
+#UPDEFMAX The upgrade is not available. Maximum defense level has been reached.
+
+#SABSECDONE   All kinds of sabotage have been successfully undertaken in the sector. Sabotage will be available at the next turn
+
+#mis_06_Komo Mills
+
+UNITSMD\ARTPUS4E.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\ - Long ranged artillery, shots cannonballs and case shot, kernels bore into enemy formation and exterminate everybody on their way
+UNITSMD\ARTPUS4GE.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\ - Long ranged artillery, shots kernels, that inflict high damage, on lofted trajectory
+UNITSMD\ARTPUS4LE.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - Short ranged artillery, shots cannonballs and case shot, kernels bore into the enemy formation and exterminate everybody on their way
+
+UNITSMD\EGPMAN.MD.HINT {FC12}{C FFE74634}Market{FS}{C FF502515}\ - Resources trade
+
+
+UNITSMD\SPNPAR.MD.HINT {FC12}{C FFE74634}Policeman{FS}{C FF502515}\ - Guard of settlement, whose squad defends the village from raids of a small number of enemy troops. In case of squad loss of the defending squad, the settlement goes under the foe's control.
+UNITSMD\ENGSKLNC.MD Storehouse
+UNITSMD\ENGKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - Allows to train Voltigers and Sappers and after upgrade - Grenadiers
+UNITSMD\PRUKUZ.MD.HINT {FC12}{C FFE74634}Blacksmith{FS}{C FF502515}\ - Allows to train Voltigers and Sappers and after upgrade - Grenadiers
+UNITSMD\ENGKUZ.MD Blacksmith
+UNITSMD\PRUKUZ.MD Blacksmith
+UNITSMD\PRUHRA.MD.HINT {FC12}{C FFE74634}Temple{FS}{C FF502515}\Allows to build Priests
+UNITSMD\PRUHRA.MD Temple
+
+UNITSMD\ARTPUS4R.MD.HINT {FC12}{C FFE74634}Heavy Cannon{FS}{C FF502515}\ - Long ranged artillery, shots cannonballs and case shot, kernels bore into enemy formation and exterminate everybody on their way
+UNITSMD\ARTPUS4GR.MD.HINT {FC12}{C FFE74634}Howitzer{FS}{C FF502515}\ - Long ranged artillery, shots kernels, that inflict high damage, on lofted trajectory
+UNITSMD\ARTPUS4LR.MD.HINT {FC12}{C FFE74634}Light Cannon{FS}{C FF502515}\ - Short ranged artillery, shots cannonballs and case shot, kernels bore into the enemy formation and exterminate everybody on their way
+
+#CHINT_MaxExpLevel	MAX. Experience.
+#CWM_UpgradeDef	Upgrade sector's defense level\ (%s)?
+
+#CWM_Diversion0	Poison the wells in the village. (%s of gold; %d%%)
+#CWM_Diversion1	Destroy strategic warehouses. (%s of gold; %d%%)
+#CWM_Diversion2	Blow up garrison's barracks. (%s of gold; %d%%)
+#CWM_Diversion3	Raise a rebellion. (%s of gold; %d%%)
+
+#CPT_MeleeDMG	{C FF502515}\Melee:{C FF640100}
+
+#CHINT_HeroMove0	{CR}The Commander can't make a move.{C}
+#CHINT_HeroMove1	{CG}The Commander can make a move.{C}
+
+#CWM_MarketInfo0	{FC12}{C FF6D6862}According to the information received from the merchants:{F}
+#CWM_MarketInfo1	{C FF640100}%s{C} has problems with resources:\-{C FF8F0909}%s{C}\{IBMP_markdel}\
+
+#CWT_Stats_Winner	{CG}Winner:  {C}
+#CWT_Stats_Loser	{C FF000000}Defeated:  {C}
+
+#Cannonautoshot Toggle autofire on/off
+//#MM_Options_ShowHint_Hint Show hints
+//#AddProfile_Nation Nation:
+NetralSettlementName Neutral
+
+#GAMEMENU GAME MENU
+
+#Life Life:
+#LivingPlaces Living places:
+#Progress Progress:
+#Turns Turns
+#SP_Stop Stop
+#Cannon_Stop_Hint Stop
+Build Build

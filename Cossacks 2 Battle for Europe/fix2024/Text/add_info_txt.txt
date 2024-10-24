@@ -1,0 +1,13 @@
+STORM_I_HINT This parameter determines a unit's ability to assault a building. The higher the value of the parameter, the better the ability.
+STORM_I Storm force: %d
+OPPOSIT_I_HINT The defense parameter determines the strength of the defense a building can put up when there are units inside it. The higher the value of this parameter, the more difficult it is to capture the building. This value increases depending on the amount of units inside.
+OPPOSIT_I Defense: %d - %d
+DIP_HDR Diplomacy
+Diplomacy Diplomacy
+ED_PENRADIUS Brush Radius
+ED_PENBRIGHTNESS Brush Brightness
+ED_GR_RADIUS Radius
+ED_GR_WIDTH Brush Edge Width
+ED_GR_BRIGHT Brush Brightness
+ED_EDITGROUND Edit ground texture.
+ED_PAINT Edit picture layer.

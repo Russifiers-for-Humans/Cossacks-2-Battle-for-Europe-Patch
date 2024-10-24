@@ -1,0 +1,180 @@
+SHOW_DIPLOMACY Show/Hide diplomacy information. (I)
+$SBLD_INC01_HELLO Do you want to trade?
+$SBLD_INC01_RESELL If you support us, we will support you. Our price is: %s. Are you prepared to pay?
+$YESTXT$ Yes
+$NOTXT$ No
+$CONTXT$ Show Contacts
+$LETMETHINK$ Hmm... Let me think...
+$WECAN$ We are prepared to help you with your war, for money.
+
+$SBLD_INC01_PP1 Please wait while your scouts are trained...
+$SBLD_INC01_PP2 Please wait while your saboteurs are trained...
+$SBLD_INC01_PP3 Please wait, your warriors will be ready soon...
+$SBLD_INC01_PP4 Please wait, your assault group will be ready soon...
+$SBLD_INC01_PP5 Please wait, your peasant killer group will be ready soon...
+$SBLD_INC01_PP6 Please wait.
+$SBLD_INC01_PP7 Please wait, your peasant guerilla soldiers will be ready soon...
+
+$SBLD_ACT_P1 $G gold - scouts
+$SBLD_ACT_P2 $G gold - saboteurs
+$SBLD_ACT_P3 $G gold - soldiers
+$SBLD_ACT_P4 $G gold - assault group
+$SBLD_ACT_P5 $G gold - peasant killers
+$SBLD_ACT_P6 $G gold - 1,000 units of iron and coal
+$SBLD_ACT_P7 $G gold - guerilla soldiers
+
+$SBLD_AZT_P1 $G gold - scouts
+$SBLD_AZT_P2 $G gold - saboteurs
+$SBLD_AZT_P3 $G gold - mercenaries
+$SBLD_AZT_P4 $G gold - assault group
+$SBLD_AZT_P5 $G gold - peasant killers
+$SBLD_AZT_P6 $G gold - 1,000 units of iron and coal
+$SBLD_AZT_P7 $G gold - guerilla soldiers
+
+$SBLD_DEL_P1 $G gold - scouts
+$SBLD_DEL_P2 $G gold - saboteurs
+$SBLD_DEL_P3 $G gold - mercenaries
+$SBLD_DEL_P4 $G gold - assault group
+$SBLD_DEL_P5 $G gold - peasant killers
+$SBLD_DEL_P6 $G gold - 1,000 units of iron and coal
+$SBLD_DEL_P7 $G gold - guerilla soldiers
+
+$SBLD_HUR_P1 $G gold - scouts
+$SBLD_HUR_P2 $G gold - saboteurs
+$SBLD_HUR_P3 $G gold - mercenaries
+$SBLD_HUR_P4 $G gold - assault group
+$SBLD_HUR_P5 $G gold - peasant killers
+$SBLD_HUR_P6 $G gold - 1,000 units of iron and coal
+$SBLD_HUR_P7 $G gold - guerilla soldiers
+
+$SBLD_INC_P1 $G gold - scouts
+$SBLD_INC_P2 $G gold - saboteurs
+$SBLD_INC_P3 $G gold - mercenaries
+$SBLD_INC_P4 $G gold - assault group
+$SBLD_INC_P5 $G gold - peasant killers
+$SBLD_INC_P6 $G gold - 1,000 units of iron and coal
+$SBLD_INC_P7 $G gold - guerilla soldiers
+
+$SBLD_IRO_P1 $G gold - scouts
+$SBLD_IRO_P2 $G gold - saboteurs
+$SBLD_IRO_P3 $G gold - mercenaries
+$SBLD_IRO_P4 $G gold - assault group
+$SBLD_IRO_P5 $G gold - peasant killers
+$SBLD_IRO_P6 $G gold - 1,000 units of iron and coal
+$SBLD_IRO_P7 $G gold - guerilla soldiers
+
+$SBLD_MAY_P1 $G gold - scouts
+$SBLD_MAY_P2 $G gold - saboteurs
+$SBLD_MAY_P3 $G gold - mercenaries
+$SBLD_MAY_P4 $G gold - assault group
+$SBLD_MAY_P5 $G gold - peasant killers
+$SBLD_MAY_P6 $G gold - 1,000 units of iron and coal
+$SBLD_MAY_P7 $G gold - guerilla soldiers
+
+$SBLD_PUE_P1 $G gold - scouts
+$SBLD_PUE_P2 $G gold - saboteurs
+$SBLD_PUE_P3 $G gold - mercenaries
+$SBLD_PUE_P4 $G gold - assault group
+$SBLD_PUE_P5 $G gold - peasant killers
+$SBLD_PUE_P6 $G gold - 1,000 units of iron and coal
+$SBLD_PUE_P7 $G gold - guerilla soldiers
+
+$SBLD_SIU_P1 $G gold - scouts
+$SBLD_SIU_P2 $G gold - saboteurs
+$SBLD_SIU_P3 $G gold - mercenaries
+$SBLD_SIU_P4 $G gold - assault group
+$SBLD_SIU_P5 $G gold - peasant killers
+$SBLD_SIU_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SIU_P7 $G gold - guerilla soldiers
+
+$SBLD_SHU_P1 $G gold - scouts
+$SBLD_SHU_P2 $G gold - saboteurs
+$SBLD_SHU_P3 $G gold - mercenaries
+$SBLD_SHU_P4 $G gold - assault group
+$SBLD_SHU_P5 $G gold - peasant killers
+$SBLD_SHU_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SHU_P7 $G gold - guerilla soldiers
+
+$SBLD_SHR_P1 $G gold - scouts
+$SBLD_SHR_P2 $G gold - saboteurs
+$SBLD_SHR_P3 $G gold - mercenaries
+$SBLD_SHR_P4 $G gold - assault group
+$SBLD_SHR_P5 $G gold - peasant killers
+$SBLD_SHR_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SHR_P7 $G gold - guerilla soldiers
+
+$SBLD_SDE_P1 $G gold - scouts
+$SBLD_SDE_P2 $G gold - saboteurs
+$SBLD_SDE_P3 $G gold - mercenaries
+$SBLD_SDE_P4 $G gold - assault group
+$SBLD_SDE_P5 $G gold - peasant killers
+$SBLD_SDE_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SDE_P7 $G gold - guerilla soldiers
+
+$SBLD_SDW_P1 $G gold - scouts
+$SBLD_SDW_P2 $G gold - saboteurs
+$SBLD_SDW_P3 $G gold - mercenaries
+$SBLD_SDW_P4 $G gold - assault group
+$SBLD_SDW_P5 $G gold - peasant killers
+$SBLD_SDW_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SDW_P7 $G gold - guerilla soldiers
+
+$SBLD_SIR_P1 $G gold - scouts
+$SBLD_SIR_P2 $G gold - saboteurs
+$SBLD_SIR_P3 $G gold - mercenaries
+$SBLD_SIR_P4 $G gold - assault group
+$SBLD_SIR_P5 $G gold - peasant killers
+$SBLD_SIR_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SIR_P7 $G gold - guerilla soldiers
+
+$SBLD_SIO_P1 $G gold - scouts
+$SBLD_SIO_P2 $G gold - saboteurs
+$SBLD_SIO_P3 $G gold - mercenaries
+$SBLD_SIO_P4 $G gold - assault group
+$SBLD_SIO_P5 $G gold - peasant killers
+$SBLD_SIO_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SIO_P7 $G gold - guerilla soldiers
+             
+$SBLD_SSI_P1 $G gold - scouts
+$SBLD_SSI_P2 $G gold - saboteurs
+$SBLD_SSI_P3 $G gold - mercenaries
+$SBLD_SSI_P4 $G gold - assault group
+$SBLD_SSI_P5 $G gold - peasant killers
+$SBLD_SSI_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SSI_P7 $G gold - guerilla soldiers
+
+$SBLD_SSO_P1 $G gold - scouts
+$SBLD_SSO_P2 $G gold - saboteurs
+$SBLD_SSO_P3 $G gold - mercenaries
+$SBLD_SSO_P4 $G gold - assault group
+$SBLD_SSO_P5 $G gold - peasant killers
+$SBLD_SSO_P6 $G gold - 1,000 units of iron and coal
+$SBLD_SSO_P7 $G gold - guerilla soldiers
+
+$TRIBELIST$ List of Allies
+$SBLD_INC01_NAME0 Huitzilihuitl
+$SBLD_INC01_NAME1 Chimalpopoca
+$SBLD_INC01_NAME2 Itzcoatl
+$SBLD_INC01_NAME3 Lloke Yukpanki
+$SBLD_INC01_NAME4 Tupac Yupanqui
+$SBLD_INC01_NAME5 Pachakuti
+$SBLD_INC01_NAME6 Sinchi
+$SBLD_INC01_NAME7 Chucky Huipa
+$SBLD_INC01_NAME8 Lloke Yukpanki
+$SBLD_INC01_NAME9 Ah Xupan Xiu
+
+$SBLD_SIN01_NAME0 Cheeseekau
+$SBLD_SIN01_NAME1 Tenkswatawa
+$SBLD_SIN01_NAME2 Lalawethika
+$SBLD_SIN01_NAME3 Mattauppa
+$SBLD_SIN01_NAME4 Powhatan
+$SBLD_SIN01_NAME5 Kintpuash
+$SBLD_SIN01_NAME6 Mishe-Mokwa
+$SBLD_SIN01_NAME7 Pau-Wau 
+$SBLD_SIN01_NAME8 Tecumseh
+$SBLD_SIN01_NAME9 Agichita
+
+$NOMONEY$ My friend, we will do nothing without money.
+$GOBACK$ << Back
+$TELLNO By refusing to cooperate with us, you only harm yourself.
+$DIPREBEL We will not negotiate with you. If you want to talk to us, you can send a priest.

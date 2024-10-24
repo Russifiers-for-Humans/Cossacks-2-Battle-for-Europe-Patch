@@ -1,0 +1,5 @@
+CANT_CHECK[%s] You have no access to the clan server. It is impossible to check whether you are a member of the [%s] clan. Use the "Internet game set up" program to check your HTTP protocol settings. You can adjust the needed settings by launching the Internet Explorer, menu Tools->Internet Options->Connections->LAN Settings. Should this not help, please contact the leader of your clan. He should send us a registration request to support@gsc-game.kiev.ua.
+NO_CLAN_MEMBER_[%s] You are not a member of [%s] clan.
+#F12LOCK F12 is locked for %ds
+#ALTTABDEFEAT You have been defeated, because the American Conquest multiplayer game has been inactive for more than 10 seconds.
+#LOOKOPT You cannot look at the menu for more than 15-20 seconds at a time. You can look at the menu again after 3 minutes.

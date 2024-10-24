@@ -1,0 +1,69 @@
+WAR_RUN Select this battle.
+WAR_CANCEL Go to the previous menu.
+BTL_RUN Play this battle.
+BTL_CANCEL Go to the previous menu.
+BTN_General General
+BTN_Descr Description
+BTN_Upgr Unit Upgrades
+BTN_Next Next
+BTN_Prev Previous
+BTN_PriceUpg Price & Upgrades
+UI_Price Price:
+UI_Upkeep Upkeep:
+UI_UGold Gold (peasants in mines/1,000): %d
+UI_UIron Iron (per shot): %d
+UI_UCoal Coal (per shot): %d
+UI_UStone Stone (per 100 blocks): %d
+UI_UWood Wood (per 100 blocks): %d
+UI_STAGE Building time: %d
+UI_AttUpg Attack Upgrades
+UI_ShlUpg Shield Upgrades
+UI_Cost Cost:
+UI_CostTo Cost of upgrade to this level:\
+UI_AttTo Attack at this level:
+UI_ShlTo Defense at this level:
+UI_ATT0 Sword Attack
+UI_ATT1 Arrow Attack
+UI_ATT2 Pike Attack
+UI_ATT3 Cannonball Damage
+UI_ATT4 Fire Power
+UI_ATT5 Grapeshot Damage
+UI_ATT6 Mortar Projectile
+UI_ATT7 Healing
+UI_SHL0 Protection against swords
+UI_SHL1 Protection against arrows
+UI_SHL2 Protection against pikes
+UI_SHL3 Protection against cannonballs
+UI_SHL4 Protection against bullets
+UI_SHL5 Protection against grapeshot
+UI_SHL6 Protection against mortar projectiles
+UI_SATT0 Initial sword attack
+UI_SATT1 Initial arrow attack
+UI_SATT2 Initial pike attack
+UI_SATT3 Initial cannonball damage
+UI_SATT4 Initial fire power
+UI_SATT5 Initial grapeshot damage
+UI_SATT6 Initial mortar projectile damage
+UI_SATT7 Initial healing
+UI_SSHL0 Initial protection against swords
+UI_SSHL1 Initial protection against arrows
+UI_SSHL2 Initial protection against pikes
+UI_SSHL3 Initial protection against cannonballs
+UI_SSHL4 Initial protection against bullets
+UI_SSHL5 Initial protection against grapeshot
+UI_SSHL6 Initial protection against mortar projectiles
+UI_ACCNT Cost: %.2f
+UI_ACHINT Build units to gain points. Losing a unit means twice as many points are deducted from your score. Your opponent gains three times as many points.
+UI_ACHCAP If your unit is captured, you lose five times its value in points. Your opponent gains the same quantity.
+UI_CAPT Unit can be captured.
+UI_BCAP Building can be captured.
+UI_HEAL Unit can be healed in the academy.
+ST_MAX Statistics: Population and Upgrades
+UM_MENU Game Menu (F12)
+UM_INF1 Show unit information. (U)
+UM_INF2 Hide unit information. (U)
+UM_INF3 Show game information. (I)
+UM_INF4 Hide game information. (I)
+UM_MINI Toggle mini-map modes. (M)
+UM_HIST Message History
+UM_NORT Don't rate this game.

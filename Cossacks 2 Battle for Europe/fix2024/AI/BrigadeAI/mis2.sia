@@ -1,0 +1,40 @@
+#PEHOTASTRELKI UnitEgrNG(EN) GuardEngEgrNG(EN) UnitFuz(FR) UnitFuzNG(FR) UnitVol(FR) UnitGre(FR) GuardFrnGre(FR) UnitSap(FR) UnitGre(PR) UnitVol(PR) UnitFuz(PR) GuardPruMus(PR) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitSap(PR) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitVol(EN) GuardEngEgr(EN) UnitFuz(EN) UnitGre(EN) GuardEngGre(EN) UnitOf(EN) UnitBar(EN) UnitFlg(EN) UnitSap(EN) UnitFuzNG(AU) UnitFuz(AU) UnitVol(AU) UnitGre(AU) GuardAusGre(AU) UnitOf(AU) UnitBar(AU) UnitFlg(AU) UnitSap(AU) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitSap(PR) UnitFuz(RU) GuardRusMus(RU) UnitGre(RU) UnitOf(RU) UnitBar(RU) UnitFlg(RU) UnitSap(RU) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) TempMent(FR) TempMent(NE)
+if GetFireReady > 80 St_EnableFire = 0 DistToMT < 500
+do EnableFire 50
+if St_EnableFire = 1 GetFireReady < 2
+do DisableFire 37
+
+if GetTired < 10 St_LineFormation = 1 GetStandTime < 1 DistToMT > 400 DistToMT < 1200
+do Stop 30
+if GetLastCommTime > 15 AngToMT > 18 St_LineFormation = 1 GetFireReady > 80 St_EnableFire = 0 GetTired > 15 DistToMT > 400 DistToMT < 600
+do TurnToMT 31
+if GetLastCommTime > 15 AngToMT > 36 St_LineFormation = 1 GetFireReady < 81 St_EnableFire = 0 GetTired > 15 DistToMT > 400 DistToMT < 600
+do TurnToMT 32
+if GetStandTime > 0 St_LineFormation = 1 St_ReadyToFire = 1 GetFireReady > 80 St_Attack = 0 GetTired > 60 DistToMT > 700 DistToMT < 1200
+do AttackMT 33
+if GetStandTime > 0 St_LineFormation = 1 St_ReadyToFire = 1 GetFireReady > 80 St_Attack = 0 GetTired > 30 DistToMT < 700
+do AttackMT 34
+if GetLastCommTime > 0 St_LineFormation = 1 St_ReadyToFire = 1 GetFireReady < 20 St_Attack = 0 GetTired > 30 DistToMT < 1200
+do AttackMT 135
+if GetLastCommTime > 1 St_LineFormation = 1 St_ReadyToFire = 1 GetFireReady < 20 DistToMT < 450
+do MeleeAttack 36
+
+if GetLastCommTime > 15 St_March = 0 GetFireReady > 80 St_EnableFire = 0 GetTired > 80 DistToAim > 200 DistToMT > 1400 DistToMT < 1800 AngToMT > 36
+do TurnToMT 53
+if GetLastCommTime > 15 St_March = 1 GetFireReady > 80 St_EnableFire = 0 GetTired > 80 DistToAim > 200 DistToMT < 600 AngToMT > 36
+do TurnToMT 54
+if GetLastCommTime > 1 St_March = 0 GetFireReady > 80 St_EnableFire = 0 GetTired > 80 DistToAim > 200 DistToMT > 1200
+do MoveToAim 29
+
+if GetLastCommTime > 0 St_LineFormation = 0 DistToMT < 800
+do FormateToLine 54
+if GetLastCommTime > 0 St_SquareFormation = 0 St_March = 1 DistToMT > 1200
+do FormateToSquare 51
+if GetLastCommTime > 0 St_LineFormation = 1 St_ReadyToFire = 0 DistToMT < 1200
+do SetReadyToFire 100
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits < 5
+do SetNotReadyToFire 10
+
+/if GetFireReady < 2 GetStandTime < 1
+/do Stop 101
+#

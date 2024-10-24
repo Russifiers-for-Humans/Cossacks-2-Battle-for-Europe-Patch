@@ -1,0 +1,156 @@
+NetralSettlementName Netral
+#TownHalls Centers
+#TL_Zones Zones
+#TL_Brigades Troops
+#TL_Food Food
+#DestroyTownHallsF1 Help (default) for all skirmishes
+/#CaptureZonesDestroyBrigadesF1 Help (default) for all battles
+#CaptureZonesDestroyBrigadesF1 {AC}The things that you need to know. \{A}Left Click- Selecting \Right Click- Action \ \ To make units move in attack mode, select a unit and press the"{CG}A{C}" button. Then "right-click" on the the desired destination. \ \ Troops have a {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_0}fatigue parameter{R}{C}. When {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_0}fatigue{R}{C} goes down to zero the troop {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_4}morale{R}{C} starts to fall. \ When {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_0}fatigue{R}{C} morale goes down to zero {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_4}starts to fall{R}{C}. The loss of {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_4}morale{R}{C} can be fatal for troops. Even minor shooting can make them flee. \ \ \Formation control. Formation has two {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_16}attack buttons{R}{C}, hand-to-hand combat and shoot mode. To launch bayonet attacks press the {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_9}bayonet icon{R}{C}. To make soldiers use guns press the {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_5}gun icon{R}{C}.
+#Battle0_F1 {AC}The things that you need to know. \{A}Left Click- Selection \Right Click- Action \ \ To make units move in attack mode select them and press the "{CG}A{C}" button. Then "right click" on the desired destination. \ \ Troops have a {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_0}fatigue parameter{R}{C}. When {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_0a} fatigue {R}{C} goes down to zero the {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_4} morale {R}{C} starts to fall. \ The loss of {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_4a} morale {R}{C} can be fatal for troops. Even minor shooting can make them flee. \ \ \Formation control. Formation has two {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_16}attack buttons{R}{C}, hand-to-hand combat and shooting mode. To launch bayonet attack press the {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_9}bayonet icon{R}{C} . To make soldiers use guns press {C FF0000FF}{R FFFF0000 $HINT #TUT_HINT_5}gun icon{R}{C} \{AC} Have a Good Game!
+
+#CannonFire Attack Ground
+
+#CannonReload_0_Hint Load with cannonball
+#CannonReload_1_Hint Load with case shot
+
+#Formations Army
+#Active Active
+#Killed Killed
+#Lost Lost
+
+#Resources Economy
+#Peasants Peasants
+#Spended Spent
+
+#KickPlayer Kick
+#SettlHint A packhorse delivers resources to the player. \It leaves the settlement when it has accrued enough resources.\(If there is an enemy nearby the settlement the packhorse stays where it is.) \Destroy militia formation and put your formation close to village center to capture it. \Resources: %s: %d/%d
+
+#CannonFillUnits_Hint Fill up cannon crew
+
+#AttVictory You have captured the sector.\ VICTORY
+
+#Peasant Workers
+
+#MR_COLOR_HINT Select color
+
+#CANNONAUTOSHOT Auto-fire
+
+#DefVictory Victory! You successfully held the territory.
+#DestroyTownDef Defeat! You have lost all your town centers.
+
+#Limit: Limit
+#Limit Limit
+
+#LAN_RoomsList Player Name:
+#NewPlayerName Player
+#Empty Empty
+#MR_Computer_hint Select level of difficulty
+#MR_Race_hint Select nation
+#MR_Color_hint Select color
+
+----------------- ADDON -------------------
+#Back_CampSelect_Hint Back to the campaign menu
+#Start_LoadCamp_Hint Load campaign mission
+#LoadCampMission Load Game
+
+
+#Select_Mission Select mission
+#Saves_List_Hint Select saved game/replay
+#ESRB_Message Before starting internet game try "Tutorial" missions in campaign menu, that will help you to get acquainted with the controls, principles and specifics of the gameplay
+#ESRB_Back_Hint Back to Main Menu
+#ESRB_Start_Hint Start Internet Game
+#MM_Options_Animation_Hint Animation
+#CannonChargePercent Gun charge percent
+#MO_AutoSaveMode Autosave
+#AutoSaveMode0 Off
+#AutoSaveMode1 Each 10 minutes
+#AutoSaveMode2 Each 20 minutes
+#AutoSaveMode3 Each 30 minutes
+#MO_AutoSave_hint Set autosave frequency
+
+#CampFrance The Hundred Days Campaign (France)
+#CampReign The Road To Vienna! (Rhine)
+#CampPoland The Honor Of The Polish Crown (Poland)
+#CampSpain The Question Of Iberia (Spain)
+#MM_CampaignList_hint Campaign list
+#MM_CampaignList_Accept_hint Begin campaign
+#MM_Missions_Close_hint Back
+#MM_CampMiss_Start_hint Start mission
+#MM_CampMiss_Back_hint Back to campaigns list
+
+#Miss1 March at Brussels
+#Miss2 Battle at Ligny
+#Miss3 Battle of Wavre
+#Miss4 Battle of Quatre Bras
+#Miss5 Battle of Waterloo: Hougoumont castle
+#Miss6 The Last Battle
+
+#MissReign1 Austrian Invasion
+#MissReign2 Battle at Abensberg
+#MissReign3 Battle at Eckmuhl 
+#MissReign4 Battle at Regensburg
+
+#MissSpain1 Capturing Badajoz 
+#MissSpain2 Guerrilla raid across Navarre
+#MissSpain3 Bailen case
+#MissSpain4 Breaching the French blockade
+
+#MissPoland1 Repel Austrians
+#MissPoland2 March on Russians
+#MissPoland3 Raid
+#MissPoland4 The last battle
+
+#Miss7 Austrian invasion
+#Miss8 Battle at Abensberg
+#Miss9 Battle at Eckmuhl 
+#Miss10 Battle at Regensburg
+
+#Miss11 Capturing Badajoz 
+#Miss12 Guerrilla raid across Navarre
+#Miss13 Bailen case
+#Miss14 Breaching the French blockade
+
+#Miss15 Repel Austrians
+#Miss16 March on Russians
+#Miss17 Raid
+#Miss18 The last battle
+
+#Tutorial Tutorial
+
+
+
+#MissDesc01 Paris has once again opened its doors for Napoleon, although it will be several days before the Coalition speaks out against the Emporer. A new alliance, including Austria, Great Britain, Prussia, and Russia, could quickly put nearly a million men under arms, while France suffers a shortage of everything, including recruits, horses, gear, and ammunition. Napoleon and his staff work tirelessly to remedy this, and by May 1815 the French are able to field 280,000 men. Before the Coalition can gather their forces, Napoleon decides to act. A force of 110,000 under the Duke of Wellington is quartered near Brussels, and a 117,000-man army Prussian Field Marshal Blucher is nearby. Napoleon decides to cut between these armies and defeat each in detail. In strict secrecy, 120,000 men of the French Northern Army assemble close to the Belgian border. The enemy does not know that Napoleon is massing close by; Napoleon realizes this, and knows he must strike now. Wellington and Blucher are worthy opponents, and delaying an attack will make it harder on the French.
+
+#MissDesc02 It seems that the foe has understood at last what was happening, although it hasn't still made him less reckless indeed. Emperor firstly came to a decision that his soldiers met the numerical Prussian rearguard, but no. Now Napoleon can't cover his astonishment and joy: it appears that an old warrior von Blucher is so frantic that he wishes to give the decisive battle with his own forces only. The line of the Prussian defense near the villages of Saint-Amant and Ligny, situated in a highly unfavorable area and being not protected from flanking attacks, is being hastily reinforced with troops and artillery. Currently there are about 66 thousand of infantry, 8 thousand of cavalry and 224 cannons marshaled; besides von Bulow's 31 thousand corps is expected to arrive. Thus a perfect opportunity befalls to eliminate the major part of von Bulow's army before field-marshal, having realized his blunder, tries to draw his soldiers back to join forces with the Englishmen. French troops move up to the starting points, although this time deplorable mistakes of staff officers somewhat delay their movement. Emperor, what's in his way, had personally carried out a reconnaissance and elaborated a plan of the forthcoming battle. If everything comes to pass as expected, two-thirds of the Prussian army will be downrightly destroyed yet today, on the 16th of June, 1815. Duke Wellington is left nothing but to hurriedly retreat under a threat of as much crushing defeat. "In three hours the fate of the campaign will be resolved", - such was Napoleon's opinion.
+
+#MissDesc03 Exhausted with the battle and what is more being vigilant of the nighttime attacks of fresh enemy forces, Emperor hence didn't give an order to chase the fleeing Prussians. Napoleon didn't realize that he misses a perfect possibility to do away not only with the Prussian army, but with its untiring commander: the day before field-marshal von Blucher, who personally led reckless cavalry attack counter-attack, was wounded, barely survived and in some time became unable to command. However the enemy, though having suffered a defeat, wasn't planning to lay down arms. The staff commander of the Prussian army count Neithardt von Gneisenau, having taken the command upon himself, decides to gather the remains of the troops near the town of Wavre. He uses every single minute of sudden respites to break away from the French and prepare the forces for a new battle, and - at the urgent request of field-marshal - move to support Wellington. In the early morning of June 17th, 1815 Bonaparte makes a decision to send the troops under command of marshal Groachy on the disappeared enemy. Pedantic commander attempts to execute an order literarily, that why his forces chase the Prussians very slowly: they approach Wavre only by the next day, when the battle near Waterloo was at its height. Soon general Vandamme, having heard the distant cannonade and willing to break through to help comrades, without an order raises one of divisions to storm well-fortified Prussian positions. 
+
+#MissDesc04 Having concentrated on routing the army of Prussian field-marshal von Blucher at Ligny, Napoleon within the next two days was inclined to consider Britain-Dutch army to be worthless. A 10 thousand French division marched out along the way to Brussels - rather a small force, which should have secured the success of dividing two enemy armies though. It seemed that Emperor could manage to humbug Wellington - that one gave an order to relocate his front line aside of the enemy's movement path. But the reputation of “The Iron Duke” was saved by noncompliance of his subordinates with this order. Even on the 15th of June the commander of prince Onanje on his own risk and allowed count Perponcher move out one of the brigades along the same road. Soon, when it became obvious that French are marching at Brussels, the road stirred up with 7,5-thousand detachment with 16 guns. Considerable reinforcements approached each of the sides. The village of Quatre-Bras (<Four hands>) - several houses, situated on the crossroads from Charleroi to Brussels and from Namur to Nivelles, - on the 16th of June, 1815 becomes a witness of battle between French soldiers under marshal Ney and Anglo-Dutch allies, who at first were commanded by prince Oranje, and later by duke Wellington who arrived at the positions by three hours in the afternoon. In the shreds of gunpowder smoke flying above the fields, another bloody skirmish in this headlong campaign takes place.
+
+#MissDesc05 A counter-offensive undertaken by the marshal Ney's troops against the allied forces come to a nought. The French seemed to have slumbered - their camp in full view to the enemy was puffing off smoke of thousands bonfires and the soldiers were cooking dinner, intending no new attacks. Duke Wellington decided to fortify his positions on the plateau at Mont St. Jean and, having agreed his plans with field-marshal von Blucher, began to withdraw his army there. The emperor alarmed by the silent cannons rushed astraddle to Quatre-Bras and saw his plans nearly foiled. "France has perished, reported he to general d'Erlon. Lead the cavalry and pursue the rear guard at full speed!" But all the efforts were in vain: rain came down in torrents and hid Englishmen. On the night of June 18, 1815 a Napoleon 72-thousand-strong army faces the 68 thousand duke Wellington's troops, positioned on the ridges on the way to Brussels. The emperor is determined to win the day and waits until the sodden ground is dry. The British commander however has stationed his troops more than wise: ridgeline shields them against enemy eye and fire of superior in number French artillery. In a couple of hours the farms of Hougomont and La Haye Sainte have been turned into real forts making it possible to enfilade the nearby territory. Meanwhile two Prussian corps advance to help the duke, the French completely unaware. Both sides are resolute. The battle cannot but begin.
+
+#MissDesc06 Battle lost. An order to attack was issued at two o'clock in the afternoon; the infantry armed with bayonets closed its columns and began the assault of Mont St. Jean to wining grapeshot and drumbeat. And so, at about eight o'clock in the evening, as the battle had reached its climax, when Hougomont and La Haye Sainte were occupied at the cost of many lives, when the tricolour banners with eagles on staffs fluttered at the ridge, when forty squadrons of Ney's cavalry rushed forward trying to find a breach in enemy ranks and crushing its batteries while the British infantry fired point-back salvos at the French lines, when both parties engaged their last reserves, two Prussian corps emerged from the east unexpectedly and stroke at the right flank of Bonaparte's soldiers. French infantrymen run away pursued by the English cavalry, whose broadswords and sables flashed over their heads. Marshal Ney brandishes his broken sword amidst this chaos - his face grew black with powder smoke - but nobody listens to his orders any longer. Retreat of the guard however is well organized. Three battalions led by the emperor himself formed a square bristled with bayonets and marching in step cut into enemy formation like a knife. If the emperor cannot avert a flight, he will try to cover it. For another one hour the guardians will stubbornly thrust back the foe from the Plancenoit village holding the road leading their comrades away from death at the cost of their lives.
+
+#MissDesc07 Austria, having suffered a disgraceful defeat at Austerlitz, was craving for revenge. At the court of Franz I Habsburger, the party of activists for the new war, which was originally intended to wash down the humiliation of Pressburg peace, grew stronger. And such a possibility was very probable as Napoleon didn't seem to be completely invincible: his troops in Spain have suffered a destructive defeat at Bailen. By the spring of 1809 the Corsican himself was staying beyond the Pyreness and among 200 thousand of his soldiers, located at the German lands, French made up slightly more than one third. Striving for not letting the appropriate moment go, prince Metternich and count Stadion have convinced the emperor Franz to declare a war, although some segment of statesmen yet supported more prudent and consistent actions. But everything has been determined once and for all. Having advised the French representative with a note on April 9th, 1809, Austrians commence with the military operations in the early morning. The columns of soldiers in the white uniforms get over the river of Inn and invade the bounds of Bavaria. The aim of the Austrian army under the command of arch-duke Karl is to deal a blow on the French forces in the region of Regensburg; the devastation of the latter according to Vienna court's convictions will immediately lead to outburst of uprisings against the outlandish invaders. In any case, how can the Austrians be opposed by Germans, who speak the same language? However, yet the first skirmishes demonstrate the fallaciousness of such a conclusion.
+
+#MissDesc08 Having hastily returned from the Spain at the first news about the Austrian invasion, Napoleon launched a feverish activity. His aim is to put not less than 260 thousand soldiers under the arms, at that 100 thousands of those must be provided by the states of the Confederation of the Rhine. Danubian plains were assigned to be the central seat of war once again. The white uniforms, as it was in 1805, are slow, however their morale is immeasurably higher than previously. By the 15th of April 200 thousand soldiers and 500 guns under arch-duke Karl are concentrated between Vienna and Prague; Austrians' success bodes the immediate and direct assault on Wurzburg or Regensburg with the operational center of the Great German French army to be situated there. However even earlier Hofkriegsrat have made a decision to make an assault on the North-West along the Danube: this is the way to evade the enemy break-through to the lines of the communications. Yet before the crossing over Isar fell into the hands of Austrians after the battle at Landshut, the king of Bavaria flees from Munich in terror. The assault keeps on and here are the houses of Abensberg to stand at the left flank of Karl's army. The Danube is at a stone's throw, Franken, Upper Bavaria and Bohemia lie beyond; but on the 20th of April the army of marshal Morand and divisional general Gudin joins up with Lefebvre's forces. Now it's unclear, who'll take the upper hand.
+
+#MissDesc09 Austrians have suffered a defeat under Abensberg and were thrown back, having lost 13 thousand men. Napoleon treated this victory with an excessive optimism: he considered two corps of arch-duke Karl army to be obliterated and the others demoralized. However, the Emperor was tempered to know only in a day that the main enemy forces turned out to be concentrated not there. The laconic report from a reserved marshal Davout told that there was a whole army in front and the foe, to all appearances, was going to attack him from the flanks; the report ended in words “Hope I can hold my positions”. In some time a new dispatch told that Austrians are not going to pull back, and that's no wonder: there were not less than 75 thousands of approximately twice less number of French soldiers and allies. Karl was calmly amassing his army into a single mass, bringing up his forces and covering the communications. A 20 thousand-strong corps of marshal Vandamme, which now includes quite a lot of Wurgemberg infantry, receives an order to cover the right flank of French positions. More 40 thousand moved after it, headed personally by Napoleon: emperor was ready to finish off the enemy army during the 22nd of April 1815 - or, in the worst case, on the next day. In three thirty post meridiem Davout gives an order to start offensive, and the French along with their German allies pounce upon the enemy.
+
+#MissDesc10 The fortress of Ratisbon was seized by the Austrian forces on the 20th of April. For Napoleon this fact was equal to a slap in the face: the enemy, having captured the undestroyed crossing over the Danube, obtained an opportunity to escape to the North any time, to Bohemia, and the Emperor wasn't capable to prevent this. Though this maneuver opened a road to Vienna for Bonaparte, but that couldn't influence on the French Emperor's nasty mood. The army of arch-duke Karl was by no means crushed, although have lost many: killed, wounded or captivated each fourth of its soldiers. After the battle at Eckmuhl, Karl indeed makes a decision to draw his forces back to the Northern bank of the Danube. Lingering means putting up with the inevitable rout during one-two days. The battle ardor of the white uniforms haven't yet went out: the Austrians are hastily leaving through the bridges of Ratisbon, but the 10-thousand-strong garrison, left in Regensburg, having understood the hopelessness of the situation, still prefers death to the captivity. The date of the 23rd of April, 1815 will always remain in the memory of the French and German soldiers: le Petit Tondu (that was Napoleon's jokingly nickname) was wounded that day, and many of their friends will stay near the walls of Regensburg forever.
+
+#MissDesc11 The Great Duchy of Warsaw was a small state and rather dependant. At first Napoleon planned to reach an agreement with Thaddeus Kosciusko - leader of revolt against the Russian Empire and a national hero of Poland - who was residing in Paris then. The latter, however, proved to be a willful person and was very well aware of the Napoleon's real objectives. He agreed to return to policy under a condition of non-interference with the affaires of his native Poland. The emperor waxed indignant but found a way out very soon. Having crowned one of his allies - King of Saxony Frederick Augustus - he granted him a suzerain right of Polish vassals. Nonetheless, the post of Minister of War in the young state was still hold by a Pole, whose popularity among common people could be compared with those of legendary Kosciusko. Prince Jozef Antoni Poniatowski, a nephew of the last king of the Polish-Lithuanian Commonwealth Stanislaw August, choosing a military career went to Austria and in ten years was promoted from the rank of carabineer lieutenant to the aide-de-camp of the Emperor Joseph II. Notwithstanding brilliant prospects he leaves his service and returns to his Fatherland that went through hard times. During the revolt of 1794 Poniatowski is in command of a division, in two years he demits the rank of Russian lieutenant-general and in 1806 joins Napoleon. Today he will have to measure swords with his experienced teachers - the Austrians, who advance Warsaw.
+
+#MissDesc12 That spring of 1809 the Austrian troops advanced the Polish lands more successfully than they did in Lower Bavaria and Italy. And although Warsaw was destined to fall, they paid a high price for this. At first Poniatowski, who took command over the duchy army, defeated the enemy forces in the battle of Raszyn in April 19, 1809 followed by success in the battles of Grohov, Radzymin, Gora and glorious entrance into Galicia. Having conquered Lublin, Sandomierz, Zamostie and Lviv the Polish soldiers, so-called “?o?nierz”, entered Krakow on July 15 and the Austrians had to retreat. The lands of West Galicia expanded the boundaries of the Duchy of Warsaw what allowed to increase its forces up to 60 thousand men who in three years would join the V corps of the Great Army invading Russia. A severe battle with Russians at Krasnoe village on August 1 (13), holds back the Napoleon army on its way: when the old walls of Smolensk come in view, it turns out that the enemy has brought a whole corps up to here. "A key to Moscow”, as this ancient town is often referred to, won't yield up now: it must be subjugated. The main part of the 20 thousand strong Russian grouping was positioned on the Western and Eastern outskirts. To win a town by assault the enemy must be forced to retreat.
+
+#MissDesc13 Before the beginning of 1812 campaign Jozef Poniatowski suggested to the Emperor to make everything ready for a revolt in Ukrainian lands. If during the Austrian invasion into Germany Tyrol rebelled against Frenchmen, so why shouldn't they let the V corps move towards Kiev to foment a riot of local people against Russia? But Napoleon had his own plan of the forthcoming military operations and the Polish soldiers famous for their firmness were to play a major part. Bonaparte was not mistaken: on August 17 Smolensk fell and in many respects owning to courage of legionaries although each tenth was killed and their commander seriously shell-rocked. But soon the Great Army came across a new and quite unexpected obstacle on its way: on September 5 a large redoubt at the Shevardino village complicated the advance of Napoleon troops the moved along the New Smolensk road. Poniatowski's men together with divisions of general Jean Dominique Compans dislodged the desperately defending enemy from positions he occupied and managed to repulse all his counterattacks. The decisive battle between the French and Russian armies begins at Borodino village on August 26 (7 September) early in the morning. The soldiers were to carry out a workaround aimed at attacking Russian positions at the Utitsa village.
+
+#MissDesc14 Borodino massacre and capture of Moscow couldn't secure a victory to the Emperor but morale was still burning in proud Polish hearts. Neither in battles of Medyn, Tarutin, Maloyaroslavets, Vyasma and Beresina, nor suffering hardship on their way returning from Russia did the Polish soldiers betray the one whom they swore an oath to. Not all of them however saw the native land. As early as in spring of the year 1813 the army of Great Duchy of Warsaw rose and joined the VIII corps of the Great Army. Hard times came. In winter 1812-13 West Prussia rebels against the French, and on February 28   King Frederick William III signs a treaty of alliance with Russia. In two days the Russian troops force a crossing over the Oder river and occupy Berlin, Hamburg and Wroclaw; from now on one won't find a French soldier on German territories to the east of the Elbe river. The Emperor is determined in his actions, as usually: on May 2 he offers a battle at Luzen to Russians and Prussians and beats them, but the battle of Bautsman on May 20 showed the advantage of neither side. An armistice has been concluded already but everyone knows that it won't last long because Austria and Britain are eager to enter the game. By the end of summer the maps of Silesia - suburbs of Dresden, Leipzig, Ulm, - have come to be in great demand in the headquarters of belligerent... Very soon the Polish will enjoy the opportunity to prove their courage in the battlefield, and their permanent commander Jozef Poniatowski will be the only foreigner to receive a Marshl's baton from the Emperor himself - and to die in three days with honour.
+
+#MissDesc15 Having finally decided to replace Godoy on the position of the Prime Minister and the King Charles IV the Bourbon on the throne of Spain, Napoleon undertook resolute actions in the middle February 1808. All the fortifications on the Spanish side especially those protecting ways from the vital passes were unexpectedly and practically without a shot were conquered by volunteer groups: thus the French occupied Pamplona, Barcelona, San Sebastian, Figueres and other frontier towns. Very soon a 120 thousand strong army of soldiers in blue uniform poured into Iberian plains were. The attempts of the government and court to flee aroused indignation among Spanish people, and in a shot period of time Madrid dwellers rejoiced at French advanced guard, which arrival was thought to restore the order. But after that the Emperor decided to crow his brother Joseph a "King of Spain and West Indies”... Four years later on March 17, 1812 the troops of the Duke of Wellington approach the major stronghold of Badajoz, which stayes under the general Philippon's command. A long-term siege is started; an attempt of the 23 thousand detachment lead by the Marshal Soult to unblock the surrounded compatriots failed. Now, when the field engineers managed to make some breaches in the walls under severe fire, the "Steel Herzog" gives an order to start the assault.
+
+#MissDesc16 One of the major Napoleon's mistakes was his attitude to common Spaniards. Sure that as any other European nation they will accept imposed changes he made hasty in enthroning his brother. He didn't take into account that his new subjects would revolt when they came to know about the forced demise of their monarch and his legal heir Ferdinand. On May 2, 1808 mass riots break out in Madrid - armed with any item they could find citizens kill each Frenchman on their way. Marshal Murat, the town major, managed to suppress the uprising with violence but his measures provoked a new wave of people's hatred. For the time being this hatred was concealed due to martial law and especially to cannons, which were seen on each large street ready to open fire at mob any time. The disorders were brewing in the provinces as well and less than in one month the revolts would flare up across the country. The population is getting armed actively turning almost every healthy man into a partisan - the guerilla. Each supporter of the occupation regime is ruthlessly killed; different provinces declare juntas, which form their own armies and even ask other states for help. The Great Britain doesn't keep waiting and during five years to come its troops intervene actively into Spanish affairs, fighting with guerillas side by side.
+
+#MissDesc17 The Guerrilla war wasn't ceasing, and France had to throw into "the Iberian furnace" more fresh divisions and funds. Napoleon stubbornly didn't want to consider the local specifications though. Relying upon his experience gained during the Egyptian campaign, he believed that the strategy of intimidation, multiplied by the actions of flying troops and garrisons of many thousands in big cities, could resolve the situation in the best fashion possible. Obeying the order from the brother, Joseph Bonaparte in the summer of 1808 was preparing to depart to Madrid and ceremonial coronation. Although the hilly nature of the area on the Iberian Peninsula is such, that it will be impossible to talk about the safety and peace even in the case, when fully-equipped guardsmen will stand ready over each 50 meters. A 20-thousand army of general Castanios, called "Andalusia army", successfully evades disadvantageous clashes with the enemy detachments, time to time attacking the garrisons and the French columns on march, while peasants, pillaged by the alien soldiers, willingly supply him with resources and information. One day a 23-thousand corps of general Dupont, that advances from the plain of Anduhara to the pass in Sierra-Morena, becomes discovered. This French avant-guard shall bypass Bailen without any troubles. But will the rest of the enemy soldiers make it through the city?
+
+#MissDesc18 During two last months after the disaster at Bailen a casual observer might think that the French campaign on the Iberian Peninsula is lost for good. This impression was intensified by the news that the new King Joseph left Madrid hastily, general Verdier raised the siege of Saragossa and the general Duhesme's soldiers were on the contrary locked up behind Barcelona walls for long. The situation in Portugal could not cheer the Emperor as well; the 30 thousand strong army of Junot was crashed down by the united forces of the revolted local citizens and the English expeditionary corps, and thanks to happy coincidence it was returning home now with weapons and trophies. But it's too early for Spaniards to disregard their foe. Napoleon understands that the situation requires experienced, battle-proved veterans and prepares a counterattack. The corpses under the command of Marshals Victor, Mortier and Ney are thrown over the Pyrenees successfully; the Emperor himself follows them. "Everybody seems to have lost his mind after the infamous surrender in Bailen, - he remarks caustically at that. - I believe I must go there personally to arrange everything". The measures were undertaken so that not a single guerillas whether French or English could not feel comfortable on the Iberian land.

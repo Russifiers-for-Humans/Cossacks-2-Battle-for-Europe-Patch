@@ -1,0 +1,14 @@
+#ServerIP Server IP
+#ServerIP_Hint On/Off Local Network/Modem Server IP
+#ServerIPinput_Hint Enter server IP adress
+#MyBldCaptured The enemy captured your %s
+#EnemyBldCaptured You captured the enemy's %s
+#PriestAttackHint {CG}Heal unit{C} - automatically heal and increase the morale of brigade units
+#BackToChat Chat
+#BackToChat_Hint Return to global chat witout closing the room
+#EnableTowerAttack_Hint Enable/Disable automatic fire
+#TownHallUnderAttack Our Town Center is under attack!
+#ChatTitle Ctrl key sends message to ally only
+#ChatAlly To ally:
+#ChatToAll To all:
+#ChatCheat Cheat:

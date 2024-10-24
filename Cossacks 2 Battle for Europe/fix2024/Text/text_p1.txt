@@ -1,0 +1,10 @@
+LOBUNC Unable to create session. There may be a firewall problem.
+LOBUNJ1 Unable to join session. You can try joining manually from the
+LOBUNJ2 menu Multiplayer->Death Match->Join TCP/IP 
+LOBUNJ3 Unable to join session. You can try joining manually from the
+LOBUNJ4 menu Multiplayer->Historical Battles->Join TCP/IP 
+LOBUNJ5 (IP address %s)
+LOBPR Press any key.
+$NOCONN No direct connection established with:
+DIFSAV The players have different saved games.\ Unable to continue the game with this saved game file.
+NOPALTX Disconnected

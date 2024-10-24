@@ -1,0 +1,13 @@
+CSNOGL You have no gold. %s can't shoot.
+CSNORS You don't have enough resources to fire. %s can't shoot.
+READYTX Ready!
+LOOKSTX Looking at the menu.
+LOADTX Loading.
+NOANSTX Not responding.
+NOPALTX Has left the game.
+DISCNTX Press F3 to disconnect from the game.
+NOCD Do not play music.
+NATMUS Play national music only.
+RNDMUS Play random track.
+ENCHAT Message:
+MONTR Resources have been successfully transferred.

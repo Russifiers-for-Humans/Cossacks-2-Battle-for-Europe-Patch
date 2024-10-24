@@ -1,0 +1,27 @@
+STOPUPG Cancel.
+UNLOADALL Disembark all. (The ferry should have landed.)
+IDLE_P Select all idle peasants. (CTRL+P)
+IDLE_M Select all unoccupied mines. (CTRL+M)
+NationalForces General Information (I)
+DeathList Casualty List:
+Economica Market Prices:
+E_Comment Columns represent your offer.\Prices for 1,000 are shown in white.\Nominal prices are shown in yellow.\Profitable sales are marked green.
+Doxod Income and Outlay:
+INFO_G1 Occupied Territory:
+INFO_G2 Score:
+INFO_G3 Casualty List:
+INFO_G4 Income and Outlay:
+INFO_R0 Maintenance Outlay:
+INFO_R1 Workers in Mines:
+INFO_R2 Resource Extraction:
+INFO_R3 Workers in gold mines: %d
+INFO_R4 Maintenance Outlay:
+INFO_R5 Quantity:
+INFO_R6 Outlay:
+INFO_R7 Maintenance outlay is the number of\workers required in your gold\mines (may be fractional) in order\to provide enough money to \maintain certain units.
+INFO_R8 Total:
+UPGMADE Improvement complete: %s
+CAPBLD Your %s has been captured.
+LOSTBLD You lost a %s.
+BLDBLD The %s have been successfully built.
+FINBLD Unit created in: %s.

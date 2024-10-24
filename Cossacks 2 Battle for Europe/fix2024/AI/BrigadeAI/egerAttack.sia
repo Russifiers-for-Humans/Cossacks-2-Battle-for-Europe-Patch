@@ -1,0 +1,8 @@
+#PEHOTASTRELKI UnitFuz(FR) UnitFuzNG(FR) UnitVol(FR) UnitGre(FR) GuardFrnGre(FR) UnitGre(PR) UnitVol(PR) UnitFuz(PR) GuardPruMus(PR) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitVol(EN) GuardEngEgr(EN) UnitFuz(EN) UnitGre(EN) GuardEngGre(EN) UnitOf(EN) UnitBar(EN) UnitFlg(EN) UnitFuzNG(AU) UnitFuz(AU) UnitVol(AU) UnitGre(AU) GuardAusGre(AU) UnitOf(AU) UnitBar(AU) UnitFlg(AU) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitEgrNG(PR) GuardPruEgr(PR) UnitFuz(RU) GuardRusMus(RU) UnitGre(RU) UnitOf(RU) UnitBar(RU) UnitFlg(RU) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) TempMent(FR) TempMent(NE) UnitEgrNG(EN) GuardEngEgrNG(EN) UnitPar(SP) UnitEgr(SP)
+if GetFireReady > 80 St_EnableFire = 0 DistToMT < 900
+do EnableFire 90
+if St_EnableFire = 1 GetFireReady < 2
+do DisableFire 35
+if St_EnableFire = 0 GetFireReady < 2
+do MeleeAttack 100
+#

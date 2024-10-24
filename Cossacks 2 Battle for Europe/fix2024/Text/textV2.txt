@@ -1,0 +1,4 @@
+// Neutral and Diplomatic messages
+
+NET_FIND_TREASURE You found an ancient treasure. You received %d gold.
+NET_LOSE_TREASURE You find an ancient dwelling. But it is empty.

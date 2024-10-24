@@ -1,0 +1,7 @@
+CAMP_ENC Encyclopedia
+CAMP_RUN Play the campaign.
+CAMP_CANCEL Back to menu.
+MISS_RUN Play the mission.
+MISS_CANCEL Previous menu.
+MMCHANGENAT1 Click here to change the nation you will control.
+MMCHANGENAT2 Click here to change the computer-controlled nation.

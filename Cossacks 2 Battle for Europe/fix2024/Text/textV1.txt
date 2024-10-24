@@ -1,0 +1,7 @@
+4XSCALE_ON Zoom view (L)
+4XSCALE_OFF Normal view (L)
+
+#CL_ZONE0 North
+#CL_ZONE1 Moderate
+#CL_ZONE2 Tropical
+#CL_ZONE3 Desert

@@ -1,0 +1,28 @@
+//*********************************
+//*********************************
+// Help about pages of Big Map (F1)
+//*********************************
+//*********************************
+
+
+#BMHelpTitle	HELP (F1)
+
+
+#BigMapHelp0	{AC}{FN}{CR}Map of Europe{F} \ {A} \ The map of Europe is divided into sectors.\ Each sector is colored to indicate national affiliation. For example, Great Britain's territory is red. At the beginning, 3 sectors belong to Great Britain: London, Edinburgh and Barcelona. Resources are shown in the sector's information window. Each location has it's own features, e.g. London produces more {IGold} gold, while Edinburgh produces more {IFood} food.  {IGeneral} {CR}Generals{C} and {CR}Fortifications{C} are shown on the map, too. {CR}Fortifications{C} can be upgraded with the help of the button {CR}Upgrade defense{C}. During an attack on the sector, the higher the defense level is, the more the sector's forces can withstand the enemy garrison. The {CR}lowest defense{C} {IGM_Pop1} index withstands 4 garrison squadrons, the {CR}highest defense{C} {IGM_Pop3_Def3} withstands 18. Improving the defense level requires a lot of resources. You can sabotage the sectors, lowering the sector defense level or even inciting a rebellion there. To do this, choose enemy sector and select from the menu {CR}Sabotage sector{C}. Next to the inscription you will find the cost and percentage of success for this action. \ {CR}General{C}  {IGeneral}  is the head of your army. He can move through the sectors, capturing them and expanding his nation. Staying in a certain location will cause the {CR}General{C} to increase the defense of the location and his forces will go into action as well as the {CR}Fortification's{C} forces. To move your {IGeneral} {CR}General{C} through the locations click on him using the left mouse button and shift him to one of the offered locations. The red arrow indicates that you are attacking the sector. The green arrow indicates you are moving through the allied location. On the global map, each {IGeneral} {CR}General{C} is marked the color corresponding to his nation. Detailed information can be found in {CR}Commanders{C} bookmark.
+
+#BigMapHelp1	{AC}{FN}{CR}Diplomacy{F} \ {A} \ The map of Europe is divided by nations. The map will indicate diplomatic relations for each of the nations. \ When you select any nation, the {CR}enemies{C} of this nation will be illuminated in {CR}red{C}, the {CG}allies{C} in {CG}green{C}, and neutral nations will remain white. \ The menu selections to make peace, ally yourself, or declare war on some nation are available here. \ When entering an alliance with another nation, you gain a number of advantages, such as free passage through allied territories and help in military campaigns.
+
+#BigMapHelp2	{AC}{FN}{CR}Commanders{F} \ {A} \ Here find detailed information about your {CR}Generals{C}, e.g. rank, experience, and number of troops. You can also find historical information about the real person. \ A {CR}General's{C} experience and rank are interconnected. The more experience a general has, the higher his rank is. A generals gains experience from missions, acomplishments, and the number of enemy troops eliminated. A general can lead more troops as he moves up in rank. \ If you whant to see how much {CR}experience{C} your general needs to attain the next level, just point the mouse cursor on the {CR}Experience scale{C}. \ You can hire troops by clicking the left button on the subdivision icon, a right click will dismiss the troops. \ Switching between different types of troops can be achieved by clicking on the bookmarks, where {Ipehota} infantry, {Ikonnica} cavalry and {Iartileria} artillery are represented. \ Pointing on the troops icon will give you additional information.
+
+#BigMapHelp3	{AC}{FN}{CR}Market{F} \ {A} \ On this bookmark you can exchange resources, such as gold, for essential military resources, such as gunpowder. \ Additional market information is also represented here.
+
+#BigMapHelp4	{AC}{FN}{CR}Messages{F} \ {A} \ Here you can see {CR}quests{C}, {CR}declaring war{C} and {CR}diplomatic propositions{C} from other countries. \ Accomplishing {CR}quests{C} will bring you additional resources. \ All of the diplomatic propositions need to be approved or rejected by you. All of the diplomatic propositions need to be answered, or you won't be able to enter in any agreement with that country in the diplomacy bookmark.
+
+
+#BigMapHelp5	{AC}{FN}{CR} {C}{F} \ {A} \ Help Information
+
+
+#BigMapHelp_Commander	In the {CR}Commanders{C} section, you can hire new troops to improve the composition of your army. As you move up in rank, you can hire a greater number of troops.
+#BigMapHelp_Resources	You can exchange needed resources in the "Market". You can also get resources by capturing the sector which produces a resource or by capturing villages and fulfilling quests when attacking a certain section. 
+#BigMapHelp_Messages	The {CR}Messages{C} section will display current messages from different countries. Find out which countries are declaring, offering peace, etc.
+#BigMapHelp_Diplomacy	In the {CR}Diplomacy{C} section you can make treaties important your country. You can, for example, sign a non-aggression pact with a stronger opponent.

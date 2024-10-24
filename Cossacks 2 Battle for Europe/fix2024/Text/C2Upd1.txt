@@ -1,0 +1,15 @@
+#MO_ArcadeMode Arcade Mode
+#MO_ArcadeMode_hint Arcade Mode will change the game rules and will decrease the influence of morale and fatigue, thus making the game more arcade-like in nature
+#C2intfArcadeMess You have chosen the Arcade Mode. The influence of morale and fatigue is reduced by half.
+#GlobalBrigIcoDisable {C FF60A05A}Create Formation{C FF502515} - to create a formation put the required number of soldiers near your {C FF60A05A}barracks{C FF502515} or {C FF60A05A}stables{C FF502515}. Infantry - {C FF60A05A}120{C FF502515} units; Cavalry - {C FF60A05A}45{C FF502515} units; Chasseurs, Sappers - {C FF60A05A}15{C FF502515} units.
+
+#neLivingPlaces You don't have enough dwellings to produce new units.
+#neSklad You should build a storehouse, so that your workers can procure wood and stone.
+#neResourceForProduce You don't have enough resources to produce new units.
+#neAmmunition You don't have enough ammunition to shoot. You need more coal.
+#neSettlementCaptured You have captured the settlement.
+#neSettlementLost Your settlement was captured by enemy.
+#neBrigadeTerminated You have destroyed the enemy formation.
+#neBrigadeLost Your formation was frightened.
+
+#Goods Goods

@@ -1,0 +1,11 @@
+NULL NULL
+Operand Operand
+NotDef (Не определено)
+Begin НачалоСкрипта\
+End КонецСкрипта
+Variables Переменные\
+Variable_Accept_int целая переменная
+Variable_Return_int целая переменная
+if_defini if (<0>) \<1>
+if_else else\<2>
+if_endif endif

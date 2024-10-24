@@ -1,0 +1,4 @@
+#MB_00 Please insert CD 1.
+#MB_01 This program requires at least 500M of free space on your drive where Windows is installed.
+#MB_02 LOADING ERROR...
+#MB_03 You have changed game data. Internet game will not be possible.

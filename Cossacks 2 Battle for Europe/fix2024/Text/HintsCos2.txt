@@ -1,0 +1,42 @@
+FORM_KARE {FS}{C FF502515}Put Formation in {C FF60A05A}Square{FT}{C FF502515} - formation, that has no front or rear sides. {C FF60A05A}StandGround{C FF502515} provides bonus for {C FF60A05A}attack{C FF502515} and {C FF60A05A}defense{C FF502515}, very useful against cavalry.
+FORM_SQUARE {FS}{C FF502515}Put Formation in {C FF60A05A}Column{FT}{C FF502515} - tight formation for moving forces a great distance. If you send troops great distances, they will move to the road and re-form to march. Troops on the march do not experience {C FF60A05A}fatigue{C FF502515}.
+FORM_LINE {FS}{C FF502515}Put Formation in {C FF60A05A}Rank{FT}{C FF502515} - optimal formation for combat and advancement on a large front. Allows the formation to shoot by lines. {C FF60A05A}StandGround{C FF502515} provides high bonus for {C FF60A05A}attack{C FF502515} and {C FF60A05A}defense{C FF502515}.
+Assume_Square_Formation {FS}{C FF502515}Put Formation in {C FF60A05A}Square{FT}{C FF502515} - formation, that has no front or rear sides. {C FF60A05A}StandGround{C FF502515} provides bonus for {C FF60A05A}attack{C FF502515} and {C FF60A05A}defense{C FF502515}, very useful against cavalry.
+Assume_Rank_Formation {FS}{C FF502515}Put Formation in {C FF60A05A}Rank{FT}{C FF502515} - optimal formation for combat and advancement on a large front. Allows the formation to shoot by lines. {C FF60A05A}StandGround{C FF502515} provides high bonus for {C FF60A05A}attack{C FF502515} and {C FF60A05A}defense{C FF502515}.
+Assume_Column_Formation {FS}{C FF502515}Put Formation in {C FF60A05A}Column{FT}{C FF502515} - tight formation for the movement of forces over great distances. If you send a troop a great distance, it will move to the road and re-form to march. Troops on the march do not experience {C FF60A05A}fatigue{C FF502515}.
+STRIPE_OF_MORALE {FS}{C FF60A05A}Moral{FT}{C FF502515} - this scale shows current and maximum morale.
+SHOT_LINE_NOT_ALLOWED {FS}{C FF60A05A}Line Shooting{FT}{C FF502515} - available only in {C FF60A05A}Line{C FF502515} formation.
+SHOT_LINE_NOT_ALLOWED1 {FS}{C FF60A05A}Line Shooting{FT}{C FF502515} - available only in {C FF60A05A}Line{C FF502515} formation.
+SHOT_LINE_NOT_ALLOWED2 {FS}{C FF60A05A}Line Shooting{FT}{C FF502515} - available only in {C FF60A05A}Line{C FF502515} formation
+SHOT_LINE_NOT_ALLOWED0 {FS}{C FF60A05A}Line Shooting{FT}{C FF502515} - available only in {C FF60A05A}Line{C FF502515} formation.
+PRESS_TO_ENABLE_SHOT_LINE {FS}{C FF60A05A}Line Shooting{FT}{C FF502515} - choose which line will shoot on the enemy.
+PRESS_TO_DISABLE_SHOT_LINE {FS}{C FF502515}Prohibit line shooting.
+GRENADE_HINT {FS}{C FF60A05A}Throw Grenades{FT}{C FF502515} - units will throw grenades. Best attack against buildings.
+DISABLE_RIFLE_ATTACK {FS}{C FF60A05A}Allow Shooting{FT}{C FF502515} - troop will start to fire on the nearest or indicated enemy.
+ENABLE_RIFLE_ATTACK {FS}{C FF502515}Stop shooting.
+DAMAGE_OF_SABRE {FS}{C FF60A05A}Melee Damage{C FF502515}{FT} - damage dealt in hand-to-hand combat.
+DAMAGE_OF_RIFLE {FS}{C FF60A05A}Shot Damage{C FF502515}{FT} - damage dealt by ranged attacks, reduced with distance.
+AMOUNT_OF_READY_RIFLES {FS}{C FF60A05A}Number of Loaded Guns{C FF502515}{FT} - number of guns ready to fire.
+MORALE_OF_FORMATION {FS}{C FF60A05A}Morale{C FF502515} - {FT}{C FF502515} - current and maximum morale.
+AMOUNT_OF_UNITS_IN_FORMATION {FS}{C FF60A05A}Number of Soldiers in Formation{C FF502515} - {FT} - current and maximum number of soldiers in formation.
+TIRING_OF_FORMATION {FS}{C FF60A05A}Fatigue{C FF502515}{FT} - when fatigue reaches zero, troop morale and speed decreases swiftly.
+AVERAGE_LIFE_OF_FORMATION {C FF548D50}Health of the Troops{C FF502515}{FT} - hit points
+FORM_DISCARD {C FFE74634}Disband Formation{C FF502515} - units will no longer be in formation.
+FORM_KARE {FS}{C FF502515}Put Formation in {C FF60A05A}Square{FT}{C FF502515} - formation, that has no front or rear sides. {C FF60A05A}StandGround{C FF502515} provides bonus for {C FF60A05A}attack{C FF502515} and {C FF60A05A}defense{C FF502515}, very useful against cavalry.
+FORM_SQUARE {FS}{C FF502515}Put Formation in {C FF60A05A}Column{FT}{C FF502515} - tight formation for moving forces a great distance. If you send troops great distances, they will move to the road and re-form to march. Troops on the march do not experience {C FF60A05A}fatigue{C FF502515}.
+FORM_LINE {FS}{C FF502515}Put Formation in {C FF60A05A}Rank{FT}{C FF502515} - optimal formation for combat and advancement on a large front. Allows the formation to shoot by lines. {C FF60A05A}StandGround{C FF502515} provides high bonus for {C FF60A05A}attack{C FF502515} and {C FF60A05A}defense{C FF502515}.
+USE_MELEE_ATTACK {FS}{C FF60A05A}Melee Attack{C FF502515}{FT} - forbids gunfire and sends troop to melee.
+PRESS_TO_ENABLE_SHOT_LINE2 {FS}{C FF502515} Permit the first line to fire.
+PRESS_TO_DISABLE_SHOT_LINE2 {FS}{C FF502515} Forbid the first line to fire.
+PRESS_TO_ENABLE_SHOT_LINE1 {FS}{C FF502515} Permit the second line to fire.
+PRESS_TO_DISABLE_SHOT_LINE1 {FS}{C FF502515} Forbid the second line to fire.
+PRESS_TO_ENABLE_SHOT_LINE0 {FS}{C FF502515} Permit the third line to fire.
+PRESS_TO_DISABLE_SHOT_LINE0 {FS}{C FF502515} Forbid the third line to fire.
+SHOT_LINE_NOT_ALLOWED_2 {FS}{C FF502515} Line fire is available in Rank Formation only.
+SHOT_LINE_NOT_ALLOWED_1 {FS}{C FF502515} Line fire is available in Rank Formation only.
+SHOT_LINE_NOT_ALLOWED_0 {FS}{C FF502515} Line fire is available in Rank Formation only.
+FILLFRM {FS}{C FF548D50}Reinforce Formation{C FF502515} - {FT}{C FF502515} - available only in {C FF60A05A}"Hold Position"{C FF502515} mode and if formation is not under attack.
+FORM_FILL_FORMATION {FS}{C FF548D50}Reinforce Formation{C FF502515} - {FT}{C FF502515} - available only in {C FF60A05A}"Hold Position"{C FF502515} mode and if formation is not under attack.
+FORM_HORCE_KARE {FS}{C FF502515}Put Formation in {C FF60A05A}Wedge{FT}{C FF502515} - formation, that provides additional {C FF60A05A}attack{C FF502515}, very useful for surprise attacks.
+FORM_HORCE_SQUARE {FS}{C FF502515}Put Formation in {C FF60A05A}Column{FT}{C FF502515} - tight formation for movement of forces over great distances. If you send troops great distances, they will move to the road and re-form to march. Troops on the march do not experience {C FF60A05A}fatigue{C FF502515}.
+FORM_HORCE_LINE {FS}{C FF502515}Put Formation in {C FF60A05A}Line{FT}{C FF502515} - formation, that provides additional {C FF60A05A}defense{C FF502515}, very useful for frontal attack.

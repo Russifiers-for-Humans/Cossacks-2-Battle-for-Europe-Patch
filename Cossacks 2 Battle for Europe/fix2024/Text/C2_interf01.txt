@@ -1,0 +1,80 @@
+#VILAGECAPTURED You have captured the village.
+#VILAGECAPTUREDBYENEMY Your village has been captured by the enemy.
+
+#AutoShot_is_ON Auto-fire on
+#AutoShot_is_OFF Auto-fire off
+
+#GS_AnimQ0 High
+#GS_AnimQ1 Middle
+#GS_AnimQ2 Low
+
+#MM_BackToGame_hint Return to play game.
+#MM_Options_hint Preferences: video resolution, sound volume, etc.
+#MM_Back2MM Go back to the main menu.
+#MM_Back2MM_hint Click to return to the main menu.
+
+#ip03_01  Are you sure that you want to delete this file? 
+#ip03_02 Delete current file.
+#ip03_03 Cancel file deletion.
+
+#MM_Load_hint Load saved game.
+#MM_Save_hint Save current game.
+#MM_Withdraw_hint Finish game and return to main menu.
+
+#MM_SaveCancel_hint Close without saving.
+#MM_LoadCancel_hint Exit without loading.
+
+#MM_LoadList_hint List of saved games:
+#MM_LoadName_hint Name of selected game:
+#MM_SaveName_hint Enter name of current game.
+
+#MO_ArcadeMode Arcade Mode
+#MO_ArcadeMode_hint Arcade Mode on/off
+#C2intfArcadeMess Arcade mode on. Morale and stamina effect is half the usual amount.
+
+#GSR_Total Total
+#GSR_OnUpgrade Upgrades
+#GSR_OnMines Mines
+#GSR_OnUnits Units
+#GSR_OnBuildings Structures
+#GSR_OnLife Maintain
+#GSR_Buy Buying
+#GSR_Sell Selling
+	
+#GSR_Total_hint Total
+#GSR_OnUpgrade_hint For Upgrades
+#GSR_OnMines_hint For Mines
+#GSR_OnUnits_hint Creation of Units
+#GSR_OnBuildings_hint Creation of Structures
+#GSR_OnLife_hint For Maintenance
+#GSR_Buy_hint Buying
+#GSR_Sell_hint Selling
+
+#SP_Kills {C FF60A05A}Experience{C FF502515} - number of people killed.
+#SP_Protect {C FF60A05A}Soldiers Armor{C FF502515} - points absorbed under attack, cannot be lower than 1.
+
+#GlobalBrigIcoDisable Create Formation\ \To create a formation, put the required number of soldiers near your barracks or stables:\infantry 120 units\cavalry 45 units\chasseurs and sappers 15 units.
+#GlobalBrigIcoEnable Create Formation\ \To create a formation, put the required number of soldiers near your barracks or stables:\infantry 120 units\cavalry 45 units\chasseurs and sappers 15 units.
+#GlobalBrigIOf  Create an officer.
+#GlobalBrigIDr Create a drummer.
+#GlobalBrigIFl Create a flag bearer.
+
+#EW2_sectors_num Sector
+#EW2_supply Resource Maintenance
+#EW2_resources_amount Number of resources:
+#EW2_recruits_number Number of recruits:
+#EW2_power_of_army Power of army:
+#EW2_power_of_nation Power of nation:
+#EW2_commander_exp_amount Experience of generals:
+#EW2_formation_killed Enemies killed:
+#EW2_formation_lost Your losses:
+
+#MR_Team_hint Select team
+#MR_Ready_hint Ready
+#MR_Player_hint Player
+#NewPlayerName Player
+
+#SelectMission_Hint Choose mission.
+#SELECT_SCENARIOS LIST OF MISSIONS
+#SINGLE_MISSIONS Campaign
+#MAP_DESCRIPTIONS MISSION DESCRIPTION

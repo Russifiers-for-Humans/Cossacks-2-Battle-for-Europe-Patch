@@ -1,0 +1,433 @@
+[MEMBERS]
+TempMent(RE)   SpnPar
+ArtPus1(RE)    ArtPus1
+ArtPus2(RE)    ArtPus2
+ArtPus3(RE)    ArtPus3
+ArtPus4(RE)    ArtPus4
+ArtPus4L(RE)   ArtPus4L
+ArtPus4G(RE)   ArtPus4G
+UnitKri(RE)    EngKri
+UnitPus(RE)    PusRein
+UnitPop(RE)    FrnPop
+UnitBar(RE)    VesBar 
+UnitFlg(RE)    VesFlg
+UnitOf(RE)     VesOf
+UnitEgr(RE)    VesEgr
+UnitMus(RE)    VesMus
+UnitFuz(RE)    VesFuz
+UnitVol(RE)    VesVol
+UnitGre(RE)    VesGre
+UnitSap(RE)    VesSap
+UnitKDrg(RE)   VesKDrg
+UnitKKir(RE)   VesKKir
+UnitKGus(RE)   VesKGus
+UnitKLan(RE)   VesKLan
+UnitKFlg(RE)   VesKFlg
+UnitKEgr(RE)   VesKEgr
+BldKaz(RE)     VesKaz
+BldAka(RE)     VesAka
+BldCen(RE)     VesCen
+BldDo1(RE)     VesDo1
+BldDo2(RE)     VesDo2
+BldDvo(RE)     VesDvo
+BldHra(RE)     VesHra
+BldKuz(RE)     VesKuz
+BldSkl(RE)     VesSkl
+BldArs(RE)     BldArs
+BldMan(RE)     BldMan
+BldKir(RE)     BldKir
+BldLes(RE)     BldLes
+BldMel(RE)     FrnMel
+BldKre(RE)     BldKre
+BldTow(RE)     BldTow
+BldKro(RE)     BldKro
+BldKon(RE)     BldKon
+BldKonHC(RE)   BldKonHC
+BldRudGold(RE) BldRudGln
+BldRudIron(RE) BldRudRud 
+BldRudCoal(RE) BldRudSel
+BldRudSton(RE) BldRudKam
+BldRudUgl(RE)  BldRudUgl
+BldFor(RE)     BldFor
+BldBlg(RE)     BldBlg
+BldArt(RE)     BldArt
+BldRin(RE)     BldRin
+Field(RE)      Field
+Bochka(RE)     Bochka
+ArtPus(RE)     ArtPus4ENG
+BldMay(RE)     VesMay
+GuardVesGre(RE)  GuardVesGre
+GuardVesEgr(RE)  GuardVesEgr
+GuardVesKLan(RE)  GuardVesKLan
+GuardVesKGus(RE)  GuardVesKGus
+
+[FIXED_PRODUCE]
+BldHra(RE)     1
+UnitPop(RE)    0 1 A
+
+BldCen(RE)     1
+UnitKri(RE)    0 1 A
+
+BldKaz(RE)      9
+UnitMus(RE)     0 1 A
+UnitFuz(RE)     1 1 A
+UnitVol(RE)     2 1 A
+UnitGre(RE)     3 1 A
+UnitOf(RE)      5 1 A
+UnitBar(RE)     6 1 A
+UnitFlg(RE)     7 1 A
+UnitEgr(RE)     0 0 A
+UnitSap(RE)     1 0 A
+
+BldKon(RE)     4
+UnitKEgr(RE)   0  0 A
+UnitKLan(RE)   1  0 A
+UnitKGus(RE)   2  0 A
+UnitKFlg(RE)   6  0 A
+
+BldKonHC(RE)   2
+UnitKDrg(RE)   0  0 A
+UnitKFlg(RE)   6  0 A
+
+BldArt(RE)     4
+ArtPus4L(RE)   0  1 A
+ArtPus4(RE)    1  1 A
+ArtPus4G(RE)   2  1 A
+ArtPus3(RE)    6  1 A
+
+UnitSap(RE)    6
+BldBlg(RE)     0  0 A
+BldTow(RE)     1  0 A
+BldKro(RE)     2  0 A
+BldFor(RE)     3  0 A
+BldKre(RE)     4  0 A
+Bochka(RE)     1  1 A
+
+UnitKri(RE)    16
+BldCen(RE)     0 0 A
+BldKaz(RE)     1 0 A
+BldDo1(RE)     2 0 A
+BldDo2(RE)     3 0 A
+BldKon(RE)     4 0 A
+BldArt(RE)     6 0 A
+BldTow(RE)     7 0 A
+BldSkl(RE)     0 1 A
+BldRin(RE)     4 1 A
+BldAka(RE)     2 1 A
+BldDvo(RE)     5 1 A
+BldHra(RE)     3 1 A
+BldBlg(RE)     7 1 A
+BldKuz(RE)     1 1 A
+BldKonHC(RE)   5 0 A
+BldMel(RE)     8 1 A
+
+BldMel(RE) 1
+Field(RE)  1 0 A
+
+BldFor(RE)     4
+UnitVol(RE)    0 0 A
+UnitOf(RE)     2 0 A
+UnitBar(RE)    3 0 A
+UnitFlg(RE)    4 0 A
+
+BldKre(RE) 8
+GuardVesEgr(RE)   2 1 A
+GuardVesGre(RE)   1 1 A
+GuardVesKLan(RE)  1 0 A
+GuardVesKGus(RE)  2 0 A
+UnitKFlg(RE)      7 0 A
+UnitOf(RE)        5 1 A
+UnitBar(RE)       6 1 A
+UnitFlg(RE)       7 1 A
+
+BldKro(RE)     4 
+UnitFuz(RE)    0 0 A
+UnitOf(RE)     2 0 A
+UnitBar(RE)    3 0 A
+UnitFlg(RE)    4 0 A
+
+[ENABLED]
+UnitKDrg(RE)   
+UnitKKir(RE)   
+UnitKGus(RE)   
+UnitKLan(RE)   
+UnitKFlg(RE)   
+UnitKEgr(RE)    
+UnitPop(RE)
+ArtPus3(RE)
+ArtPus4(RE)
+ArtPus4L(RE)
+ArtPus4G(RE)
+Bochka(RE)
+UnitEgr(RE)
+UnitBar(RE)
+UnitFlg(RE)
+UnitOf(RE)
+UnitKri(RE)
+UnitFuz(RE)        
+UnitGre(RE)     
+UnitVol(RE) 
+UnitMus(RE)
+BldKir(RE)
+BldRin(RE)
+BldSkl(RE)
+BldKuz(RE)
+BldLes(RE)
+BldAka(RE)
+BldKaz(RE)
+BldDvo(RE)
+BldDo2(RE)
+BldHra(RE)
+BldArt(RE)
+BldBlg(RE)
+BldKon(RE)
+BldTow(RE)
+BldKro(RE)
+BldFor(RE)
+BldKre(RE)
+BldRudGold(RE)
+BldRudIron(RE)
+BldRudCoal(RE)
+BldRudSton(RE)
+BldMel(RE)
+BldCen(RE)
+BldDo1(RE)
+GuardVesGre(RE)  
+GuardVesEgr(RE)  
+GuardVesKLan(RE)  
+GuardVesKGus(RE)  
+UnitSap(RE)
+BldKonHC(RE)
+
+[UPGRADE]
+Bashnia(RE)PAUSE U3 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(RE) 80
+Bashnia(RE)PAUSE3 U3 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(RE) 60
+Bashnia(RE)PAUSE4 U3 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(RE) 50
+KUZ02(RE) U4 #POSITION 1 0 #LEVEL 1 KUZ02(RE) #COST 2 IRON 150 GOLD 100 #TIME 2500
+        ENABLE UNITS GRP 1 UnitGre(RE)
+WoodUp01(RE) U10 #POSITION 4 0 #LEVEL 1 WoodUp01(RE) #COST 2 FOOD 5000 GOLD 1000 #TIME 2500
+	  EFFECT_WOOD +10%
+StoneUp01(RE) U9 #POSITION 3 0 #LEVEL 1 StoneUp01(RE) #COST 2 FOOD 5000 GOLD 1000 #TIME 2500
+	  EFFECT_STONE +20%
+DefendUp01(RE) U13 #POSITION 7 0 #LEVEL 1 DefendUp01(RE) #COST 2 STONE 8000 GOLD 1200 #TIME 2500
+	  PROTECTION GRP 1 IADROMOR BldKaz(RE) +20
+
+
+[UPGRADEPLACE]
+
+BldKuz(RE) 3 
+KUZ02(RE)
+WoodUp01(RE)
+StoneUp01(RE)
+
+BldKaz(RE) 1
+DefendUp01(RE)
+
+BldTow(RE) 3 
+Bashnia(RE)PAUSE
+Bashnia(RE)PAUSE3
+Bashnia(RE)PAUSE4
+
+[UPGRADEENABLE]
+KUZ02(RE)
+Bashnia(RE)PAUSE
+Bashnia(RE)PAUSE3
+Bashnia(RE)PAUSE4
+WoodUp01(RE)
+StoneUp01(RE)
+DefendUp01(RE)
+
+
+[UPGRADELINKS]
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+
+[ACCESSCONTROL]
+UnitVol(RE)     1 BldKuz(RE)
+Bochka(RE)      1 BldArt(RE)
+BldKaz(RE)      1 BldCen(RE)
+BldSkl(RE)      1 BldCen(RE)
+BldRin(RE)      1 BldCen(RE)
+BldDo1(RE)      1 BldCen(RE)
+BldKon(RE)      1 BldAka(RE)
+BldAka(RE)      2 BldKaz(RE)
+                  BldSkl(RE)
+BldHra(RE)      2 BldCen(RE)
+                  BldDvo(RE)
+BldTow(RE)      1 BldAka(RE)
+BldKro(RE)      2 BldArt(RE)
+                  BldAka(RE)
+BldFor(RE)      2 BldArt(RE)
+                  BldAka(RE)
+BldKre(RE)      2 BldDvo(RE)
+                  BldArt(RE)
+BldDo2(RE)      1 BldDvo(RE)
+BldDvo(RE)      1 BldAka(RE)
+BldKir(RE)      1 BldAka(RE)
+BldArt(RE)      1 BldAka(RE)
+BldMan(RE)      1 BldAka(RE)
+BldArs(RE)      1 BldArt(RE)
+BldKuz(RE)      1 BldKaz(RE)
+UnitGre(RE)     2 BldKuz(RE)
+                  KUZ02(RE)
+UnitSap(RE)     2 BldAka(RE)
+                  BldKuz(RE)
+UnitEgr(RE)     1 BldKuz(RE)
+UnitOf(RE)      1 BldAka(RE)
+UnitBar(RE)     1 BldAka(RE)
+UnitFlg(RE)     1 BldAka(RE)
+UnitKLan(RE)    1 BldAka(RE)
+UnitKDrg(RE)    1 BldDvo(RE) 
+UnitKKir(RE)    2 BldDvo(RE) 
+                  BldKuz(RE)
+UnitKGus(RE)    1 BldKuz(RE) 
+UnitKFlg(RE)    1 BldKuz(RE)
+BldKonHC(RE)    2 BldAka(RE) BldKuz(RE)
+GuardVesGre(RE)  3   BldAka(RE) BldDvo(RE) KUZ02(RE)
+GuardVesEgr(RE)  2   BldAka(RE) BldDvo(RE)
+GuardVesKLan(RE) 2   BldAka(RE) BldDvo(RE)
+GuardVesKGus(RE) 2   BldAka(RE) BldDvo(RE)
+
+[UNITLOCK]
+BldBlg(RE) 3 BldBlg(RE)
+BldSkl(RE) 2 BldSkl(RE)
+BldKuz(RE) 1 BldKuz(RE)
+BldAka(RE) 1 BldAka(RE)
+BldHra(RE) 1 BldHra(RE)
+BldRin(RE) 1 BldRin(RE)
+BldDvo(RE) 1 BldDvo(RE)
+BldKre(RE) 1 BldKre(RE)
+BldFor(RE) 1 BldFor(RE)
+BldKro(RE) 1 BldKro(RE)
+BldKonHC(RE) 1 BldKonHC(RE)
+GuardVesGre(RE)  120   GuardVesGre(RE)
+GuardVesEgr(RE)   30   GuardVesEgr(RE)
+GuardVesKLan(RE)  45   GuardVesKLan(RE)
+GuardVesKGus(RE)  45   GuardVesKGus(RE)
+
+[CANSETDEST]
+BldKaz(RE)
+BldLes(RE)
+BldMel(RE)
+BldAka(RE)
+BldCen(RE)
+BldDo1(RE)
+BldDo2(RE)
+BldDvo(RE)
+BldHra(RE)
+BldKuz(RE)
+BldSkl(RE)
+BldMay(RE)
+BldKre(RE)
+BldTow(RE)
+BldKro(RE)
+BldKon(RE)
+BldKonHC(RE)
+BldRudGold(RE)
+BldRudIron(RE) 
+BldRudCoal(RE)
+BldRudSton(RE)
+BldRudUgl(RE)
+BldFor(RE)
+BldBlg(RE)
+BldArt(RE)
+
+[PRIVATE]
+Bashnia(RE)PAUSE
+Bashnia(RE)PAUSE3
+Bashnia(RE)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+REIN 61
+#GUARD
+GuardVesGre(RE)  
+GuardVesEgr(RE)  
+GuardVesKLan(RE)  
+GuardVesKGus(RE)  
+#UNITS
+UnitKri(RE)
+UnitMus(RE)
+UnitFuz(RE)
+UnitVol(RE) 
+UnitGre(RE)
+UnitOf(RE)
+UnitBar(RE)
+UnitFlg(RE)
+UnitEgr(RE)
+UnitSap(RE)
+UnitPop(RE)
+#LIGHTCAVALRY
+UnitKEgr(RE)
+UnitKLan(RE)
+UnitKGus(RE)
+#HEAVYCAVALRY
+UnitKDrg(RE)
+UnitKFlg(RE)   
+#ARTILARY
+ArtPus1(RE)
+ArtPus2(RE)
+ArtPus3(RE)
+ArtPus4(RE)
+ArtPus4L(RE)
+ArtPus4G(RE)
+#BUILDINGS
+BldCen(RE)
+BldKaz(RE)
+BldKuz(RE)
+BldSkl(RE)
+BldDo1(RE)
+BldDo2(RE)
+BldAka(RE)
+BldDvo(RE)
+BldKon(RE)
+BldKonHC(RE)
+BldHra(RE)
+BldArt(RE)
+BldBlg(RE)
+BldTow(RE)
+BldKro(RE)
+BldFor(RE)
+BldKre(RE)
+BldLes(RE)
+BldRudIron(RE)
+BldRudSton(RE)
+BldRudGold(RE)
+BldRudUgl(RE)
+BldRudCoal(RE)
+BldRin(RE)
+BldKir(RE)  
+BldMel(RE)  
+BldMay(RE)   
+Bochka(RE)
+UnitPus(RE)
+
+[OFFICERS]
+UnitOf(RE) UnitBar(RE) UnitFlg(RE)   3
+SQUARE 1 #SQUARE120 5 UnitFuz(RE) UnitGre(RE) UnitVol(RE) UnitMus(RE) GuardVesGre(RE)  
+LINE   1 #LINE120COS 5 UnitFuz(RE) UnitGre(RE) UnitVol(RE) UnitMus(RE) GuardVesGre(RE) 
+KARE   1 #KARE120COS 5 UnitFuz(RE) UnitGre(RE) UnitVol(RE) UnitMus(RE) GuardVesGre(RE) 
+UnitKFlg(RE) NONE    3
+SHER   1 #MOVR2COS45 7 UnitKLan(RE) UnitKEgr(RE) UnitKGus(RE) UnitKKir(RE) UnitKDrg(RE) GuardVesKLan(RE) GuardVesKGus(RE)  
+PRUS   1 #PRUS45COS 7 UnitKLan(RE)  UnitKEgr(RE) UnitKGus(RE) UnitKKir(RE) UnitKDrg(RE) GuardVesKLan(RE) GuardVesKGus(RE)  
+TRI    1 #TRI1COS45 7 UnitKLan(RE) UnitKEgr(RE) UnitKGus(RE) UnitKKir(RE) UnitKDrg(RE) GuardVesKLan(RE) GuardVesKGus(RE)  
+UnitEgr(RE) NONE 1
+LINE   1 #LINE15COSEGR  1 UnitEgr(RE) 
+UnitSap(RE) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitSap(RE)
+GuardVesEgr(RE)  NONE 1
+LINE   1 #LINE30COSEGR  1 GuardVesEgr(RE) 
+
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]

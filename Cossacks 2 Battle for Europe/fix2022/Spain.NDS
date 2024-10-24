@@ -1,0 +1,436 @@
+[MEMBERS]
+TempMent(SP)   SpnPar
+ArtPus1(SP)    ArtPus1
+ArtPus2(SP)    ArtPus2
+ArtPus3(SP)    ArtPus3
+ArtPus4(SP)    ArtPus4SPN
+ArtPus4L(SP)   ArtPus4LSPN
+ArtPus4G(SP)   ArtPus4GSPN
+ArtPus4R(SP)   ArtPusR
+UnitKri(SP)    EngKri
+UnitPus(SP)    PusSpn
+UnitPop(SP)    FrnPop
+UnitBar(SP)    SpnBar 
+UnitFlg(SP)    SpnFlg
+UnitOf(SP)     SpnOf
+UnitEgr(SP)    SpnEgr
+UnitFuz(SP)    SpnMus
+UnitGre(SP)    SpnGre
+UnitPar(SP)    SpnParNew
+UnitKDrg(SP)   SpnKDrg
+UnitKFlg(SP)   SpnKFlg
+UnitKGus(SP)   SpnKGus
+UnitKEgr(SP)   SpnKEgr
+UnitKGvr(SP)   SpnKGvr
+UnitSap(SP)    SpnSap
+BldKaz(SP)     SpnKaz
+BldMel(SP)     SpnMil
+BldAka(SP)     SpnAka
+BldCen(SP)     SpnCen
+BldDo1(SP)     SpnDo1
+BldDo2(SP)     SpnDo2
+BldDvo(SP)     SpnDvo
+BldHra(SP)     SpnHra
+BldKuz(SP)     SpnKuz
+BldSkl(SP)     SpnSkl
+BldMay(SP)     SpnMay
+BldArs(SP)     BldArs
+BldMan(SP)     BldMan
+BldKir(SP)     BldKir
+BldLes(SP)     BldLes
+BldKre(SP)     BldKre
+BldTow(SP)     BldTow
+BldKro(SP)     BldKro
+BldKon(SP)     BldKon
+BldKonHC(SP)   BldKonHC
+BldRudGold(SP) BldRudGln
+BldRudIron(SP) BldRudRud 
+BldRudCoal(SP) BldRudSel
+BldRudSton(SP) BldRudKam
+BldRudUgl(SP)  BldRudUgl
+BldFor(SP)     BldFor
+BldBlg(SP)     BldBlg
+BldArt(SP)     BldArt
+BldRin(SP)     BldRin
+Field(SP)      Field
+Bochka(SP)     Bochka
+ArtPus(SP)     ArtPus4ENG
+GuardSpnMus(SP)    GuardSpnMus
+GuardSpnGre(SP)    GuardSpnGre
+GuardSpnKEgr(SP)   GuardSpnKEgr
+GuardSpnKDrg(SP)   GuardSpnKDrg
+SpnDo2M(SP)    SpnDo2M
+SpnDo1M(SP)    SpnDo1M
+SpnCenM(SP)    SpnCenM
+SpnKGvrM(SP)   SpnKGvrM
+SpnKDrgM(SP)   SpnKDrgM
+SpnKGusM(SP)   SpnKGusM
+
+[FIXED_PRODUCE]
+
+BldHra(SP)     1
+UnitPop(SP)    0 1 A
+
+BldCen(SP)     1
+UnitKri(SP)    0 1 A
+
+BldKaz(SP)      7
+UnitFuz(SP)     2 1 A
+UnitGre(SP)     3 1 A
+UnitOf(SP)      5 1 A
+UnitBar(SP)     6 1 A
+UnitFlg(SP)     7 1 A
+UnitEgr(SP)     0 0 A
+UnitSap(SP)     1 0 A
+
+BldKon(SP)        3
+UnitKEgr(SP)      0  0 A
+UnitKGus(SP)      1  0 A
+UnitKFlg(SP)      6  0 A
+
+BldKonHC(SP)      3
+UnitKDrg(SP)      0  0 A
+UnitKGvr(SP)      1  0 A
+UnitKFlg(SP)      6  0 A
+
+BldArt(SP)     4
+ArtPus4L(SP)   0  1 A
+ArtPus4(SP)    1  1 A
+ArtPus4G(SP)   2  1 A
+ArtPus3(SP)    6  1 A
+
+UnitSap(SP)    6
+BldBlg(SP)     0  0 A
+BldTow(SP)     1  0 A
+BldKro(SP)     2  0 A
+BldFor(SP)     3  0 A
+BldKre(SP)     4  0 A
+Bochka(SP)     1  1 A
+
+UnitKri(SP)    15
+BldCen(SP)     0 0 A
+BldKaz(SP)     1 0 A
+BldDo1(SP)     2 0 A
+BldDo2(SP)     3 0 A
+BldKon(SP)     4 0 A
+BldArt(SP)     5 0 A
+BldTow(SP)     7 0 A
+BldSkl(SP)     0 1 A
+BldRin(SP)     4 1 A
+BldAka(SP)     2 1 A
+BldDvo(SP)     5 1 A
+BldHra(SP)     3 1 A
+BldBlg(SP)     7 1 A
+BldKuz(SP)     1 1 A
+BldKonHC(SP)   6 0 A
+
+BldKuz(SP)      1
+UnitPar(SP)     1 1 A
+
+BldMel(SP) 1
+Field(SP)  1 0 A
+
+BldFor(SP)         4
+UnitGre(SP)        0 0 A
+UnitOf(SP)         2 0 A
+UnitBar(SP)        3 0 A
+UnitFlg(SP)        4 0 A
+
+BldKre(SP) 8
+GuardSpnMus(SP)    1 1 A
+GuardSpnGre(SP)    2 1 A
+GuardSpnKEgr(SP)   1 0 A
+GuardSpnKDrg(SP)   2 0 A
+UnitKFlg(SP)       7 0 A
+UnitOf(SP)         5 1 A
+UnitBar(SP)        6 1 A
+UnitFlg(SP)        7 1 A
+
+BldKro(SP)         4
+UnitFuz(SP)        0 0 A
+UnitOf(SP)         2 0 A
+UnitBar(SP)        3 0 A
+UnitFlg(SP)        4 0 A
+
+[ENABLED]
+/UnitGre(SP) 
+UnitBar(SP) 
+UnitFlg(SP) 
+UnitOf(SP) 
+UnitEgr(SP)
+UnitPar(SP)
+UnitPop(SP)
+UnitKri(SP)
+UnitFuz(SP)
+UnitSap(SP)  
+UnitKDrg(SP)
+UnitKFlg(SP)
+UnitKEgr(SP)   
+UnitKGus(SP)             
+ArtPus3(SP)
+ArtPus4(SP)
+ArtPus4L(SP)
+ArtPus4G(SP)
+BldKir(SP)
+ArtPus4(SP)
+BldRin(SP)
+BldSkl(SP)
+BldKuz(SP)
+BldLes(SP)
+BldAka(SP)
+BldKaz(SP)
+BldDvo(SP)
+BldDo2(SP)
+BldHra(SP)
+BldArt(SP)
+BldBlg(SP)
+BldKon(SP)
+BldTow(SP)
+BldKro(SP)
+BldFor(SP)
+BldKre(SP)
+BldRudGold(SP)
+BldRudIron(SP)
+BldRudCoal(SP)
+BldRudSton(SP)
+BldMel(SP)
+BldCen(SP)
+BldDo1(SP)
+BldMay(SP)
+Bochka(SP)
+GuardSpnMus(SP)
+GuardSpnGre(SP)
+GuardSpnKEgr(SP)
+GuardSpnKDrg(SP)
+UnitKGvr(SP)
+SpnKGusM(SP)
+BldKonHC(SP)
+
+[UPGRADE]
+Bashnia(SP)PAUSE U3 #POSITION 0 0 #LEVEL 2 Bashnia(AU)PAUSE #COST 1 COAL 250 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(SP) 80
+Bashnia(SP)PAUSE3 U3 #POSITION 0 0 #LEVEL 3 Bashnia(AU)PAUSE3 #COST 1 IRON 350 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(SP) 60
+Bashnia(SP)PAUSE4 U3 #POSITION 0 0 #LEVEL 4 Bashnia(AU)PAUSE4 #COST 1 COAL 600 #TIME 1000
+        SINGLE_ATTPAUSE ATTINDEX 0 BldTow(SP) 50
+KUZ02(SP) U4 #POSITION 1 0 #LEVEL 1 KUZ02(SP) #COST 2 IRON 300 GOLD 500 #TIME 2700
+        ENABLE UNITS GRP 1 UnitGre(SP)
+
+[UPGRADEPLACE]
+
+BldKuz(SP) 1 
+KUZ02(SP)
+
+BldTow(SP) 3 
+Bashnia(SP)PAUSE
+Bashnia(SP)PAUSE3
+Bashnia(SP)PAUSE4
+
+[UPGRADEENABLE]
+KUZ02(SP)
+Bashnia(SP)PAUSE
+Bashnia(SP)PAUSE3
+Bashnia(SP)PAUSE4
+
+[UPGRADELINKS]
+
+[DISABLED_UPGRADES]
+
+[AUTOUPGRADE]
+
+[ACCESSCONTROL]
+UnitKDrg(SP)    2 BldKuz(SP)
+                  BldDvo(SP)
+UnitKFlg(SP)    1 BldKuz(SP)
+Bochka(SP)      1 BldArt(SP)
+BldKaz(SP)      1 BldCen(SP)
+BldSkl(SP)      1 BldCen(SP)
+BldRin(SP)      1 BldCen(SP)
+BldDo1(SP)      3 BldCen(SP)
+                  BldKaz(SP)
+                  BldSkl(SP)
+BldKon(SP)      1 BldSkl(SP)
+BldAka(SP)      2 BldKaz(SP)
+                  BldSkl(SP)
+BldHra(SP)      2 BldCen(SP)
+                  BldDvo(SP)
+BldTow(SP)      1 BldAka(SP)
+BldKro(SP)      2 BldArt(SP)
+                  BldAka(SP)
+BldFor(SP)      2 BldArt(SP)
+                  BldAka(SP)
+BldKre(SP)      2 BldDvo(SP)
+                  BldArt(SP)
+BldDo2(SP)      1 BldDvo(SP)
+BldDvo(SP)      1 BldAka(SP)
+BldKir(SP)      1 BldAka(SP)
+BldArt(SP)      1 BldAka(SP)
+BldMan(SP)      1 BldAka(SP)
+BldArs(SP)      1 BldArt(SP)
+BldKuz(SP)      1 BldKaz(SP)
+UnitGre(SP)     2 BldKuz(SP)
+                  KUZ02(SP)
+UnitSap(SP)     1 BldAka(SP)
+UnitOf(SP)      1 BldAka(SP)
+UnitEgr(SP)     1 BldKuz(SP)
+UnitKFlg(SP)    1 BldAka(SP)
+UnitKDrg(SP)    1 BldAka(SP)
+UnitBar(SP)     1 BldDvo(SP)
+UnitFlg(SP)     1 BldDvo(SP)
+UnitPar(SP)     1 BldDvo(SP)
+GuardSpnMus(SP) 2 BldDvo(SP) BldAka(SP)
+GuardSpnGre(SP) 3 BldDvo(SP) BldAka(SP) KUZ02(SP)
+GuardSpnKEgr(SP) 2 BldDvo(SP) BldAka(SP)
+GuardSpnKDrg(SP) 2 BldDvo(SP) BldAka(SP)
+UnitKGvr(SP) 1 BldDvo(SP)
+BldKonHC(SP) 2 BldAka(SP) BldKuz(SP)
+UnitKGus(SP) 1 BldKuz(SP)
+
+[UNITLOCK]
+BldBlg(SP) 3 BldBlg(SP)
+BldSkl(SP) 2 BldSkl(SP)
+BldKuz(SP) 1 BldKuz(SP)
+BldAka(SP) 1 BldAka(SP)
+BldHra(SP) 1 BldHra(SP)
+BldRin(SP) 1 BldRin(SP)
+BldDvo(SP) 1 BldDvo(SP)
+BldKre(SP) 1 BldKre(SP)
+BldFor(SP) 1 BldFor(SP)
+BldKro(SP) 1 BldKro(SP)
+BldKon(SP) 1 BldKon(SP)
+BldKonHC(SP) 1 BldKonHC(SP)
+GuardSpnMus(SP) 120 GuardSpnMus(SP) 
+GuardSpnGre(SP) 120 GuardSpnGre(SP)
+GuardSpnKEgr(SP) 45 GuardSpnKEgr(SP)
+GuardSpnKDrg(SP) 45 GuardSpnKDrg(SP)
+UnitEgr(SP) 65 UnitEgr(SP)
+UnitSap(SP) 35 UnitSap(SP)
+UnitPar(SP) 250 UnitPar(SP)
+
+[CANSETDEST]
+BldKaz(SP)
+BldLes(SP)
+BldMel(SP)
+BldAka(SP)
+BldCen(SP)
+BldDo1(SP)
+BldDo2(SP)
+BldDvo(SP)
+BldHra(SP)
+BldKuz(SP)
+BldSkl(SP)
+BldMay(SP)
+BldKre(SP)
+BldTow(SP)
+BldKro(SP)
+BldKon(SP)
+BldRudGold(SP)
+BldRudIron(SP) 
+BldRudCoal(SP)
+BldRudSton(SP)
+BldRudUgl(SP)
+BldFor(SP)
+BldBlg(SP)
+BldArt(SP)
+BldKonHC(SP)
+
+[PRIVATE]
+Bashnia(SP)PAUSE
+Bashnia(SP)PAUSE3
+Bashnia(SP)PAUSE4
+
+[SPECIAL_UPGRADE]
+
+[SPECIAL_UNIT]
+
+[COUNTRY]
+SPAIN 66
+#GUARD
+GuardSpnMus(SP)
+GuardSpnGre(SP)
+GuardSpnKEgr(SP)
+GuardSpnKDrg(SP)
+#UNITS
+UnitKri(SP)
+UnitPar(SP)
+UnitFuz(SP)
+UnitGre(SP)
+UnitBar(SP)
+UnitFlg(SP)
+UnitOf(SP)
+UnitEgr(SP)
+UnitSap(SP)
+UnitPop(SP)
+Bochka(SP)
+#LIGHTCAVALRY  
+UnitKEgr(SP)  
+UnitKGus(SP)    
+#HEAVYCAVALRY
+UnitKDrg(SP)
+UnitKGvr(SP)
+UnitKFlg(SP)
+#ARTILARY
+UnitPus(SP) 
+ArtPus2(SP)
+ArtPus3(SP)
+ArtPus4(SP)
+ArtPus4L(SP)
+ArtPus4G(SP)
+#BUILDINGS
+BldMel(SP)
+BldKaz(SP)
+BldLes(SP)
+BldAka(SP)
+BldCen(SP)
+BldDo1(SP)
+BldDo2(SP)
+BldDvo(SP)
+BldHra(SP)
+BldKuz(SP)
+BldSkl(SP)
+BldArt(SP)
+BldKre(SP)
+BldTow(SP)
+BldKro(SP)
+BldKon(SP)
+BldKonHC(SP)
+BldFor(SP)
+BldBlg(SP)
+BldRudIron(SP)
+BldRudSton(SP)
+BldRudGold(SP)
+BldRudUgl(SP)
+BldRudCoal(SP)
+BldMay(SP)
+BldRin(SP)
+BldKir(SP)
+#MISSIONS       
+SpnDo2M(SP)    
+SpnDo1M(SP)    
+SpnCenM(SP)    
+SpnKGvrM(SP)
+SpnKDrgM(SP)
+SpnKGusM(SP)
+
+[OFFICERS]
+UnitPar(SP) NONE 2
+SQUARE 1 #SQUARE60Gar 1 UnitPar(SP)
+LINE   1 #LINE60Gar  1 UnitPar(SP)
+UnitOf(SP) UnitBar(SP) UnitFlg(SP) 3
+SQUARE 1 #SQUARE120   4 UnitFuz(SP) UnitGre(SP) GuardSpnMus(SP) GuardSpnGre(SP)
+LINE   1 #LINE120COS  4 UnitFuz(SP) UnitGre(SP) GuardSpnMus(SP) GuardSpnGre(SP)
+KARE   1 #KARE120COS  4 UnitFuz(SP) UnitGre(SP) GuardSpnMus(SP) GuardSpnGre(SP)
+UnitKFlg(SP) NONE 3
+SHER   1 #MOVR2COS45    6 UnitKDrg(SP) UnitKEgr(SP) UnitKGus(SP) UnitKGvr(SP) GuardSpnKEgr(SP) GuardSpnKDrg(SP)   
+PRUS   1 #PRUS45COS     6 UnitKDrg(SP) UnitKEgr(SP) UnitKGus(SP) UnitKGvr(SP) GuardSpnKEgr(SP) GuardSpnKDrg(SP)    
+TRI    1 #TRI1COS45     6 UnitKDrg(SP) UnitKEgr(SP) UnitKGus(SP) UnitKGvr(SP) GuardSpnKEgr(SP) GuardSpnKDrg(SP)  
+UnitEgr(SP) NONE 1
+LINE   1 #LINE15COSEGR  1 UnitEgr(SP)
+UnitSap(SP) NONE 1
+LINE   1 #LINE15COSEGR 1 UnitSap(SP)
+
+[STAGEDEPENDENT]
+
+[UPGRADESTAGE]
+
+[END]

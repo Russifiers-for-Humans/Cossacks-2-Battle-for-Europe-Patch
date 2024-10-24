@@ -1,0 +1,62 @@
+ICCREATE Creating the game...
+ICJOIN Joining the game...
+ICUNJ Unable to join the game.
+ICUNCR Unable to create the game.
+ICCONN Connecting to the master server
+ICUNCON Unable to connect to the master server.
+ICDISG Disconnecting from the game...
+BATTLTXT Battle
+DEATHTXT Death Match
+ALL All
+FIL_NAME Select all rooms containing custom string.
+FIL_PLAYERS Filter by number of players.
+FIL_PING Filter by ping value.
+FIL_VERS Filter by version.
+FIL_TYPE Filter by game type.
+FIL_LEVEL Filter by level of room's players.
+SRT_ROOM Sort by name.
+SRT_PLAYERS Sort by players.
+SRT_PING Sort by ping.
+SRT_VERS Sort by version.
+SRT_TYPE Sort by game type.
+SRT_LEVEL Sort by level.
+IG_CREATE Create server.
+IG_JOIN Join.
+BACKINCHAT View chat.
+IG_BACK Return to room.
+IG_REFRESH Refresh the list of servers.
+IG_CANCEL Quit chat.
+ENTERPASSWORD Enter password:
+GAMINPR The game has already begun.\Unable to join the game.
+GAMINAR The game was created in GameSpy Arcade.\Unable to join the game.
+IINVVER The version of the game is incompatible with your version (%s).\Unable to join the game.
+ROMFULL This room is filled to its capacity. Unable to join the game.
+RMPASSW This room requires a password. You may join the game if you know the password.
+CANJOIN0 You can join this game and play it now!
+CANJOIN1 If you are a beginner, this room is for you!
+CANJOIN2 If you are a skilled player, join this room to play!
+CANJOIN3 If you feel a real American Conquest professional, join this game to beat them all!
+DBLCLICK Player %s, ping %d. Click to send a private message.
+DBLCLICKU Player %s, unknown ping. Click to send a private message.
+PLINGAME Player %s is playing now.
+ONLYOU (only for you)
+ENTERMESS Enter a personal message to %s.
+LEV_0M For all players
+LEV_0 For all players
+LEV_1M 0000 Beginner
+LEV_1 0000
+LEV_2M 0001 Skilled
+LEV_2 0001
+LEV_3M 0002 Hardcore
+LEV_3 0002
+FRW_0 Proxy or firewall detected.
+FRW_IGN Ignore
+FRW_YES OK
+FRW_TXT Incorrect Internet settings have been discovered on your computer. It seems that you may not have your own IP address visible beyond your LAN. Please consult your network administrator. If you click on 'OK', you will be able to chat, but not to create or join rooms. Clicking on 'Ignore' will enable you to create a room, but it will only be seen by very few other players. Besides, you are likely to face problems when connecting to another room.
+NPLAYMSS Total: %d
+NROOMMSS Total: %d
+COMCHAT [FROM GENERAL CHAT] %s: %s
+CHATHELP1 Press <ENTER> to send a message to all players.
+CHATHELP2 Press <CTRL+ENTER> to send a message to friendly players.
+CHATHELP3 Press <F%d> to reply to %s.
+CHATHELP4 To %s: %s

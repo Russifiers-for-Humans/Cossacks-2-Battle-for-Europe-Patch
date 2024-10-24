@@ -1,0 +1,45 @@
+#MAY Maya
+#SPAIN Spain
+#ENGLAND Britain
+#FRANCE France
+#USA USA
+#INCAS Incas
+#ACTEC Aztecs
+#PUEBLO Pueblos
+#DELAVAR Delaware
+#HURONI Huron
+#IROKEZ Iroquois
+#SIU Sioux
+#NEUTRAL Neutral
+#TESCOCO Texcoco
+#NEW Neutral
+#GORFRN French Town
+#TREES Trees
+#TREES2 Trees 2
+#EGIPET Egypt
+
+#SOSNI Pine
+#DER1 Trees 1
+#DER2 Trees 2
+#DER3 Trees 3
+#DER Trees 4
+#YELKI Fir
+#KAMNI1 Stone 1
+#KAMNI2 Stone 2
+#KAKTUS1 Cacti 1
+#KAKTUS2 Cacti 2
+#KUST1 Bushes 1
+#KUST2 Bushes 2
+#SUHIE Wood
+#KAMNI4 Rock
+#PALMI Palms
+#OTHERS Misc.
+#KAMNIVODNI Crags
+#NEW Special
+#KAMNI Single Stones
+#VOBLIN Mines
+#GOLOVA Statue
+
+
+#POLAND Poland
+#REIN Rhine

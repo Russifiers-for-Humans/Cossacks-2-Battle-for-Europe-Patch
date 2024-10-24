@@ -1,0 +1,2 @@
+#Cannonautoshot Turn autoshot on/off
+

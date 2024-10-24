@@ -1,0 +1,542 @@
+@CLASSID::lvCSendToNode Send to NODE
+@ENUMHINT::@CLASSID::lvCSendToNode Посылает текущую группу в текущуюю ноду до тех пор пока юниты туда не дойдут и не станут в нужном направлении, первый раз приказ отдается в соответствии с параметром ::parType, все последующие только если у группы нет приказов
+@HINT::lvCSendToNode Посылает текущую группу в текущуюю ноду до тех пор пока юниты туда не дойдут и не станут в нужном направлении, первый раз приказ отдается в соответствии с параметром ::parType, все последующие только если у группы нет приказов
+
+@CLASSID::lvCSetState Set Active state
+@ENUMHINT::@CLASSID::lvCSetState Меняет состояние агресивности в текущей группе ,отдается постоянно и безусловно
+@HINT::lvCSetState Меняет состояние агресивности в текущей группе ,отдается постоянно и безусловно
+
+@CLASSID::lvCReformation Reformation
+@ENUMHINT::@CLASSID::lvCReformation Меняет построение в отряде, приказ первый раз отдается безусловно, все поледующие только если у группы нет других приказов
+@HINT::lvCReformation Меняет построение в отряде, приказ первый раз отдается безусловно, все поледующие только если у группы нет других приказов
+
+@CLASSID::lvCRotate Rotate
+@ENUMHINT::@CLASSID::lvCRotate Поварачивает группу в заданном направлении до тех пор пока группа не повернется правильно, первый приказ - безусловный, остальные только если у группы нет текущих приказов
+@HINT::lvCRotate Поварачивает группу в заданном направлении до тех пор пока группа не повернется правильно, первый приказ - безусловный, остальные только если у группы нет текущих приказов
+
+@CLASSID::lvCChangeNation Change Nation
+@ENUMHINT::@CLASSID::lvCChangeNation Изменяет текущей группе нацию
+@HINT::lvCChangeNation Изменяет текущей группе нацию
+
+@CLASSID::lvCSavePosition Save vGroup position
+@ENUMHINT::@CLASSID::lvCSavePosition Сохранить позиции юнитов из группы ::GrpID в множество ::VVpPos или позицию первого(не точно) в ::vvPoint
+@HINT::lvCSavePosition Сохранить позиции юнитов из группы ::GrpID в множество ::VVpPos или позицию первого(не точно) в ::vvPoint
+
+@CLASSID::lvCSendToPosition Send vGroup to position
+@ENUMHINT::@CLASSID::lvCSendToPosition Расставить группу юнитов ::parGrp по множеству позиций записанных в множестве позиций ::VVpPos
+@HINT::lvCSendToPosition Расставить группу юнитов ::parGrp по множеству позиций записанных в множестве позиций ::VVpPos
+
+@CLASSID::lvCTakeFood Take Food
+@ENUMHINT::@CLASSID::lvCTakeFood Крестьяне из группы ::GrpID начинают собирать еду, если их после этого заставить делать что-то другое то они всеравно вернуться к сбору ресурса
+@HINT::lvCTakeFood Крестьяне из группы ::GrpID начинают собирать еду, если их после этого заставить делать что-то другое то они всеравно вернуться к сбору ресурса
+
+@CLASSID::lvCTakeWood Take Wood
+@ENUMHINT::@CLASSID::lvCTakeWood Крестьяне из группы ::GrpID начинают собирать дерево, если их после этого заставить делать что-то другое то они всеравно вернуться к сбору ресурса
+@HINT::lvCTakeWood Крестьяне из группы ::GrpID начинают собирать дерево, если их после этого заставить делать что-то другое то они всеравно вернуться к сбору ресурса
+
+@CLASSID::lvCTakeStone Take Stone
+@ENUMHINT::@CLASSID::lvCTakeStone Крестьяне из группы ::GrpID начинают собирать камень, если их после этого заставить делать что-то другое то они всеравно вернуться к сбору ресурса
+@HINT::lvCTakeStone Крестьяне из группы ::GrpID начинают собирать камень, если их после этого заставить делать что-то другое то они всеравно вернуться к сбору ресурса
+
+@CLASSID::lvCKillNUnits Kill N units
+@ENUMHINT::@CLASSID::lvCKillNUnits Убить в группе ::GrpID ::UCount юнитов, если ::UCount==65535(0xFFFF) то убить всех
+@HINT::lvCKillNUnits Убить в группе ::GrpID ::UCount юнитов, если ::UCount==65535(0xFFFF) то убить всех
+
+@CLASSID::lvCEraseNUnits Erase N units
+@ENUMHINT::@CLASSID::lvCEraseNUnits Убрать с карты в группе ::GrpID ::UCount юнитов, если ::UCount==65535(0xFFFF) то убрать всех
+@HINT::lvCEraseNUnits Убрать с карты в группе ::GrpID ::UCount юнитов, если ::UCount==65535(0xFFFF) то убрать всех
+
+@CLASSID::lvCTeleport Teleport Group
+@ENUMHINT::@CLASSID::lvCTeleport Если ::Direction==512 то просто переносит группу ::vGrpID в точку ::Point или зону ::ZoneID в зависимости от ::Use_VVal (все приказы  отданные группе до этого отменяются), если ::Direction!=512 то группа переносится в точку смещенную от заданной на (dX,dY) в противоположною сторону от ::Direction и посылается в заданную позицию
+@HINT::lvCTeleport Если ::Direction==512 то просто переносит группу ::vGrpID в точку ::Point или зону ::ZoneID в зависимости от ::Use_VVal (все приказы  отданные группе до этого отменяются), если ::Direction!=512 то группа переносится в точку смещенную от заданной на (dX,dY) в противоположною сторону от ::Direction и посылается в заданную позицию
+
+@CLASSID::lvCDisband Disband brigade
+@ENUMHINT::@CLASSID::lvCDisband Распустить все отряды в группе ::vGrpID
+@HINT::lvCDisband Распустить все отряды в группе ::vGrpID
+
+@CLASSID::lvCSpotGrpByUType Spot vGroup by UnitType
+@ENUMHINT::@CLASSID::lvCSpotGrpByUType Структура внутреннего испоьзования, ::vGrpID - группа в которую строятся юниты, количество юнитов в этой группе поддерживается на уровне ::UnitType штук нации ::Nat
+@HINT::lvCSpotGrpByUType Структура внутреннего испоьзования, ::vGrpID - группа в которую строятся юниты, количество юнитов в этой группе поддерживается на уровне ::UnitType штук нации ::Nat
+
+@CLASSID::lvCRemoveNUnitsTo Move N units
+@ENUMHINT::@CLASSID::lvCRemoveNUnitsTo Переместить ::N юнитов из группы ::vGrpSource в группу ::vGrpDest
+@HINT::lvCRemoveNUnitsTo Переместить ::N юнитов из группы ::vGrpSource в группу ::vGrpDest
+
+@CLASSID::lvCGroupSendToNode Send Group to NODE
+@ENUMHINT::@CLASSID::lvCGroupSendToNode Посылает группу ::parGrp в текущуюю ноду до тех пор пока юниты туда не дойдут и не станут в нужном направлении, первый раз приказ отдается в соответствии с параметром ::parType, все последующие только если у группы нет приказов
+@HINT::lvCGroupSendToNode Посылает группу ::parGrp в текущуюю ноду до тех пор пока юниты туда не дойдут и не станут в нужном направлении, первый раз приказ отдается в соответствии с параметром ::parType, все последующие только если у группы нет приказов
+
+@CLASSID::lvCGroupSendTo Send Group to Zone
+@ENUMHINT::@CLASSID::lvCGroupSendTo Послать группу юнитов ::parGrp в зону ::parZn, в конечной точке направление юнитов ::parDir (если ::parDir==512, то направление останется прежним), команда выполняется только свободной от команд группой, или если ::parType==0, то предыдущий приказ игнорируется
+@HINT::lvCGroupSendTo Послать группу юнитов ::parGrp в зону ::parZn, в конечной точке направление юнитов ::parDir (если ::parDir==512, то направление останется прежним), команда выполняется только свободной от команд группой, или если ::parType==0, то предыдущий приказ игнорируется
+
+@CLASSID::lvCRotateGroup Rotate Group
+@ENUMHINT::@CLASSID::lvCRotateGroup Поварачивает группу ::parGrp в направление ::parDir, приказ отдается только если у группы нет приказов, до тех пор пока группа не повернется в нужном направлении
+@HINT::lvCRotateGroup Поварачивает группу ::parGrp в направление ::parDir, приказ отдается только если у группы нет приказов, до тех пор пока группа не повернется в нужном направлении
+
+@CLASSID::lvCSetUnitState Set Active state
+@ENUMHINT::@CLASSID::lvCSetUnitState Выставить группе ::parGrp агресивность ::parmode, команда выполняется безусловно
+@HINT::lvCSetUnitState Выставить группе ::parGrp агресивность ::parmode, команда выполняется безусловно
+
+@CLASSID::lvCSelectUnits Select Group
+@ENUMHINT::@CLASSID::lvCSelectUnits Выделить группу ::parGrp, если ::parAdd==true то добавить к текущему выделению
+@HINT::lvCSelectUnits Выделить группу ::parGrp, если ::parAdd==true то добавить к текущему выделению
+
+@CLASSID::lvCBrigReformation Group reformation
+@ENUMHINT::@CLASSID::lvCBrigReformation Меняет построение в отряде ::GrpID, приказ первый раз отдается безусловно
+@HINT::lvCBrigReformation Меняет построение в отряде ::GrpID, приказ первый раз отдается безусловно
+
+@CLASSID::lvCChangeNationG Change Nation
+@ENUMHINT::@CLASSID::lvCChangeNationG Изменяет группе ::GrpID нацию на нацию ::nwNat
+@HINT::lvCChangeNationG Изменяет группе ::GrpID нацию на нацию ::nwNat
+
+@CLASSID::lvCEqualizeSpeed Equalize speed
+@ENUMHINT::@CLASSID::lvCEqualizeSpeed Установить одинаковую скорость юнитов для групп ::vGrp0 и ::vGrp1 по типу усреднения из ::EqType, можно задать только ::vGrp0, скорость усреднения берется из группы ::vGrp0
+@HINT::lvCEqualizeSpeed Установить одинаковую скорость юнитов для групп ::vGrp0 и ::vGrp1 по типу усреднения из ::EqType, можно задать только ::vGrp0, скорость усреднения берется из группы ::vGrp0
+
+@CLASSID::lvCCreateBrigade Make brigade form vGroup
+@ENUMHINT::@CLASSID::lvCCreateBrigade Создает из группы ::vGrp отряд размера ::iSize/::vSize, если заданна ::vBrigGrp то перемещает отряд в эту группу
+@HINT::lvCCreateBrigade Создает из группы ::vGrp отряд размера ::iSize/::vSize, если заданна ::vBrigGrp то перемещает отряд в эту группу
+
+@CLASSID::lvCSelectAll Select all units
+@ENUMHINT::@CLASSID::lvCSelectAll Выделить все юниты нации ::parNat
+@HINT::lvCSelectAll Выделить все юниты нации ::parNat
+
+@CLASSID::lvCSelSendTo Send selected to Zone
+@ENUMHINT::@CLASSID::lvCSelSendTo Отправить выделенных юнитов нации ::parNat в зону ::parZn с направлением ::parDir и приоритетом ::parType
+@HINT::lvCSelSendTo Отправить выделенных юнитов нации ::parNat в зону ::parZn с направлением ::parDir и приоритетом ::parType
+
+@CLASSID::lvCSelSendToNode Send selected to NODE
+@ENUMHINT::@CLASSID::lvCSelSendToNode Отправить выделенных юнитов нации ::parNat с направлением ::parDir и приоритетом ::parType в текущую ноду
+@HINT::lvCSelSendToNode Отправить выделенных юнитов нации ::parNat с направлением ::parDir и приоритетом ::parType в текущую ноду
+
+@CLASSID::lvCAddToInt Add to Integer
+@ENUMHINT::@CLASSID::lvCAddToInt Один раз прибавляет к переменной ::IntValue значение ::IntAdd
+@HINT::lvCAddToInt Один раз прибавляет к переменной ::IntValue значение ::IntAdd
+
+@CLASSID::lvCAddToIntEx Add to Integer Ex
+@ENUMHINT::@CLASSID::lvCAddToIntEx По каждому вызову прибавляет к переменной ::IntValue значение ::IntAdd
+@HINT::lvCAddToIntEx По каждому вызову прибавляет к переменной ::IntValue значение ::IntAdd
+
+@CLASSID::lvCAddRessource Add Resource
+@ENUMHINT::@CLASSID::lvCAddRessource Добавить игроку нации ::Nat, ресурс типа ::RessType, в количестве ::Value при ::Use_VV==true или ::vValue при ::Use_VV==false
+@HINT::lvCAddRessource Добавить игроку нации ::Nat, ресурс типа ::RessType, в количестве ::Value при ::Use_VV==true или ::vValue при ::Use_VV==false
+
+@CLASSID::lvCStartAIEx Start AI
+@ENUMHINT::@CLASSID::lvCStartAIEx Запускает AI для игрока нации ::Nation, с соответствующими установками типа и сложности AI
+@HINT::lvCStartAIEx Запускает AI для игрока нации ::Nation, с соответствующими установками типа и сложности AI
+
+@CLASSID::lvCSetFGV Set Graph state
+@ENUMHINT::@CLASSID::lvCSetFGV Изменяет состояние отображения глобального графического объекта: отрисовывать, скрыть
+@HINT::lvCSetFGV Изменяет состояние отображения глобального графического объекта: отрисовывать, скрыть
+
+@CLASSID::lvCPlayOGMiss Play OGG
+@ENUMHINT::@CLASSID::lvCPlayOGMiss Проиграть файл :pFileName в звуковом канале :pStream, если :pCyclic - зацыклить
+@HINT::lvCPlayOGMiss Проиграть файл :pFileName в звуковом канале :pStream, если :pCyclic - зацыклить
+
+@CLASSID::lvCStopOGMiss Stop OGG
+@ENUMHINT::@CLASSID::lvCStopOGMiss Остановить проигрывание звука в звуковом канале номер :pStream 
+@HINT::lvCStopOGMiss Остановить проигрывание звука в звуковом канале номер :pStream 
+
+@CLASSID::lvCOGSetVolume Set Volume
+@ENUMHINT::@CLASSID::lvCOGSetVolume Установить громкость в звуковом канале номер :pStream в значение :Volume
+@HINT::lvCOGSetVolume Установить громкость в звуковом канале номер :pStream в значение :Volume
+
+@CLASSID::lvCOGFinishMiss Finish OGG
+@ENUMHINT::@CLASSID::lvCOGFinishMiss РАБОТАЕТ НЕ КОРРЕКТНО
+@HINT::lvCOGFinishMiss РАБОТАЕТ НЕ КОРРЕКТНО
+
+@CLASSID::lvCFreezeGame Freeze all
+@ENUMHINT::@CLASSID::lvCFreezeGame Заморозить и скрыть всех юнитов на карте
+@HINT::lvCFreezeGame Заморозить и скрыть всех юнитов на карте
+
+@CLASSID::lvCUnFreezeGame UnFreeze all
+@ENUMHINT::@CLASSID::lvCUnFreezeGame Разморозить и раскрыть всех юнитов на карте
+@HINT::lvCUnFreezeGame Разморозить и раскрыть всех юнитов на карте
+
+@CLASSID::lvCFreezeAndHidden Freeze and Hidden all
+@ENUMHINT::@CLASSID::lvCFreezeAndHidden Заморозить и скрыть всех юнитов на карте, если ::bHome==true то и здания
+@HINT::lvCFreezeAndHidden Заморозить и скрыть всех юнитов на карте, если ::bHome==true то и здания
+
+@CLASSID::lvCUnFreezeAndUnHidden UnFreeze and UnHidden all
+@ENUMHINT::@CLASSID::lvCUnFreezeAndUnHidden Разморозить и раскрыть всех юнитов на карте
+@HINT::lvCUnFreezeAndUnHidden Разморозить и раскрыть всех юнитов на карте
+
+@CLASSID::lvCFreezeAndHiddenGame Freeze and Hidden in Zone
+@ENUMHINT::@CLASSID::lvCFreezeAndHiddenGame Заморозить и скрыть всех юнитов в зоне ::pZone, если ::bHome==true то и здания
+@HINT::lvCFreezeAndHiddenGame Заморозить и скрыть всех юнитов в зоне ::pZone, если ::bHome==true то и здания
+
+@CLASSID::lvCUnFreezeAndUnHiddenGame UnFreeze and UnHidden in Zone
+@ENUMHINT::@CLASSID::lvCUnFreezeAndUnHiddenGame Разморозить и раскрыть всех юнитов в зоне ::pZone
+@HINT::lvCUnFreezeAndUnHiddenGame Разморозить и раскрыть всех юнитов в зоне ::pZone
+
+@CLASSID::lvCRunTimer Run timer
+@ENUMHINT::@CLASSID::lvCRunTimer Запустить таймер с индексом ::TimerID на время ::Time/::VVpInt (в милисекундах при ::TrTime==true)
+@HINT::lvCRunTimer Запустить таймер с индексом ::TimerID на время ::Time/::VVpInt (в милисекундах при ::TrTime==true)
+
+@CLASSID::lvCSetGameMode Set game mode
+@ENUMHINT::@CLASSID::lvCSetGameMode Устанавливает текущее состояние игры 0-чистый экран, игрок не может отдавать команды, 255-состояние по умолчанию.
+@HINT::lvCSetGameMode Устанавливает текущее состояние игры 0-чистый экран, игрок не может отдавать команды, 255-состояние по умолчанию.
+
+@CLASSID::lvCUnFreezeGroup UnFreeze vGroup
+@ENUMHINT::@CLASSID::lvCUnFreezeGroup Разморозить всех юнитов в группе ::GrpID
+@HINT::lvCUnFreezeGroup Разморозить всех юнитов в группе ::GrpID
+
+@CLASSID::lvCUnFreezeAndUnHiddenGroup UnFreeze and UnHidden vGroup
+@ENUMHINT::@CLASSID::lvCUnFreezeAndUnHiddenGroup Разморозить и раскрыть всех юнитов в группе ::GrpID
+@HINT::lvCUnFreezeAndUnHiddenGroup Разморозить и раскрыть всех юнитов в группе ::GrpID
+
+@CLASSID::lvCSetScrollLimit Set limit to scroll
+@ENUMHINT::@CLASSID::lvCSetScrollLimit Обрезает карту в прямоугольник с координатами ::PosLT - верхний левый угол, ::PosRB - правый нижний угол навой карты, если ::LockAroud==true залочивает по периметру
+@HINT::lvCSetScrollLimit Обрезает карту в прямоугольник с координатами ::PosLT - верхний левый угол, ::PosRB - правый нижний угол навой карты, если ::LockAroud==true залочивает по периметру
+
+@CLASSID::lvCSpotNUnits Spot N units
+@ENUMHINT::@CLASSID::lvCSpotNUnits Поддерживает в группах юнитов заданных в ::TypeNum
+@HINT::lvCSpotNUnits Поддерживает в группах юнитов заданных в ::TypeNum
+
+@CLASSID::lvCGoInBattle Go vGroup in Battle
+@ENUMHINT::@CLASSID::lvCGoInBattle Посылает войска описанные в ::lvCGoInBattle в бой
+@HINT::lvCGoInBattle Посылает войска описанные в ::lvCGoInBattle в бой
+
+@CLASSID::lvCArtAttack vGroup set attack vGroup
+@ENUMHINT::@CLASSID::lvCArtAttack Группа юнитов ::vgArtID атакует группу ::vgTargID если может дострельнуть и ::AttackActive==true
+@HINT::lvCArtAttack Группа юнитов ::vgArtID атакует группу ::vgTargID если может дострельнуть и ::AttackActive==true
+
+@CLASSID::lvCPutNewSquad Create new squard
+@ENUMHINT::@CLASSID::lvCPutNewSquad Создаёт отряд нации ::Nat размера ::SizeType типа ::UnitType в направлении ::dir в позиции ::ZoneID/(x,y) и добавляет и в группу ::GrpID
+@HINT::lvCPutNewSquad Создаёт отряд нации ::Nat размера ::SizeType типа ::UnitType в направлении ::dir в позиции ::ZoneID/(x,y) и добавляет и в группу ::GrpID
+
+@CLASSID::lvCPutNewFormation Create new formation
+@ENUMHINT::@CLASSID::lvCPutNewFormation Создает на карте группу юнитов нации ::Nat типа ::UType с направлением ::dir в позиции ::ZoneID/::Point в количестве ::Form и добавляет их в группу ::vGrpID
+@HINT::lvCPutNewFormation Создает на карте группу юнитов нации ::Nat типа ::UType с направлением ::dir в позиции ::ZoneID/::Point в количестве ::Form и добавляет их в группу ::vGrpID
+
+@CLASSID::lvCSetUnitEnableState Set unit enable state
+@ENUMHINT::@CLASSID::lvCSetUnitEnableState Выставляет состояние разрешения постройки юнита типа ::TypeID для нации ::Nat, ::State==-1 запретить, ::State==0 по умолчанию, ::State==1 разрешить полюбому
+@HINT::lvCSetUnitEnableState Выставляет состояние разрешения постройки юнита типа ::TypeID для нации ::Nat, ::State==-1 запретить, ::State==0 по умолчанию, ::State==1 разрешить полюбому
+
+@CLASSID::lvCSetUpgradeEnableStatus Set upgrade enable state
+@ENUMHINT::@CLASSID::lvCSetUpgradeEnableStatus Выставляет состояние разрешения улучшения типа ::TypeID для нации ::Nat, ::State==-1 запретить, ::State==0 по умолчанию, ::State==1 разрешить полюбому
+@HINT::lvCSetUpgradeEnableStatus Выставляет состояние разрешения улучшения типа ::TypeID для нации ::Nat, ::State==-1 запретить, ::State==0 по умолчанию, ::State==1 разрешить полюбому
+
+@CLASSID::lvCChangeFriends Set Friends
+@ENUMHINT::@CLASSID::lvCChangeFriends Устанавливает маску друзей нации ::Nation в значение ::Value
+@HINT::lvCChangeFriends Устанавливает маску друзей нации ::Nation в значение ::Value
+
+@CLASSID::lvCSetFriends Add Friends
+@ENUMHINT::@CLASSID::lvCSetFriends Добавляте нации ::fstNat нацию ::secNat в список друзей (изменяется маска только нации ::fstNat)
+@HINT::lvCSetFriends Добавляте нации ::fstNat нацию ::secNat в список друзей (изменяется маска только нации ::fstNat)
+
+@CLASSID::lvCShowVictory Show Victory
+@ENUMHINT::@CLASSID::lvCShowVictory Сообщение о победе с текстом соответствующим строковому идентификатору ::TextID
+@HINT::lvCShowVictory Сообщение о победе с текстом соответствующим строковому идентификатору ::TextID
+
+@CLASSID::lvCLooseGame Show Loose Game
+@ENUMHINT::@CLASSID::lvCLooseGame Сообщение о порожении с текстом соответствующим строковому идентификатору ::TextID
+@HINT::lvCLooseGame Сообщение о порожении с текстом соответствующим строковому идентификатору ::TextID
+
+@CLASSID::lvCSetLightSpot Set Light Spot
+@ENUMHINT::@CLASSID::lvCSetLightSpot Убирает туман войны в зоне ::ZoneID с радиусом ::Radius и присваивает этому участку системный индекс ::Index
+@HINT::lvCSetLightSpot Убирает туман войны в зоне ::ZoneID с радиусом ::Radius и присваивает этому участку системный индекс ::Index
+
+@CLASSID::lvCClearLightSpot Clear Light Spot
+@ENUMHINT::@CLASSID::lvCClearLightSpot Возвращает состаяние тумана войны в участки с индексом ::Index
+@HINT::lvCClearLightSpot Возвращает состаяние тумана войны в участки с индексом ::Index
+
+@CLASSID::lvCSetStartPoint Set start point
+@ENUMHINT::@CLASSID::lvCSetStartPoint Установить камеру в позицию ::ZoneID/::(sX,sY) соответственно
+@HINT::lvCSetStartPoint Установить камеру в позицию ::ZoneID/::(sX,sY) соответственно
+
+@CLASSID::lvCSetValue Set Value
+@ENUMHINT::@CLASSID::lvCSetValue Изменяемой глобальной переменной ::ValueTG присваевается значение присваивается соответствующее значение её типа (выполняется при каждом вызове)
+@HINT::lvCSetValue Изменяемой глобальной переменной ::ValueTG присваевается значение присваивается соответствующее значение её типа (выполняется при каждом вызове)
+
+@CLASSID::lvCSetRessource Set Resource
+@ENUMHINT::@CLASSID::lvCSetRessource Выставляет игроку нации ::Nation соответствующее кол-во ресурсов, ::UseVV - какие типы значений система будет использовать
+@HINT::lvCSetRessource Выставляет игроку нации ::Nation соответствующее кол-во ресурсов, ::UseVV - какие типы значений система будет использовать
+
+@CLASSID::lvCApplyTerafoming Apply terraforming
+@ENUMHINT::@CLASSID::lvCApplyTerafoming Изменяет ланшафт по заданной схеме (НЕ РЕКОМЕНДУЕТСЯ К ИСПОЛЬЗОВАНИЮ ИЗ-ЗА ТОРМОЗОВ)
+@HINT::lvCApplyTerafoming Изменяет ланшафт по заданной схеме (НЕ РЕКОМЕНДУЕТСЯ К ИСПОЛЬЗОВАНИЮ ИЗ-ЗА ТОРМОЗОВ)
+
+@CLASSID::lvCSetMyNation Set nation to play
+@ENUMHINT::@CLASSID::lvCSetMyNation Выставляет нацию которой будет играть человек.
+@HINT::lvCSetMyNation Выставляет нацию которой будет играть человек.
+
+@CLASSID::lvCSetLeftPort Set left portret
+@ENUMHINT::@CLASSID::lvCSetLeftPort Подставляет картинку ::SpriteID из файла ::FileID в левую часть меню ::MENU
+@HINT::lvCSetLeftPort Подставляет картинку ::SpriteID из файла ::FileID в левую часть меню ::MENU
+
+@CLASSID::lvCSetRightPort Set right portret
+@ENUMHINT::@CLASSID::lvCSetRightPort Подставляет картинку ::SpriteID из файла ::FileID в првую часть меню  ::MENU
+@HINT::lvCSetRightPort Подставляет картинку ::SpriteID из файла ::FileID в првую часть меню  ::MENU
+
+@CLASSID::lvCPlayText Play text
+@ENUMHINT::@CLASSID::lvCPlayText Проиграть текст из ::MENU в звуковом канале ::canal 
+@HINT::lvCPlayText Проиграть текст из ::MENU в звуковом канале ::canal 
+
+@CLASSID::lvCSetText Set text
+@ENUMHINT::@CLASSID::lvCSetText Подставить текст с озвучкой ::TEXT в глобальное меню ::MENU
+@HINT::lvCSetText Подставить текст с озвучкой ::TEXT в глобальное меню ::MENU
+
+@CLASSID::lvCSetActivFrame Set active frame
+@ENUMHINT::@CLASSID::lvCSetActivFrame Подсветить портрет, красной рамкой, говорящего юнита в меню
+@HINT::lvCSetActivFrame Подсветить портрет, красной рамкой, говорящего юнита в меню
+
+@CLASSID::lvCShowDialog Show dialog
+@ENUMHINT::@CLASSID::lvCShowDialog Отобразить ::Dialog
+@HINT::lvCShowDialog Отобразить ::Dialog
+
+@CLASSID::lvCAddTextToDlg Add text to dialog
+@ENUMHINT::@CLASSID::lvCAddTextToDlg Подставить текст из ::Text в ::Dialog
+@HINT::lvCAddTextToDlg Подставить текст из ::Text в ::Dialog
+
+@CLASSID::lvCClearDialog Clear dialog
+@ENUMHINT::@CLASSID::lvCClearDialog Очистить текстовое поле в ::Dialog
+@HINT::lvCClearDialog Очистить текстовое поле в ::Dialog
+
+@CLASSID::lvCSetMessageState Show vMessage
+@ENUMHINT::@CLASSID::lvCSetMessageState Выставить статус для Task - дано не дано, выполненно не выполненно, для Talk List - отображается в HistoryList или нет, для Hint List - аналогично
+@HINT::lvCSetMessageState Выставить статус для Task - дано не дано, выполненно не выполненно, для Talk List - отображается в HistoryList или нет, для Hint List - аналогично
+
+@CLASSID::lvCSetGameSpeed Set game speed
+@ENUMHINT::@CLASSID::lvCSetGameSpeed Установить скорость игры в значение ::iSpeed/::vSpeed (по умолчанию 40)
+@HINT::lvCSetGameSpeed Установить скорость игры в значение ::iSpeed/::vSpeed (по умолчанию 40)
+
+@CLASSID::lvCGetGameSpeed Save game speed
+@ENUMHINT::@CLASSID::lvCGetGameSpeed Сохраняет текущую скорость игры в переменную ::vSpeed
+@HINT::lvCGetGameSpeed Сохраняет текущую скорость игры в переменную ::vSpeed
+
+@CLASSID::lvCPushNUnitAway UnLoad N units from transport
+@ENUMHINT::@CLASSID::lvCPushNUnitAway Выгрузить все юниты из транспортников группы ::vGrpID
+@HINT::lvCPushNUnitAway Выгрузить все юниты из транспортников группы ::vGrpID
+
+@CLASSID::lvCSendUnitsToTransport Load units to transport
+@ENUMHINT::@CLASSID::lvCSendUnitsToTransport Загрузить сколько возможно юнитов из группы ::vGrpUnitsID в транспорты из группы ::vGrpTransID
+@HINT::lvCSendUnitsToTransport Загрузить сколько возможно юнитов из группы ::vGrpUnitsID в транспорты из группы ::vGrpTransID
+
+@CLASSID::lvCSetCamera Set camera
+@ENUMHINT::@CLASSID::lvCSetCamera Установить камеру в заданную позицию - НЕ РАБОТАЕТ -
+@HINT::lvCSetCamera Установить камеру в заданную позицию - НЕ РАБОТАЕТ -
+
+@CLASSID::lvCMoveCamera Move camera
+@ENUMHINT::@CLASSID::lvCMoveCamera Перемещает камеру из одной позиции в бругую за время ::Time, если задана только ::POS0 то перемещаемся из текущей в заданную, если еще задать ::DIR0 то изменяется и направление, если задать и ::POS1 и ::DIR1 то перемещение между заданными позициями, можно задавать только ::POS0 и ::POS1 перемещение без изменения направления
+@HINT::lvCMoveCamera Перемещает камеру из одной позиции в бругую за время ::Time, если задана только ::POS0 то перемещаемся из текущей в заданную, если еще задать ::DIR0 то изменяется и направление, если задать и ::POS1 и ::DIR1 то перемещение между заданными позициями, можно задавать только ::POS0 и ::POS1 перемещение без изменения направления
+
+@CLASSID::lvCAttachCameraToGroup Attach camera to vGroup
+@ENUMHINT::@CLASSID::lvCAttachCameraToGroup Привязать камеру к геометрическому центру группы юнитов ::vGrpID
+@HINT::lvCAttachCameraToGroup Привязать камеру к геометрическому центру группы юнитов ::vGrpID
+
+@CLASSID::lvCFreeCamera Free camera
+@ENUMHINT::@CLASSID::lvCFreeCamera Передает управление камерой игроку
+@HINT::lvCFreeCamera Передает управление камерой игроку
+
+@CLASSID::lvCSetLMode Set L mode
+@ENUMHINT::@CLASSID::lvCSetLMode Переводит игру в LMode если ::vMode/::iMode==true, и обратно в противном случае
+@HINT::lvCSetLMode Переводит игру в LMode если ::vMode/::iMode==true, и обратно в противном случае
+
+@CLASSID::lvCSetFogMode Set fog mode
+@ENUMHINT::@CLASSID::lvCSetFogMode Устанавливаете состояние тумана войны в ::Mode (0-нет, 1-есть)
+@HINT::lvCSetFogMode Устанавливаете состояние тумана войны в ::Mode (0-нет, 1-есть)
+
+@CLASSID::lvCSaveScreenPos Save camera position
+@ENUMHINT::@CLASSID::lvCSaveScreenPos Сохранить текущую позицию и направление камеры в глобальные переменные ::vCameraPos и ::vCameraDir соответственно
+@HINT::lvCSaveScreenPos Сохранить текущую позицию и направление камеры в глобальные переменные ::vCameraPos и ::vCameraDir соответственно
+
+@CLASSID::lvCSetUnitStateCII Set unit state
+@ENUMHINT::@CLASSID::lvCSetUnitStateCII Выполняет действия над юнитами из группы ::GrpID в соответствии с параметрами
+@HINT::lvCSetUnitStateCII Выполняет действия над юнитами из группы ::GrpID в соответствии с параметрами
+
+@CLASSID::lvCSendStikiToZone Send stiki to Zone
+@ENUMHINT::@CLASSID::lvCSendStikiToZone Отправить группу юнитов ::GrpID в зону ::ZoneID с напрвалением ::dir (::dir==512 не менять направление), ::prio==0 - выполнить немедленно, ::prio==1 - ждать окончания предыдущих приказов
+@HINT::lvCSendStikiToZone Отправить группу юнитов ::GrpID в зону ::ZoneID с напрвалением ::dir (::dir==512 не менять направление), ::prio==0 - выполнить немедленно, ::prio==1 - ждать окончания предыдущих приказов
+
+@CLASSID::lvCScare Scare (ispugat')
+@ENUMHINT::@CLASSID::lvCScare Распугать группу ::vGrpID
+@HINT::lvCScare Распугать группу ::vGrpID
+
+@CLASSID::lvCClearSG Clear Stand Ground
+@ENUMHINT::@CLASSID::lvCClearSG Сорвать группу ::vGrpID с StandGround ВОЗМОЖНО НЕ РАБОТАЕТ
+@HINT::lvCClearSG Сорвать группу ::vGrpID с StandGround ВОЗМОЖНО НЕ РАБОТАЕТ
+
+@CLASSID::lvCSetAIEnableState Set AI State
+@ENUMHINT::@CLASSID::lvCSetAIEnableState Запрещает (::State==false), разрешает (::State==true) командование AI для игрока нации ::Nat
+@HINT::lvCSetAIEnableState Запрещает (::State==false), разрешает (::State==true) командование AI для игрока нации ::Nat
+
+@CLASSID::lvCShowPanel Show Panel
+@ENUMHINT::@CLASSID::lvCShowPanel Отображает панель с надписью соответствующей стороковому идентификатору :TextID, :OpenTime - время появления на экране, :ShowTime - задержка отображения, :CloseTime - время исчезновения
+@HINT::lvCShowPanel Отображает панель с надписью соответствующей стороковому идентификатору :TextID, :OpenTime - время появления на экране, :ShowTime - задержка отображения, :CloseTime - время исчезновения
+
+@CLASSID::lvCAddWallSegment Add segment of Wall
+@ENUMHINT::@CLASSID::lvCAddWallSegment Ставит заготовку строения типа ::Type нации ::Nat между точками ::BegPos и ::EndPos
+@HINT::lvCAddWallSegment Ставит заготовку строения типа ::Type нации ::Nat между точками ::BegPos и ::EndPos
+
+@CLASSID::lvCAddFarms Add Farms
+@ENUMHINT::@CLASSID::lvCAddFarms Прибавляет нации ::Nat ::addFarms жилых мест, если ::setFarms!=0 то выставлят дополнительные места в ::setFarms и прибавляет ::addFarms
+@HINT::lvCAddFarms Прибавляет нации ::Nat ::addFarms жилых мест, если ::setFarms!=0 то выставлят дополнительные места в ::setFarms и прибавляет ::addFarms
+
+
+
+
+@CLASSID::lvCPrOfSquadInNode Probably Squard in NODE
+@ENUMHINT::@CLASSID::lvCPrOfSquadInNode Возвращает true если расстояние от центра группы к текущему узлу меньше ::rate (пиксели) (зона  и группа берутся из схемы передвижения)
+@HINT::lvCPrOfSquadInNode Возвращает true если расстояние от центра группы к текущему узлу меньше ::rate (пиксели) (зона  и группа берутся из схемы передвижения)
+
+@CLASSID::lvCChkTime Check timer
+@ENUMHINT::@CLASSID::lvCChkTime Не использовать.
+@HINT::lvCChkTime Не использовать.
+
+@CLASSID::lvCBool Bool
+@ENUMHINT::@CLASSID::lvCBool Возвращает логическое значение (bool)
+@HINT::lvCBool Возвращает логическое значение (bool)
+
+@CLASSID::lvCInt Integer
+@ENUMHINT::@CLASSID::lvCInt Возвращает целочисленное значение (int)
+@HINT::lvCInt Возвращает целочисленное значение (int)
+
+@CLASSID::lvCGetValue Get Value
+@ENUMHINT::@CLASSID::lvCGetValue Возвращает значение переменной (только для bool,word,int)
+@HINT::lvCGetValue Возвращает значение переменной (только для bool,word,int)
+
+@CLASSID::lvCGetUnitState Get state
+@ENUMHINT::@CLASSID::lvCGetUnitState Возвратит 0-Normal, 1-Peacefull, 2-Aggressive для юнитов из группы ::parGrp набольшее число которых находится в соотвецтвующем состоянии
+@HINT::lvCGetUnitState Возвратит 0-Normal, 1-Peacefull, 2-Aggressive для юнитов из группы ::parGrp набольшее число которых находится в соотвецтвующем состоянии
+
+@CLASSID::lvCGetUnitsAmount0 Get Units of Nation in Zone
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount0 Возвращает кол-во юнитов нации ::parNat попавших в зону ::parZn (здания не учитываются)
+@HINT::lvCGetUnitsAmount0 Возвращает кол-во юнитов нации ::parNat попавших в зону ::parZn (здания не учитываются)
+
+@CLASSID::lvCGetUnitsAmount1 Get Units of Group in Zone 
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount1 Количество юнитов из группы ::parGrp попавших в зону ::parZn 
+@HINT::lvCGetUnitsAmount1 Количество юнитов из группы ::parGrp попавших в зону ::parZn 
+
+@CLASSID::lvCGetUnitsAmount2 Get Monster of Nation in Zone
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount2 Возвращает кол-во юнитов нации ::parNat, типа ::UnitType попавших в зону ::parZn (здания не учитываются)
+@HINT::lvCGetUnitsAmount2 Возвращает кол-во юнитов нации ::parNat, типа ::UnitType попавших в зону ::parZn (здания не учитываются)
+
+@CLASSID::lvCGetTotalAmount0 Get Units in Group
+@ENUMHINT::@CLASSID::lvCGetTotalAmount0 Количество юнитов в группе юнитов ::parGrp
+@HINT::lvCGetTotalAmount0 Количество юнитов в группе юнитов ::parGrp
+
+@CLASSID::lvCGetTotalAmount1 Get Monster in Nation
+@ENUMHINT::@CLASSID::lvCGetTotalAmount1 Возвращает кол-во юнитов типа ::UnitType, нации ::parNat
+@HINT::lvCGetTotalAmount1 Возвращает кол-во юнитов типа ::UnitType, нации ::parNat
+
+@CLASSID::lvCGetTotalAmount2 Get Monster in Group
+@ENUMHINT::@CLASSID::lvCGetTotalAmount2 Количество юнитов типа ::UnitType в группе ::parGrp
+@HINT::lvCGetTotalAmount2 Количество юнитов типа ::UnitType в группе ::parGrp
+
+@CLASSID::lvCGrpInNode In Node?
+@ENUMHINT::@CLASSID::lvCGrpInNode Возвращает true если группа по умолчанию вошла в зону по умолчанию (зона  и группа берутся из схемы передвижения)
+@HINT::lvCGrpInNode Возвращает true если группа по умолчанию вошла в зону по умолчанию (зона  и группа берутся из схемы передвижения)
+
+@CLASSID::lvCGrpInNodeFree In Node and free?
+@ENUMHINT::@CLASSID::lvCGrpInNodeFree Возвращает true если группа по умолчанию вошла в зону по умолчанию и не делает не каких действий (зона  и группа берутся из схемы передвижения)
+@HINT::lvCGrpInNodeFree Возвращает true если группа по умолчанию вошла в зону по умолчанию и не делает не каких действий (зона  и группа берутся из схемы передвижения)
+
+@CLASSID::lvCAllGrpInNode Group in Node?
+@ENUMHINT::@CLASSID::lvCAllGrpInNode Return TRUE, when Units of Group in NODE
+
+@CLASSID::lvCAllGrpInNodeFree Group in Node and free?
+@ENUMHINT::@CLASSID::lvCAllGrpInNodeFree Return TRUE, when Units of Group in NODE and free
+
+@CLASSID::lvCGetReadyAmount Get ready Monster
+@ENUMHINT::@CLASSID::lvCGetReadyAmount Возвращает кол-во законченных юнитов типа ::UnitType, нации ::parNat
+@HINT::lvCGetReadyAmount Возвращает кол-во законченных юнитов типа ::UnitType, нации ::parNat
+
+@CLASSID::lvCGetResource Get Resource
+@ENUMHINT::@CLASSID::lvCGetResource Возвращает кол-во ресурса типа ::parID у нации ::parNat
+@HINT::lvCGetResource Возвращает кол-во ресурса типа ::parID у нации ::parNat
+
+@CLASSID::lvCGetDiff Get Diff
+@ENUMHINT::@CLASSID::lvCGetDiff Возвращает 0-Easy, 1-Normal, 2-Hard, 3-Very Hard для игрока нации ::parNI, выбранного в игровом меню
+@HINT::lvCGetDiff Возвращает 0-Easy, 1-Normal, 2-Hard, 3-Very Hard для игрока нации ::parNI, выбранного в игровом меню
+
+@CLASSID::lvCProbably Get Probably
+@ENUMHINT::@CLASSID::lvCProbably Возвращает true если сгенирированное слечайное число попало в указанный промежуток (равномерное распределение)
+@HINT::lvCProbably Возвращает true если сгенирированное слечайное число попало в указанный промежуток (равномерное распределение)
+
+@CLASSID::lvCTrigg Get Trigger
+@ENUMHINT::@CLASSID::lvCTrigg Возвращает и делает какую-то ХЕРНЮ, не использовать!!!
+@HINT::lvCTrigg Возвращает и делает какую-то ХЕРНЮ, не использовать!!!
+
+@CLASSID::lvCGetScreenXY Get screen coordinate
+@ENUMHINT::@CLASSID::lvCGetScreenXY Сохраняет текущую позицию экрана в (::sX,::sY) (ОШЫБКА)
+@HINT::lvCGetScreenXY Сохраняет текущую позицию экрана в (::sX,::sY) (ОШЫБКА)
+
+@CLASSID::lvCGetAmount Get Units in Nation
+@ENUMHINT::@CLASSID::lvCGetAmount Возвращает кол-во жывых юнитов у игрока нации lvCGetAmount::parNat (здания не учитываются)
+@HINT::lvCGetAmount Возвращает кол-во жывых юнитов у игрока нации lvCGetAmount::parNat (здания не учитываются)
+
+@CLASSID::FG_Visible Graph visible?
+@ENUMHINT::@CLASSID::FG_Visible Возвращает true если глобальный графический объект ::GraphObj отрисовывается
+@HINT::FG_Visible Возвращает true если глобальный графический объект ::GraphObj отрисовывается
+
+@CLASSID::FG_InVisible Graph invisible?
+@ENUMHINT::@CLASSID::FG_InVisible Возвращает true если глобальный графический объект ::GraphObj не отрисовывается
+@HINT::FG_InVisible Возвращает true если глобальный графический объект ::GraphObj не отрисовывается
+
+@CLASSID::ogSTOP OGG stop?
+@ENUMHINT::@CLASSID::ogSTOP Возвращает true если в звуковом канале ::canal не проигрывается звук
+@HINT::ogSTOP Возвращает true если в звуковом канале ::canal не проигрывается звук
+
+@CLASSID::lvCTimerDone Timer done?
+@ENUMHINT::@CLASSID::lvCTimerDone Возвращает true если таймер с индексом ::TimerID.Value не тикает
+@HINT::lvCTimerDone Возвращает true если таймер с индексом ::TimerID.Value не тикает
+
+@CLASSID::lvCChekPosition Check position
+@ENUMHINT::@CLASSID::lvCChekPosition Возвратит true если для каждого юнита из группы ::parGrp найдется точка из множества точек ::VVpPos
+@HINT::lvCChekPosition Возвратит true если для каждого юнита из группы ::parGrp найдется точка из множества точек ::VVpPos
+
+@CLASSID::lvCChkTime Time in range
+@ENUMHINT::@CLASSID::lvCChkTime Time in range
+
+@CLASSID::lvCGetUnitState Get unit state
+@ENUMHINT::@CLASSID::lvCGetUnitState Get unit state
+
+@CLASSID::lvCCameraSTOP Camera stop?
+@ENUMHINT::@CLASSID::lvCCameraSTOP Возвращает true если система не манипулирует с позицией камеры
+@HINT::lvCCameraSTOP Возвращает true если система не манипулирует с позицией камеры
+
+@CLASSID::lvCNationIsErased Nation is erased?
+@ENUMHINT::@CLASSID::lvCNationIsErased Возвращает true если у игрока нации ::Nat нет городских центров, крестьян и юнитов меньше 10
+@HINT::lvCNationIsErased Возвращает true если у игрока нации ::Nat нет городских центров, крестьян и юнитов меньше 10
+
+@CLASSID::lvCGetLMode Get look mode
+@ENUMHINT::@CLASSID::lvCGetLMode Возвращает true если включен L режим, false в противном случае
+@HINT::lvCGetLMode Возвращает true если включен L режим, false в противном случае
+
+@CLASSID::lvCCheckButton Check button
+@ENUMHINT::@CLASSID::lvCCheckButton Возвращает true если нажата соответствующая кнопка, по умолчанию Esc
+@HINT::lvCCheckButton Возвращает true если нажата соответствующая кнопка, по умолчанию Esc
+
+@CLASSID::lvCIsBrigade Brigade or no?
+@ENUMHINT::@CLASSID::lvCIsBrigade Возвратит true если в группе ::vgGrpID есть хоть один отряд, если ::checkKOM==true то проверит и наличе командного состава
+@HINT::lvCIsBrigade Возвратит true если в группе ::vgGrpID есть хоть один отряд, если ::checkKOM==true то проверит и наличе командного состава
+
+@CLASSID::lvCGetFormationType Get type formation
+@ENUMHINT::@CLASSID::lvCGetFormationType Возвращает -1 если в группе ::vgGrpID нет отрядов и 0,1,2 как тип формации для какого-то отряда в группе (СII)
+@HINT::lvCGetFormationType Возвращает -1 если в группе ::vgGrpID нет отрядов и 0,1,2 как тип формации для какого-то отряда в группе (СII)
+
+@CLASSID::lvCGetUnitsAmount3 Get units of Nation near vGroup
+@ENUMHINT::@CLASSID::lvCGetUnitsAmount3 Количество юнитов нации ::parNat попавших в зону радиуса ::parRad с центром совпадающим с центром группы ::vGrp
+@HINT::lvCGetUnitsAmount3 Количество юнитов нации ::parNat попавших в зону радиуса ::parRad с центром совпадающим с центром группы ::vGrp
+
+@CLASSID::lvCGetNInside Get units in transport
+@ENUMHINT::@CLASSID::lvCGetNInside Возвращает количество юнитов расположенных внутри группы юнитов ::vGrpID, либо если ::Max==true то вернет максимальную грузоподемность
+@HINT::lvCGetNInside Возвращает количество юнитов расположенных внутри группы юнитов ::vGrpID, либо если ::Max==true то вернет максимальную грузоподемность
+
+@CLASSID::lvCCheckLeaveAbility Check transport to load
+@ENUMHINT::@CLASSID::lvCCheckLeaveAbility Возвращает true если вся группа юнитов ::vGrpID причалила к берегу
+@HINT::lvCCheckLeaveAbility Возвращает true если вся группа юнитов ::vGrpID причалила к берегу
+
+@CLASSID::lvCLoadingCoplite Check completly loading transport
+@ENUMHINT::@CLASSID::lvCLoadingCoplite Возвращает true если погрузка юнитов в группу транспортных юнитов ::vGrpTransport завершена
+@HINT::lvCLoadingCoplite Возвращает true если погрузка юнитов в группу транспортных юнитов ::vGrpTransport завершена
+
+@CLASSID::lvCGetNofNewUnitInGrp Get new unit in vGroup
+@ENUMHINT::@CLASSID::lvCGetNofNewUnitInGrp Количество юнитов появившихся (достроенных,добавленных ,...) в группу, если ::ClearNew==true то все юниты в группе  будут не новыми
+@HINT::lvCGetNofNewUnitInGrp Количество юнитов появившихся (достроенных,добавленных ,...) в группу, если ::ClearNew==true то все юниты в группе  будут не новыми
+
+@CLASSID::lvCGetNofMyVillage Get count my village
+@ENUMHINT::@CLASSID::lvCGetNofMyVillage Возвращает кол-во поселений, пренадлежащих игроку нации ::Owner, производящих ресурс типа ::ResType (СII)
+@HINT::lvCGetNofMyVillage Возвращает кол-во поселений, пренадлежащих игроку нации ::Owner, производящих ресурс типа ::ResType (СII)

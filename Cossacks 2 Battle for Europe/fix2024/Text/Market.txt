@@ -1,0 +1,8 @@
+#SellAmountText Supply
+#BuyAmountText Demand
+#Buy_Resource Trade
+#Reset_Resource Reset
+#MarketSellText Supply
+#MarketBuyText Demand
+#Buy_Resource Trade
+#Reset_Resource Reset

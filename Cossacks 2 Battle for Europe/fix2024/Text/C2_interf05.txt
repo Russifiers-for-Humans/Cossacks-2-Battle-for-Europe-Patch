@@ -1,0 +1,3 @@
+#CaptZonesDef You have lost the battle. Either all your troops are lost, or the enemy has captured all your check points.
+#CaptZonesVic Congratulations! You have either captured all the enemy check points, or destroyed all the enemy troops. Enemy flees in panic. Victory!
+#CampComputerName Computer

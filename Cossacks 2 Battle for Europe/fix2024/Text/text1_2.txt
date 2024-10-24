@@ -1,0 +1,7 @@
+#MP_AUTOSAVE_HINT Autosave
+#MP_AUTOSAVE_NONE None
+#MP_AUTOSAVE_5 5 min
+#MP_AUTOSAVE_10 10 min
+#MP_AUTOSAVE_15 15 min
+
+#MM_Options_FogOfWar_Hint Fog of war

@@ -1,0 +1,3 @@
+MISSEND Time remaining %d
+MISSEND2 Time left %s
+MISSEND3 Time left %d min.

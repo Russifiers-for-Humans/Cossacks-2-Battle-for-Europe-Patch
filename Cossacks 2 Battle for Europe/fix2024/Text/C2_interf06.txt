@@ -1,0 +1,15 @@
+#UHM_Life Life
+#UHM_Life_hint Unit Life Degree Indicator 
+#UHM_BuildStage Training
+#UHM_BuildStage_hint Speed of unit training in barracks:
+#UHM_Rastrata Shot
+#UHM_Rastrata_hint  Amount of ammo needed for one reload:
+#UHM_Standground Stand Ground
+#UHM_Standground_hint Speed of unit, change status to "stand ground" mode to get additional bonuses.
+#UHM_SkillDamage Surplus Damage
+#UHM_SkillDamage_hint Increase melee attack of unit after killing ten enemy soldiers.
+
+#EW2_CampLoad Loading saved mission from campaign.
+#EW2_SkirmishLoad Loading/Viewing saved skirmish game or battle.
+
+UNITSMD\FRNGRE.MD.HISTORY Grenadier. Strong unit. Able to throw grenades.   

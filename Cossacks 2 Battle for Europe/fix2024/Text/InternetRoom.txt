@@ -1,0 +1,16 @@
+CHAT_CANCEL_BUTTON_TEXT Cancel
+IG_CANCEL Exit from the shell
+CHAT_IG_BACK_BUTTON_TEXT Back
+IG_BACK Return to the multiplayer room
+#CHAT Chat
+#CHAT_HINT Go to chat while the room remains open
+CHAT_SEND_MESS Send message to all players
+CHAT_VERSION Show messages from only this version
+CHAT_COMMON Show all messages
+CHAT_PERSONAL Show only personal messages
+CHAT_ALL Show personal and private messages
+INHIN2 Show information about player
+JOINPLGM Join room hosted by this player
+INHIN5 Ban messages from this player
+INHIN4 Send private message to this player
+INHIN6 Unban messages from this player.

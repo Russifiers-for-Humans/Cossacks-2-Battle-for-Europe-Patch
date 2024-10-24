@@ -1,0 +1,14 @@
+3
+@RMID_NORMAL 2
+@RMID_HARD 1
+@RMID_VERYHARD 1
+9 9
+FRANCE  France  UnitKri(FR)     9 1 6 Interf3\TotalWarGraph\lva_FRs #HERO_FR_
+RUSSIA  Russia  UnitKri(RU)     9 1 8 Interf3\TotalWarGraph\lva_RSs #HERO_RS_
+ENGLAND England UnitKri(EN)     9 1 2 Interf3\TotalWarGraph\lva_EGs #HERO_EG_
+PRUSSIA Prussia UnitKri(PR)     9 1 7 Interf3\TotalWarGraph\lva_PRs #HERO_PR_
+AUSTRIA Austria UnitKri(AU)     9 1 0 Interf3\TotalWarGraph\lva_ASs #HERO_AS_
+EGIPET  Egipet  UnitKri(EG)     9 1 1 Interf3\TotalWarGraph\lva_EPs #HERO_EP_
+POLAND  Poland  UnitKri(PO)     9 1 3 Interf3\TotalWarGraph\lva_POs #HERO_PO_
+SPAIN   Spain   UnitKri(SP)     9 1 5 Interf3\TotalWarGraph\lva_SPs #HERO_SP_
+REIN    Rein    UnitKri(RE)     9 1 4 Interf3\TotalWarGraph\lva_REs #HERO_RE_

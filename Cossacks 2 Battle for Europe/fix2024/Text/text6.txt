@@ -1,0 +1,38 @@
+UI_LOCK1 Show inaccessible zones. (Q)
+UI_LOCK2 Hide inaccessible zones. (Q)
+UM_TRANS1 Turn off transparent mode. (O)
+UM_TRANS2 Turn on transparent mode (O)
+ENCICL Encyclopedia
+LOADING Loading...
+MHISTORY Latest Messages
+@MSYES Yes
+@MSNO No
+@MSOK OK
+@MSNEXT Next
+@MSPREV Previous
+@MSCANCEL Close
+@RMID_EASY Easy
+@RMID_NORMAL Normal
+@RMID_HARD Hard
+@RMID_VERYHARD Very Hard
+GI_UNITS Units
+GI_BLD Buildings
+RA_Lean Lean
+RA_Medium Medium
+RA_Rich Rich
+RA_Normal Normal
+RA_Rich Rich
+RA_Thousands Thousands
+RA_Millions Millions
+RT_Plane Plain
+RT_Low_mountains Low Mountains
+RT_High_mountains High Mountains
+RT_Highlands Highlands
+RT_Plateaus Plateaus
+LT_Land Land
+LT_Mediterranean Mediterranean
+LT_Peninsulas Peninsula
+LT_Islands Island
+LT_Continents Continents
+LT_Continent Continent
+PLALONE You have been disconnected from the game!

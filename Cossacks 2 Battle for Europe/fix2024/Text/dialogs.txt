@@ -1,0 +1,158 @@
+
+#SELECT_SCENARIO Mission
+#SingleBattle_Start Start mission
+#SingleBattle_Start_Hint Start mission
+#Back_SingleBattle_Hint Go back to the main menu..
+#SINGLE_MISSION SINGLE MISSION
+#MAP_DESCRIPTION MAP DESCRIPTION
+#Skirmish_List_Hint Skirmish Maps
+#Battles_List_Hint Battle Maps
+#Tab_Skirmish Skirmish 
+#Tab_Skirmish_Hint Skirmish Maps
+#Tab_Battles Battles 
+#Tab_Battles_Hint Battle Maps
+#Tab_Load Load
+#Tab_Load_Hint Load/View Game
+
+#MULTIPLAYER_ROOM_Title MULTIPLAYER ROOM
+#GAME_SETTINGS_Window ROOM SETTINGS
+#MAP_DESCRIPTION_Window MAP SELECTION
+#PLAYERS_CHAT_Window CHAT
+#Send_ChatMessage_Hint Send
+#Chat_Input_Hint Message
+#Combo_Nation_Select_Hint Select nation
+#Combo_Color_Select_Hint Select color
+#Tab_Saved Saved Game
+#Tab_Saved_Hint Choose the saved game you want to continue
+#Tab_Designed Designed Maps
+#Tab_Designed_Hint Choose designed maps
+#MultiBattle_Start Start
+#MultiBattle_Start_Hint Start
+#Back_MultiBattle_Hint Back to MULTIPLAYER
+
+#StdEndGame_VictoryTitle VICTORY
+#StdEndGame_VictoryMessage Victory
+#StdEndGame_VictoryButton OK
+#StdEndGame_DefeatTitle DEFEAT
+#StdEndGame_DefeatMessage Defeat
+#StdEndGame_DefeatButton OK
+#EndGame_Button_Hint OK
+
+#MAIN_MENU_Window MAIN MENU
+#MainMenu_SinglePlayer_Hint Battle for Europe, Skirmish and Battles Menu
+#MainMenu_InternetGame_Hint Play with other players on the Internet
+#MainMenu_Multiplayer_Hint Multiplayer Game
+#MainMenu_Options_Hint Option Menu
+#MainMenu_Editor CREDITS
+#MainMenu_Editor_Hint CREDITS
+#MainMenu_Exit_Hint Exit to Windows
+
+#GameMessage_Close_Hint Close
+
+#CUR_PROFILE Current Profile:
+
+#ExitFromGame_GMap_Window EXIT TO MAIN MENU
+#ExitFromGame_GMap_Text Do you wish to exit to the main menu?
+#ExitFromGame_GMap_Exit Retreat from the sector
+#ExitFromGame_Skirmish_Window Exit to the main menu
+#ExitFromGame_Skirmish_Text Exit to the main menu
+#ExitFromGame_Skirmish_Exit Surrender!
+#ExitFromGame_Back Back to the game
+
+#MM_Single_Tutorial CAMPAIGN
+#MM_Single_Tutorial_Hint Campaign
+#MM_Single_Window SINGLE PLAYER 
+#MM_Single_ChangeProfile CHANGE PROFILE
+#MM_Single_ChangeProfile_Hint Change profile
+#MM_Single_Campaign BATTLE FOR EUROPE
+#MM_Single_Campaign_Hint Battle For Europe
+#MM_Single_Skirmish SKIRMISH/BATTLES/LOAD
+#MM_Single_Skirmish_Hint Skirmish/Battles/Load
+#MM_Single_Back BACK TO MAIN MENU
+#MM_Single_Back_Hint Go back to the main menu
+
+#Help_InGame_Title Help
+#Help_InGame_Close Help
+
+#Options_Window OPTIONS
+#MM_Options_RealisticWater Realistic Water
+#MM_Options_EnableMusic Music
+#MM_Options_AnimationQuality Animation Quality
+#MM_Options_ShowVideo_Hint Show Video
+#MM_Options_ShowVideo Show Video
+
+#MainMenu_Options_Title OPTIONS
+#MM_Options_VideoResolution_Hint Video Resolution
+#MM_Options_SoundVolume_Hint Sound Volume
+#MM_Options_MusicVolume_Hint Music Volume
+#MM_Options_GameSpeed_Hint Game Speed
+#MM_Options_ScrollingSpeed_Hint Scrolling Speed
+#MM_Options_RealisticWater_Hint Realistic Water
+#MM_Options_EnableMusic_Hint Enable Music
+#MM_Options_AnimationQuality_Hint Set Animation Quality
+#MM_Options_Accept Accept
+#MM_Options_Accept_Hint Accept
+#MM_Options_Cancel Cancel
+#MM_Options_Cancel_Hint Cancel
+#MM_Options_ShowHint_Hint Show hints
+
+#Save_InGame_Window Save
+#SaveAccept Save
+#Load_InGame_Window Load
+#LoadAccept Load
+
+#GameStatistic_Ok OK
+#GameStatistic_Window STATISTICS
+
+#AddProfile_Nation Nation
+#AddProfile_HeroScroll_Hint Scroll
+#AddProfile_ProfileName Profile Name:
+#AddProfile_Name_Hint Profile Name:
+#AddProfile_Nation_Hint Select your nation
+#AddProfile_Difficulty_Hint Select difficulty level
+#AddProfile_HistoricalSettings Commander Settings:
+#AddProfile_PlayerSettings Profile Settings:
+#AddProfile_Window NEW PROFILE
+#AddProfile_Title CREATE NEW PROFILE
+#AddProfile_Accept Accept
+#AddProfile_Accept_Hint Accept
+#AddProfile_Cancel Cancel
+#AddProfile_Cancel_Hint Cancel
+
+#ChangeProfile_Delete Delete profile
+#ChangeProfile_Delete_Hint Delete profile
+#ChangeProfile_List_Hint Select profile
+#ChangeProfile_Nation Nation:
+#ChangeProfile_Name Name:
+#ChangeProfile_Empire Empire:
+#ChangeProfile_Question Do you want to delete this profile?
+#ChangeProfile_Rank Rank:
+#ChangeProfile_Window PROFILE MENU
+#ChangeProfile_Title PROFILE MENU
+#ChangeProfile_Accept_Hint Select profile
+#ChangeProfile_Add New Profile
+#ChangeProfile_Add_Hint Create new profile
+#ChangeProfile_Cancel_Hint Back to single player menu
+#ChangeProfile_Delete_Window DELETE PROFILE
+#ChangeProfile_DeleteAccept Delete
+#ChangeProfile_DeleteAccept_Hint Delete this profile
+#ChangeProfile_DeleteCancel_Hint Cancel
+
+#LAN_RoomsList_Window Player:
+#LAN_RoomsList_Title MULTIPLAYER
+#LAN_RoomsList_List_Hint Select multiplayer room
+#LAN_RoomsList_Join_Hint Join
+#LAN_RoomsList_Create_Hint Create room
+#LAN_RoomsList_Back_Hint Go back to the main menu
+#LAN_RoomsList_Name Player Name
+#LAN_RoomsList_Name_Hint Player Name
+
+#NationCombo_Random Random
+
+#VIC_Mess_Window Message
+
+#F12_Options Options
+#F12_BackToGame Back to Game
+#F12_Load Load
+#F12_Save Save
+#F12_ExitFromGame Exit to the main menu

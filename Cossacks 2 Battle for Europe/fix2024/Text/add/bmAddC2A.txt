@@ -1,0 +1,86 @@
+// big map add text
+#CWT_BigMapHead {FM}BATTLE FOR EUROPE. {C FF003CEE}%s{C} ({C FFA51010}%s{C})
+
+#CWT_Year	Year {CR}%d{C}
+#CHINT_Year	Current year
+
+// Sabotage {FS}
+#CWM_Diversion4	- Attempt on commander (%s gold; %d%%)
+
+#CWM_DiversionDone4	Mercenaries successfully finished the operation. Commander was poisoned and perished. From now on the army will be headed by another commander. Sabotage was successful!
+#CHINT_Diversion4	Hire a group of mercenaries to attempt on the commander of foe's army. If it's successful, the army will be headed by another commander of the lower rank.
+
+// QUESTS
+#CQM_AttackForAlly0	%s and %s suggest attacking {CR}%s{C} and capture one of its sectors and offers an alliance and {CR}%d{C} gold for service rendered.
+#CQM_AttackForAlly1	%s and %s for service rendered (attacking {CR}%s{C}) pay {CR}%d{C} gold  and enter into an alliance with you.\ ({CR}Quest accomplished{C})
+
+#CQM_DefeatNation0	%s asks to eliminate {CR}%s{C} (capture all its sectors) and offers {CR}%d{C} gold for service rendered.
+#CQM_DefeatNation1	%s for service rendered (capturing {CR}%s{C}) pays {CR}%d{C} gold.\ ({CR}Quest accomplished{C})
+
+#CQM_AttackHero0	%s asks to attack and assassinate the commander of the enemy army ({CR}%s{C}, {CR}%s{C}) and offers {CR}%d{C} gold for service rendered.
+#CQM_AttackHero1	%s for service rendered (attacking {CR}%s{C}) pays {CR}%d{C} .\ ({CR}Quest accomplished{C})
+
+#CDT_ST_WAR	{FS}{CR}W{C} 
+#CDT_ST_PEACE	{FS}{CG}P{C} 
+#CDT_ST_NONA	{FS}{CG}N{C}
+#CDT_ST_PASS	{FS}{CG}P{C}
+#CDT_ST_ALLY	{FS}{CG}A{C}
+#CDT_ST_NONA_PASS {FS}{CG}N,P{C}
+
+// Country Names
+#ENGLANDÑ	Britain
+#FRANCEÑ	France
+#AUSTRIAÑ	Austria
+#PRUSSIAÑ	Prussia
+#RUSSIAÑ	Russia
+#EGYPTÑ 	Egypt
+#POLANDC	Poland
+#SPAINC 	Spain
+#REINC  	Rhine 
+
+Sector24	Gijon
+Sector25	Madrid
+Sector26	Grenada
+Sector27	Valencia
+Sector28	Stuttgart
+Sector29	Hanover
+Sector30	Frankfort
+Sector31	Poznan
+Sector32	Krakow
+Sector33	Tallinn
+// end of Country Names
+
+// Commanders Data
+#HERO_PO_0	Kniazewicz
+#HERO_PO_1	Krasinski
+#HERO_PO_2	Poniatowski
+#HERO_PO_3	Zajaczek
+#HERO_PO_4	PO4
+#HERO_PO_5	PO5
+#HERO_PO_6	PO6
+#HERO_PO_7	PO7
+#HERO_PO_8	PO8
+#HERO_PO_9	PO9
+
+#HERO_SP_0	Castanos
+#HERO_SP_1	Ballesteros
+#HERO_SP_2	De Alava
+#HERO_SP_3	Espoz y Mina
+#HERO_SP_4	SP4
+#HERO_SP_5	SP5
+#HERO_SP_6	SP6
+#HERO_SP_7	SP7
+#HERO_SP_8	SP8
+#HERO_SP_9	SP9
+
+#HERO_RE_0	Von Gersdorff
+#HERO_RE_1	Ernst I
+#HERO_RE_2	Von Ochs
+#HERO_RE_3	Wilhelm I
+#HERO_RE_4	RE4
+#HERO_RE_5	RE5
+#HERO_RE_6	RE6
+#HERO_RE_7	RE7
+#HERO_RE_8	RE8
+#HERO_RE_9	RE9
+// end of Commanders Data

@@ -1,0 +1,18 @@
+DELETE Delete
+
+#C2intfPreTut Before starting this game mode, try to play "Campaign". It is designed to help rookies understand control, the rules and specific game play elements of the game.
+#Start/Pause Start/Pause
+#Start/Pause_hint Continue or Stop the current game.
+#Next Next...
+#Next_hint Switch to the next phase.
+#Restart Restart.
+#Restart_hint Restart the current game.
+
+#RText01 Information
+#RText02 Continue.
+
+#C2int00_00 Enable/Disable gunfire
+#C2int00_01 Are you sure you want to erase this file?
+#C2int00_02 Erase the current file.
+#C2int00_03 Cancel removal of the current file.
+

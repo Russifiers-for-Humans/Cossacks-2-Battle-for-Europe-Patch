@@ -1,0 +1,12 @@
+DISCONNECTED CONNECTION FAILED!
+JOINPLGM Try to join the game that contains this player.
+JNPG_E1 Player has not created a room.
+JNPG_E2 Unable to join, your version is different.
+JNPG_E3 Player is not responding.
+JNPG_E4 Unable to join, the room is full.
+JNPG_E5 Unable to join, the players have already started the game.
+JNPG_E6 Unable to join, invalid password.
+SPECIALDEFEAT #You were disconnected from the game\and your score is less than 75% of\the maximum score. According to Internet\rating game rules, this\counts as a DEFEAT!
+NORATECOMP #Computer player prevents you from rating this game!
+ADDMPOPT Additional Options:
+YOUWKICK You were kicked out by the host.

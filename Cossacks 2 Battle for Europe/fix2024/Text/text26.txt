@@ -1,0 +1,4 @@
+MINEID1 Minerals and raw material (GOLD)
+MINEID4 Minerals and raw material (IRON)
+MINEID5 Minerals and raw material (COAL)
+MINEID2 Minerals and raw material (STONE)

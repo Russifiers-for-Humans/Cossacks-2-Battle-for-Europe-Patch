@@ -1,0 +1,11 @@
+#EW2_Statistic Statistics
+#EW2_Statistic_hint View statistics on the previous moves.
+#SP_Stop {C FFE74634}Stop moving.
+
+#EW2_RewriteTitle REWRITE
+#EW2_RewriteBut_hint Rewrite current file.
+#EW2_RewriteText File with the same name already exists, rewrite it?
+
+#SAVE SAVE
+#LOAD LOAD
+#DELETE DELETE

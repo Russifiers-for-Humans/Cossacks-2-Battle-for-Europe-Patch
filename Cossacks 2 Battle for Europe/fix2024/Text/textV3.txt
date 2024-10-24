@@ -1,0 +1,4 @@
+Setl_Settlement Settlement
+Setl_Goods Goods
+Setl_Workers Workers
+Setl_Owner Owner

@@ -1,0 +1,20 @@
+#ArcadeOff Off
+#ArcadeOn On
+#EW2_InternetGame INTERNET GAME
+#EW2_Credits CREDITS
+#EW2_Exit EXIT
+#EW2_ListMissions LIST OF MISSIONS
+#EW2_MissDescr MISSION DESCRIPTION
+#EW2_Campaign CAMPAIGN
+#EW2_Exit2MM EXIT TO MAIN MENU
+#EW2_Restart RESTART
+#EW2_Back2Game BACK TO GAME
+#EW2_StepBack WITHDRAW TROOPS
+#EW2_Accept_hint Accept changes.
+#EW2_Cancel_hint Return changes to previous conditions.
+#MO_ArcadeMode_hint2 Arcade Mode on/off
+#EW2_Battle4Europe BATTLE FOR EUROPE
+#EW2_Chat CHAT
+#EW2_RoomSet ROOM SETTINGS
+#EW2_MapSel MAP SELECTION
+#EW2_Stat STATISTICS

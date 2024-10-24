@@ -1,0 +1,10 @@
+#PEHOTASTRELKI UnitFuz(FR) UnitFuzNG(FR) UnitVol(FR) UnitGre(FR) GuardFrnGre(FR) UnitSap(FR) UnitGre(PR) UnitVol(PR) UnitFuz(PR) GuardPruMus(PR) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitSap(PR) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitVol(EN) GuardEngEgr(EN) UnitFuz(EN) UnitGre(EN) GuardEngGre(EN) UnitOf(EN) UnitBar(EN) UnitFlg(EN) UnitSap(EN) UnitFuzNG(AU) UnitFuz(AU) UnitVol(AU) UnitGre(AU) GuardAusGre(AU) UnitOf(AU) UnitBar(AU) UnitFlg(AU) UnitSap(AU) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitSap(PR) UnitFuz(RU) GuardRusMus(RU) UnitGre(RU) UnitOf(RU) UnitBar(RU) UnitFlg(RU) UnitSap(RU) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) TempMent(FR) TempMent(NE) UnitEgrNG(AU) GuardAusEgr(AU) UnitEgrNG(FR) UnitEgrNG(PR) GuardPruEgr(PR) UnitGre(EG) GuardEgpEgr(EG) UnitEgr(RU) GuardRusEgr(RU) UnitEgrNG(EN) GuardEngEgrNG(EN)
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady > 30 GetAloneEnmUnits > 0 UnitsAmount > 31 St_LineFormation = 1
+do EnableFire 99
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 0 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 0 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 0 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+#

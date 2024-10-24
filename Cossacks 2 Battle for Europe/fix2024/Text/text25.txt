@@ -1,0 +1,4 @@
+CM_DOGRP Group Formations 
+CM_UNGRP Ungroup Formations 
+DECFORM Decrease Formation
+INCFORM Increase Formation

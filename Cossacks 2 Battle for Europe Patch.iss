@@ -10,8 +10,8 @@
 #define AppDescription "{cm:Patch} {cm:for} Cossacks 2 Battle for Europe"                                                         ; Описание программы
 #define Typ "Patch"                                                                       ; Тип приложения
 ; Практически никогда не меняется
-#define AppVer "1.2"                                                                        ; Версия установщика
-#define Platz "D:\$RECYCLE.BIN\Bibliothek\Dokument\GitHub"                                                    ; Место
+#define AppVer "1.3"                                                                        ; Версия установщика
+#define Platz "C:\Users\TeMeR\Documents\GitHub\"                                                    ; Место
 ; Константы
 #define Copyright "Folk"                                                                  ; (констант)Копирайт
 #define AppPublisher "Russifiers for Humans"                                              ; (констант)Название инициативы
@@ -46,7 +46,8 @@ VersionInfoDescription={#AppDescription}
 VersionInfoOriginalFileName={#OriginalNameSetup}  
 VersionInfoProductName={#ProductVerName}
 VersionInfoProductTextVersion={#AppVer}
-VersionInfoVersion={#AppVer}     
+VersionInfoVersion={#AppVer}
+AppendDefaultDirName = no     
 //--------------------------------------Options--------------------------------------\\
 ; Если установлено значение «да», программа установки отобразит флажок «Не создавать папку в меню «Пуск»
 AllowNoIcons=yes
@@ -91,13 +92,19 @@ WizardSmallImageFile={#Location}\Pic.bmp
 Name: "patch"; Description: "{cm:Patch}"; Types: full compact custom; Flags: fixed
 Name: "patch/rus"; Description: "Русский"; Languages: russian; Flags: exclusive
 Name: "patch/eng"; Description: "English"; Languages: english; Flags: exclusive
+Name: "exe"; Description: "{cm:Exe} 1.4"; Types: full compact;
+Name: "fix"; Description: "{cm:Fix}"; Types: custom
+Name: "fix/2022"; Description: "{cm:version} 2022 {cm:year}"
+Name: "fix/2024"; Description: "{cm:version} 2024 {cm:year}"
 
 [Files]
 ; Соурс
-Source: {#Location}\{#GameName}\common\*; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs 
-Source: {#Location}\{#GameName}\eng\*; DestDir: "{app}"; Languages: english; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: {#Location}\{#GameName}\rus\*; DestDir: "{app}"; Languages: russian; Flags: ignoreversion recursesubdirs createallsubdirs 
-Source: {#Location}\{#GameName}\bigger\*; DestDir: "{tmp}"; Flags: deleteafterinstall 
+Source: {#Location}\{#GameName}\common\*; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: patch 
+Source: {#Location}\{#GameName}\eng\*; DestDir: "{app}"; Languages: english; Flags: ignoreversion recursesubdirs createallsubdirs; Components: patch/eng
+Source: {#Location}\{#GameName}\rus\*; DestDir: "{app}"; Languages: russian; Flags: ignoreversion recursesubdirs createallsubdirs; Components: patch/rus 
+Source: {#Location}\{#GameName}\fix2022\*; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: fix/2022 
+Source: {#Location}\{#GameName}\fix2024\*; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: fix/2024
+Source: {#Location}\{#GameName}\exe\*; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: exe 
 
 [Icons]
 ;Ярлык
@@ -110,6 +117,7 @@ Name: "{userprograms}\{#AppPublisher}\{#GameName}\{#GameName}"; Filename: "{app}
 [Run]
 ; На финальной страницу спрашивает о запуске финального продукта
 Description: "{cm:LaunchProgram, {#GameName}}"; Filename: "{app}\{#GameNameEXE}.exe"; WorkingDir: "{app}"; Flags: postinstall skipifsilent
+Filename: cmd.exe;Parameters: "/silent /c attrib +r ""{app}\log.txt"""
 
 [Code]
 var
@@ -140,7 +148,7 @@ begin
     begin
       if IsWin64 then InstallationPath := ExpandConstant('{commonpf64}')
       else InstallationPath := ExpandConstant('{commonpf32}');
-      InstallationPath:=InstallationPath +'/{#GameName}';
+      InstallationPath:=InstallationPath;
       Log('No installation detected, using the default path: ' + InstallationPath);
     end;
   end;
@@ -150,7 +158,15 @@ end;
 [CustomMessages]
 english.Patch=Patch 1.4
 english.for=for
-russian.Patch=для
+english.Exe=Exe
+english.Fix=Fix
+english.version=version
+english.year=year
+russian.version=версия
+russian.year=года
+russian.Exe=Экзешник
+russian.Fix=Фикс
+russian.for=для
 russian.Patch=Патч 1.4
 
 [Languages]

@@ -1,0 +1,46 @@
+#CANNON ArtPus4(SP) ArtPus4L(SP) ArtPus4G(SP) ArtPus4(RE) ArtPus4L(RE) ArtPus4G(RE) ArtPus4L(PO) ArtPus4G(PO) ArtPus4R(PO) ArtPus4(EN) ArtPus4(FR) ArtPus4(RU) ArtPus4(EG) ArtPus4(PR) ArtPus4(AU) ArtPus4(NE) ArtPus4L(EN) ArtPus4L(FR) ArtPus4L(RU) ArtPus4L(EG) ArtPus4L(PR) ArtPus4L(AU) ArtPus4L(NE) ArtPus4G(EN) ArtPus4G(FR) ArtPus4G(RU) ArtPus4G(EG) ArtPus4G(PR) ArtPus4G(AU) ArtPus4G(NE) ArtPus4R(EN)
+if GetLastCommTime > 10 GetFillingAbility = 1 DistToMT < 10 DistToMT > 100
+do Stop 2
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetDistToEnmBuilding < 5000
+do FireOnEnmBuilding 91
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetDistToEnmBuilding < 5000
+do FireOnEnmTower 92
+if GetLastCommTime > 0 GetStandTime > 2 GetPushkaChargeState0 = 100 GetMaxDensityInZerroSector > 0 GetLastCommTime > 2
+do Fire 90
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetStandTime > 2 GetMaxDensityInZerroSector < 1 DistToMT < 5500 UnitsAmountMT > 31
+do TurnCannonToMaxEnmFormationSector 89
+if GetLastCommTime > 0 GetPushkaChargeState1 = 100 GetStandTime > 2 GetMaxDensityInZerroSector < 1 DistToMT < 5500 UnitsAmountMT > 31
+do TurnCannonToMaxEnmFormationSector 89
+if GetLastCommTime > 0 St_March = 1 DistToAim > 3000 GetLastCommTime > 20
+do MoveToAim 93
+if GetLastCommTime > 0 St_March = 0 DistToMT > 3000 GetPushkaChargeState0 = 100 DistToAim > 3000 GetLastCommTime > 3
+do MoveToAim 40
+/if GetLastCommTime > 0 St_March = 0 DistToMT > 3000 GetPushkaChargeState1 = 100 DistToAim > 200 GetLastCommTime > 3
+/do MoveToAim 41
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 500 DistToMT < 1700 GetStandTime > 10 UnitsAmountMT > 31 GetDistToEnmTower < 2500 GetBarrierToMT < 180
+/do StepForward 12
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 2000 DistToMT < 3000 GetStandTime > 10 GetMaxDensityInZerroSector < 1 UnitsAmountMT > 31 GetDistToEnmTower > 2500 GetBarrierToMT < 180
+/do StepForward 13
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetDistToEnmTower < 5000 GetKartechEffect < 700 UnitsAmountMT > 31
+do FireOnEnmTower 92
+if GetLastCommTime > 0 GetPushkaChargeState1 > 10 GetDistToEnmTower < 2500 GetKartechEffect < 700 UnitsAmountMT > 31
+do ChargeCannon0 24
+if GetLastCommTime > 0 GetPushkaChargeState1 > 10 GetKartechEffect < 700 UnitsAmountMT > 31
+do ChargeCannon0 23
+if GetLastCommTime > 0 St_Front = 1 GetPushkaChargeState1 = 100 GetKartechEffect > 700
+do Fire 25
+if GetLastCommTime > 0 GetPushkaChargeState0 > 10 GetKartechEffect > 700
+do ChargeCannon1 25
+if GetLastCommTime > 2 GetProcDistToAimInPolk > 100
+do MoveToAim 9
+if GetLastCommTime > 2 GetProcDistToAimInPolk < 100
+do Stop 10
+/if GetLastCommTime > 0 GetLastCommTime > 4 GetKartechEffect > 40
+/do ChargeCannon1 25
+/if GetLastCommTime > 0 DistToMT < 900 GetLastCommTime > 4 GetKartechEffect > 10 GetStandTime > 5
+/do ChargeCannon1 25
+/if GetLastCommTime > 0 GetStandTime > 5 GetPushkaChargeState1 = 100 GetKartechEffect > 10 GetLastCommTime > 5
+/do Fire 91
+/if GetLastCommTime > 0 DistToMT > 1200 GetLastCommTime > 4 GetKartechEffect < 11 GetStandTime > 5
+/do ChargeCannon0 24
+#

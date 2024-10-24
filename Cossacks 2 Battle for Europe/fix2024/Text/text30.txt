@@ -1,0 +1,8 @@
+CHAT_PERSONAL Only personal messages:
+CHAT_ALL All messages:
+VIEW_HOMEPAGE Back to start page.
+VIEW_RESIZE Resize chat window.
+CHAT_VERSION Chat with players that use same program version.
+CHAT_COMMON Chat with players regardless of program version.
+
+

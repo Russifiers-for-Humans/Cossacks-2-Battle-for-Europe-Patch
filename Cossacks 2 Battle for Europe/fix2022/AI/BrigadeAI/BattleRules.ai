@@ -1,0 +1,1459 @@
+#PEHOTASTRELKI UnitFuzNG(EG)
+if GetLastCommTime > 0 GetLastCommTime > 1 St_ReadyToFire = 0 DistToMT < 1200 UnitsAmount > 31
+do SetReadyToFire 600
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 UnitsAmount > 31
+do SetNotReadyToFire 45
+if GetLastCommTime > 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31
+do FormateToLine 110
+if GetLastCommTime > 0 St_March = 1 St_SquareFormation = 0 DistToAim > 1800 DistToMT > 1100 IsEnemOnWay = 0 UnitsAmount > 31
+do FormateToSquare 46
+if GetLastCommTime > 0 St_March = 1 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31
+do FormateToLine 111
+if GetLastCommTime > 0 St_March = 1 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31
+do FormateToLine 112
+if GetLastCommTime > 2 DistToMT < 750 St_EnableFire = 0 GetFireReady > 80 UnitsAmount > 31
+do EnableFire 90
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT < 1000 FireForceDifference > -40 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 80
+if GetLastCommTime > 0 St_Attack = 0 GetFOOD < 10 DistToMT < 3000 GetTired > 40 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 140 GetMeleeForceDiff > 300 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 81
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 30 GetFireReady > 80 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 82
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 44 GetFireReady > 80 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 83
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 80 UnitsAmount > 100 FireReadyMT < 50 GetFireReady > 50 DistToMT < 900 GetTired > 40 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 84
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 20 GetTired > 40 UnitsAmount > 31 DistToMT < 1000 FireDanger < 20 Encircle > 54 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 85
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 GetFireReady > 80 DistToMT < 1000 DistToMT > 300 GetTired > 40 UnitsAmount > 31 FireForceDifference > -40 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 86
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 FireForceDifference > 12 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 87
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1000 UnitsAmount > 31 FireDanger < 10 GetTired > 40 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 88
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000 UnitsAmount > 31 GetTired > 20 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady < 40 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 80
+if GetLastCommTime > 0 GetLastCommTime > 4 GetStandTime < 1 GetTired < 15 DistToMT > 400 UnitsAmount > 31
+do Stop 140
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 St_March = 1 DistToAim < 200 UnitsAmount > 31
+do Stop 150
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 GetLastCommTime > 1 St_Reserv = 0 GetTired > 40 DistToMT < 700 St_EnableFire = 0 UnitsAmount > 31 GetBarrierToMT < 180 GetMeleeForceDiff < 90
+do MoveBack 61
+if GetLastCommTime > 0 GetLastCommTime > 1 St_Reserv = 0 GetTired > 40 DistToMT < 700 St_EnableFire = 0 UnitsAmount > 31 GetBarrierToMT < 180 GetMeleeForceDiff > 90 FireReadyMT > 20
+do MoveBack 61
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 700 GetFireReady < 5 FireDanger > 100 GetTired > 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 St_Attack = 1 GetFireReady < 5 FireDanger > 40 DistToMT < 1000 Moral < 50 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 GetLastCommTime > 4 GetFireReady < 5 FireDanger > 60 DistToMT < 1000 Moral < 50 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 IsStandGround = 0 St_Reserv = 0 GetStandTime > 2 GetFireReady < 5 DistToMT < 800 DistToMT > 300 FireReadyMT > 90 UnitsAmountMT > 31 GetBarrierToMT < 180
+do MoveBack 69
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 St_Attack = 0 Encircle > 54 FireDanger > 100 UnitsAmount > 31 GetFireReady < 30 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 IsStandGround = 1 St_Attack = 0 Encircle > 90 FireDanger > 100 UnitsAmount > 31 GetFireReady < 30 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 St_Attack = 1 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 IsStandGround = 1 Moral < 120 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 St_Attack = 1 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 950 DistToMT > 400 IsMTCannon = 1 KartechDanger > 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 St_March = 0 GetTired > 60 DistToMT > 1000 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31
+do MoveToAim 40
+if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1500 UnitsAmount > 31
+do DisableFire 30
+if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 2 UnitsAmount > 31
+do DisableFire 31
+/if GetStandTime > 10 GetLastCommTime > 10 St_Front = 1 DistToMT > 1000 HaveReserv = 1 UnitsAmountMT > 31 UnitsAmount > 31
+/do Castle 20
+if GetStandTime > 10 GetLastCommTime > 10 St_LineFormation = 1 St_Front = 1 DistToMT < 2500 HaveReserv = 1 UnitsAmountMT > 31 UnitsAmount > 31
+do Castle 21
+/if GetLastCommTime > 0 IsMTStandGround = 1 FireReadyMT > 20 GetFireReady > 20 IsStandGround = 0 GetStandTime > 2 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 1100
+/do TakeInTheRear 18
+/if GetLastCommTime > 0 St_Reserv = 1 GetStandTime > 20 IsStandGround = 0 GetFireReady > 20 IsStandGround = 0 GetStandTime > 2 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 1100
+/do TakeInTheRear 19
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetLastCommTime > 2 St_EnableFire = 0 GetFireReady > 90 GetAloneEnmUnits > 25 UnitsAmount > 31 GetTired > 40
+do EnableFire 91
+if GetLastCommTime > 0 GetStandTime < 1 GetNGrenades > 2 DistToMT < 500 St_Attack = 1 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 20
+do ThrowGrenade 120
+if GetLastCommTime > 0 GetStandTime > 2 GetNGrenades > 2 DistToMT < 500 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 20
+do ThrowGrenade 120
+
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 GetTired > 70 UnitsAmount > 31 DistInReserv < 70 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 13
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 70 GetFireReady > 80 UnitsAmount > 31 DistInReserv > 130 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 14
+/if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront > 130 GetFireReady > 80 GetTired > 70 UnitsAmount > 31 DistToMT > 500
+/do KeepDistInFront 15
+/if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront < 70 GetFireReady > 80 GetTired > 70 UnitsAmount > 31 DistToMT > 500
+/do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetFireReady > 80 GetTired > 40 AngToMT > 42 IsStandGround = 0 UnitsAmount > 31
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 0 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 1 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 52
+if GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do MoveToAim 91
+if GetLastCommTime > 0 GetStandTime > 2 GetDistToFriendlyForm < 100 GetTired > 70 St_Attack = 0 GetLastCommTime > 5 UnitsAmount > 31 DistToMT > 900
+do KeepDistInReserv 17
+/if GetLastCommTime > 0 GetStandTime > 2 GetDistToFriendlyForm < 100 GetTired > 70 St_Attack = 0 St_Reserv = 1 HaveReserv = 1 GetLastCommTime > 5 UnitsAmount > 31 DistToMT > 500
+/do KeepDistInFront 18
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 700 DistToMT < 1700 GetStandTime > 12 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900 IsStandGround = 0
+/do StepForward 11
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 700 DistToMT < 1700 GetStandTime > 25 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 1 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900 IsStandGround = 0
+/do StepForward 12
+#
+#HORSE UnitKDrg(FR) UnitKKir(FR) UnitKGre(FR) GuardFrnKGre(FR) UnitKKar(FR) GuardFrnKKar(FR) UnitKDrg(RU) UnitKKir(RU) GuardRusKKir(RU) UnitKKir(PR) UnitKDrg(PR) GuardPruKDrg(PR) UnitKKar(PR) GuardPruGva(PR) UnitKDrg(EN) GuardEngKDrgT(EN) UnitKKar(EN) UnitKDrg(AU) UnitKKir(AU) GuardAusKKir(AU) UnitKKir(RE) UnitKDrg(RE) UnitKKra(PO) GuardPolKKra(PO) UnitKKir(PO) UnitKDrg(SP) GuardSpnKDrg(SP)
+if GetLastCommTime > 0 St_KareFormation = 0 DistToMT < 1250 GetTired > 20
+do FormateToKare 46
+if GetLastCommTime > 0 St_March = 1 St_SquareFormation = 0 DistToAim > 1800 IsEnemOnWay = 0 GetTired > 20
+do FormateToSquare 110
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 DistToAim > 200 GetTired > 70 DistToMT > 1200
+do MoveToAim 41
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 DistToAim > 200 GetTired > 70 DistToMT > 1200
+do MoveToAim 40
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 DistToAim > 200 GetTired > 70 DistToMT > 1200 GetFireReady > 98
+do MoveToAim 42
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 DistToMT < 700 Moral < 45 FireReadyMT > 80 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 St_Attack = 1 UnitsAmount < 10 Moral < 100 GetTired > 30 DistToMT < 700 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 GetLastCommTime > 4 UnitsAmount < 10 Moral < 100 GetTired > 30 DistToMT < 700 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 DistToMT < 500 GetFireReady < 5 FireReadyMT > 80 GetBarrierToMT < 180 GetPolkCommand < 5
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 GetMeleeForceDiff > 90 FireReadyMT < 10 DistToMT < 300 GetBarrierToMT < 180 GetFireReady < 20
+do MoveBack 63
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 1100 Encircle > 55 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 600 FireDanger > 200 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 600 FireDanger > 200 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 GetTired > 15 DistToMT < 600 FireDanger > 95 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 GetLastCommTime > 2 DistToMT < 300 Moral > 36 GetTired > 10 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff < 111 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 GetLastCommTime > 2 DistToMT < 300 Moral < 37 GetTired > 10 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff > 110 GetBarrierToMT < 180
+do MoveBack 69
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetFireReady > 80 GetTired > 40 AngToMT > 42 IsStandGround = 0
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 0 AngToMT > 42
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 1 AngToMT > 42
+do TurnToMT 52
+if GetLastCommTime > 0 DistToMT < 900 St_EnableFire = 0 GetFireReady > 80 GetMTForestDensity < 40 MoralMTAfterFire < 37
+do EnableFire 90
+if GetLastCommTime > 0 GetStandTime < 1 St_Attack = 1 St_EnableFire = 0 FireReadyMT > 30 GetFireReady > 60 MoralMT > 140 DistToMT < 450 KillAmoMT > 0 GetMTForestDensity < 40 IsMTStandGround = 0
+do EnableFire 91
+if GetLastCommTime > 0 St_EnableFire = 0 GetFireReady > 60 DistToMT < 250 GetMeleeForceDiff < 150
+do EnableFire 92
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 750 GetFireReady > 20 FireReadyMT > 40 Moral < 40
+do EnableFire 93
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 150 MoralMT < 120 FireDanger > 200 DistToMT < 600 UnitsAmount > 31 GetFireReady > 20 
+do EnableFire 94
+if GetLastCommTime > 0 IsMTStandGround = 1 DistToMT < 800 St_EnableFire = 0 GetFireReady > 20 GetMTForestDensity < 40 MoralMTAfterFire < 35
+do EnableFire 95
+if GetLastCommTime > 0 IsMTStandGround = 1 DistToMT < 800 St_EnableFire = 0 GetFireReady > 20 KillAmoMT > 5 GetMTForestDensity < 40
+do EnableFire 96
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 900 Moral < 60 MoralDiff > 150 GetFireReady > 80 FireReadyMT > 50 KillAmoMT > 0 GetMTForestDensity < 40 UnitsAmount > 31
+do EnableFire 97
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady > 70 GetAloneEnmUnits > 15
+do EnableFire 98
+if GetLastCommTime > 0 DistToMT < 250 St_EnableFire = 0 GetFireReady > 50 GetMeleeForceDiff < 150
+do EnableFire 99
+if GetLastCommTime > 1 IsMTCannon = 1 DistToMT < 300 GetFireReady > 30
+do EnableFire 90
+if GetLastCommTime > 0 St_Attack = 0 GetFOOD < 10 DistToMT < 3000 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 41 GetFireReady > 80 DistToMT < 1200 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 82
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 41 GetFireReady > 80 DistToMT < 1200 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 83
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 90 UnitsAmount > 25 FireReadyMT < 41 GetFireReady > 50 DistToMT < 900 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 84
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 40 GetTired > 40 DistToMT < 1200 FireDanger < 20 Encircle > 54 GetBarrierToMT < 180
+do AttackMT 85
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1200 FireDanger < 10 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 88
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 900 Moral > 60 St_EnableFire = 0 FireReadyMT < 41 HaveReserv = 1 DistToMT < 1200 GetBarrierToMT < 180
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 900 Moral > 160 UnitsAmount > 29 St_EnableFire = 0 HaveReserv = 1 DistToMT < 1200 GetBarrierToMT < 180
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700 GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 St_EnableFire = 0 GetFireReady > 60 DistToMT < 250 GetMeleeForceDiff > 150
+do MeleeAttack 106
+if GetLastCommTime > 1 DistToMT < 800 Moral > 35 GetTired > 40 IsStandGround = 0 FireDanger < 20 GetMeleeForceDiff > 180 IsMTStandGround = 0 GetBarrierToMT < 180
+do MeleeAttack 100
+if GetLastCommTime > 1 GetTired > 40 DistToMT < 800 UnitsAmount > 70 IsStandGround = 0 GetFireReady < 30 FireDanger < 10 GetMeleeForceDiff > 90 IsMTStandGround = 0 GetBarrierToMT < 180
+do MeleeAttack 101
+if GetLastCommTime > 1 DistToMT < 300 Moral > 50 GetTired > 10 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff > 110 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 102
+if GetLastCommTime > 1 GetFireReady < 5 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 40 Moral > 40 IsMTStandGround = 0 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 69
+if GetLastCommTime > 1 GetFireReady < 10 FireReadyMT > 80 MoralMT < 38 DistToMT < 350 Moral > 45 IsStandGround = 0 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 103
+if GetLastCommTime > 0 DistToMT < 250 UnitsAmount > 31 IsMTStandGround = 0
+do MeleeAttack 104
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetTired > 40 DistToMT < 1200 FireDanger < 20 Encircle > 54 GetMeleeForceDiff > 140 GetBarrierToMT < 180
+do AttackMT 104
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 90 UnitsAmount > 25 FireReadyMT < 41 DistToMT < 900 GetTired > 40 GetMeleeForceDiff > 140 GetBarrierToMT < 180
+do AttackMT 105
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 1200 GetTired > 40 IsStandGround = 0 FireDanger < 140 FireReadyMT < 30 GetMeleeForceDiff > 140 GetBarrierToMT < 180
+do AttackMT 106
+if GetLastCommTime > 2 IsMTCannon = 1 St_Attack = 0 DistToMT < 1200 GetFireReady > 70 FireDanger < 30 GetTired > 40 GetBarrierToMT < 180
+do ArmAttack 108
+if GetLastCommTime > 1 DistToMT < 250 IsStandGround = 0 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 107
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 GetStandTime < 1 GetTired < 15 DistToMT > 300
+do Stop 70
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 GetStandTime < 1 GetTired < 13 DistToMT > 300 UnitsAmountMT < 31
+do Stop 120
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 St_March = 1 DistToAim < 200
+do Stop 150
+if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1200
+do DisableFire 30
+if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 10
+do DisableFire 31
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT > 1000 GetFireReady < 15 HaveReserv = 1 MoralMT < 700
+do Castle 20
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT < 1200 GetFireReady < 15 HaveReserv = 1 FireReadyMT < 70 MoralMT < 700
+do Castle 21
+if GetLastCommTime > 0 GetStandTime > 2 IsMTStandGround = 1 FireReadyMT > 20 GetFireReady > 60 IsStandGround = 0 GetTired > 40 DistToMT < 1100 DistToMT > 500 GetBarrierToMT < 180
+do TakeInTheRear 18
+if GetLastCommTime > 0 GetStandTime > 10 DistToMT < 1500 IsStandGround = 0 GetFireReady > 20 GetStandTime > 2 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180 GetPolkCommand > 5
+do TakeInTheRear 19
+if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 1400 St_Front = 1 DistInFront > 200 GetFireReady > 80 GetTired > 90 DistToMT > 500
+do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 1400 St_Front = 1 DistInFront < 60 GetFireReady > 80 GetTired > 50 DistToMT > 500
+do KeepDistInFront 16
+if GetLastCommTime > 0 DistToMT > 1000 GetFireReady < 70 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 GetTired > 80 UnitsAmount > 31 DistInReserv < 70 DistToMT > 500
+do KeepDistInReserv 14
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 GetFireReady > 80 UnitsAmount > 31 DistInReserv > 130 DistToMT > 500
+do KeepDistInReserv 14
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 700 DistToMT < 1700 GetStandTime > 12 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 0 GetBarrierToMT < 180
+/do StepForward 11
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 700 DistToMT < 1700 GetStandTime > 25 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 1 GetBarrierToMT < 180
+/do StepForward 12
+#
+#HORSE UnitKUln(FR) UnitKEgr(FR) UnitKGus(FR) UnitKMam(FR) GuardFrnKMam(FR) UnitKEgr(RU) UnitKGus(RU) UnitKMam(RU) GuardRusKChKoz(RU) UnitKUln(RU) UnitKEgr(PR) UnitKDrg(PR) GuardPruKDrg(PR) UnitKKir(PR) UnitKKar(PR) GuardPruGva(PR) UnitKFlg(PR) UnitKGus(PR) UnitKEgr(EN) UnitKGus(EN) UnitKMam(EG) GuardEgpKMamT(EG) UnitKDrg(EG) UnitKUln(AU) UnitKGus(AU) GuardAusKGus(AU) UnitKEgr(AU) UnitKArb(EG) GuardEgpKMamL(EG) UnitKDKoz(RU) UnitKUln(PO) GuardPolKUln(PO) UnitKGus(PO) GuardPolKGus(PO) UnitKEgr(PO) UnitKKir(PO) UnitKEgr(SP) GuardSpnKEgr(SP) UnitKGus(SP) UnitKGus(RE) GuardVesKGus(RE) UnitKLan(RE) GuardVesKLan(RE)
+if GetLastCommTime > 0 St_KareFormation = 0 DistToMT < 1500
+do FormateToKare 46
+if GetLastCommTime > 0 St_March = 1 St_SquareFormation = 0 DistToAim > 1800 IsEnemOnWay = 0 GetTired > 20
+do FormateToSquare 110
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 DistToAim > 200 GetTired > 60 DistToMT > 1200
+do MoveToAim 41
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 DistToAim > 200 GetTired > 60 DistToMT > 1200
+do MoveToAim 40
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 DistToAim > 200 GetTired > 60 DistToMT > 1200 GetFireReady > 98
+do MoveToAim 42
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 DistToMT < 700 Moral < 45 FireReadyMT > 80 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 St_Attack = 1 UnitsAmount < 10 Moral < 100 GetTired > 30 DistToMT < 700 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 GetLastCommTime > 4 UnitsAmount < 10 Moral < 100 GetTired > 30 DistToMT < 700 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 DistToMT < 500 GetFireReady < 5 FireReadyMT > 80 GetBarrierToMT < 180 GetPolkCommand < 5
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 GetMeleeForceDiff > 90 FireReadyMT < 10 DistToMT < 300 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 1100 Encircle > 55 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 600 FireDanger > 200 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 600 FireDanger > 200 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Attack = 0 GetTired > 15 DistToMT < 600 FireDanger > 95 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 GetLastCommTime > 2 DistToMT < 300 Moral > 35 GetTired > 10 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff < 111 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 GetLastCommTime > 2 DistToMT < 300 Moral < 36 GetTired > 10 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff > 110 GetBarrierToMT < 180
+do MoveBack 69
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetFireReady > 80 GetTired > 40 AngToMT > 42 IsStandGround = 0
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 0 AngToMT > 42
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 1 AngToMT > 42
+do TurnToMT 52
+if GetLastCommTime > 0 DistToMT < 900 St_EnableFire = 0 GetFireReady > 80 GetMTForestDensity < 40 MoralMTAfterFire < 37
+do EnableFire 90
+if GetLastCommTime > 0 GetStandTime < 1 St_Attack = 1 St_EnableFire = 0 FireReadyMT > 30 GetFireReady > 60 MoralMT > 140 DistToMT < 450 KillAmoMT > 0 GetMTForestDensity < 40 IsMTStandGround = 0
+do EnableFire 91
+if GetLastCommTime > 0 St_EnableFire = 0 GetFireReady > 60 DistToMT < 250 GetMeleeForceDiff < 150
+do EnableFire 92
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 750 GetFireReady > 20 FireReadyMT > 40 Moral < 40
+do EnableFire 93
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 150 MoralMT < 120 FireDanger > 200 DistToMT < 600 UnitsAmount > 31 GetFireReady > 20 
+do EnableFire 94
+if GetLastCommTime > 0 IsMTStandGround = 1 DistToMT < 800 St_EnableFire = 0 GetFireReady > 20 GetMTForestDensity < 40 MoralMTAfterFire < 35
+do EnableFire 95
+if GetLastCommTime > 0 IsMTStandGround = 1 DistToMT < 800 St_EnableFire = 0 GetFireReady > 20 KillAmoMT > 5 GetMTForestDensity < 40
+do EnableFire 96
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 900 Moral < 60 MoralDiff > 150 GetFireReady > 80 FireReadyMT > 50 KillAmoMT > 0 GetMTForestDensity < 40 UnitsAmount > 31
+do EnableFire 97
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady > 70 GetAloneEnmUnits > 15
+do EnableFire 98
+if GetLastCommTime > 0 DistToMT < 250 St_EnableFire = 0 GetFireReady > 50 GetMeleeForceDiff < 150
+do EnableFire 99
+if GetLastCommTime > 0 GetLastCommTime > 1 IsMTCannon = 1 DistToMT < 300 GetFireReady > 30
+do EnableFire 90
+if GetLastCommTime > 0 St_Attack = 0 GetFOOD < 10 DistToMT < 3000 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 41 GetFireReady > 80 DistToMT < 1200 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 82
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 41 GetFireReady > 80 DistToMT < 1200 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 83
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 90 UnitsAmount > 25 FireReadyMT < 41 GetFireReady > 50 DistToMT < 900 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 84
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 40 GetTired > 40 DistToMT < 1200 FireDanger < 20 Encircle > 54 GetBarrierToMT < 180
+do AttackMT 85
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1200 FireDanger < 10 GetTired > 40 GetBarrierToMT < 180
+do AttackMT 88
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 900 Moral > 60 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1200 GetBarrierToMT < 180
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 900 Moral > 160 UnitsAmount > 29 St_EnableFire = 0 HaveReserv = 1 DistToMT < 1200 GetBarrierToMT < 180
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700 GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 St_EnableFire = 0 GetFireReady > 60 DistToMT < 250 GetMeleeForceDiff > 150
+do MeleeAttack 106
+if GetLastCommTime > 1 DistToMT < 800 Moral > 45 GetTired > 40 IsStandGround = 0 FireDanger < 20 GetMeleeForceDiff > 180 IsMTStandGround = 0 GetBarrierToMT < 180
+do MeleeAttack 100
+if GetLastCommTime > 1 GetTired > 40 DistToMT < 800 UnitsAmount > 70 IsStandGround = 0 GetFireReady < 30 FireDanger < 10 GetMeleeForceDiff > 90 IsMTStandGround = 0 GetBarrierToMT < 180
+do MeleeAttack 101
+if GetLastCommTime > 1 DistToMT < 300 Moral > 50 GetTired > 10 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff > 110 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 102
+if GetLastCommTime > 1 GetFireReady < 5 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 40 Moral > 40 IsMTStandGround = 0 GetBarrierToMT < 180
+do MeleeAttack 69
+if GetLastCommTime > 1 GetFireReady < 10 FireReadyMT > 80 MoralMT < 38 DistToMT < 350 Moral > 45 IsStandGround = 0 GetBarrierToMT < 180
+do MeleeAttack 103
+if GetLastCommTime > 0 DistToMT < 250 UnitsAmount > 31 IsMTStandGround = 0
+do MeleeAttack 104
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetTired > 35 DistToMT < 1200 FireDanger < 20 Encircle > 54 GetMeleeForceDiff > 140 GetBarrierToMT < 180
+do AttackMT 104
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 90 UnitsAmount > 25 FireReadyMT < 41 DistToMT < 900 GetTired > 40 GetMeleeForceDiff > 140 GetBarrierToMT < 180
+do AttackMT 105
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 1200 GetTired > 40 IsStandGround = 0 FireDanger < 140 FireReadyMT < 41 GetMeleeForceDiff > 140 GetBarrierToMT < 180
+do AttackMT 106
+if GetLastCommTime > 0 GetLastCommTime > 4 IsMTCannon = 1 St_Attack = 0 DistToMT < 1200 GetFireReady > 70 FireDanger < 30 GetTired > 40 GetBarrierToMT < 180
+do ArmAttack 108
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 250 IsStandGround = 0 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 107
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 GetStandTime < 1 GetTired < 13 DistToMT > 300
+do Stop 70
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 GetStandTime < 1 GetTired < 13 DistToMT > 300 UnitsAmountMT < 31
+do Stop 120
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 St_March = 1 DistToAim < 200
+do Stop 150
+if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1200
+do DisableFire 30
+if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 10
+do DisableFire 31
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT > 1000 GetFireReady < 15 HaveReserv = 1 MoralMT < 700
+do Castle 20
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT < 1200 GetFireReady < 15 HaveReserv = 1 FireReadyMT < 70 MoralMT < 700
+do Castle 21
+if GetLastCommTime > 0 GetStandTime > 10 IsStandGround = 0 GetFireReady > 20 IsStandGround = 0 GetStandTime > 2 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180 GetPolkCommand > 5
+do TakeInTheRear 18
+if GetLastCommTime > 0 GetStandTime > 2 IsMTStandGround = 1 FireReadyMT > 20 GetFireReady > 60 IsStandGround = 0 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180
+do TakeInTheRear 19
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 1400 St_Front = 1 DistInFront > 200 GetFireReady > 80 GetTired > 90 UnitsAmount > 31 DistToMT > 500
+do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 1400 St_Front = 1 DistInFront < 60 GetFireReady > 80 GetTired > 50 UnitsAmount > 31 DistToMT > 500
+do KeepDistInFront 16
+if GetLastCommTime > 0 DistToMT > 1000 GetFireReady < 70 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40 UnitsAmount > 31
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 GetTired > 80 UnitsAmount > 31 DistInReserv < 70 UnitsAmount > 31 DistToMT > 500
+do KeepDistInReserv 14
+if GetLastCommTime > 0 GetStandTime > 2 St_Reserv = 1 St_Attack = 0 GetTired > 50 GetFireReady > 80 UnitsAmount > 31 DistInReserv > 130 UnitsAmount > 31 DistToMT > 500
+do KeepDistInReserv 14
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 700 DistToMT < 1700 GetStandTime > 12 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180
+/do StepForward 11
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 700 DistToMT < 1700 GetStandTime > 25 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 1 UnitsAmount > 31 GetBarrierToMT < 180
+/do StepForward 12
+#
+#PEHOTASTRELKI UnitFuz(SP) GuardSpnMus(SP) UnitFuz(FR) UnitFuzNG(FR) UnitVol(FR) UnitGre(FR) GuardFrnGre(FR) UnitGre(PR) UnitVol(PR) UnitFuz(PR) GuardPruMus(PR) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitVol(EN) GuardEngEgr(EN) UnitFuz(EN) UnitGre(EN) GuardEngGre(EN) UnitOf(EN) UnitBar(EN) UnitFlg(EN) UnitFuzNG(AU) UnitFuz(AU) UnitVol(AU) UnitGre(AU) GuardAusGre(AU) UnitOf(AU) UnitBar(AU) UnitFlg(AU) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitFuz(RU) GuardRusMus(RU) UnitGre(RU) UnitOf(RU) UnitBar(RU) UnitFlg(RU) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitOf(EG) UnitBar(EG) TempMent(FR) TempMent(NE) UnitFuz(PO) UnitPar(SP) UnitFuz(RE) UnitVol(PO) UnitVol(RE) UnitGre(PO) GuardPolGre(PO) UnitGre(RE) GuardVesGre(RE) UnitBar(SP) UnitBar(PO) UnitBar(RE) UnitMus(RE) UnitOf(PO) UnitOf(SP) UnitOf(RE) UnitFlg(SP) UnitFlg(PO) UnitFlg(RE) TempMent(EG) UnitPar(NE)
+if GetLastCommTime > 4 GetStandTime > 10 DistToMT < 1500 FireForceDifference > 70 FireDanger < 40 Moral > 64 GetFireReady > 80 UnitsAmount > 31 GetBarrierToMT < 180
+do TakeInTheRear 19
+if GetLastCommTime > 5 GetDistToEnmBuilding < 600 GetNGrenades > 2 UnitsAmount > 31
+do ThrowGrenadeInABuilding 222
+/if GetLastCommTime > 0 St_Reserv = 1 GetLastCommTime > 3 IsStandGround = 0 GetFireReady > 70 GetMTStandTime < 2 GetTired > 30 DistToMT < 1500 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 1100
+/do TakeInTheRear 20
+if UnitsAmount > 31 St_Attack = 0 GetLastCommTime > 0 St_KareFormation = 0 St_Attack = 0 GetTired < 25 DistToMT < 1600 DistToMT > 600 GetPolkCommand < 4
+do FormateToKare 141
+//if GetLastCommTime > 0 St_SquareFormation = 0 St_Attack = 0 St_March = 0 GetStandTime > 5 GetTired < 15 DistToMT < 1600 DistToMT > 600 GetPolkCommand < 3 GetFrontage > 900
+//do FormateToKare 144
+if UnitsAmount > 31 GetLastCommTime > 0 St_KareFormation = 1 St_Attack = 0 GetTired > 95 GetStandTime > 9 DistToMT > 400
+do FormateToLine 143
+if GetStandTime > 1 GetLastCommTime > 1 St_ReadyToFire = 0 DistToMT < 1100 UnitsAmount > 31
+do SetReadyToFire 600
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 UnitsAmount > 31
+do SetNotReadyToFire 45
+if GetLastCommTime > 0 St_March = 1 DistToMT < 1250 St_LineFormation = 0 St_KareFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 St_March = 0 DistToMT > 600 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31 GetPolkCommand > 3
+do FormateToLine 112
+if GetLastCommTime > 0 GetNApparentEnemyForm > GetNApparentFriendlyForm GetPolkCommand > 3 St_March = 1 DistToMT < 1250 St_LineFormation = 0 St_KareFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 GetNApparentEnemyForm > GetNApparentFriendlyForm GetPolkCommand > 3 St_March = 0 DistToMT > 600 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 GetNApparentEnemyForm > GetNApparentFriendlyForm St_KareFormation = 0 St_LineFormation = 0 DistToMT < 3000 GetTired > 20 UnitsAmount > 31 GetPolkCommand < 6 UnitsAmountMT > 31
+do FormateToLine 113
+/if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31 GetFrontage > 400
+/do FormateToLine 111
+/if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31 GetFrontage < 400
+/do FormateToKare 110
+if St_SquareFormation = 0 GetLastCommTime > 1 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand < 6
+do FormateToSquare 47
+if St_SquareFormation = 0 GetLastCommTime > 1 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand > 5
+do FormateToSquare 48
+if GetLastCommTime > 0 St_March = 1 St_SquareFormation = 0 DistToAim > 1800 DistToMT > 1100 IsEnemOnWay = 0 UnitsAmount > 31
+do FormateToSquare 46
+/if GetLastCommTime > 0 St_LineFormation = 1 DistToMT < 1100 GetFrontage < 300 UnitsAmount > 31
+/do FormateToSquare 114
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 950 Moral > 45 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 20 GetMeleeForceDiff > 180 GetBarrierToMT < 180
+do ArmAttack 100
+if GetLastCommTime > 0 GetLastCommTime > 4 GetTired > 40 DistToMT < 950 UnitsAmount > 70 IsStandGround = 0 GetFireReady < 30 FireDanger < 10 GetMeleeForceDiff > 90 GetBarrierToMT < 180 UnitsAmount > 31
+do ArmAttack 101
+if GetLastCommTime > 0 GetLastCommTime > 4 GetStandTime > 2 DistToMT < 300 Moral > MoralMT GetTired > 10 IsStandGround = 0 UnitsAmount > 31 FireDanger < 10 GetMeleeForceDiff > 110 GetBarrierToMT < 180
+do MeleeAttack 102
+if GetLastCommTime > 0 GetLastCommTime > 4 GetFireReady < 5 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 70 Moral > 40 UnitsAmount > 31 GetBarrierToMT < 180
+do ArmAttack 103
+if GetLastCommTime > 0 GetLastCommTime > 4 GetFireReady < 10 FireReadyMT > 80 MoralMT < 38 DistToMT < 250 Moral > 45 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 104
+if GetLastCommTime > 0 IsStandGround = 0 St_EnableFire = 0 DistToMT < 250 GetFireReady > 40 FireReadyMT < 10 GetMeleeForceDiff > 190 Moral > 70 MoralMT < 100 UnitsAmount > 31 FireDanger < 60 GetBarrierToMT < 180
+do MeleeAttack 105
+if GetLastCommTime > 0 GetStandTime > 5 DistToMT < 250 UnitsAmount > 31 IsStandGround = 0 IsMTStandGround = 0 GetMeleeForceDiff > 80
+do MeleeAttack 106
+if GetLastCommTime > 0 DistToMT < 900 St_EnableFire = 0 GetFireReady > 20 GetMTForestDensity < 40 MoralMTAfterFire < 40 UnitsAmount > 31
+do EnableFire 91
+if GetLastCommTime > 0 DistToMT < 900 St_EnableFire = 0 GetFireReady > 20 GetMTForestDensity < 40 MoralMTAfterFire < 40 FireReadyMT > 10 UnitsAmount > 31
+do EnableFire 92
+if GetLastCommTime > 0 DistToMT < 900 St_EnableFire = 0 GetFireReady > 20 GetMTForestDensity < 40 MoralMTAfterFire < 40 GetTired < 15 FireReadyMT < 10 UnitsAmount > 31
+do EnableFire 92
+if GetLastCommTime > 0 GetStandTime < 1 IsMTStandGround = 0 St_Attack = 1 St_EnableFire = 0 FireReadyMT > 30 GetFireReady > 20 MoralMT > 130 DistToMT < 600 KillAmoMT > 0 GetMTForestDensity < 40 UnitsAmount > 31
+do EnableFire 93
+if GetLastCommTime > 0 GetStandTime < 1 IsMTStandGround = 1 St_Attack = 1 St_EnableFire = 0 FireReadyMT > 30 GetFireReady > 20 MoralMT > 130 DistToMT < 250 KillAmoMT > 0 GetMTForestDensity < 40 UnitsAmount > 31
+do EnableFire 93
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 800 GetFireReady > 20 FireReadyMT > 15 Moral < 45 UnitsAmount > 31 UnitsAmountMT > 31
+do EnableFire 94
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 450 GetFireReady > 20 FireReadyMT < 15 Moral < 55 UnitsAmount > 31 UnitsAmountMT > 31 FireDanger > 10
+do EnableFire 95
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 700 GetFireReady > 20 FireReadyMT > 15 Moral < 45 UnitsAmount > 31 UnitsAmountMT < 31
+do OneLineShot 94
+if GetLastCommTime > 0 St_EnableFire = 0 GetStandTime < 1 Moral < 45 DistToMT < 750 GetFireReady > 10 FireReadyMT > 15 UnitsAmount > 31
+do EnableFire 95
+if GetLastCommTime > 0 St_EnableFire = 0 GetStandTime > 2 Moral < 45 DistToMT < 750 GetFireReady > 10 FireReadyMT > 15 UnitsAmount > 31
+do EnableFire 96
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 60 MoralMT > 180 DistToMT < 600 GetFireReady > 10 UnitsAmount > 31 St_LineFormation = 1
+do OneLineShot 97
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 60 MoralMT > 180 DistToMT < 900 GetFireReady > 10 FireReadyMT > 30 UnitsAmount > 31 UnitsAmountMT > 31
+do EnableFire 98
+if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 350 FireReadyMT > 20 GetFireReady > 40 UnitsAmount > 31
+do EnableFire 99
+if GetLastCommTime > 0 St_Attack = 1 St_EnableFire = 0 DistToMT < 350 FireReadyMT > 20 GetFireReady > 40 UnitsAmount > 31
+do EnableFire 90
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 150 FireDanger > 240 DistToMT < 700 UnitsAmount > 31 GetFireReady > 20 
+do EnableFire 91
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 150 MoralMT < 120 FireDanger > 240 DistToMT < 600 UnitsAmount > 31 GetFireReady > 20 
+do EnableFire 92
+if GetLastCommTime > 0 IsMTStandGround = 1 St_EnableFire = 0 GetFireReady > 20 GetMTForestDensity < 40 MoralMTAfterFire < 35 UnitsAmount > 31 DistToMT < 800
+do EnableFire 93
+if GetLastCommTime > 0 IsMTStandGround = 1 St_EnableFire = 0 GetFireReady > 20 KillAmoMT > 15 GetMTForestDensity < 40 UnitsAmount > 31 DistToMT < 800
+do EnableFire 94
+if GetLastCommTime > 0 GetStandTime > 2 DistToMT < 600 St_EnableFire = 0 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 UnitsAmount > 31
+do EnableFire 95
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 250 GetFireReady > 40 FireReadyMT > 20 UnitsAmount > 31
+do EnableFire 96
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 250 GetFireReady > 40 FireReadyMT < 10 GetMeleeForceDiff < 190 UnitsAmount > 31
+do EnableFire 97
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 400 GetTired < 20 GetFireReady > 80 UnitsAmount > 31 IsMTStandGround = 0
+do EnableFire 98
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 200 GetTired < 20 GetFireReady > 80 UnitsAmount > 31 IsMTStandGround = 1
+do EnableFire 98
+if GetLastCommTime > 0 GetStandTime < 1 St_Attack = 1 St_EnableFire = 0 DistToMT < 200 FireReadyMT < 5 GetFireReady > 40 GetMTForestDensity < 40 GetMeleeForceDiff < 190 UnitsAmount > 31
+do EnableFire 99
+if GetLastCommTime > 0 GetStandTime > 2 GetMTStandTime > 2 DistToMT < 750 St_Attack = 0 St_EnableFire = 0 GetFireReady > 60 KillAmoMT > 0 HaveReserv = 1 GetMTForestDensity < 40 UnitsAmount > 31 FireReadyMT > 70
+do EnableFire 90
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 900 Moral < 60 MoralDiff > 150 GetFireReady > 80 FireReadyMT > 50 KillAmoMT > 0 GetMTForestDensity < 40 UnitsAmount > 31
+do EnableFire 91
+if GetLastCommTime > 0 DistToMT < 700 St_Attack = 0 St_EnableFire = 0 GetFireReady > 60 GetMTForestDensity < 40 KillAmoMT > 45 UnitsAmount > 31
+do EnableFire 92
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 700 GetFireReady > 20 IsMTCannon = 1 KartechDanger > 20 UnitsAmount > 31
+do EnableFire 93
+if GetLastCommTime > 0 St_EnableFire = 0 Moral < 150 FireDanger > 100 DistToMT < 500 UnitsAmount > 31 GetFireReady > 60 
+do EnableFire 94
+if GetLastCommTime > 3 GetStandTime > 4 St_Attack = 0 DistToMT < 700 GetFireReady > 80 AngToMT > 24 IsMTStandGround = 0 UnitsAmount > 31
+do EnableFire 95
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady > 30 GetAloneEnmUnits > 5 UnitsAmount > 31 St_LineFormation = 1
+do OneLineShot 99
+if GetLastCommTime > 0 St_LineFormation = 1 GetStandTime > 2 IsInBatter > 0 GetTired > 70 DistToMT < 1400 FireForceDifference > 40 SumDangAndForce > 150 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 82
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 140 GetMeleeForceDiff > 300 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 81
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 FireReadyMT < 30 GetFireReady > 80 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 GetPolkCommand > 1 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 82
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 FireReadyMT < 44 GetFireReady > 80 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 GetPolkCommand > 1 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 83
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 80 UnitsAmount > 100 FireReadyMT < 50 GetFireReady > 50 DistToMT < 900 GetTired > 40 UnitsAmount > 31 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 84
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 20 GetTired > 40 UnitsAmount > 31 DistToMT < 1000 FireDanger < 20 Encircle > 54 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 85
+/if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 GetFireReady > 80 DistToMT < 1000 DistToMT > 300 GetTired > 40 UnitsAmount > 31 FireForceDifference > -40 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 900
+/do AttackMT 86
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 FireForceDifference > 12 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 87
+if GetLastCommTime > 0 St_LineFormation = 1 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1000 UnitsAmount > 31 FireDanger < 10 GetTired > 40 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 88
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000 UnitsAmount > 31 GetTired > 30 GetPolkCommand > 2 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 89
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 St_LineFormation = 1 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 900 UnitsAmountMT < 31 MoralMT < 130 UnitsAmount > 31 GetBarrierToMT < 180 FireReadyMT < 10 GetFireReady > 80 FireDanger < 35
+do AttackMT 81
+if GetLastCommTime > 3 DistToMT < 1300 St_EnableFire = 0 GetFireReady > 60 GetMTForestDensity < 40 MoralMTAfterFire < 40 UnitsAmount > 31 GetTired > 50 GetBarrierToMT < 180 IsMTStandGround = 1 GetPolkCommand > 6
+do AttackMT 82
+if GetLastCommTime > 3 DistToMT < 1300 St_EnableFire = 0 GetFireReady > 60 GetMTForestDensity < 40 MoralMTAfterFire < 40 UnitsAmount > 31 GetTired > 50 GetBarrierToMT < 180 GetPolkCommand < 7
+do AttackMT 82
+
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 2 GetNApparentFriendlyForm > 1 GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 80
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 3 GetNApparentFriendlyForm > 2  GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 82
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 3 GetNApparentFriendlyForm > 1 GetPolkCommand > 6 GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 83
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 4 GetNApparentFriendlyForm > 3  GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 84
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 4 GetNApparentFriendlyForm > 2 GetPolkCommand > 6 GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 85
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 5 GetNApparentFriendlyForm > 4  GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 86
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 5 GetNApparentFriendlyForm > 3 GetPolkCommand > 6 GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 87
+
+if GetLastCommTime > 0 St_SquareFormation = 1 GetStandTime > 2 IsInBatter > 0 GetTired > 70 DistToMT < 1400 FireForceDifference > 40 SumDangAndForce > 150 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 82
+if GetLastCommTime > 0 GetNApparentEnemyForm < GetNApparentFriendlyForm St_SquareFormation = 1 St_Attack = 0 St_Attack = 0 GetFOOD < 5000 DistToMT < 3000 GetTired > 40 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 GetNApparentEnemyForm < GetNApparentFriendlyForm St_LineFormation = 1 St_Attack = 0 St_Attack = 0 GetFOOD < 5000 DistToMT < 3000 GetTired > 40 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 140 GetMeleeForceDiff > 300 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 81
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 FireReadyMT < 30 GetFireReady > 80 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 GetPolkCommand > 0 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 82
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 FireReadyMT < 44 GetFireReady > 80 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 GetPolkCommand > 0 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 83
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 80 UnitsAmount > 100 FireReadyMT < 50 GetFireReady > 50 DistToMT < 900 GetTired > 40 UnitsAmount > 31 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 84
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 20 GetTired > 40 UnitsAmount > 31 DistToMT < 1000 FireDanger < 20 Encircle > 54 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 85
+/if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 GetFireReady > 80 DistToMT < 1000 DistToMT > 300 GetTired > 40 UnitsAmount > 31 FireForceDifference > -40 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 240
+/do AttackMT 86
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 FireForceDifference > 12 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 87
+if GetLastCommTime > 0 St_SquareFormation = 1 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1000 UnitsAmount > 31 FireDanger < 10 GetTired > 40 GetPolkCommand > 5 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 88
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000 UnitsAmount > 31 GetTired > 30 GetPolkCommand > 2 GetBarrierToMT < 180 GetFrontage > 240
+do AttackMT 89
+if GetLastCommTime > 0 St_SquareFormation = 1 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 2 DistInFront > 300 St_Attack = 0 St_Reserv = 1 DistToMT < 600 UnitsAmount > 31 UnitsAmountMT < 31 IsMTStandGround = 0
+do AttackMT 81
+if GetLastCommTime > 2 DistInFront > 300 GetFireReady > 80 St_Attack = 0 St_Reserv = 1 DistToMT < 600 UnitsAmount > 31 UnitsAmountMT < 31
+do AttackMT 82
+
+if GetLastCommTime > 0 GetLastCommTime > 3 GetStandTime < 1 GetTired < 15 DistToMT > 400 UnitsAmount > 31
+do Stop 140
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 3 St_March = 1 DistToAim < 200 UnitsAmount > 31
+do Stop 150
+if GetLastCommTime > 0 FireForceDifference < 40 SumDangAndForce < 150 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 FireForceDifference < 40 SumDangAndForce < 150 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 250 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 250 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 250 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 250 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 700 GetFireReady < 5 FireReadyMT > 60 GetTired > 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 St_Attack = 1 GetFireReady < 5 FireDanger > 40 DistToMT < 1000 Moral < 50 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 GetLastCommTime > 4 GetFireReady < 5 FireDanger > 40 DistToMT < 1000 Moral < 50 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 IsStandGround = 0 GetStandTime > 2 GetFireReady < 5 DistToMT < 800 DistToMT > 300 FireReadyMT > 90 UnitsAmountMT > 31 GetBarrierToMT < 180 UnitsAmount > 31
+do MoveBack 69
+if GetLastCommTime > 0 GetLastCommTime > 5 IsStandGround = 0 St_Attack = 0 Encircle > 54 FireDanger > 120 UnitsAmount > 31 GetFireReady < 30 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 IsStandGround = 1 St_Attack = 0 Encircle > 90 FireDanger > 100 UnitsAmount > 31 GetFireReady < 30 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 St_Attack = 1 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 IsStandGround = 1 Moral < 120 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 St_Attack = 1 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 MoralDiff < 70 FireDanger > 100 DistToMT < 1200 DistToMT > 600 GetFireReady < 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 950 DistToMT > 400 IsMTCannon = 1 KartechDanger > 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 DistToMT < 250 GetFireReady < 10 GetMeleeForceDiff < 90 UnitsAmount > 31
+do MoveBack 66
+/if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1500 UnitsAmount > 31 GetAloneEnmUnits > 5
+/do DisableFire 30
+/if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 2 UnitsAmount > 31
+/do DisableFire 31
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT > 1000 GetFireReady < 5 HaveReserv = 1 UnitsAmountMT > 31 UnitsAmount > 31
+do Castle 20
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT < 1000 GetFireReady < 5 HaveReserv = 1 FireReadyMT < 70 UnitsAmountMT > 31 UnitsAmount > 31
+do Castle 21
+/if GetLastCommTime > 3 IsMTStandGround = 1 FireReadyMT > 20 GetFireReady > 20 IsStandGround = 0 GetStandTime > 2 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 1100
+/do TakeInTheRear 18
+/if GetLastCommTime > 3 St_Reserv = 1 GetStandTime > 20 IsStandGround = 0 GetFireReady > 20 GetStandTime > 2 GetTired > 40 DistToMT < 1100 DistToMT > 500 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 1100
+/do TakeInTheRear 19
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime < 1 GetNGrenades > 2 DistToMT < 500 St_Attack = 1 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 5
+do ThrowGrenade 120
+if GetLastCommTime > 0 GetStandTime > 2 GetNGrenades > 2 DistToMT < 500 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 5
+do ThrowGrenade 120
+
+if GetLastCommTime > 5 St_March = 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 GetTired > 50 UnitsAmount > 31 DistInReserv < 70 DistToMT < 2200 DistToMT > 600
+do KeepDistInReserv 13
+if GetLastCommTime > 5 St_March = 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 GetFireReady > 80 UnitsAmount > 31 DistInReserv > 130 DistToMT < 2200 DistToMT > 600
+do KeepDistInReserv 14
+if GetLastCommTime > 5 St_March = 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront > 130 GetFireReady > 80 GetTired > 50 UnitsAmount > 31 DistToMT > 600
+do KeepDistInFront 15
+if GetLastCommTime > 5 St_March = 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront < 70 GetFireReady > 80 GetTired > 50 UnitsAmount > 31 DistToMT > 600
+do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetFireReady > 80 GetTired > 40 AngToMT > 42 IsStandGround = 0 UnitsAmount > 31
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 0 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 1 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 52
+if St_SquareFormation = 1 GetLastCommTime > 6 GetNApparentEnemyForm > GetNApparentFriendlyForm St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand < 6
+do MoveToAim 40
+if St_SquareFormation = 0 GetLastCommTime > 6 GetNApparentEnemyForm > GetNApparentFriendlyForm St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand < 6
+do FormateToSquare 42
+if St_SquareFormation = 1 GetLastCommTime > 7 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand < 6
+do MoveToAim 40
+if St_SquareFormation = 0 GetLastCommTime > 7 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand < 6
+do FormateToSquare 42
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 5 GetNApparentFriendlyForm > 4  GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 86
+if GetStandTime > 15 GetLastCommTime > 5 St_LineFormation = 1 St_Attack = 0 GetNApparentEnemyForm < 5 GetNApparentFriendlyForm > 3 GetPolkCommand > 6 GetFireReady > 80 GetTired > 60 DistToMT < 1200 GetBarrierToMT < 180 UnitsAmount > 31 UnitsAmountMT > 31
+do AttackMT 87
+
+if St_SquareFormation = 1 GetLastCommTime > 6 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand > 5
+do MoveToAim 41
+if St_SquareFormation = 0 GetLastCommTime > 6 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 GetFireReady > 98 DistToAim > 200 UnitsAmount > 31 GetPolkCommand > 5
+do FormateToSquare 42
+if St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do MoveToAim 91
+if GetLastCommTime > 1 St_March = 1 GetTired < 10 UnitsAmount > 31
+do Stop 50
+if GetLastCommTime > 5 GetStandTime > 2 St_March = 0 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 DistToMT < 1500 UnitsAmount > 31 DistToMT > 600
+do KeepDistInReserv 17
+
+if GetLastCommTime > 5 GetStandTime > 2 St_March = 0 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 St_Reserv = 1 HaveReserv = 1 GetLastCommTime > 5 DistToMT < 2000 UnitsAmount > 31 DistToMT > 600
+do KeepDistInFront 18
+if GetLastCommTime > 0 GetLastCommTime > 5 St_March = 0 DistToMT < 2000 GetTired > 40 St_Attack = 0 St_Reserv = 1 DistInFront > 150 GetLastCommTime > 5 UnitsAmount > 31 DistToMT < 600
+do KeepDistInFront 19
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 2000 GetStandTime > 12 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900 GetPolkCommand > 4
+do StepForward 11
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 2000 GetStandTime > 25 GetTired > 70 GetFireReady > 80 Moral > 75 IsStandGround = 1 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900 GetPolkCommand > 6
+do StepForward 12
+if GetLastCommTime > 6 DistToMT > 600 DistToMT < 1500 GetStandTime > 10 GetTired > 70 GetFireReady > 80 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900 GetPolkCommand > 4
+do StepForward 13
+if GetLastCommTime > 6 DistToMT > 600 DistToMT < 1500 GetStandTime > 10 GetTired > 70 GetFireReady > 80 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 GetPolkCommand > 6
+do StepForward 14
+//ment
+if St_EnableFire = 0 DistToMT < 400 GetFireReady > 10 UnitsAmount < 31
+do EnableFire 1500
+/if GetLastCommTime > 5 DistToMT > 900 UnitsAmount < 31 
+/do FormateToLine 60
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 350 GetFireReady > 10 UnitsAmount < 31
+do EnableFire 60
+if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 250 FireReadyMT < 10 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+do EnableFire 60
+if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 250 FireReadyMT < 10 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+do EnableFire 60
+if GetLastCommTime > 0 St_Attack = 1 St_EnableFire = 0 DistToMT < 250 FireReadyMT < 10 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+do EnableFire 60
+if GetLastCommTime > 3 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount < 31 GetTired > 40 GetGameTime > 30
+do AttackAloneEnmUnits 133
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount < 31 GetTired > 40 GetGameTime > 30
+do AttackAloneEnmUnits 133
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount < 31 GetTired > 40 GetGameTime > 30
+do AttackAloneEnmUnits 133
+if GetLastCommTime > 0 GetAloneEnmUnits > 15 DistToMT > 900 St_EnableFire = 0 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+do EnableFire 44
+if GetLastCommTime > 0 GetLastCommTime > 1 St_Attack = 0 UnitsAmount < 31 DistToMT < 450 DistToAim < 1200
+do MeleeAttack 64
+if GetLastCommTime > 0 GetLastCommTime > 2 St_Attack = 0 UnitsAmount < 31 DistToMT < 1200 DistToAim < 1200 GetMTStandTime > 2 GetGameTime > 30 GetBarrierToMT < 180
+do ArmAttack 61
+if GetLastCommTime > 0 GetLastCommTime > 2 St_Attack = 0 UnitsAmount < 31 DistToMT < 1200 DistToAim < 800 GetMTStandTime > 2 GetGameTime > 30 GetBarrierToMT < 180
+do AttackMT 62
+if GetLastCommTime > 0 GetLastCommTime > 2 St_Attack = 0 UnitsAmount < 31 DistToMT < 1200 GetMTStandTime > 2 GetGameTime > 30 GetBarrierToMT < 180 IsMTStandGround = 0
+do ArmAttack 63
+if GetLastCommTime > 0 GetLastCommTime > 15 St_Attack = 0 UnitsAmount < 31 DistToMT < 1200 DistToAim < 800 GetMTStandTime > 2 GetBarrierToMT < 180
+do AttackMT 64
+if GetLastCommTime > 0 St_EnableFire = 0 GetFireReady > 10 KillAmoMT > 10 UnitsAmount < 31 FireReadyMT > 70
+do EnableFire 71
+if GetLastCommTime > 0 GetLastCommTime > 4 GetFireReady < 5 DistToMT < 250 UnitsAmount < 31 GetBarrierToMT < 180
+do MeleeAttack 40
+if DistToAim > 800 GetLastCommTime > 2 UnitsAmount < 31 
+do MoveToAim 610
+if DistToAim > 500 DistToMT < 1400 GetLastCommTime > 8 UnitsAmount < 31 
+do MoveToAim 609
+if GetLastCommTime > 0 St_March = 0 DistToAim > 900 GetLastCommTime > 12 UnitsAmount < 31 
+do MoveToAim 60
+if GetLastCommTime > 0 St_March = 0 DistToAim > 800 GetLastCommTime > 7 UnitsAmount < 31 GetFireReady > 10
+do MoveToAim 20
+if GetLastCommTime > 4 St_March = 0 DistToAim > 600 GetLastCommTime > 45 UnitsAmount < 31 GetFireReady > 10
+do MoveToAim 21
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 700 GetFireReady > 10 UnitsAmount < 31 DistToAim > 800
+do EnableFire 80
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 450 GetFireReady > 10 UnitsAmount < 31
+do EnableFire 81
+if GetLastCommTime > 0 GetLastCommTime > 1 St_EnableFire = 0 St_ReadyToFire = 0 DistToMT < 1100 UnitsAmount < 31
+do SetReadyToFire 160
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1300 GetAloneEnmUnits > 5 UnitsAmount < 31
+do SetNotReadyToFire 6
+if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 800 UnitsAmount < 31 GetAloneEnmUnits < 5
+do DisableFire 5
+if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 5 UnitsAmount < 31 
+do DisableFire 5
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT > 1000 GetFireReady < 15 HaveReserv = 1 UnitsAmountMT > 31 UnitsAmount < 31
+do Castle 75
+if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT < 1000 GetFireReady < 15 HaveReserv = 1 FireReadyMT < 70 UnitsAmountMT > 31 UnitsAmount < 31 
+do Castle 75
+if GetLastCommTime > 0 GetLastCommTime > 1 GetStandTime > 2 DistToMT < 500 GetFireReady > 90 KillAmoMT > 1 UnitsAmount < 31 
+do OneLineShot 15
+if GetLastCommTime > 0 GetLastCommTime > 1 GetStandTime > 2 DistToMT < 400 GetFireReady < 70 KillAmoMT > 1 UnitsAmount < 31 
+do OneLineShot 15
+if GetLastCommTime > 0 GetLastCommTime > 1 GetStandTime > 2 DistToMT < 300 GetFireReady < 40 KillAmoMT > 1 UnitsAmount < 31 
+do OneLineShot 15
+if GetLastCommTime > 0 GetStandTime > 2 St_Reserv = 1 St_Attack = 0 DistInReserv < 70 GetFireReady > 80 GetTired > 80 UnitsAmount < 31 DistToMT < 500
+do KeepDistInReserv 15
+if GetLastCommTime > 0 GetStandTime > 2 St_Reserv = 1 St_Attack = 0 DistInReserv > 130 GetTired > 50 GetFireReady > 80 UnitsAmount < 31 DistToMT < 500
+do KeepDistInReserv 15
+if GetLastCommTime > 0 GetStandTime > 6 St_Attack = 0 DistToMT > 600 DistToMT < 1300 GetTired > 40 AngToMT > 16 UnitsAmount < 31
+do TurnToMT 16
+if GetLastCommTime > 0 GetStandTime > 7 St_Attack = 0 DistToMT < 1300 GetFireReady > 80 GetTired > 40 AngToMT > 42 UnitsAmount < 31
+do TurnToMT 10
+if GetLastCommTime > 0 GetStandTime > 8 St_Attack = 0 GetTired > 40 AngToMT > 42 DistToMT < 1400 GetFireReady > 70 UnitsAmount < 31
+do TurnToMT 11
+if GetLastCommTime > 0 GetStandTime > 9 St_Attack = 0 DistToMT < 1300 GetFireReady > 80 GetTired > 40 AngToMT > 50 UnitsAmount < 31
+do TurnToMT 12
+if GetLastCommTime > 0 GetStandTime > 10 St_Attack = 0 GetTired > 40 AngToMT > 50 DistToMT < 1400 GetFireReady > 70 UnitsAmount < 31
+do TurnToMT 13
+if GetLastCommTime > 24 St_Attack = 0 DistToMT > 1200 DistToAim < 450 DistToAim < 2000 UnitsAmount < 31
+do StepForward 11
+if GetLastCommTime > 24 St_Attack = 0 DistToMT > 1200 DistToAim > 450 DistToAim < 2000 UnitsAmount < 31
+do MoveToAim 11
+#
+#PEHOTASTRELKI UnitVol(EG) 
+if GetMeleeForceDiff > 180 St_Attack = 0 GetLastCommTime > 0 St_KareFormation = 0 St_Attack = 0 GetTired < 25 DistToMT < 1600 DistToMT > 600 GetPolkCommand < 4
+do FormateToKare 141
+if GetLastCommTime > 0 St_KareFormation = 1 St_Attack = 0 GetTired > 95 GetStandTime > 9 DistToMT > 600
+do FormateToLine 143
+if GetLastCommTime > 0 St_March = 1 DistToMT < 1250 St_LineFormation = 0 St_KareFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 St_March = 0 DistToMT > 600 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+/OnlyForCampaign/
+if GetLastCommTime > 0 GetPolkCommand > 3 St_March = 1 DistToMT < 1250 St_LineFormation = 0 St_KareFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 GetPolkCommand > 3 St_March = 0 DistToMT > 600 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 3000 GetTired > 20 UnitsAmount > 31 GetPolkCommand < 6 UnitsAmountMT > 31
+do FormateToLine 113
+/OnlyForCampaign/
+/if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31 GetFrontage > 600
+/do FormateToLine 111
+/if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31 GetFrontage < 600
+/do FormateToKare 110
+
+if GetStandTime > 1 GetLastCommTime > 1 St_ReadyToFire = 0 DistToMT < 1200 UnitsAmount > 31
+do SetReadyToFire 600
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 UnitsAmount > 31
+do SetNotReadyToFire 45
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 950 Moral > 45 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 20 GetMeleeForceDiff > 180 GetBarrierToMT < 180
+do ArmAttack 100
+if GetLastCommTime > 0 GetLastCommTime > 4 GetTired > 40 DistToMT < 950 UnitsAmount > 70 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff > 90 GetBarrierToMT < 180
+do ArmAttack 101
+if GetLastCommTime > 0 DistToMT < 250 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 102
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 60 Moral > 40 UnitsAmount > 31 GetBarrierToMT < 180
+do ArmAttack 103
+if GetLastCommTime > 0 GetLastCommTime > 4 FireReadyMT > 80 MoralMT < 38 DistToMT < 250 Moral > 45 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 104
+if GetLastCommTime > 0 IsStandGround = 0 GetStandTime > 5 DistToMT < 250 UnitsAmount > 31 IsMTStandGround = 0
+do MeleeAttack 105
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT < 1000 FireForceDifference > -40 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 80
+if GetLastCommTime > 0 St_Attack = 0 St_Attack = 0 GetFOOD < 10 DistToMT < 3000 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 FireReadyMT < 60 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 140 GetMeleeForceDiff > 300 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 81
+if GetLastCommTime > 0 IsStandGround = 0 FireReadyMT < 60 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 FireForceDifference > 12 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 87
+if GetLastCommTime > 0 IsStandGround = 0 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 60 MoralMT > 700 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 GetLastCommTime > 4 GetStandTime < 1 St_Attack = 0 GetTired < 15 DistToMT > 400 UnitsAmount > 31
+do Stop 140
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 St_March = 1 DistToAim < 200 UnitsAmount > 31
+do Stop 150
+if GetLastCommTime > 10 GetTired < 10 UnitsAmount > 31 DistToMT > 1000
+do Stop 50
+if HaveReserv = 0 GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if HaveReserv = 0 GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 61
+if HaveReserv = 0 GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if HaveReserv = 0 GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if HaveReserv = 0 GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+if HaveReserv = 0 GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+/if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+/do MoveBack 64
+if HaveReserv = 0 GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if HaveReserv = 0 GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if HaveReserv = 0 GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if HaveReserv = 0 GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if HaveReserv = 0 IsStandGround = 0 GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 700 GetFireReady > 100 GetTired > 10 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 67
+if HaveReserv = 0 GetLastCommTime > 0 St_Attack = 1 FireDanger > 40 DistToMT < 1000 Moral < 50 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 68
+if HaveReserv = 0 GetLastCommTime > 0 IsStandGround = 0 GetStandTime > 2 DistToMT < 800 DistToMT > 300 FireDanger > 100 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 69
+if HaveReserv = 0 GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 St_Attack = 0 Encircle > 54 FireDanger > 100 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if HaveReserv = 0 GetLastCommTime > 0 IsStandGround = 1 St_Attack = 0 Encircle > 90 FireDanger > 100 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 61
+if HaveReserv = 0 GetLastCommTime > 0 IsStandGround = 1 Moral < 120 MoralDiff < 70 FireDanger > 100 DistToMT < 1000 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 63
+if HaveReserv = 0 GetLastCommTime > 0 St_Attack = 1 IsStandGround = 0 Moral < 80 MoralDiff < 70 FireDanger > 100 DistToMT < 1000 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if HaveReserv = 0 GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 Moral < 80 MoralDiff < 70 FireDanger > 100 DistToMT < 1000 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if HaveReserv = 0 GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 950 DistToMT > 400 IsMTCannon = 1 KartechDanger > 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 65
+if St_SquareFormation = 1 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1000 DistToAim > 200 UnitsAmount > 31
+do MoveToAim 40
+if St_SquareFormation = 1 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToAim > 200 UnitsAmount > 31 DistToMT > 1250
+do MoveToAim 41
+if St_SquareFormation = 1 GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do MoveToAim 91
+if St_SquareFormation = 0 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 DistToAim > 200 UnitsAmount > 31
+do FormateToSquare 42
+if St_SquareFormation = 0 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToAim > 200 UnitsAmount > 31 DistToMT > 1250
+do FormateToSquare 43
+if St_SquareFormation = 0 GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do FormateToSquare 94
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime < 1 GetNGrenades > 2 DistToMT < 500 St_Attack = 1 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 20
+do ThrowGrenade 120
+if GetLastCommTime > 0 GetStandTime > 2 GetNGrenades > 2 DistToMT < 500 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 20
+do ThrowGrenade 120
+
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 UnitsAmount > 31 DistInReserv < 70 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 13
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 UnitsAmount > 31 DistInReserv > 130 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 14
+if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 DistToMT > 500 St_Front = 1 DistInFront > 130 GetTired > 50 UnitsAmount > 31 DistToMT < 500
+do KeepDistInFront 15
+if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 DistToMT > 500 St_Front = 1 DistInFront < 70 GetTired > 50 UnitsAmount > 31 DistToMT < 500
+do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetTired > 40 AngToMT > 40 IsStandGround = 0 UnitsAmount > 31
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 IsStandGround = 0 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 IsStandGround = 1 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 52
+if GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do MoveToAim 91
+if GetLastCommTime > 0 GetStandTime > 5 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 GetLastCommTime > 5 UnitsAmount > 31 DistToMT < 500
+do KeepDistInReserv 17
+/if GetLastCommTime > 0 GetStandTime > 5 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 St_Reserv = 1 HaveReserv = 1 GetLastCommTime > 5 UnitsAmount > 31 DistToMT < 500
+/do KeepDistInFront 18
+#
+#PEHOTASTRELKI UnitPar(RU)
+if GetMeleeForceDiff > 180 St_Attack = 0 GetLastCommTime > 0 St_KareFormation = 0 St_Attack = 0 GetTired < 25 DistToMT < 1600 DistToMT > 600 GetPolkCommand < 4
+do FormateToKare 141
+if GetLastCommTime > 0 St_KareFormation = 1 St_Attack = 0 GetTired > 95 GetStandTime > 9 DistToMT > 600
+do FormateToLine 143
+if GetLastCommTime > 0 St_March = 1 DistToMT < 1250 St_LineFormation = 0 St_KareFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 St_March = 0 DistToMT > 600 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+/OnlyForCampaign/
+if GetLastCommTime > 0 GetPolkCommand > 3 St_March = 1 DistToMT < 1250 St_LineFormation = 0 St_KareFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 GetPolkCommand > 3 St_March = 0 DistToMT > 600 DistToMT < 1250 St_LineFormation = 0 UnitsAmount > 31 UnitsAmountMT > 31
+do FormateToLine 112
+if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 3000 GetTired > 20 UnitsAmount > 31 GetPolkCommand < 6 UnitsAmountMT > 31
+do FormateToLine 113
+/OnlyForCampaign/
+/if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31 GetFrontage > 600
+/do FormateToLine 111
+/if GetLastCommTime > 0 St_KareFormation = 0 St_LineFormation = 0 DistToMT < 950 GetTired > 20 UnitsAmount > 31 GetFrontage < 600
+/do FormateToKare 110
+
+if GetStandTime > 1 GetLastCommTime > 1 St_ReadyToFire = 0 DistToMT < 1200 UnitsAmount > 31
+do SetReadyToFire 600
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 UnitsAmount > 31
+do SetNotReadyToFire 45
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 950 Moral > 45 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 20 GetMeleeForceDiff > 180 GetBarrierToMT < 180
+do ArmAttack 100
+if GetLastCommTime > 0 GetLastCommTime > 4 GetTired > 40 DistToMT < 950 UnitsAmount > 70 IsStandGround = 0 FireDanger < 10 GetMeleeForceDiff > 90 GetBarrierToMT < 180
+do ArmAttack 101
+if GetLastCommTime > 0 DistToMT < 250 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 102
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 1200 UnitsAmountMT < 31 GetTired > 60 Moral > 40 UnitsAmount > 31 GetBarrierToMT < 180
+do ArmAttack 103
+if GetLastCommTime > 0 GetLastCommTime > 4 FireReadyMT > 80 MoralMT < 38 DistToMT < 250 Moral > 45 IsStandGround = 0 UnitsAmount > 31 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 104
+if GetLastCommTime > 0 IsStandGround = 0 GetStandTime > 5 DistToMT < 250 UnitsAmount > 31 IsMTStandGround = 0
+do MeleeAttack 105
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT < 1000 FireForceDifference > -40 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 80
+if GetLastCommTime > 0 St_Attack = 0 St_Attack = 0 GetFOOD < 10 DistToMT < 3000 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 1
+if GetLastCommTime > 0 FireReadyMT < 60 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0 UnitsAmount > 31 FireDanger < 140 GetMeleeForceDiff > 300 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 81
+if GetLastCommTime > 0 IsStandGround = 0 FireReadyMT < 60 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40 UnitsAmount > 31 FireForceDifference > 12 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 87
+if GetLastCommTime > 0 IsStandGround = 0 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000 UnitsAmount > 31 GetBarrierToMT < 180 GetFrontage > 900
+do AttackMT 89
+if GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 60 MoralMT > 700 UnitsAmount > 31 GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 GetLastCommTime > 4 GetStandTime < 1 St_Attack = 0 GetTired < 15 DistToMT > 400 UnitsAmount > 31
+do Stop 140
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 4 St_March = 1 DistToAim < 200 UnitsAmount > 31
+do Stop 150
+if GetLastCommTime > 10 GetTired < 10 UnitsAmount > 31 DistToMT > 1000
+do Stop 50
+
+if GetLastCommTime > 0 GetStandTime < 6 FireReadyMT > 60 IsStandGround = 0 GetTired > 30 DistToMT < 600 Moral < 120 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 300
+if GetLastCommTime > 0 GetStandTime < 6 FireReadyMT > 60 IsStandGround = 1 GetTired > 30 DistToMT < 700 DistToMT > 500 Moral < 90 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+
+if GetLastCommTime > 0 GetStandTime > 2 FireReadyMT < 20 Moral > 50 GetTired > 30 DistToMT < 450 UnitsAmount > 31 GetBarrierToMT < 180 GetMeleeForceDiff > 190
+do MeleeAttack 103
+
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 61
+
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 62
+if GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 63
+/if GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 40 DistToMT > 1000 UnitsAmount > 31 GetBarrierToMT < 180
+/do MoveBack 64
+if GetLastCommTime > 0 St_Attack = 1 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT < 900 DistToMT > 400 UnitsAmount > 31 Moral < 150 FireDanger > 30 FireForceDifference < -200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 65
+if GetLastCommTime > 0 St_Attack = 1 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 600 DistToMT < 900 UnitsAmount > 31 Moral < 150 FireDanger > 200 GetTired > 30 GetBarrierToMT < 180
+do MoveBack 66
+if GetLastCommTime > 0 St_Attack = 1 FireDanger > 40 DistToMT < 1000 Moral < 50 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 68
+if GetLastCommTime > 0 IsStandGround = 0 GetStandTime > 2 DistToMT < 800 DistToMT > 300 FireDanger > 100 UnitsAmountMT > 31 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 69
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 St_Attack = 0 Encircle > 54 FireDanger > 100 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 60
+if GetLastCommTime > 0 IsStandGround = 1 St_Attack = 0 Encircle > 90 FireDanger > 100 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 61
+if GetLastCommTime > 0 IsStandGround = 1 Moral < 120 MoralDiff < 70 FireDanger > 100 DistToMT < 1000 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 63
+if GetLastCommTime > 0 St_Attack = 1 IsStandGround = 0 Moral < 80 MoralDiff < 70 FireDanger > 100 DistToMT < 1000 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 GetLastCommTime > 4 IsStandGround = 0 Moral < 80 MoralDiff < 70 FireDanger > 100 DistToMT < 1000 DistToMT > 600 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 64
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 950 DistToMT > 400 IsMTCannon = 1 KartechDanger > 20 UnitsAmount > 31 GetBarrierToMT < 180
+do MoveBack 65
+
+if St_SquareFormation = 1 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1000 DistToAim > 200 UnitsAmount > 31
+do MoveToAim 40
+if St_SquareFormation = 1 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToAim > 200 UnitsAmount > 31 DistToMT > 1250
+do MoveToAim 41
+if St_SquareFormation = 1 GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do MoveToAim 91
+if St_SquareFormation = 0 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 DistToAim > 200 UnitsAmount > 31
+do FormateToSquare 42
+if St_SquareFormation = 0 GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToAim > 200 UnitsAmount > 31 DistToMT > 1250
+do FormateToSquare 43
+if St_SquareFormation = 0 GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do FormateToSquare 94
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount > 31 GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime < 1 GetNGrenades > 2 DistToMT < 500 St_Attack = 1 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 20
+do ThrowGrenade 120
+if GetLastCommTime > 0 GetStandTime > 2 GetNGrenades > 2 DistToMT < 500 UnitsAmount > 31 IsMTStandGround = 0 GetMTStandTime > 20
+do ThrowGrenade 120
+
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 UnitsAmount > 31 DistInReserv < 70 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 13
+if GetLastCommTime > 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 UnitsAmount > 31 DistInReserv > 130 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 14
+if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 DistToMT > 500 St_Front = 1 DistInFront > 130 GetTired > 50 UnitsAmount > 31 DistToMT < 500
+do KeepDistInFront 15
+if GetLastCommTime > 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 DistToMT > 500 St_Front = 1 DistInFront < 70 GetTired > 50 UnitsAmount > 31 DistToMT < 500
+do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetTired > 40 AngToMT > 40 IsStandGround = 0 UnitsAmount > 31
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 IsStandGround = 0 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 IsStandGround = 1 AngToMT > 42 UnitsAmount > 31
+do TurnToMT 52
+if GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 UnitsAmount > 31
+do MoveToAim 91
+if GetLastCommTime > 0 GetStandTime > 5 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 GetLastCommTime > 5 UnitsAmount > 31 DistToMT < 500
+do KeepDistInReserv 17
+/if GetLastCommTime > 0 GetStandTime > 5 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 St_Reserv = 1 HaveReserv = 1 GetLastCommTime > 5 UnitsAmount > 31 DistToMT < 500
+/do KeepDistInFront 18
+#
+#PEHOTASTRELKI UnitEgrNG(AU) GuardAusEgr(AU) UnitEgrNG(FR) UnitEgrNG(PR) GuardPruEgr(PR) UnitGre(EG) GuardEgpEgr(EG) UnitEgr(RU) GuardRusEgr(RU) UnitEgrNG(EN) GuardEngEgrNG(EN) UnitEgr(PO) UnitEgr(SP) UnitEgr(RE) GuardVesEgr(RE)
+if DistToMT < 900 GetFireReady > 70 MoralMT < 50 UnitsAmountMT > 31
+do AttackMT 97
+if DistToMT < 250 GetFireReady > 70 MoralMT < 50 UnitsAmountMT > 31
+do EnableFire 98
+if DistToMT < 550 GetFireReady > 70 MoralMT < 40 UnitsAmountMT > 31
+do EnableFire 99
+
+if GetLastCommTime > 0 DistToMT < 400 GetFireReady < 10 FireReadyMT < 30 MoralMT < 38 DistToMT < 250 UnitsAmountMT < 28 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 104
+if St_Attack = 0 GetLastCommTime > 0 DistToMT < 250 UnitsAmountMT < 17
+do MeleeAttack 106
+if GetLastCommTime > 0 DistToMT > 200 DistToMT < 600 GetFireReady < 10 FireReadyMT < 30 UnitsAmountMT > 27 IsStandGround = 0
+do MoveBack 60
+if GetLastCommTime > 0 DistToMT > 200 DistToMT < 600 GetFireReady < 10 FireReadyMT > 30 UnitsAmountMT < 28 IsStandGround = 0
+do MoveBack 60
+
+if GetLastCommTime > 0 GetLastCommTime > 1 St_ReadyToFire = 0 DistToMT < 1100 
+do SetReadyToFire 600
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 
+do SetNotReadyToFire 45
+
+if GetLastCommTime > 0 DistToMT < 1000 St_EnableFire = 0 GetFireReady > 50 GetMTForestDensity < 40 MoralMTAfterFire < 35 
+do EnableFire 91
+if GetLastCommTime > 0 St_EnableFire = 0 FireReadyMT > 30 GetFireReady > 50 DistToMT < 500 GetMTForestDensity < 40 
+do EnableFire 93
+if GetLastCommTime > 0 St_Front = 1 St_EnableFire = 0 DistToMT < 800 GetFireReady > 50 FireReadyMT > 30 Moral < 45 UnitsAmountMT > 31
+do EnableFire 94
+if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 350 GetFireReady > 50 
+do EnableFire 99
+if GetLastCommTime > 0 St_Attack = 1 St_EnableFire = 0 DistToMT < 350 GetFireReady > 50 
+do EnableFire 90
+if GetLastCommTime > 0 St_EnableFire = 0 FireDanger > 240 DistToMT < 700 GetFireReady > 50
+do EnableFire 91
+if GetLastCommTime > 0 IsMTStandGround = 1 St_EnableFire = 0 GetFireReady > 50 KillAmoMT > 8 DistToMT < 500
+do EnableFire 94
+if GetLastCommTime > 0 GetStandTime > 2 DistToMT < 600 St_EnableFire = 0 St_Reserv = 1 St_Attack = 0 GetFireReady > 50 
+do EnableFire 95
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 700 GetFireReady > 50 IsMTCannon = 1 KartechDanger > 20 
+do EnableFire 93
+
+if St_Attack = 0 GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 70 DistToMT < 1400 FireForceDifference > 40 SumDangAndForce > 150  GetBarrierToMT < 180 
+do AttackMT 82
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 St_Attack = 0 GetFOOD < 10 DistToMT < 3000 GetTired > 40  GetBarrierToMT < 180
+do AttackMT 1
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0  FireDanger < 140 GetMeleeForceDiff > 300 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 81
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 30 GetFireReady > 80 DistToMT < 1000 GetTired > 40  GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 82
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 44 GetFireReady > 80 DistToMT < 1000 GetTired > 40  GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 83
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 80 UnitsAmount > 100 FireReadyMT < 50 GetFireReady > 50 DistToMT < 900 GetTired > 40  GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 84
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 20 GetTired > 40  DistToMT < 1000 FireDanger < 20 Encircle > 54 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 85
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 GetFireReady > 80 DistToMT < 1000 DistToMT > 300 GetTired > 40  FireForceDifference > -40 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 86
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40  FireForceDifference > 12 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 87
+if St_Attack = 0 GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1000  FireDanger < 10 GetTired > 40 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 88
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000  GetTired > 30 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 89
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700  GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 GetLastCommTime > 3 GetStandTime < 1 GetTired < 15 DistToMT > 400 
+do Stop 140
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 3 St_March = 1 DistToAim < 200 
+do Stop 150
+
+if GetLastCommTime > 0 GetLastCommTime > 3 DistToMT > 250 DistToMT < 600 GetFireReady < 70 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 GetLastCommTime > 3 DistToMT > 250 DistToMT < 600 GetFireReady > 69 FireReadyMT > 20 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 950 DistToMT > 400 IsMTCannon = 1 KartechDanger > 20 GetBarrierToMT < 180
+do MoveBack 65
+
+if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1500  GetAloneEnmUnits > 5
+do DisableFire 30
+if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 2 
+do DisableFire 31
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5  GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5  GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5  GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 GetTired > 50  DistInReserv < 70 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 13
+if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 GetFireReady > 80  DistInReserv > 130 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 14
+/if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront > 130 GetFireReady > 80 GetTired > 50  DistToMT > 500
+/do KeepDistInFront 15
+/if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront < 70 GetFireReady > 80 GetTired > 50  DistToMT > 500
+/do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetFireReady > 80 GetTired > 40 AngToMT > 42 IsStandGround = 0 
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 0 AngToMT > 42 
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 1 AngToMT > 42 
+do TurnToMT 52
+/OnlyForCampaign/
+/OnlyForCampaign/
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200  GetPolkCommand < 6
+do MoveToAim 40
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 GetFireReady > 98 DistToAim > 200  GetPolkCommand > 5
+do MoveToAim 41
+if GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 
+do MoveToAim 91
+if GetLastCommTime > 0 GetLastCommTime > 5 St_March = 0 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 DistToMT < 1500  DistToMT > 500
+do KeepDistInReserv 17
+/if GetLastCommTime > 0 GetLastCommTime > 5 St_March = 0 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 St_Reserv = 1 HaveReserv = 1 GetLastCommTime > 5 DistToMT < 2000  DistToMT > 500
+/do KeepDistInFront 18
+/if GetLastCommTime > 0 GetLastCommTime > 5 St_March = 0 DistToMT < 2000 GetTired > 40 St_Attack = 0 St_Reserv = 1 DistInFront > 150 GetLastCommTime > 5  DistToMT < 500
+/do KeepDistInFront 19
+#
+#CANNON ArtPus4(EN) ArtPus4(FR) ArtPus4(RU) ArtPus4(EG) ArtPus4(PR) ArtPus4(AU) ArtPus4(NE) ArtPus4L(EN) ArtPus4L(FR) ArtPus4L(RU) ArtPus4L(EG) ArtPus4L(PR) ArtPus4L(AU) ArtPus4L(NE) ArtPus4G(EN) ArtPus4G(FR) ArtPus4G(RU) ArtPus4G(EG) ArtPus4G(PR) ArtPus4G(AU) ArtPus4G(NE) ArtPus4R(EN) ArtPus4(RE) ArtPus4(PO) ArtPus4(SP) ArtPus4G(RE) ArtPus4G(PO) ArtPus4G(SP) ArtPus4L(RE) ArtPus4L(PO) ArtPus4L(SP)
+if GetLastCommTime > 10 GetFillingAbility = 1 DistToMT < 10 DistToMT > 100
+do Stop 2
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetDistToEnmBuilding < 1000
+do FireOnEnmBuilding 91
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetDistToEnmBuilding < 1000
+do FireOnEnmTower 92
+if GetLastCommTime > 0 GetStandTime > 2 GetPushkaChargeState0 = 100 GetMaxDensityInZerroSector > 0 GetLastCommTime > 2
+do Fire 90
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetStandTime > 2 GetMaxDensityInZerroSector < 1 DistToMT < 2500 UnitsAmountMT > 31
+do TurnCannonToMaxEnmFormationSector 89
+if GetLastCommTime > 0 GetPushkaChargeState1 = 100 GetStandTime > 2 GetMaxDensityInZerroSector < 1 DistToMT < 2500 UnitsAmountMT > 31
+do TurnCannonToMaxEnmFormationSector 89
+if GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20
+do MoveToAim 93
+if GetLastCommTime > 0 St_March = 0 DistToMT > 3000 GetPushkaChargeState0 = 100 DistToAim > 200 GetLastCommTime > 3
+do MoveToAim 40
+if GetLastCommTime > 0 St_March = 0 DistToMT > 3000 GetPushkaChargeState1 = 100 DistToAim > 200 GetLastCommTime > 3
+do MoveToAim 41
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 500 DistToMT < 1700 GetStandTime > 10 UnitsAmountMT > 31 GetDistToEnmTower < 2500 GetBarrierToMT < 180
+/do StepForward 12
+/if GetLastCommTime > 0 GetLastCommTime > 4 DistToMT > 2000 DistToMT < 3000 GetStandTime > 10 GetMaxDensityInZerroSector < 1 UnitsAmountMT > 31 GetDistToEnmTower > 2500 GetBarrierToMT < 180
+/do StepForward 13
+if GetLastCommTime > 0 GetPushkaChargeState0 = 100 GetDistToEnmTower < 2500 GetKartechEffect < 700 UnitsAmountMT > 31
+do FireOnEnmTower 92
+if GetLastCommTime > 0 GetPushkaChargeState1 > 10 GetDistToEnmTower < 2500 GetKartechEffect < 700 UnitsAmountMT > 31
+do ChargeCannon0 24
+if GetLastCommTime > 0 GetPushkaChargeState1 > 10 GetKartechEffect < 700 UnitsAmountMT > 31
+do ChargeCannon0 23
+if GetLastCommTime > 0 St_Front = 1 GetPushkaChargeState1 = 100 GetKartechEffect > 700
+do Fire 25
+if GetLastCommTime > 0 GetPushkaChargeState0 > 10 GetKartechEffect > 700
+do ChargeCannon1 25
+if GetLastCommTime > 2 GetProcDistToAimInPolk > 100
+do MoveToAim 9
+if GetLastCommTime > 2 GetProcDistToAimInPolk < 100
+do Stop 10
+/if GetLastCommTime > 0 GetLastCommTime > 4 GetKartechEffect > 40
+/do ChargeCannon1 25
+/if GetLastCommTime > 0 DistToMT < 900 GetLastCommTime > 4 GetKartechEffect > 10 GetStandTime > 5
+/do ChargeCannon1 25
+/if GetLastCommTime > 0 GetStandTime > 5 GetPushkaChargeState1 = 100 GetKartechEffect > 10 GetLastCommTime > 5
+/do Fire 91
+/if GetLastCommTime > 0 DistToMT > 1200 GetLastCommTime > 4 GetKartechEffect < 11 GetStandTime > 5
+/do ChargeCannon0 24
+#
+/#MENT TempMent(FR) TempMent(EG) UnitFuz(FR) UnitFuzNG(FR) UnitVol(FR) UnitGre(FR) GuardFrnGre(FR) UnitEgrNG(FR) UnitSap(FR) UnitGre(PR) UnitVol(PR) UnitFuz(PR) GuardPruMus(PR) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitEgrNG(PR) GuardPruEgr(PR) UnitSap(PR) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitFuz(EN) UnitGre(EN) GuardEngGre(EN) UnitOf(EN) UnitBar(EN) UnitFlg(EN) UnitEgrNG(EN) GuardEngEgrNG(EN) UnitFuzNG(AU) UnitFuz(AU) UnitVol(AU) UnitGre(AU) GuardAusGre(AU) UnitOf(AU) UnitBar(AU) UnitFlg(AU) UnitEgrNG(AU) GuardAusEgr(AU) UnitSap(AU) UnitOf(PR) UnitBar(PR) UnitFlg(PR) UnitEgrNG(PR) GuardPruEgr(PR) UnitSap(PR) UnitFuz(RU) GuardRusMus(RU) UnitGre(RU) UnitOf(RU) UnitBar(RU) UnitFlg(RU) UnitEgr(RU) GuardRusEgr(RU) UnitSap(RU) UnitFuz(EG) GuardEgpMus(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) UnitOf(EG) UnitBar(EG) UnitGre(EG) GuardEgpEgr(EG) TempMent(FR) TempMent(EG) TempMent(NE) UnitFuz(PO) UnitGre(SP) GuardSpnGre(SP) 
+/if GetLastCommTime > 0 GetStandTime < 99999999 St_EnableFire = 0 DistToMT < 700 GetFireReady > 10 UnitsAmount < 31 MoralMTAfterFire < 40
+/do EnableFire 71
+/if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 350 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 60
+/if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 350 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 60
+/if GetLastCommTime > 0 St_Attack = 1 St_EnableFire = 0 DistToMT < 350 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 60
+/if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 250 FireReadyMT < 10 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 60
+/if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 250 FireReadyMT < 10 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 60
+/if GetLastCommTime > 0 St_Attack = 1 St_EnableFire = 0 DistToMT < 250 FireReadyMT < 10 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 60
+/if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount < 31 GetTired > 40
+/do AttackAloneEnmUnits 133
+/if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount < 31 GetTired > 40
+/do AttackAloneEnmUnits 133
+/if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetAloneEnmUnits > 5 UnitsAmount < 31 GetTired > 40
+/do AttackAloneEnmUnits 133
+/if GetLastCommTime > 0 GetAloneEnmUnits > 15 DistToMT > 900 St_EnableFire = 0 GetFireReady > 10 GetMTForestDensity < 40 UnitsAmount < 31
+/do EnableFire 44
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetFireReady > 20 UnitsAmount < 31 DistToMT < 1200 DistToAim < 1200 GetMTStandTime > 2 GetBarrierToMT < 180
+/do AttackMT 61
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 UnitsAmount < 31 DistToMT < 1200 DistToAim < 800 GetMTStandTime > 2 GetBarrierToMT < 180
+/do AttackMT 62
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 UnitsAmount < 31 DistToMT < 1200 GetMTStandTime > 2 GetBarrierToMT < 180
+/do AttackMT 63
+/if GetLastCommTime > 0 St_EnableFire = 0 GetFireReady > 10 KillAmoMT > 10 UnitsAmount < 31 FireReadyMT > 70
+/do EnableFire 71
+/if GetLastCommTime > 0 GetLastCommTime > 4 GetFireReady < 5 DistToMT < 250 UnitsAmount < 31 GetBarrierToMT < 180
+/do MeleeAttack 40
+/if GetLastCommTime > 0 St_March = 0 DistToAim > 1000 GetStandTime > 2 UnitsAmount < 31 
+/do MoveToAim 60
+/if GetLastCommTime > 0 St_March = 0 DistToAim > 800 GetStandTime > 2 UnitsAmount < 31 GetFireReady > 10
+/do MoveToAim 20
+/if GetLastCommTime > 0 DistToMT < 700 GetFireReady > 10 UnitsAmount < 31 DistToAim > 800
+/do EnableFire 80
+/if GetLastCommTime > 0 DistToMT < 450 GetFireReady > 10 UnitsAmount < 31
+/do EnableFire 81
+/if GetLastCommTime > 0 St_ReadyToFire = 0 DistToMT < 1300 UnitsAmount < 31
+/do SetReadyToFire 160
+/if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 UnitsAmount < 31
+/do SetNotReadyToFire 6
+/if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1500 UnitsAmount < 31 GetAloneEnmUnits < 5
+/do DisableFire 5
+/if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 5 UnitsAmount < 31 
+/do DisableFire 5
+/if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT > 1000 GetFireReady < 15 HaveReserv = 1 UnitsAmountMT > 31 UnitsAmount < 31
+/do Castle 75
+/if GetLastCommTime > 0 GetLastCommTime > 4 St_Front = 1 DistToMT < 1000 GetFireReady < 15 HaveReserv = 1 FireReadyMT < 70 UnitsAmountMT > 31 UnitsAmount < 31 
+/do Castle 75
+/if GetLastCommTime > 0 GetStandTime > 2 DistToMT < 800 GetFireReady > 90 KillAmoMT > 2 UnitsAmount < 31 
+/do OneLineShot 15
+/if GetLastCommTime > 0 GetStandTime > 2 DistToMT < 800 GetFireReady > 60 KillAmoMT > 4 UnitsAmount < 31 
+/do OneLineShot 15
+/if GetLastCommTime > 0 GetStandTime > 2 DistToMT < 800 GetFireReady > 30 KillAmoMT > 6 UnitsAmount < 31 
+/do OneLineShot 15
+/if GetLastCommTime > 0 GetStandTime > 2 St_Reserv = 1 St_Attack = 0 DistInReserv < 70 GetFireReady > 80 GetTired > 80 UnitsAmount < 31 
+/do KeepDistInReserv 15
+/if GetLastCommTime > 0 GetStandTime > 2 St_Reserv = 1 St_Attack = 0 DistInReserv > 130 GetTired > 50 GetFireReady > 80 UnitsAmount < 31 
+/do KeepDistInReserv 15
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 1300 GetFireReady > 80 GetTired > 40 AngToMT > 40 UnitsAmount < 31 
+/do TurnToMT 10
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 AngToMT > 20 DistToMT < 1400 GetFireReady > 70 UnitsAmount < 31 
+/do TurnToMT 10
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 1300 GetFireReady > 80 GetTired > 40 AngToMT > 50 UnitsAmount < 31 
+/do TurnToMT 10
+/if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 AngToMT > 50 DistToMT < 1400 GetFireReady > 70 UnitsAmount < 31 
+/do TurnToMT 10
+/#
+#PEHOTASTRELKI UnitSap(EN) UnitSap(FR) UnitSap(PR) UnitSap(AU) UnitSap(PR) UnitSap(RU) UnitSap(SP) UnitSap(PO) UnitSap(RE)
+if CanSetBomb = 1 GetDistToEnmBuilding < 1000 DistToMT < 600
+do SetBomb 20
+if CanSetBomb = 1 GetDistToEnmTower < 2000 DistToMT < 800
+do SetBomb 21
+if DistToMT < 900 GetFireReady > 70 MoralMT < 50 UnitsAmountMT > 31
+do AttackMT 97
+if DistToMT < 250 GetFireReady > 70 MoralMT < 50 UnitsAmountMT > 31
+do EnableFire 98
+if DistToMT < 550 GetFireReady > 70 MoralMT < 40 UnitsAmountMT > 31
+do EnableFire 99
+
+if GetLastCommTime > 0 DistToMT < 400 GetFireReady < 10 FireReadyMT < 30 MoralMT < 38 DistToMT < 250 UnitsAmountMT < 28 GetBarrierToMT < 180 IsMTStandGround = 0
+do MeleeAttack 104
+if St_Attack = 0 GetLastCommTime > 0 DistToMT < 250 UnitsAmountMT < 17
+do MeleeAttack 106
+if GetLastCommTime > 0 DistToMT > 200 DistToMT < 600 GetFireReady < 10 FireReadyMT < 30 UnitsAmountMT > 27 IsStandGround = 0
+do MoveBack 60
+if GetLastCommTime > 0 DistToMT > 200 DistToMT < 600 GetFireReady < 10 FireReadyMT > 30 UnitsAmountMT < 28 IsStandGround = 0
+do MoveBack 60
+
+if GetLastCommTime > 0 GetLastCommTime > 1 St_ReadyToFire = 0 DistToMT < 1100 
+do SetReadyToFire 600
+if GetLastCommTime > 0 St_ReadyToFire = 1 DistToMT > 1500 GetAloneEnmUnits > 5 
+do SetNotReadyToFire 45
+
+if GetLastCommTime > 0 DistToMT < 1000 St_EnableFire = 0 GetFireReady > 50 GetMTForestDensity < 40 MoralMTAfterFire < 35 
+do EnableFire 91
+if GetLastCommTime > 0 St_EnableFire = 0 FireReadyMT > 30 GetFireReady > 50 DistToMT < 500 GetMTForestDensity < 40 
+do EnableFire 93
+if GetLastCommTime > 0 St_Front = 1 St_EnableFire = 0 DistToMT < 800 GetFireReady > 50 FireReadyMT > 30 Moral < 45 UnitsAmountMT > 31
+do EnableFire 94
+if GetLastCommTime > 0 St_Attack = 0 St_EnableFire = 0 DistToMT < 350 GetFireReady > 50 
+do EnableFire 99
+if GetLastCommTime > 0 St_Attack = 1 St_EnableFire = 0 DistToMT < 350 GetFireReady > 50 
+do EnableFire 90
+if GetLastCommTime > 0 St_EnableFire = 0 FireDanger > 240 DistToMT < 700 GetFireReady > 50
+do EnableFire 91
+if GetLastCommTime > 0 IsMTStandGround = 1 St_EnableFire = 0 GetFireReady > 50 KillAmoMT > 8 DistToMT < 500
+do EnableFire 94
+if GetLastCommTime > 0 GetStandTime > 2 DistToMT < 600 St_EnableFire = 0 St_Reserv = 1 St_Attack = 0 GetFireReady > 50 
+do EnableFire 95
+if GetLastCommTime > 0 St_EnableFire = 0 DistToMT < 700 GetFireReady > 50 IsMTCannon = 1 KartechDanger > 20 
+do EnableFire 93
+
+if St_Attack = 0 GetLastCommTime > 0 GetStandTime > 2 IsInBatter > 0 GetTired > 70 DistToMT < 1400 FireForceDifference > 40 SumDangAndForce > 150  GetBarrierToMT < 180 
+do AttackMT 82
+/ForBattlesOnly/if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 St_Attack = 0 GetFOOD < 5000 DistToMT < 3000 GetTired > 40  GetBarrierToMT < 180
+/ForBattlesOnly/do AttackMT 1
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 1000 GetTired > 40 IsStandGround = 0  FireDanger < 140 GetMeleeForceDiff > 300 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 81
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 30 GetFireReady > 80 DistToMT < 1000 GetTired > 40  GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 82
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 FireReadyMT < 44 GetFireReady > 80 DistToMT < 1000 GetTired > 40  GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 83
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 UnitsAmountMT < 80 UnitsAmount > 100 FireReadyMT < 50 GetFireReady > 50 DistToMT < 900 GetTired > 40  GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 84
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 GetFireReady > 20 GetTired > 40  DistToMT < 1000 FireDanger < 20 Encircle > 54 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 85
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 GetFireReady > 80 DistToMT < 1000 DistToMT > 300 GetTired > 40  FireForceDifference > -40 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 86
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 GetMeleeForceDiff > 120 DistToMT < 1000 GetTired > 40  FireForceDifference > 12 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 87
+if St_Attack = 0 GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 St_EnableFire = 0 GetFireReady > 80 DistToMT < 1000  FireDanger < 10 GetTired > 40 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 88
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 DistToMT < 700 Moral > 70 St_EnableFire = 0 FireReadyMT < 20 HaveReserv = 1 DistToMT < 1000  GetTired > 30 GetPolkCommand > 5 GetBarrierToMT < 180 
+do AttackMT 89
+if St_Attack = 0 GetLastCommTime > 0 St_Attack = 0 GetStandTime > 2 St_EnableFire = 0 DistToMT < 1000 UnitsAmountMT < 31 GetTired > 40 MoralMT > 700  GetBarrierToMT < 180
+do AttackMT 80
+if GetLastCommTime > 0 GetLastCommTime > 3 GetStandTime < 1 GetTired < 15 DistToMT > 400 
+do Stop 140
+if GetLastCommTime > 0 St_March = 1 GetLastCommTime > 3 St_March = 1 DistToAim < 200 
+do Stop 150
+
+if GetLastCommTime > 0 GetLastCommTime > 3 DistToMT > 250 DistToMT < 600 GetFireReady < 70 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 GetLastCommTime > 3 DistToMT > 250 DistToMT < 600 GetFireReady > 69 FireReadyMT > 20 GetTired > 20 GetBarrierToMT < 180
+do MoveBack 67
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 950 DistToMT > 400 IsMTCannon = 1 KartechDanger > 20 GetBarrierToMT < 180
+do MoveBack 65
+
+if GetLastCommTime > 0 St_EnableFire = 1 DistToMT > 1500  GetAloneEnmUnits > 5
+do DisableFire 30
+if GetLastCommTime > 0 St_EnableFire = 1 GetFireReady < 2 
+do DisableFire 31
+if GetLastCommTime > 0 GetStandTime < 1 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5  GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 0 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5  GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 GetStandTime > 2 St_EnableFire = 1 DistToMT > 1000 GetFireReady < 40 GetAloneEnmUnits > 5  GetTired > 40
+do AttackAloneEnmUnits 15
+if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetFireReady > 80 GetTired > 50  DistInReserv < 70 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 13
+if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Reserv = 1 St_Attack = 0 GetTired > 50 GetFireReady > 80  DistInReserv > 130 DistToMT < 2200 DistToMT > 500
+do KeepDistInReserv 14
+/if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront > 130 GetFireReady > 80 GetTired > 50  DistToMT > 500
+/do KeepDistInFront 15
+/if GetLastCommTime > 0 St_March = 0 GetStandTime > 5 St_Attack = 0 DistToMT < 2200 St_Front = 1 DistInFront < 70 GetFireReady > 80 GetTired > 50  DistToMT > 500
+/do KeepDistInFront 16
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 DistToMT < 900 GetFireReady > 80 GetTired > 40 AngToMT > 42 IsStandGround = 0 
+do TurnToMT 50
+if GetLastCommTime > 0 GetStandTime > 2 St_Attack = 0 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 0 AngToMT > 42 
+do TurnToMT 51
+if GetLastCommTime > 0 GetStandTime > 2 GetTired > 40 DistToMT < 900 GetFireReady > 70 IsStandGround = 1 AngToMT > 42 
+do TurnToMT 52
+/OnlyForCampaign/
+/OnlyForCampaign/
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 3000 GetFireReady > 98 DistToAim > 200  GetPolkCommand < 6
+do MoveToAim 40
+if GetLastCommTime > 0 St_Attack = 0 St_March = 0 GetTired > 60 DistToMT > 1250 GetFireReady > 98 DistToAim > 200  GetPolkCommand > 5
+do MoveToAim 41
+if GetLastCommTime > 0 St_March = 1 DistToAim > 200 GetLastCommTime > 20 
+do MoveToAim 91
+if GetLastCommTime > 0 GetLastCommTime > 5 St_March = 0 GetDistToFriendlyForm < 100 GetTired > 40 St_Attack = 0 DistToMT < 1500  DistToMT > 500
+do KeepDistInReserv 17
+#

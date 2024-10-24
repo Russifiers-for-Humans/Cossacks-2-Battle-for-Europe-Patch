@@ -1,0 +1,762 @@
+//******************************
+// Texts for Big Map Campaigns
+//******************************
+
+// Resource Names
+
+StratRes0	No Resource
+StratRes1	Food
+StratRes2	Gold
+StratRes3	Iron
+StratRes4	Coal
+
+ResName1	Wood
+ResName2	Food
+ResName3	Stone
+ResName4	Gold
+ResName5	Iron
+ResName6	Coal
+ResName9	Recruits
+
+#CHINT_Res0	Wood - resource in every sector.
+#CHINT_Res1	Gold - quarrying in every sector. It's the main resource of some sectors.
+#CHINT_Res2	Stone - quarrying in every sector.
+#CHINT_Res3	Food - resource in every sector. It's the main resource of some sectors.
+#CHINT_Res4	Iron - main resource of some sectors.
+#CHINT_Res5	Coal - main resource of some sectors.
+#CHINT_Res6	Recruits - total number of recruits in the country, entering from every sector.
+
+// end of Resources
+
+
+
+///////////////////////////////////////
+// TEXTS
+
+
+#CWT_BigMapHead	BATTLE FOR EUROPE:  {CG}%s,  %s{C}
+
+#CWV_WorldMap	Europe Map
+#CWV_Diplomacy	Diplomacy
+#CWV_Personal	Commanders
+#CWV_Messages	Messages
+#CWV_Market	Market
+#CWV_Briefing	Briefing
+
+#CHINT_WorldMap	Europe Map Menu ({CG}TAB{C})
+#CHINT_Diplomacy Diplomacy Menu
+#CHINT_Personal	Commanders List Menu
+#CHINT_Messages	Messages List And Statistics
+#CHINT_Market	Market Menu
+#CHINT_Briefing	Mission Briefing
+
+
+#CWB_EndOfTurn	End Of Turn
+#CWB_Quit	Quit campaign.
+
+#CWM_EndOfTurn	Do you really want to end your turn (commander can make a move)?
+#CWM_Quit	Quit campaign?
+
+#CHINT_EndOfTurn Pass the turn to your opponents. ({CG}ENTER{C})
+#CHINT_Quit	Back to the single player menu. ({CG}ESC{C})
+
+#CHINT_ENTERKEY	 ({CG}ENTER{C})
+#CHINT_ESCKEY	 ({CG}ESC{C})
+
+#CWM_CSurrend	{CR}%s{C} wish to surrender at discretion of your country! Do you accept?
+#CWM_CSurrend2	Sectors of {CR}%s{C} become part of your country.
+
+#CWM_CountryDef	{CR}%s{C} has been vanquished!
+#CWM_TotalVict	{CR}Congratulations!{C}\All of the enemy countries are defeated.\Europe is under your control!\{CR}You are victorious!{C}
+#CWM_TotalLoose	{CR}%s{C} has been vanquished!\The enemy armies are too strong!\{CR}You have been defeated!{C}
+
+
+#CWM_AttackSect	You are about to attack this sector. Proceed?
+
+#CWM_NoArmy	You have no army!!! {CR}%s{C} can not attack! ({CR}Commanders Bookmark{C})
+
+#CWM_SectBattle0	A message was received:\ {CR}Sector {CR}%s{C} has been occupied by %s.{C}
+#CWM_SectBattle1	A message was received:\ The sector {CR}%s{C} garrison has repulsed %s's attack.
+
+                                      
+#CWM_UpdateHeroRank	{CR}%s{C} was promoted to {CR}%s{C}.
+
+#CWM_HeroGetAward0	For defeating enemy troops {CR}%s{C} receive a reward:\ (Rewards quantity: %d; Experience +%d). 
+#CWM_HeroGetAward1	For defeating enemy troops {CR}%s{C} receive a reward:\ (Rewards quantity: %d; Experience +%d). 
+#CWM_HeroGetAward2	For defeating enemy troops {CR}%s{C} receive a reward:\ (Rewards quantity: %d; Experience +%d). 
+#CWM_HeroGetAward3	For defeating enemy troops {CR}%s{C} receive a reward:\ (Rewards quantity: %d; Experience +%d). 
+#CWM_HeroGetAward4	For defeating enemy troops {CR}%s{C} receive a reward:\ (Rewards quantity: %d; Experience +%d). 
+
+
+#CWM_HeroCantMove	{CR}%s{C} can't make a move.\ To pass the turn to your opponents, press {CR}End Of Turn{C}.
+
+#CWM_NoEnoughRes	You don't have enough resources for this action\ (%s)!
+
+
+#CDT_Area	Sector:
+#CDT_Country	Country
+#CDT_Villages	Villages
+#CDT_PlayerName Player
+#Vill	Villages:
+#MainRes	Main Resource:
+#Population#	Population:
+#Mobilization#	Recruits:
+#Reinforce#	Reinforce
+#Upgrade#	Upgrade
+
+#CWT_PopltnLVL0 Low
+#CWT_PopltnLVL1 Fair
+#CWT_PopltnLVL2 Dense
+
+#CHINT_SectIncomeRes	Resources output in the sector for one turn.
+
+#Experience	Experience:
+#SquadsN	Squads:
+
+#CHINT_Next_Exp_Level	Experience. Next Level:
+#CHINT_MaxExpLevel	MAX. Experience:
+
+
+#CWT_CurrentTurn	Current Turn:
+#CWT_NumOfSectors	Number of Sectors:
+#CWT_ResourSupply	Resources Supply:
+
+#CWT_Quantity	Rewards Quantity:
+
+
+// for Sectors defence
+
+#Defence# Defense Level:
+#UpgradeDef#	Upgrade defense.
+#CWM_UpgradeDef	Upgrade sector's defense level\ (%s)?
+#CHINT_UpgDef	Upgrade sector's defense level.
+
+#CWT_DefenceLvl0 Low
+#CWT_DefenceLvl1 Average
+#CWT_DefenceLvl2 Normal
+#CWT_DefenceLvl3 Strong
+
+#CHINT_DefenceSQN (%d garrison squads)
+/#CHINT_DefenceSQN	(%d garrison squads)
+
+
+
+// for Sabotage Sector
+
+#CWB_Diversion	Sabotage Sector
+#CHINT_Diversion Try to sabotage the sector to undermine its economy.
+
+#CWM_Diversion0	- Poison the wells in the village. (%s of gold; %d%%)
+#CWM_Diversion1	- Destroy strategic warehouses. (%s of gold; %d%%)
+#CWM_Diversion2	- Blow up garrison's barracks. (%s of gold; %d%%)
+#CWM_Diversion3	- Raise a rebellion. (%s of gold; %d%%)
+
+#CWM_DiversionDone0	Wells in the majority of villages are poisoned (no recruits for the next turn in this sector). Sabotage has been carried out successfully!
+#CWM_DiversionDone1	Mercenaries successfully destroyed strategic warehouses (country won't receive resources from this sector next turn). Sabotage has been successful!
+#CWM_DiversionDone2	Mercenaries successfully blew up the garrison's barracks (quantity of garrison in this sector reduced). Sabotage has been successful!
+#CWM_DiversionDone3	Rebellion flared up in this sector. Sabotage has been successful!
+
+#CWM_DiversionFail0	Enemy patrols have forced the mercenaries to leave the country. Mission failed!
+#CWM_DiversionFail1	While conducting a sabotage, mercenaries were involved in a skirmish with soldiers. Almost all the mercenaries died. Mission failed!
+#CWM_DiversionFail2	The garrison's soldiers have arrested and imprisoned all of the mercenaries. Mission failed!
+#CWM_DiversionFail3	The hired people were incapable of achieving the goal. Mission failed!
+#CWM_DiversionFail4	The leader of the group died in the fight. Mercenaries won't achieve the goal without him. Mission failed!
+
+#CHINT_Diversion0	Hire a group of mercenaries to poison the villages wells in the sector (the number of recruits will be reduced your next turn).
+#CHINT_Diversion1	Hire a group of mercenaries to destroy the warehouses (your country won't receive resources from this sector your next turn).
+#CHINT_Diversion2	Hire a group of mercenaries to destroy the garrison's barracks in the sector (number of soldiers in the garrison will reduce).
+#CHINT_Diversion3	Hire a group of mercenaries to stir up discontent among villagers (rebellion will flare up and the sector will stop obeying its country).
+
+
+
+// for Commanders
+
+#AwardsNum	Awards:
+#Battles	Battles:
+#Victories	Victories:
+#SquadsNum	Squads:
+#MaxSquadsNum	Max. Squads:
+#CPT_Kills	Kills:
+#CHINT_Victories Victories / Battles
+
+
+#CPT_MeleeDMG	{C FF502515}\Melee:{C FF640100}
+#CPT_RifleDMG	{C FF502515}   Shot:{CG}
+#CPT_GrenadDMG	{C FF502515}   Grenades:{CR}
+
+
+#CPT_Infantry	Infantry
+#CPT_Cavalry	Cavalry
+#CPT_Artillery	Artillery
+
+#CHINT_AddSquad	Add one squad.
+#CHINT_DelSquad	Dismiss one squad.
+
+#CHINT_HeroMove0	{CR}The Commander can't make a move.{C}
+#CHINT_HeroMove1	{CG}The Commander can make a move.{C}
+
+//#CHINT_HeroMove0	{CR}It's not the Commander's turn.{C}
+//#CHINT_HeroMove1	{CG}It is the Commander's turn.{C}
+
+
+// for Statistics
+
+#CDT_StatScore	Score:
+#CDT_StatSecNum	Sec.N.
+
+#CDB_Statistics	Statistics:
+#CHINT_Statistics Statistics: Battle For Europe:
+ 
+
+// for Market
+
+#CWT_MarketTitle	International Market
+
+
+// According to the information received from the merchants: Great Britain has problems with resources:  wood, gold. (example)
+      
+#CWM_MarketInfo0	{FC12}{C FF6D6862}According to the information received from the merchants:{F}
+#CWM_MarketInfo1	{C FF640100}%s{C} has problems with resources:\-{C FF8F0909}%s{C}\{IBMP_markdel}\
+
+#CWM_MarketNoEnoughRes	{FS}{C FF640100}You don't have enough resource!
+#CWM_MarketResTurnInto	{FS}%d (%s) exchanged for %d (%s)
+
+
+
+// for Briefing
+
+#BriefingHead	MISSION BRIEFING
+#AttackForce	Attacking Forces:
+#DefendForce	Defending Forces:
+#QuestsNum	Mission Quests:
+
+#Garrison	Garrison Squads:
+#RebelGarrison	Revolted Squads:
+
+#CBT_SectorName	{AC}{FG18}{C FF640100}%s{F} \ {A} \ 
+
+#CBB_StartMiss	Start mission.
+#CBB_StepBack	Withdraw troops.
+
+#CHINT_StartMis	Start Mission
+#CHINT_StepBack	Take your army away from the sector. The garrison will defend it on his own.
+
+
+
+// for Mission Statistics
+
+#CWT_StatsHead	MISSION STATISTICS
+
+#CWT_StatsAttackPage	Attacking Forces:
+#CWT_StatsDefendPage	Defending Forces:
+#CWT_Stats_Winner	{CG}Winner:  {C}
+#CWT_Stats_Loser	{C FF000000}Defeated:  {C}
+
+#CWT_StatsExps	Experience:
+#CWT_StatsForm	Routed Troops:
+#CWT_StatsSect	Sector Captured:
+#CWT_StatsSect2	Sector Defended:
+#CWT_StatsHero	Commander Defeated:
+#CWT_StatsQExp	Quests Completed:
+#CWT_StatsTotalExp Total Experience Gained: 
+
+#CWT_StatsResHead	Resources:
+#CWT_StatsLostHead	Losses:
+#CWT_StatsLostTotal     All:
+
+// end stats
+
+
+
+// for Weather
+
+#CWM_Bad_Weather	It's raining heavily and the roads are impassable.\ (%s will skip next turn).
+#CWM_Bad_Weather2	Because of bad weather the roads are impassable.\ (%s skips turn).
+
+#CWM_Good_Weather	The weather is perfect in this region and the troops can move faster.\ (%s can make one more move).
+
+
+
+///////////////////////////////////////
+// DIPLOMACY
+
+#CDT_MessHead0	DECLARE WAR
+#CDT_MessHead1	PEACE AGREEMENT
+#CDT_MessHead2	NON-AGGRESSION PACT
+#CDT_MessHead3	PASSAGE PERMISSION
+#CDT_MessHead4	ENTER INTO ALLIANCE
+#CDT_MessHead5	OFFER UNION
+#CDT_MessHead6	 NONE
+#CDT_MessHead7	 NONE
+#CDT_MessHead8	 NONE
+#CDT_MessHead9	 NONE
+#CDT_MessHead10	CONTRACT EXPIRED
+#CDT_MessHead11	INFORMATION
+#CDT_MessHead12	END OF TURN
+#CDT_MessHead13	QUIT CAMPAIGN
+#CDT_MessHead14	ATTACK
+#CDT_MessHead15	HELP
+#CDT_MessHead16	MESSAGE
+#CDT_MessHead17	UPGRADE DEFENSE
+#CDT_MessHead18	 NONE
+#CDT_MessHead19	 NONE
+#CDT_MessHead20	SABOTAGE SECTOR
+#CDT_MessHead21	SABOTAGE SUCCEEDED
+#CDT_MessHead22	SABOTAGE FAILED
+#CDT_MessHead23	 NONE
+#CDT_MessHead24	 NONE
+#CDT_MessHead25	QUEST
+#CDT_MessHead26	QUEST ACCOMPLISHED
+#CDT_MessHead27	 NONE
+#CDT_MessHead28	 NONE
+#CDT_MessHead29	DEFEAT
+#CDT_MessHead30	VICTORY
+#CDT_MessHead31	SECTOR ATTACKED
+#CDT_MessHead32	SECTOR CAPTURED
+#CDT_MessHead33	COMMANDER PROMOTION
+#CDT_MessHead34	RECEIVE A REWARD
+
+
+#CDT_Actions	Diplomatic actions:	
+
+#CDB_Button1	Declare war.
+#CDB_Button2	Reach peace agreement.
+#CDB_Button3	Sign non-aggression pact.
+#CDB_Button4	Request permission to pass.
+#CDB_Button5	Enter into an alliance.
+#CDB_Button6	Offer union.
+
+#CHINT_Button1	Declare war on this country.
+#CHINT_Button2	Sign a peace agreement with this country.
+#CHINT_Button3	Sign a non-aggression pact with this country.
+#CHINT_Button4	Request permission to pass through sectors of this country.
+#CHINT_Button5	Enter into an alliance with this country.
+#CHINT_Button6	Offer to unite with this country so that it becomes part of your state.
+
+
+#CDM_LetAContract0	You are about to declare war on {CR}%s{C}. \ Do you want to proceed?
+#CDM_LetAContract1	You are about to sign a peace agreement with {CR}%s{C} for {CR}%d000{C} gold. \ Do you want to proceed?
+#CDM_LetAContract2	You are about to sign a non-aggression pact with {CR}%s{C} for {CR}%d000{C} gold (valid for 10 turns). \ Do you want to proceed?
+#CDM_LetAContract3	You are about to request permission to pass through sectors of {CR}%s{C} for {CR}%d000{C} gold (valid for 10 turns). \ Do you want to proceed?
+#CDM_LetAContract4	You are about to enter into an alliance with {CR}%s{C} for {CR}%d000{C} gold. It enables the non-aggression pact, permission to pass through sectors and alliance for both countries (valid for 10 turns). Do you want to proceed?
+#CDM_LetAContract5	You are about to offer union to {CR}%s{C} for {CR}%d000{C} gold so that it becomes part of your state. \ Do you want to proceed?
+#CDM_LetAContract6	You are about to %s with {CR}%s{C} for {CR}%d000{C} gold (valid for 10 turns). \ Do you want to proceed?
+
+#CDM_HavePropose	You have received a diplomatic message from this country ({CR}Messages Bookmark{C}).
+#CDM_NoEnoughMoney	You don't have {CR}%d000{C} gold! You can't afford this action.
+#CDM_DontWantContract	{CR}%s{C} turned you down.
+
+
+#CDM_ProposeContr0	{CR}%s{C} declared war on you.
+#CDM_ProposeContr1	{CR}%s{C} wants to sign a peace agreement with your country and offers {CR}%d000{C} gold.\ Do you accept?
+#CDM_ProposeContr2	{CR}%s{C} wants to sign a non-aggression pact with your country (valid for 10 turns) and offers {CR}%d000{C} gold.\ Do you accept?
+#CDM_ProposeContr3	{CR}%s{C} requests permission to pass through your sectors (valid for 10 turns) and offers {CR}%d000{C} gold.\ Do you accept?
+#CDM_ProposeContr4	{CR}%s{C} wants to enter into an alliance with your country and offers {CR}%d000 gold{C}. It enables the non-aggression pact, permission to pass through sectors and the alliance (valid for 10 turns). Do you accept?
+#CDM_ProposeContr5	{CR}%s{C} wants %s with your country for {CR}%000{C} gold. Accept? (period of validity - 10 moves)
+
+
+#CDM_EndOfContr2	Non-aggression pact with {CR}%s{C} expired!
+#CDM_EndOfContr3	Permission to pass through sectors of {CR}%s{C} expired!
+#CDM_EndOfContr4	Alliance with {CR}%s{C} expired!
+#CDM_EndOfContr9	Contracts expired!
+
+
+#CDT_InWAR	War:
+#CDT_InPEACE	Peace:
+#CDT_InNONA	Non-Aggression Pact:
+#CDT_InPASS	Permission to Pass:
+#CDT_InALLY	Alliance:
+
+
+#CDB_WAR	WAR
+#CDB_PEACE	PEACE
+#CDB_NONA	NON-A
+#CDB_PASS	PASS
+#CDB_ALLY	ALLY
+#CDB_INFO	INFO
+
+#CHINT_WAR	Countries that are in a state of {CR}War{C}
+#CHINT_PEACE	Countries that are at {CG}Peace{C}
+#CHINT_NONA	Countries with {CG}Non-Aggression Pact{C}
+#CHINT_PASS	Countries with a {CG}Permission to Pass{C}
+#CHINT_ALLY	{CG}Allied{C} Countries
+
+
+#CDB_MessLtr0	War
+#CDB_MessLtr1	Peace
+#CDB_MessLtr2	Non-A
+#CDB_MessLtr3	Pass
+#CDB_MessLtr4	Ally
+#CDB_MessLtr5	Info
+#CDB_MessLtr6	End!
+
+
+#CDB_Agree	Agree
+#CDB_OkButton	Ok
+#CDB_YesButton	Yes
+#CDB_NoButton	No
+#CDB_Cancel	Cancel
+#CDB_Close	Close
+#CDB_Accept	Accept
+#CDB_Reject	Reject
+
+#CDT_Accepted	Accepted
+#CDT_Rejected	Rejected
+
+
+//#CDT_ST_WAR	{CR}W{C} 
+//#CDT_ST_PEACE	{CG}PA{C} 
+//#CDT_ST_NONA	{CG}NA{C}
+//#CDT_ST_PASS	{CG}PP{C}
+//#CDT_ST_ALLY	{CG}A{C}
+//#CDT_ST_NONA_PASS {CG}N+P{C}
+
+#CDT_ST_WAR	{CR}W{C} 
+#CDT_ST_PEACE	{CG}{C} 
+#CDT_ST_NONA	{CG}N{C}
+#CDT_ST_PASS	{CG}P{C}
+#CDT_ST_ALLY	{CG}A{C}
+#CDT_ST_NONA_PASS {CG}N+P{C}
+
+#CHINT_ST_WAR	{CR}War{C} 
+#CHINT_ST_PEACE	{CG}Peace Agreement{C} 
+#CHINT_ST_NONA	{CG}Non-Aggression Pact{C}
+#CHINT_ST_PASS	{CG}Permission to Pass {C}
+#CHINT_ST_ALLY	{CG}Alliance{C}
+#CHINT_ST_NONA_PASS {CG}Non-Aggression Pact And Permission to Pass{C}
+
+#CHINT_TurnsLeft	(Pact is active for %d turns)
+
+//end of DIPLOMACY 
+
+
+
+///////////////////////////////////////
+// Player Interface
+
+#CIT_PlayerNames	Players
+#CIT_NewPlayer		New Player
+#CIT_DelPlayer		Delete Player
+#CIT_EnterPlayerName	Player Name:
+#CIT_EnterPlayerNat	Player Nation:
+#CIT_EnterDifficulty	Difficulty Level:
+#CIT_PlayersHero	Current Hero:
+#CIB_Prev		Previous
+#CIB_Next	Next
+#CIB_NEW	New Player
+#CIB_DELETE	Delete player.
+
+// end of Player Interface
+
+
+
+///////////////////////////////////////
+// QUESTS
+
+#CQM_AttackNation0	%s asks to attack {CR}%s{C} and offers {CR}%d{C} gold for this.
+#CQM_AttackNation1	%s for service rendered (attacking {CR}%s{C}) pays {CR}%d{C} gold.\ ({CR}Quest accomplished!{C})
+
+#CQM_CaptureSector0	%s asks to capture sector {CR}%s{C} and offers {CR}%d{C} gold.
+#CQM_CaptureSector1	%s for service rendered (capturing sector {CR}%s{C}) pays {CR}%d{C} gold.\ ({CR}Quest accomplished!{C})\ Do you accept?
+
+#CQM_DefendSector0	%s asks you to bring your army to sector {CR}%s{C} and will defend it for 5 turns.\For this service %s offers {CR}%d{C} gold.
+#CQM_DefendSector1	%s for service rendered (defending sector {CR}%s{C}) pays {CR}%d{C} gold.\ ({CR}Quest accomplished!{C})
+#CQM_DefendSector11	%s for service rendered (defending sector {CR}%s{C}) pays {CR}%d{C} gold.\ ({CR}Quest accomplished!{C})\ Do you accept?
+#CQM_DefendSector2	%s is disappointed by your reluctance to help it (defending sector {CR}%s{C}).
+
+#CQM_SellSector00	%s asks you to sell sector {CR}%s{C} for {CR}%d{C} gold.\ ({CR}Messages Bookmark{C}).
+#CQM_SellSector0	%s asks you to sell sector {CR}%s{C} for {CR}%d{C} gold.\ Do you accept?
+#CQM_SellSector1	%s congratulates you on a good bargain and gives {CR}%d{C} gold.
+#CQM_SellSector2	The bargain didn't take place.
+
+
+#CQM_LandAddGold0	Merchants had a very productive period. Due to increased taxes, the treasury received {CR}%d{C} gold.
+#CQM_LandAddGold1	A caravan visited one of the regions. Taxes collected from caravan merchants were {CR}%d{C} gold.
+#CQM_LandAddGold2	Textile works have doubled their profits. The taxes brought an additional {CR}%d{C} gold to the treasury.
+#CQM_LandAddGold3	Steel factories have concluded a number of important deals. Taxes on their profits brought {CR}%d{C} gold to the treasury.
+#CQM_LandAddGold4	One of the merchants made a donation to the military of {CR}%d{C} gold.
+
+#CQM_SeaAddGold0	The storm forced merchant ships to moor at the harbor. The treasury received an additional {CR}%d{C} gold.
+#CQM_SeaAddGold1	Shipyards in one of the harbors received big earnings for repairing ships. The tax they generated was {CR}%d{C} additional gold.
+#CQM_SeaAddGold2	Whalers had a very successful season. The tax received from the whaling ships' was {CR}%d{C} gold.
+#CQM_SeaAddGold3	One of the harbor cities was visited by a commercial ship. Import duties brought {CR}%d{C} gold.
+#CQM_SeaAddGold4	Fishing ships caught an unprecedented amount of fish. Tax-collectors added {CR}%d{C} gold to the treasury.
+
+#CQM_LandDelGold0	The Treasury has been robbed! The Treasury lost {CR}%d{C} gold.
+#CQM_LandDelGold1	Several prominent merchants were robbed! The treasury received {CR}%d{C}  less gold.
+#CQM_LandDelGold2	The treasurer's carriage was attacked by robbers! Consequently the Treasury lost {CR}%d{C} gold.
+#CQM_LandDelGold3	Dishonest politicians spent national money! The Treasury lost {CR}%d{C} gold.
+#CQM_LandDelGold4	Several regions were put into disorder! The tax-collectors couldn't gather money from them. It reduced the intake {CR}%d{C} gold.
+
+#CQM_SeaDelGold0	The ship that transported national funds was attacked by pirates! The treasury lost {CR}%d{C} gold.
+#CQM_SeaDelGold1	The ship carrying national funds ran into a reef and sank! The treasury lost {CR}%d{C} gold.
+#CQM_SeaDelGold2	As a result of brawl among marines, the pub, tavern and nearly all the warehouses burned to the ground. Warehouse owners suffered major losses and the treasury received {CR}%d{C} less gold.
+#CQM_SeaDelGold3	Fishing ships faced storms that decreased the fish catch. Accordingly, tax collectors failed to gather the required money from fishermen. The treasury received {CR}%d{C} less gold.
+#CQM_SeaDelGold4	Several warehouses were robbed! Owners of the stolen goods suffered major losses and failed to pay all the taxes in full. The treasury received {CR}%d{C} less gold.
+
+
+#CQM_AddRecruits	Sector {CR}%s{C} increased the number of recruits by (+%d). All of them will happily join our army forces!
+#CQM_DeleteRecruits	Sector {CR}%s{C} due to epidemics the number of recruits decreased (-%d).
+
+#CQM_DeleteResources	As a result of trouble in sector {CR}%s{C} strategic storages were destroyed. (country won't receive resources from this sector)
+#CQM_DeleteDefence	As a result of trouble in sector {CR}%s{C} part of the garrison barracks was destroyed. (defense level in this sector reduced)
+
+#CQM_SectorRebellion0	In sector {CR}%s{C} a rebellion broke out! It can be quelled right now, if you allocate {CR}%d{C} gold. Agreed?
+#CQM_SectorRebellion1	The rebellion in sector {CR}%s{C} has been suppressed! You regained control of this territory.
+#CQM_SectorRebellion2	Suppressing the mutiny failed! You have lost control over this territory.
+#CQM_SectorRebellion3	You have lost control over this territory!
+#CQM_SectorRebellion4	Mutiny flared up in sector {CR}%s{C}! You have lost control over this territory.
+
+#CQM_AddSquad0	A squad of mercenaries would like to join your army for {CR}%d{C} gold. (+ 1 squad {CR}%s{C})\ Do you accept?
+#CQM_AddSquad1	A group of foreign soldiers would like to join your army for {CR}%d{C} gold. (+ 1 squad {CR}%s{C})\ Do you accept?
+#CQM_AddSquad2	A group of young citizens would like to join your national army for {CR}%d{C} gold. (+ 1 squad {CR}%s{C})\ Do you accept?
+
+#CQM_AddSquadD	Our national army has been strengthened with one more squad ({CR}%s{C}).
+
+
+#CQM_RisePrices00  Forest fires are plaguing the countries - {C FF640100}Wood{C} {CR}cost increased in{C} %d.
+#CQM_RisePrices01  Part of the wood in the storehouses has rotted and cannot be used. {C FF640100}Wood cost{C} {CR}increased in{C}  %d.
+
+#CQM_RisePrices20  Workers at the quarries rebelled. {C FF640100}Stone{C} {CR}costs increased in{C} %d.
+#CQM_RisePrices21  Quarries are flooded. {C FF640100}Stone{C} {CR}costs increased in{C} %d.
+
+#CQM_RisePrices30  Summer is very hot this year and locusts have destroyed most of the harvest. {C FF640100}Food{C} {CR}cost increased in{C} %d.
+#CQM_RisePrices31  Hail has destroyed the fields and villagers had a poor harvest this year. {C FF640100}Food{C} {CR}cost increased in{C} %d.
+
+#CQM_RisePrices40    There is a shortage of iron ore on the European market. {C FF640100}Iron{C} {CR}cost increased in{C} %d
+#CQM_RisePrices41    Factory owners sustained huge damage recently. {C FF640100}Iron{C} {CR}cost increased in{C} %d.
+
+#CQM_RisePrices50    There is a coal shortage on the European market. {C FF640100}Coal{C} {CR}cost increased in{C} %d
+#CQM_RisePrices51    The country's coal mines are not producing. {C FF640100}Coal{C} {CR}cost increased in{C} %d.
+
+
+#CQM_FallPrices00  Woodcutters have flooded the market with lumber. {C FF640100}Wood{C} {CR}cost decreased in{C} %d.
+#CQM_FallPrices01  Lumber mill owners lowered wood prices and are selling old stores of wood. {C FF640100}Wood{C} {CR}cost decreased in{C} %d.
+
+#CQM_FallPrices20  Quarry owners lowered the price of stone. {C FF640100}Stone{C} {CR}cost decreased in{C} %d.
+#CQM_FallPrices21  There is a surplus of stone on the market. {C FF640100}Stone{C} {CR}cost decreased in{C} %d.
+
+#CQM_FallPrices30  Villagers had good harvest this year because of good weather. {C FF640100}Food{C} {CR}cost decreased in{C} %d.
+#CQM_FallPrices31  A fishing fleet supplied a huge quantity of fresh fish to the market. {C FF640100}Food{C} {CR}cost decreased in{C} %d.
+
+#CQM_FallPrices40  Miners detected a new and rich supply of iron.  {C FF640100}Iron{C} {CR}cost decreased in{C} %d.
+#CQM_FallPrices41  There's a surplus of iron on the market. {C FF640100}Iron{C} {CR}cost decreased in{C} %d.
+
+#CQM_FallPrices50  New and rich coal mines have been found. {C FF640100}Coal{C} {CR}cost decreased in{C} %d.
+#CQM_FallPrices51  There's a surplus of coal on the market. {C FF640100}Coal{C} {CR}cost decreased in{C} %d.
+
+
+//#CQM_
+
+//end of QUESTS
+
+
+
+///////////////////////////////////////
+// Country Names
+
+#ENGLAND Britain
+#FRANCE	France
+#AUSTRIA Austria
+#PRUSSIA Prussia
+#RUSSIA	Russia
+#EGYPT	Egypt
+
+#REBEL	Revolted
+
+
+Sector00	Edinburgh
+Sector01	London
+Sector02	Nantes
+Sector03	Toulouse
+Sector04	Barcelona
+Sector05	Brussels
+Sector06	Paris
+Sector07	Marseille
+Sector08	Berlin
+Sector09	Munich
+Sector10	Vienna
+Sector11	Rome
+Sector12	Naples
+Sector13	Eastern Prussia
+Sector14	Prague
+Sector15	Budapest
+Sector16	Warsaw
+Sector17	Transylvania
+Sector18	Wilno
+Sector19	Minsk
+Sector20	Ukraine
+Sector21	Moscow
+Sector22	Alexandria
+Sector23	Cairo
+
+// end of Country Names
+
+
+
+///////////////////////////////////////
+// Commanders Data
+
+#LIEUTENANT	Lieutenant
+#CAPTAIN	Captain
+#MAJOR	Major
+#COLONEL	Colonel
+#GENERAL	General
+#MARSHAL	Marshal
+
+#HERO_EG_0	A. Wellington 
+#HERO_EG_1	W. Pitt
+#HERO_EG_2	W. Beresford
+#HERO_EG_3	T. Graham
+#HERO_EG_4	G. Elphinstoun
+#HERO_EG_5	J. Moore
+#HERO_EG_6	J. Hope
+#HERO_EG_7	R. Abercrombie
+#HERO_EG_8	HERO_EG_8_N
+#HERO_EG_9	HERO_EG_9_N
+
+#HERO_FR_0	Napoleon
+#HERO_FR_1	M. Ney
+#HERO_FR_2	J. Murat
+#HERO_FR_3	E. Mortier
+#HERO_FR_4	C. Morand
+#HERO_FR_5	N. de Champion 
+#HERO_FR_6	L. de Friant
+#HERO_FR_7	L. Davout
+#HERO_FR_8	HERO_FR_8_N
+#HERO_FR_9	HERO_FR_9_N
+
+#HERO_AS_0	Franz I
+#HERO_AS_1	L. Karl
+#HERO_AS_2	H. Bellegarde
+#HERO_AS_3	Von Kienmayer
+#HERO_AS_4	K. Mack
+#HERO_AS_5	A. Von Neipperg
+#HERO_AS_6	F. de Buzim
+#HERO_AS_7	I. Liechtenstein
+#HERO_AS_8	HERO_AS_8_N
+#HERO_AS_9	HERO_AS_9_N
+
+#HERO_PR_0	Wilhelm III
+#HERO_PR_1	G. Von Blucher
+#HERO_PR_2	Carl II
+#HERO_PR_3	Von Calcroit
+#HERO_PR_4	Von Gneisenau
+#HERO_PR_5	Von Bullow
+#HERO_PR_6	Von Nollendorf
+#HERO_PR_7	Von Scharnhorst
+#HERO_PR_8	HERO_PR_8_N
+#HERO_PR_9	HERO_PR_9_N
+
+#HERO_RS_0	Alexander I
+#HERO_RS_1	M. Kutuzov
+#HERO_RS_2	A. Arakcheev
+#HERO_RS_3	P. Bagration 
+#HERO_RS_4	I. Vasyl'chikov
+#HERO_RS_5	M. De-Tolli
+#HERO_RS_6	F. Uvarov
+#HERO_RS_7	N. Raevsky
+#HERO_RS_8	HERO_RS_8_N
+#HERO_RS_9	HERO_RS_9_N
+
+#HERO_EP_0	Murad-Bey 
+#HERO_EP_1	Ibrahim-Bey
+#HERO_EP_2	Abou-Bakr
+#HERO_EP_3	Djezzar-Pasha
+#HERO_EP_4	Karaim-Pasha
+#HERO_EP_5	Ahmed-Pasha
+#HERO_EP_6	Murad-Bey
+#HERO_EP_7	Murad-Bey
+#HERO_EP_8	HERO_EP_8_N
+#HERO_EP_9	HERO_EP_9_N
+
+// end of Commanders Data
+
+
+
+///////////////////////////////////////
+// CLICKS, MAIN HINTS, etc.
+
+#CWM_Left_Click	Left click for select.
+
+#CWM_Right_Click_OnMap	Right click and drag to move map.
+
+#CWM_Left_Click_OnSqd	Left click to add one squad.
+#CWM_Right_Click_OnSqd	Right click to dismiss one squad.
+
+_#CWM_Right_Click	Right click for select.
+
+
+//*************************************
+//*************************************
+//*************************************
+
+
+
+///////////////////////////////////////
+//	MISSION TEXT DATA
+// Main Pages
+
+#StratCheckZone	Strategic zone has been captured! %s
+#StratCheckAdd	Remaining to capture: {CR}%d{C}.
+#StratCheckOK	Sufficient number of strategic zones have been captured.
+
+#PlayerRetreat	%s! A message was received about the enemy army retreating%s.
+#PlayerHRetreat	%s! Scouts report that the enemy garrison has retreated from sector%s.
+#MT_ResFood	 due to insufficient foodstuffs.
+#MT_ResCoal	 due to insufficient ammunition.
+
+
+#CapturedRes	Soldiers captured trophies after the battle: {CR}%d{C} Food, {CR}%d{C} Gold, {CR}%d{C} Coal.
+
+
+//rem info All your troops {CR}+30 experience{C}
+
+#AddExp2SQ1	%s! Your soldier's faith in victory very high!\(all troops {CR}+30 experience{C})
+#AddExp2SQ2	%s! The army was inspired by your speech! Soldiers are eager to fight!\(all troops {CR}+30 experience{C})
+#AddExp2SQ3	%s! Your soldiers have learned new techniques. They are ready for victory!\(all troops {CR}+30 experience{C})
+
+
+//rem info All your troops {CR}+10{C} к Kills'am (experience) - рандом за села-квесты
+
+#AddLowExp2SQ1	After a successful battle your troops gained useful experience.\(all troops {CR}+10 experience{C})
+#AddLowExp2SQ2	After the battle, the sergeants taught the soldiers new techniques.\(all troops {CR}+10 experience{C})
+#AddLowExp2SQ3	After this operation, faith in victory grew even higher among your troops!\(all troops {CR}+10 experience{C})
+
+
+//rem info ¬ св€зи с чемто плохим ћораль вражеского гарнизона падает до 33. хорошие шансы дл€ быстрой атаки! поторопитесь!
+
+#DownMorale2SQ1	%s! Due to the epidemic, the morale of enemy troops has fallen!({CR}morale of enemy troops =33{C}).\This is an excellent opportunity to perform a fast attack! Don't lose it!
+#DownMorale2SQ2	%s! Enemy troops are not ready for this battle! Your opponent is demoralized! ({CR}morale of the troops =33{C})\This is an excellent chance for a quick victory! Don't waste it!
+#DownMorale2SQ3	%s! Enemy troops are demoralized! They have no trust in the victory of their army! ({CR}morale of the troops =33{C})\They are easy to defeat! Don't lose your chance!
+
+
+
+
+#PlayerLooseSquads	All of the troops are defeated!
+#EnemyLooseSquads	All of the enemy troops are defeated!
+
+#RebelDefeat1	The army crushed the main rebel forces! The rest of the units laid down their arms. The riot was stifled.
+#RebelDefeat2	The army seized most of villages in this sector! The rebels were disheartened so they laid down their arms and went home. The riot was stifled. 
+
+#GetDefenderRes	Resources from villages in sector have been transferred for your use (%s).
+
+Traps_mess	There are resources in the bags of the defeated enemy soldiers (%s).
+
+
+-----
+
+#GetTribe0	There are resources in the captured village's storehouse -{CR}%d{C} %s.
+
+
+//#GetTribe1	Behind the locked doors of the storehouse, soldiers discovered sacks with resources- {CR}%d{C} %s.
+//#GetTribe2	Villagers have gladly provided the soldiers with resources from storehouses - {CR}%d{C} %s.
+//#GetTribe3	Soldiers have captured goods in the village - {CR}%d{C} %s.
+//#GetTribe4	Soldiers have captured goods in the village - {CR}%d{C} %s.
+
+//#GETTRIBES	The soldiers came across a storehouse in a village and found - {CR}%d{C} %s.
+
+
+The End.   
+***************************************
+***************************************

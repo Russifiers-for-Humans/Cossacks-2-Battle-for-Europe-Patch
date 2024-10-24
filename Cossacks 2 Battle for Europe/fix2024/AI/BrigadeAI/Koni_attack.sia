@@ -1,0 +1,12 @@
+#HORSE UnitKUln(PO) GuardPolKUln(PO) UnitKGus(PO) GuardPolKGus(PO) UnitKEgr(PO) UnitKUln(FR) UnitKEgr(FR) UnitKGus(FR) UnitKMam(FR) GuardFrnKMam(FR) UnitKEgr(RU) UnitKGus(RU) UnitKMam(RU) GuardRusKChKoz(RU) UnitKUln(RU) UnitKEgr(PR) UnitKDrg(PR) GuardPruKDrg(PR) UnitKKir(PR) UnitKKar(PR) GuardPruGva(PR) UnitKFlg(PR) UnitKGus(PR) UnitKEgr(EN) UnitKMam(EG) GuardEgpKMamT(EG) UnitKDrg(EG) UnitKUln(AU) UnitKGus(AU) GuardAusKGus(AU) UnitKEgr(AU) UnitKArb(EG) GuardEgpKMamL(EG) UnitKDKoz(RU)
+if GetLastCommTime > 0 DistToMT < 1800 GetBarrierToMT < 140
+do ArmAttack 50
+if DistToMT > 600 AngToMT > 18
+do TurnToMT 51
+#
+#HORSE UnitKKra(PO) GuardPolKKra(PO) UnitKDrg(FR) UnitKKir(FR) UnitKGre(FR) GuardFrnKGre(FR) UnitKKar(FR) GuardFrnKKar(FR) UnitKDrg(RU) UnitKKir(RU) GuardRusKKir(RU) UnitKKir(PR) UnitKDrg(PR) GuardPruKDrg(PR) UnitKKar(PR) GuardPruGva(PR) UnitKDrg(EN) GuardEngKDrgT(EN) UnitKKar(EN) UnitKDrg(AU) UnitKKir(AU) GuardAusKKir(AU)
+if GetLastCommTime > 0 DistToMT < 1800 GetBarrierToMT < 140
+do ArmAttack 100
+if DistToMT > 600 AngToMT > 18
+do TurnToMT 51
+#

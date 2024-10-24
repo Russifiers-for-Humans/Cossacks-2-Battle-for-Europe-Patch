@@ -1,0 +1,6 @@
+ENGLAND.0 AI\England.ai.xml 
+FRANCE.0 AI\France.ai.xml 
+RUSSIA.0 AI\Russia.ai.xml 
+AUSTRIA.0 AI\Austria.ai.xml 
+PRUSSIA.0 AI\Prussia.ai.xml 
+EGIPET.0 AI\Egipet.ai.xml 

@@ -1,0 +1,42 @@
+ED_TLSHOW Show Toolbox (CTRL-T)
+ED_TOPSHOW Show Tool Options (CTRL-O)
+ED_HDR00 Select Current Colour
+ED_HDR01 Select Unit
+ED_HDR02 Select Sprite
+ED_HDR03 Edit Relief
+ED_HDR04 Select Texture
+ED_HDR05 Select Pattern
+ED_HDR06 Set/Clear Water
+ED_HDR07 Set Waves
+ED_HDR08 Clear Waves
+ED_HDR09 Erase Sprites
+ED_PARM01 Brush Radius (1-9)
+ED_PARM02 Coast Width (CTRL 1-9)
+ED_PARM03 Brightness (1-9)
+ED_PARM04 Darkness (1-9)
+
+œ≈’Œ“¿ Infantry
+ ¿¬¿À≈–»ﬂ Cavalry
+¿–“»ÀÀ≈–»ﬂ Artillery
+‘ÀŒ“ Navy
+«ƒ¿Õ»ﬂ Buildings
+EDTP_01 Min. height:
+EDTP_02 Max. height:
+EDTP_03 Min. angle:
+EDTP_04 Max. angle:
+EDTP_05 Cur. height:
+EDTX_S0 Textures set #%d
+@OK OK
+@CANCEL Cancel
+$#HIHDR Select action:
+$#ACTION Action:
+$#HEIGHT Height/Width:
+AIPARM AI Parameters
+SCDLL Scenario DLL path:
+$PLAYER%D Player #%d
+$PLAYERALL All Players
+NEWMPHDR Create New Map
+SELMSZ Select map size:
+SEL_MS0 Normal
+SEL_MS1 Big
+SEL_MS2 Huge

@@ -1,0 +1,2 @@
+MAKEZASEV Enable automatic sowing.
+DONTMAKEZASEV Disable automatic sowing.

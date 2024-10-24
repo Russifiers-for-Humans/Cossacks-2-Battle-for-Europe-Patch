@@ -1,0 +1,64 @@
+#Tips0 Infantry and cavalry battalions move slower in swamps and forests.\ Take this into account when considering strategic maneuvers.
+#Tips1 Thick forests protect your troops from enemy fire and artillery.\ Trees provide good cover that will help you to save many a soldier's life.
+#Tips2 Cannonball explosions are mostly absorbed in swamps.\ Also cannonball fuses can be extinguished in water causing the cannonball not to explode. 
+#Tips3 Placing soldiers and artillery on a height increases their range of fire.\ Use landscape carefully to obtain tactical advantages.
+#Tips4 Placing your mouse on a unit and pressing the "ALT" key will display the unit's range of fire and expected zones of damage by fire.
+#Tips5 Trees will not protect your unit if it is in the red zone of damage of an enemy's volley. 
+#Tips6 "Line" formation is most effective for battle and tactical maneuvers.\You may use the "E" hotkey for a fast movement of your troop into "Line" formation.
+#Tips7 "Column" formation is most effective for movement and marches of a long distance.\ Moving in "Column" formation by the roads troop reduces its fatigue and increases its speed of movement.
+#Tips8 "Square" formation is most effective in defense against a cavalry attack, as it leaves no weak points in defense.\ Use "Square" formation to neutralize the enemy's cavalry. 
+#Tips9 An Officer and Drummer will significantly raise the morale of the unit and a Flag Bearer increases the unit's attack and defense parameters.  
+#Tips10 Hot key usage will save you time, by increasing your ordering speed and will simplify game control.
+#Tips11 Placing your cursor on a unit and pressing the "Ctrl-Z" combination will select all the units of that type.  
+#Tips12 "Tab" or "Ctrl-Tab" will help you to cycle selection between chosen units or buildings.  
+#Tips13 Pressing "Ctrl-A" will select all of your available units.
+#Tips14 You may bind a group of units or buildings to a specific number key by choosing that group and pressing "Ctrl-0...9".  This then allows you to quickly select them simply pressing that number key. 
+#Tips15 The "Ctrl-B" combination will select all of your buildings and pressing "Ctrl-P" you will select all of your non-working peasants.  
+#Tips16 By pressing the F6 key you may cycle on/off the buildings transparency mode.
+#Tips17 For a global view of the battlefield use the "bird eye" camera. It may be activated with the F7 key.\ To change the size of the mini-map or hide it use the F8 key. 
+#Tips18 Every type of combat unit in the game is unique. It has a specific range of fire, damage, equipment, melee power, training time, and quantity of powder (coal) spent for one shot.\ To check these characteristics of a unit, press the "Info" button.
+#Tips19 By pressing the "Space" key the map will move to the previously displayed spot. Using the "Backspace" key will center the screen on a selected unit.   
+#Tips20 If, for some reason you want to remove one of your own buildings or units, use the "Delete" key. 
+#Tips21 Pressing "Pause" (or "~") will pause the game. In that mode you may still give orders to your units.
+#Tips22 Combining your soldiers into units will increase their morale, gain bonuses in attack and defense parameters and provide the ability to gain experience by killing enemy soldiers.
+#Tips23 Storehouses, dwellings, blacksmiths and town centers are buildings that may be captured.
+#Tips24 Units without officers or with low morale may be easily routed even though it has only taken slight casualties. 
+#Tips25 Gunfire decreases enemy morale as well as inflicting casualties. 
+#Tips26 If any of your units panic and flee through another friendly unit it will decrease that unit's morale. 
+#Tips27 If 70 percent of the unit is destroyed, it will panic and flee despite its morale state.   
+#Tips28 Cavalry has great speed and is effective for surprise attacks on the enemy's rear or flanks and is especially effective against artillery.
+#Tips29 Heavy cavalry has a lot of health and is therefore very durable. This unit type has an especially strong demoralizing effect on the enemy when attacking. 
+#Tips30 Infantry and cavalry will move on roads only in "Column" formation. 
+#Tips31 By holding the "ALT" key down when moving a unit will display its firing zones.\ Use this information to best position that unit.
+#Tips32 If your unit remains in "Line" formation for some time without any movement it will change to the "Standground" position. This significantly increases its frontal defense and volley power but will decrease its rear defense.
+#Tips33 Attacking first with your infantry and then with cavalry is most effective.
+#Tips34 Melee fighting cavalry moves a lot faster than cavalry with rifles.
+#Tips35 Lost units of your squad are automatically refilled if it is positioned next to a settlement.
+#Tips36 Single units of a panic stricken squad can be positioned behind an existing squad to refill the lines. (“F”-Key)
+#Tips37 Use the arrow keys to comfortably move the visible screen section around the map
+#Tips38 Defensive structures like Forts or Blockhouses should be build next to roads or crossings to effectively stop enemy troops in their tracks.
+#Tips39 All idle peasants are selected by pressing „CTRL-P“.
+#Tips40 The size of the Minimap can be changed with the key „F8“.
+#Tips41 To focus on a selected unit press the „BACKSPACE“ Key.
+#Tips42 A hostile settlement can be taken by eliminating all enemy troops in the neighbourhood as well as the local defenders. The settlement will start working for you and goods are transported to your Storehouse or Town Centre.
+#Tips43 Cannons, Grenadiers or Sappers with Powder Barrels are the most effective ways to destroy buildings.
+#Tips44 At your town centre you can order your workers to look for work automatically. Then they will become Woodcutters or work in quarries. This feature is only available in single player mode.
+#Tips45 Buildings and settlements have various upgrade possibilities. Use all of them to leverage your economy.
+#Tips46 If you lack certain resources or some of them are quite scarce you can build a Marketplace to barter.
+#Tips47 Keep your transport routes short. A Town Centre or a Storehouses should be near a Mine or a Settlement.
+#Tips48 The rally point of a building’s new units can be set by right clicking on the map.
+#Tips49 If one of your buildings is attacked, your Sappers and Peasants can repair it. Once demolished, the building cannot be restored and its former location is after a short while free for new buildings.
+#Tips50 You can order your cannons to keep a certain area under steady fire. Keep in mind, that there should be no friendly troops around this area.
+#Tips51 Sappers can complete all buildings, even the ones they cannot build themselves. If you use your sappers to complete buildings your Peasants can meanwhile collect resources.
+#Tips52 If your squad dissolved panic stricken the single units will automatically go to the next Barracks or Stables. If there are assembled enough units a new squad can be formed. 
+#Tips53 To build a squad, a sufficient number of units has to be next to Barracks or Stables. The respective radius is marked green, if you move your mouse over the symbol to build new squads.
+#Tips54 Priests can heal your units and boost the morale of your troops.
+#Tips55 If your gunners have died, you can order new units to the cannon by choosing the respective command in the cannons menu. To do so, there must be units next to the cannon. It doesn’t matter if they are bound in a squad or single units. 
+#Tips56 To capture an enemy cannon, you have to eliminate the hostile gunners and put your troops right next to the cannon. After a short while, the cannon will be yours.
+#Tips57 The morale of your troops raises if they kill enemies. The higher the morale of your troops is, the less they will panic.
+#Tips58 If you select one of your settlements you will see the trade routes of your goods to your next Storehouse or Town Center as white diamonds. The next repository is marked white.
+#Tips59 If you change the formation of your troops, you can see their future positions as blue dots on the map.
+#Tips60 Ensure to have always the latest graphic device driver installed to guarantee the best gaming experience possible.
+#Tips61 Using grenades or cannon balls is only sensible against standing or very slow aims.
+#Tips62 To establish grenade production you need to build a Blacksmith.
+#Tips63 Cannons can be loaded with either cannonballs or shrapnel munitions. On short distances a shrapnel shot has devastating effects on the lines of the enemies.

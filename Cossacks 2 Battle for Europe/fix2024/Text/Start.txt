@@ -1,0 +1,52 @@
+GMTP_TP1 Start Options
+
+@GMTP_TP1_00 Default
+@GMTP_TP1_01 Army
+@GMTP_TP1_02 Big Army
+@GMTP_TP1_03 Extensive Army
+@GMTP_TP1_04 Army of Peasants
+
+GMTP_TP2 Fog of War
+
+@GMTP_TP2_00 Default
+@GMTP_TP2_01 No Fog of War
+
+GMTP_TP3 Cannons
+
+@GMTP_TP3_00 Default
+@GMTP_TP3_01 No Cannons
+@GMTP_TP3_02 Expensive Cannons
+
+GMTP_TP4 Peace Time
+@GMTP_TP4_00 5 min
+@GMTP_TP4_01 10 min
+@GMTP_TP4_02 20 min
+@GMTP_TP4_03 30 min
+@GMTP_TP4_04 45 min
+@GMTP_TP4_05 60 min
+@GMTP_TP4_06 1.5 h
+@GMTP_TP4_07 2 h
+@GMTP_TP4_08 3 h
+@GMTP_TP4_09 4 h
+
+GMTP_TP5 18c Options
+@GMTP_TP5_00 Default
+@GMTP_TP5_01 Never
+@GMTP_TP5_02 Immediate
+
+GMTP_TP6 Capture Options:
+@GMTP_TP6_00 Default
+@GMTP_TP6_01 No Peasant/No Mine capt.
+
+GMTP_TP7 Auto save
+@GMTP_TP7_00 Every minute.
+@GMTP_TP7_01 Every 2 minutes.
+@GMTP_TP7_02 Every 4 minutes.
+@GMTP_TP7_03 Every 6 minutes.
+@GMTP_TP7_04 Every 8 minutes.
+@GMTP_TP7_05 Every 10 minutes.
+@GMTP_TP7_06 Never.
+
+TMMS_NOPT Game time: %d:%d%d:%d%d [%d]
+TMMS_PT Game time: %d:%d%d:%d%d [%d] P.t:%d:%d%d:%d%d
+

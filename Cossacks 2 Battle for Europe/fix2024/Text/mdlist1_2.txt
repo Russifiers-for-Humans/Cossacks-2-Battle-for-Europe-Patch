@@ -1,0 +1,6 @@
+UNITSMD\BLDKONHC.MD.HINT {FC12}{C FFE74634}Heavy Cavalry Stables{FS}{C FF502515}\ - allows to train heavy cavalry
+UNITSMD\PRUKONHC.MD.HINT {FC12}{C FFE74634}Heavy Cavalry Stables{FS}{C FF502515}\ - allows to train heavy cavalry
+UNITSMD\EGPKREHC.MD.HINT {FC12}{C FFE74634}Heavy Cavalry Stables{FS}{C FF502515}\ - allows to train heavy cavalry and build artillery
+UNITSMD\BLDKONHC.MD Stables
+UNITSMD\PRUKONHC.MD Stables
+UNITSMD\EGPKREHC.MD Stables

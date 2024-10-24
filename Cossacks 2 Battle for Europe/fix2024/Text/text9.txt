@@ -1,0 +1,99 @@
+WZR_H0 American Conquest Internet Wizard
+WZR_00 Welcome to Cossacks Internet Wizard!
+WZR_01 Please enter your e-mail address below:
+WZR_02 Your e-mail address:
+WZR_03 (format: username@servername.com)
+WZR_H1 New account, enter password.
+WZR_10 Creating a new account.
+WZR_11 Enter a password for your new account and click "Next"
+WZR_12 ("Next" button will be enabled only if both passwords are identical.)
+WZR_13 E-Mail
+WZR_14 Your password:
+WZR_15 Verify password.
+WZR_16 Remember my password for faster connection.
+WZR_H2 Account found. Please enter password.
+WZR_20 Your account was found in our data base.
+WZR_20W Unable to access your account. Password may be incorrect.
+WZR_21 Please enter your account password and click on "Next".
+WZR_22 Password:
+WZR_23 Remember passwords are case-sensitive.
+WZR_24 'AbcD' is NOT the same as 'ABCd'.
+WZR_25 I can't remember it! Please e-mail me my password.
+WZR_SR0 Please wait... Searching the database...
+WZR_H3 Search Results:
+WZR_30 Existing profiles were found for that address.
+WZR_31 Please select a profile to use or create a new profile.
+WZR_32 Create a new profile name. (nickname)
+WZR_33 Use an existing profile.
+WZR_SR1 Please wait... Checking password...
+WZR_H4 Nickname?
+WZR_40 No existing profiles were found for your e-mail address.
+WZR_41 Please enter a nickname to use while online.
+WZR_42 Or click "Previous" to search for another e-mail address.
+WZR_43 Nickname:
+WZR_ERR1 Unable to create a new account. Press any key to try again.
+WZR_ERR2 Unable to create a new profile. Press any key to try again.
+WZR_W0 Please wait while new account is created...
+WZR_W1 Please wait while new profile is created...
+WZR_ERR3 Unable to connect. Press any key.
+WZR_LOGIN0 Connecting to your personal account...
+WZR_LOGFAIL Unable to connect to your account. Password may be incorrect. 
+WZR_ERR4 Connection to server has failed. Press any key...
+GEN_M Male
+GEN_F Female
+GEN_U Unknown
+MONTH_0 January
+MONTH_1 February
+MONTH_2 March
+MONTH_3 April
+MONTH_4 May
+MONTH_5 June
+MONTH_6 July
+MONTH_7 August
+MONTH_8 September
+MONTH_9 October
+MONTH_10 November
+MONTH_11 December
+UNIQ_L0 Warning! 
+UNIQ_L1 This nickname has already been registered by another Cossacks player. You can also use it, but your name will not be marked with the star symbol when chatting. Select "Previous" to choose another nickname or "Next" to use the current one.
+UNIQ_CH0 Please wait...
+SCORANK Score: %d, Rank: %s
+RS_RANK_0 Esquire 
+RS_RANK_1 Nobleman
+RS_RANK_2 Knight
+RS_RANK_3 Baron
+RS_RANK_4 Viscount
+RS_RANK_5 Earl
+RS_RANK_6 Marquis
+RS_RANK_7 Duke
+RS_RANK_8 King
+PIF_ST0 Country
+PIF_ST1 Birthday
+PIF_ST2 Gender
+PIF_ST3 E-Mail
+PIF_ST5 Homepage
+PIF_UNACC Unable to access private information from GameSpy server.
+PSR_NOREG1 Player %s offers not to register the game\in the Global Rating System. Press 'Y' to\agree or 'N' to disagree.
+PSR_DENY Player %s has rejected the offer.
+PSR_ACCEPT All players have accepted the offer. This game will not be rated.
+VOTE_YES Yes, I agree.
+VOTE_NO No, I do not agree!
+VOTE_UNK ???
+HDR_SCORE: Score:
+HDR_POPUL: Population:
+HDR_DSCORE Score after the game:%d, Change:%d
+LERR_TIMEOUT Unable to connect. Maybe your Internet connection is poor. Please try again.
+LERR_INVNICK Your nickname is invalid. Click on "New" to change the login parameters.
+LERR_INVEMAIL The e-mail address you have entered is invalid. Click on "New" to change the login parameters.
+LERR_INVPASS The password is incorrect.
+LERR_INVPROF The profile is invalid. Click on "New" to change the login parameters.
+LERR_PROFDEL Your profile has been deleted. Unable to join.
+LERR_FAIL The connection to the GameSpy server was interrupted and your personal information is inaccessible for the moment. It is temporarily not possible to play rated games. You can only enter anonymously.
+LERR_UNKN Unknown error. Code: %d
+DATASERVERR The connection to the GameSpy server was interrupted and your personal information is inaccessible for the moment. It is temporarily not possible to play rated games. You can only enter anonymously.
+SENDR_L1 Resource Transfer
+SENDR_L2 Send to:
+SENDR_L3 Resource:
+SENDR_L4 Amount:
+SENDR_L5 Transfer.
+SENDR_L6 Cancel

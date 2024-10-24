@@ -1,0 +1,13 @@
+//miss02.txt
+#res_dial_2_3 Yes, sir!
+
+//Tutor01.txt
+#mes_10  Your squad is in a tough situation and will be unable to reload their muskets before the enemy cavalry arrives. The only way out for you is to attack them {C 0xFFff0000}in melee{C 0xFF000000}. To do that, left mouse-click on the icon depicting the bayonet in the squad menu, or press "R".
+#hint_tut1_3 - In order to train troops, select the barracks by clicking on it. Direct the cursor to the {C 0xFFff0000}grenadier{C 0xFF000000} icon. Click on it with the left mouse button.
+#hint_tut1_4 - Now you can create a troop of {C 0xFFff0000}grenadiers{C 0xFF000000}. Click on the troop creation icon that appears in the top part of the screen.
+#hint_tut1_6 - In order for your troop to shoot the enemy, they have to be within shooting distance. Your soldiers' muskets must be charged. To shoot press the rifle button, or press "T".
+#hint_tut1_8 - Your troop won't have enough time to reload their muskets before the cavalry approaches. Stab them with bayonets.
+
+//Tutor02.txt
+#T02_Task3 Capture the villages.
+

@@ -1,0 +1,3 @@
+INFO_W Wood chopping: %d
+INFO_S Stone quarrying: %d
+INFO_F Food procurement: %d

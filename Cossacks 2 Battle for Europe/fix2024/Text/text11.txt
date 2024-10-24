@@ -1,0 +1,26 @@
+LOSS_PN lost:%s
+REP_NORM Normal Replay (use Shift-D to switch)
+REP_FAST Fast Replay (use Shift-D to switch)
+REP_VERY Very Fast Replay (use Shift-D to switch)
+REP_FOG Replay with fog of war.
+REP_NOFOG Replay without fog of war.
+REPLAY Restart the game.
+MS_NORMAL Normal
+MS_LARGE Large (2x2)
+MS_HUGE Huge (4x4)
+$EHIN__0 Edit relief (F6).
+$EHIN__1 Edit terrain.
+$EHIN__2 Calculate land and water blocking.
+$EHIN__3 Toggle 2D or 3D modes.
+$EHIN__4 Set start parameters.
+$EHIN__5 Peace Mode
+$EHIN__6 Shadow
+$EHIN__7 Detailed Texture
+SER_SAVE Wait while saving your result...
+Autosaving Saving...
+None None
+NORATE #Warning!\ The connection has been lost, therefore the game will not be rated.\Only finished games can be rated.
+NOSRCONN Connection to server has failed.
+Rated_Deathmatch Rated Death Match
+TX_INCOMP Incomplete: %d of %d (%d%%)
+INCOMTXT #Warning!\ The game was not completed.\ The amount of uncompleted games in\your personal profile will increase\if you do not finish the game within 1 day.

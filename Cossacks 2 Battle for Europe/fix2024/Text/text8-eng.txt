@@ -1,0 +1,22 @@
+ST_ACC Statistics: Score Dynamics:
+ST_GAM Return to the game.
+ST_MEN Exit to menu.
+ST_TOTAL Total amount of resources extracted:
+ST_UPGR Resources spent on upgrades:
+ST_MINE Resources spent to upgrade mines:
+ST_UNITS Resources spent to create units:
+ST_BLD Resources spent to construct buildings:
+ST_LIFE Resources spent to maintain units:
+ST_BUY Resources bought in the market:
+ST_SELL Resources sold in the market:
+ST_PROD List of units created:
+ST_KILL List of units lost:
+ST_UHDR Statistics:
+UM_SURRENDER Surrender.
+UM_REPLAY Restart mission.
+UM_CONTR1 %s wants to be your ally.
+UM_CONTR2 If you agree, please press Enter and type "team %s"
+UM_BREAK1 %s does not want to be your ally.
+UM_BREAK2 If you agree, please press Enter and type "break %s"
+UM_CURR Current Issue
+TUTCLOS Close

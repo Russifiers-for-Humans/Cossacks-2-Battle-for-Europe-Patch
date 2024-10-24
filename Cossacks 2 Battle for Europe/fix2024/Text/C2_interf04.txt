@@ -1,0 +1,2 @@
+#EW2_CloseVideo_hint Disable video.
+#EW2_CloseInfo_hint Close history info.

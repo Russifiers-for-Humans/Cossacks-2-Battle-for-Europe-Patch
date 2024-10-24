@@ -1,0 +1,301 @@
+@ID::use_vGroup Use vGroup
+@HINT::use_vGroup Use vGroup
+
+@ID::USE_vGRP Use vGroup
+@HINT::USE_vGRP Work with vGroup
+
+@ID::grpID Squard
+@HINT::grpID Squard
+
+@ID::CBEDriveMode_ST::NodeAct Action
+@HINT::CBEDriveMode_ST::NodeAct Node Action
+@ID::CBEDriveMode_ST::NodeView View mode
+@HINT::CBEDriveMode_ST::NodeView View mode
+@ID::CBEDriveMode_ST::ND_RECT Node Rectangle
+@HINT::CBEDriveMode_ST::ND_RECT View Node Rectangle
+@ID::CBEDriveMode_ST::ND_XY Node Coordinates
+@HINT::CBEDriveMode_ST::ND_XY View Node Coordinates
+
+@ID::PR_MODE Process for
+@HINT::PR_MODE Choise group to process
+@ID::PR_CREATE Create new process
+@HINT::PR_CREATE Create new process if selected
+@ID::fMAIN_EDIT Editor MAIN BE-script
+@HINT::fMAIN_EDIT Editor MAIN BE-script
+@ID::SQUARD Group
+@HINT::SQUARD Group from AGroups
+@ID::BE_vGROUPS vGroup
+@HINT::BE_vGROUPS Group from vGroups
+@ID::fvVALUES_EDIT Editor vValues
+@HINT::fvVALUES_EDIT Editor vValues
+
+@ID::fREM_N_UNT Remove N units from Group
+@HINT::fREM_N_UNT Remove N units from Group
+@ID::fKILL_N_UNT Kill N units
+@HINT::fKILL_N_UNT Kill N units
+@ID::fERASE_N_UNT Erase N units
+@HINT::fERASE_N_UNT Erase N units
+@ID::fUN_SELECT Deselected units
+@HINT::fUN_SELECT Deselected units
+@ID::fSELECT Select/Add to select
+@HINT::fSELECT Select/Add to select
+@ID::fSELECT_XYR Select in region (X,Y,R)
+@HINT::fSELECT_XYR Select in region (X,Y,R)
+@ID::fSET_NATION Set Nation
+@HINT::fSET_NATION Set Nation
+@ID::fSET_AGRESIV Set active state
+@HINT::fSET_AGRESIV Set active state
+@ID::fSEND_TO Send to (X,Y,Dir,type)
+@HINT::fSEND_TO Send to (X,Y,Dir,type)
+@ID::fSET_DIR Set direction (rotate)
+@HINT::fSET_DIR Set direction (rotate)
+@ID::fSET_FORM Reformation
+@HINT::fSET_FORM Reformation
+@ID::destGRP_ID vGroup
+@HINT::destGRP_ID vGroup
+@ID::CBE_REM_N_UNT::number Count
+@HINT::CBE_REM_N_UNT::number Count
+@ID::CBE_KILL_N_UNT::number Count
+@HINT::CBE_KILL_N_UNT::number Count
+@ID::CBE_ERASE_N_UNT::number Count
+@HINT::CBE_ERASE_N_UNT::number Count
+@ID::CBE_SELECT::add Add
+@HINT::CBE_SELECT::add Add
+@ID::CBE_SELECT_IN_XYR::add Add
+@HINT::CBE_SELECT_IN_XYR::add Add
+@ID::CBE_SET_NATION::NI Number of Nation
+@HINT::CBE_SET_NATION::NI Number of Nation
+@ID::CBE_SET_AGRESIVITY::state State
+@HINT::CBE_SET_AGRESIVITY::state State
+@ID::CBE_SEND_TO::dir Direction
+@HINT::CBE_SEND_TO::dir Direction
+@ID::CBE_SEND_TO::type Type
+@HINT::CBE_SEND_TO::type Type
+@ID::CBE_SET_DIR::dir Direction
+@HINT::CBE_SET_DIR::dir Direction
+@ID::CBE_SET_DIR::type Type
+@HINT::CBE_SET_DIR::type Type
+@ID::CBE_SET_FORM::formType Number Formation
+@HINT::CBE_SET_FORM::formType Number of Type Formation
+
+@ID::CBE_Process::MAIN_PR Main script
+@HINT::CBE_Process::MAIN_PR Main script pocessed
+@ID::CBE_Process::SQUARD_PR Squard script
+@HINT::CBE_Process::SQUARD_PR Squard script pocessed
+
+@ID::BE_SAVE Save or no
+@HINT::BE_SAVE Switch to save or no
+
+@ID::CBEDriveMode_ST::fPROCESS Run script process
+@HINT::CBEDriveMode_ST::fPROCESS Run script process
+@ID::CBEDriveMode_ST::PR_TIME Process time
+@HINT::CBEDriveMode_ST::PR_TIME Process time
+@ENUMID::BE_OBJECT_TYPE_LIST::NODE NODE
+@ENUMHINT::BE_OBJECT_TYPE_LIST::NODE NODE (Add/Edit/Del)
+@ENUMID::BE_OBJECT_TYPE_LIST::EDGE EDGE
+@ENUMHINT::BE_OBJECT_TYPE_LIST::EDGE EDGE (Add/Edit/Del)
+@ENUMID::BE_OBJECT_TYPE_LIST::vVALUES vValues
+@ENUMHINT::BE_OBJECT_TYPE_LIST::vVALUES Edit vValues
+@ENUMID::BE_OBJECT_TYPE_LIST::vGROUPS vGroup
+@ENUMHINT::BE_OBJECT_TYPE_LIST::vGROUPS Work with vGroup (Add/Edit/Del)
+@ENUMID::BE_OBJECT_TYPE_LIST::NOTHING Nothing
+@ENUMHINT::BE_OBJECT_TYPE_LIST::NOTHING Nothing
+@ID::ND_NAME NODE name
+@HINT::ND_NAME NODE name
+@ID::ND_DESCR NODE description
+@HINT::ND_DESCR NODE description
+
+@ID::fADD_GRP Add new vGroup
+@HINT::fADD_GRP Add new vGroup
+@ID::fDEL_GRP Delete current vGroup
+@HINT::fDEL_GRP Delete current vGroup
+@ID::fEDIT_GRP Edit current vGroup
+@HINT::fEDIT_GRP Edit current vGroup
+@ID::fADD_SEL Add sel units to vGroup
+@HINT::fADD_SEL Add selected units to current vGroup
+@ID::fON_SCREEN Center current Group
+@HINT::fON_SCREEN Center current Group
+@ID::fSHOW_CURR Show/Hide current Group
+@HINT::fSHOW_CURR Show/Hide selection current Group
+@ID::fSHOW_ALL Show/Hide all Group
+@HINT::fSHOW_ALL Show/Hide selection all Group
+@ID::BE_vGRP_TEST Show/Hide command
+@HINT::BE_vGRP_TEST Show/Hide command for vGroups
+
+@ID::CBEDriveMode_ST::EdgeAct Edge Action
+@HINT::CBEDriveMode_ST::EdgeAct Edge Action
+@ID::CBEDriveMode_ST::EdgeView View mode
+@HINT::CBEDriveMode_ST::EdgeView View mode
+@ID::CBEDriveMode_ST::EG_RECT Edge Rectangle
+@HINT::CBEDriveMode_ST::EG_RECT View Edge Rectangle
+@ID::CBEDriveMode_ST::EG_DIRECT Edge Direction
+@HINT::CBEDriveMode_ST::EG_DIRECT View Edge Direction
+@ID::CBEDriveMode_ST::EG_PROC Process time 
+@HINT::CBEDriveMode_ST::EG_PROC View Edge process time
+@ID::CBEDriveMode_ST::EG_START Start time
+@HINT::CBEDriveMode_ST::EG_START View Start time
+@ID::CBEDriveMode_ST::EG_MODE Edge mode
+@HINT::CBEDriveMode_ST::EG_MODE View Edge mode
+
+@ID::lvCEdge::NAME EDGE name
+@HINT::lvCEdge::NAME EDGE name
+@ID::lvCEdge::DESCR EDGE description
+@HINT::lvCEdge::DESCR EDGE description
+@ID::lvCEdge::begID EDGE start point
+@HINT::lvCEdge::begID EDGE start point
+@ID::lvCEdge::endID EDGE end point
+@HINT::lvCEdge::endID EDGE end point
+@ID::lvCEdge::procTime EDGE time process
+@HINT::lvCEdge::procTime EDGE time process
+@ID::lvCEdge::startTime Start EDGE process
+@HINT::lvCEdge::startTime Time start EDGE process
+
+@CLASSID::lvCCondForOper Condition for Operation
+@ID::lvCCondForOper Condition for Operation
+
+@CLASSID::lvCAriphmetical Ariphmetical
+@CLASSID::lvCLogical Logical
+@CLASSID::lvCCompare Compare
+@CLASSID::lvCFunctional Functional
+@CLASSHINT::lvCFunctional Get value
+
+@ID::lvCFunctional Functional
+@HINT::lvCFunctional Get value
+@ID::lvI Int
+@HINT::lvI Integer
+@ID::lvB Bool
+@HINT::lvB Boolean
+
+@CGRPID::CurentGroup For current group
+@CGRPID::AnyGroup For any group
+@CGRPID::AnySelected For any selected
+@CGRPID::Global Global
+
+@ID::V_VALUES vValues
+@HINT::V_VALUES vValues
+
+@CLASSID::vvWORD Word type
+@CLASSID::vvINTEGER Integer type
+@CLASSID::vvTRIGER Trigger
+@CLASSHINT::vvWORD Word type
+@CLASSHINT::vvINTEGER Integer type
+@CLASSHINT::vvTRIGER Trigger
+@CLASSID::vvTEXT Text type
+@CLASSID::vvPOINT2D Point 2D
+@CLASSID::vvPOINT_SET Array of point
+@CLASSID::vvVector3D Vector 3D
+@CLASSID::vvDIALOG Dialog
+@CLASSID::vvMESSGES Messages
+
+@ID::vvTRIGER Trigger
+@HINT::vvTRIGER Trigger
+@ID::vvWORD Word type
+@HINT::vvWORD Word type
+@ID::vvINTEGER Integer type
+@HINT::vvINTEGER Integer type
+@ID::vvTEXT Text type
+@ID::vvPOINT2D Point 2D
+@ID::vvPOINT_SET Array of point
+@ID::vvVector3D Vector 3D
+@ID::vvDIALOG Dialog
+@ID::vvMESSGES Messages
+
+@ID::Name Name
+@HINT::Name Name
+@ID::id ID
+@HINT::id ID
+@ID::Value Value
+@HINT::Value Value
+
+@ID::lvCSetValue::use_vGroup Use vGroup
+@HINT::lvCSetValue::use_vGroup Use vGroup (SetValue)
+@ID::lvCSetValue::ValueTG Value
+@ID::ValueTG Value
+@HINT::lvCSetValue::ValueTG Value (SetValue)
+@HINT::ValueTG Value
+@ID::lvCSetValue::SetTG Set
+@ID::SetTG Set
+@HINT::lvCSetValue::SetTG Set Trigger (SetValue)
+@HINT::SetTG Set
+
+@ID::lvCLogical::OPER Operation
+@HINT::lvCLogical::OPER Operation
+@ID::OPER Operation
+@HINT::OPER Operation
+@ID::lvCLogical::CONDS Conditions
+@HINT::lvCLogical::CONDS Conditions
+@ID::COND1 Condition 1
+@HINT::COND1 Condition 1
+@ID::COND2 Condition 2
+@HINT::COND2 Condition 2
+
+@ENUMID::OPTYPE::more >
+@ENUMID::OPTYPE::less <
+@ENUMID::OPTYPE::more_equal >=
+@ENUMID::OPTYPE::less_equal <=
+@ENUMID::OPTYPE::equal ==
+@ENUMID::OPTYPE::not_equal !=
+
+@ID::scrFILM Film name
+@HINT::scrFILM Film name
+@ID::fADD_FILM Add film
+@HINT::fADD_FILM Add film
+@ID::fDEL_FILM Delete film
+@HINT::fDEL_FILM Delete film
+@ID::fEDIT_FILM Edit film
+@HINT::fEDIT_FILM Edit film
+@ID::fEDIT_GRAPH Edit graph
+@HINT::fEDIT_GRAPH Edit graph elements (dialog menu, animation menu, etc.)
+@ID::scrName Screen Name
+@HINT::scrName Screen Name
+@ID::scrDescr Description
+@HINT::scrDescr Screen description
+
+@CGRPID::F_GROUP -=GROUP=-
+@CGRPID::F_GLOBAL_VALUE -=GLOBAL VALUE=-
+@CGRPID::F_NATION -=NATION=-
+@CGRPID::F_SYSTEM -=SYSTEM=-
+@CGRPID::F_GRAPHIC -=GRAPHIC=-
+@CGRPID::F_SOUND -=SOUND=-
+@CGRPID::F_NODE_GROUP -=NODE GROUP=-
+@CGRPID::F_TRANSPORT -=TRANSPORT=-
+@CGRPID::F_SPECIAL -=SPECIAL=-
+@ENUMHINT::@CGRPID::F_GROUP Все функции в этом разделе используют в качестве основного параметра любую (глобальную) группу юнитов, и взвращают её основные и косвенные характеристики
+@ENUMHINT::@CGRPID::F_GLOBAL_VALUE Функции предназначенны для работы с глобальными объектами (переменные)
+@ENUMHINT::@CGRPID::F_NATION Все функции в этом разделе используют в качестве основного параметра нацию, и взвращают её основные и косвенные характеристики
+@ENUMHINT::@CGRPID::F_SYSTEM Функции преднозначенные для полученя информации о состоянии игры, системы а также их основных характеристик
+@ENUMHINT::@CGRPID::F_GRAPHIC Функции преднозначенные для получения основных параметров состояния глобальных графических объектов
+@ENUMHINT::@CGRPID::F_SOUND Функции преднозначенные для получения основных параметров состояния звуковых каналов
+@ENUMHINT::@CGRPID::F_NODE_GROUP Все функции в этом разделе используют в качестве основного параметра группу юнитов заданную в схеме передвижения, и взвращают её основные и косвенные характеристики
+@ENUMHINT::@CGRPID::F_TRANSPORT Все функции в этом разделе используют в качестве основного параметра любую (глобальную) группу юнитов (транспорты или шахты), и взвращают её основные и косвенные характеристики
+@ENUMHINT::@CGRPID::F_SPECIAL Только для функции для специального применения, узко специализированные
+@CLASSID::lvCCheckRBBP Chek ready build
+@ENUMHINT::@CLASSID::lvCCheckRBBP Возвращает true если между P0 и P1 в зоне радиуса MaxR есть достроенное здание
+@HINT::lvCCheckRBBP Возвращает true если между P0 и P1 в зоне радиуса MaxR есть достроенное здание
+
+@CGRPID::GROUP GROUP
+@CGRPID::GLOBAL_VALUE GLOBAL VALUE
+@CGRPID::NATION NATION
+@CGRPID::SYSTEM SYSTEM
+@CGRPID::GRAPHIC GRAPHIC
+@CGRPID::SOUND SOUND
+@CGRPID::NODE_GROUP NODE GROUP
+@CGRPID::TRANSPORT TRANSPORT
+@CGRPID::CAMERA CAMERA
+@CGRPID::MOVIE MOVIE
+@CGRPID::FREEZE FREEZE
+@CGRPID::COSSAKSII COSSAKS II
+@CGRPID::SPECIAL SPECIAL
+@ENUMHINT::@CGRPID::GROUP Все функции в этом разделе используют в качестве основного параметра любую (глобальную) группу юнитов, и выполняют действия над ними
+@ENUMHINT::@CGRPID::GLOBAL_VALUE Функции предназначенны для работы с глобальными объектами (переменные)
+@ENUMHINT::@CGRPID::NATION Все функции в этом разделе используют в качестве основного параметра нацию, и изменяют их характеристики или выполняют действия над ними
+@ENUMHINT::@CGRPID::SYSTEM Функции преднозначенные для изменения параметров игры, системы а также выполняют глобальные действия
+@ENUMHINT::@CGRPID::GRAPHIC Функции преднозначенные для измнения основных параметров состояния глобальных графических объектов
+@ENUMHINT::@CGRPID::SOUND Функции преднозначенные для изменения основных параметров состояния звуковых каналов
+@ENUMHINT::@CGRPID::NODE_GROUP Все функции в этом разделе используют в качестве основного параметра группу юнитов заданную в схеме передвижения, и отдаёт ей соответствующие приказы
+@ENUMHINT::@CGRPID::TRANSPORT Все функции в этом разделе используют в качестве основного параметра любую (глобальную) группу юнитов (транспорты или шахты), и могут манипулировать ими
+@ENUMHINT::@CGRPID::CAMERA Данные функции используются для изменения параметров состояния игровой камеры
+@ENUMHINT::@CGRPID::MOVIE Данные функции используются для контроля над всплывающими менюшками диалогов и действий во время ролика
+@ENUMHINT::@CGRPID::FREEZE Данные функции используются для изменения параметров состояния юнитов
+@ENUMHINT::@CGRPID::COSSAKSII Данные функции используются для COSSAKS II
+@ENUMHINT::@CGRPID::SPECIAL Специальные финкци различного назначения

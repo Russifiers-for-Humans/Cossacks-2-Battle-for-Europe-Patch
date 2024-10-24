@@ -1,0 +1,16 @@
+HDOGUARD Use unit as guard.
+HNOGUARD Cancel guard mode.
+HPATROL Patrol
+__ARTCAP0 Max. Cannons: %d/%d
+__ARTCAP1 Max. Horsemen: %d/%d
+__ARTCAP2 Max. Peasants: %d/%d
+__ARTCAP3 Multibarr.: %d/%d
+ATGHINT Attack ground.
+KICK Kick player.
+PROGSTR%s Loading... This may take several minutes.
+INHIN1 Show top 100 players.
+INHIN2 Show player's personal information.
+INHIN3 Show the list of games.
+INHIN4 Send a message to the player.
+INHIN5 Mute the player.\You will no longer see this player's messages.
+INHIN6   

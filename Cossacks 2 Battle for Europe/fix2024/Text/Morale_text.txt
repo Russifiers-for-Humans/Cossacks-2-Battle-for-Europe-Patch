@@ -1,0 +1,61 @@
+FEAR_TXT0 Fear of mob
+FEAR_TXT1 Fear of fire  
+FEAR_TXT2 Fear of battle 
+FEAR_TXT3 Fear of horses
+FEAR_RNDM0 Aaaaa... 
+FEAR_RNDM1 We will all die!
+FEAR_RNDM2 Oh no!
+FEAR_RNDM3 It's a slaughterhouse!
+FEAR_RNDM4 They'll kill me!
+FEAR_RNDM5 They're too strong!
+FEAR_RNDM6 I don't want to die!
+FEAR_RNDM7 Save yourselves!
+THIS_UNIT This Unit
+THIS_GEN_INF Information on unit selected:
+FEAR_INF_BORN Information on unit panic aptness: 
+FEAR_INF_BORNH The likelihood of panic is indicated in percent. If it is below 3%, the soldier is able to control his fear.
+FEAR_TXWIDE0 Fear of Mob
+FEAR_TXWIDE0H Inclination to panic when someone spreads fear.
+FEAR_TXWIDE1 Fear of Fire
+FEAR_TXWIDE1H Inclination to panic when someone nearby is shot down.
+FEAR_TXWIDE2 Fear of Battle
+FEAR_TXWIDE2H Inclination to panic when someone dies in a melee.
+FEAR_TXWIDE3 Fear of Horses   
+FEAR_TXWIDE3H Probability of panic under cavalry attack.
+START_MVAL Initial value (in-born)
+CURR_MVAL Current value (changed according to factors listed below). At this level the soldier is still able to control his fear.
+CURR_MVAL0 Current value. At this level the soldier is still able to control his fear.
+CURR_MVAL1 Current value (changed according to factors listed below). At this level the soldier may panic.
+CURR_MVAL2 Current value. At this level the soldier may panic. 
+CURR_MVAL3 Current value (changed according to factors listed below). At this level the soldier is highly strung. 
+CURR_MVAL4 Current value. At this level the soldier is highly strung.
+CURR_MVAL5 Current value (changed according to factors listed below). At this level the soldier will panic if even a mouse passes by. That's really bad. 
+CURR_MVAL6 Current value. At this level, the soldier will panic if so much as a mouse passes by. That's really bad.
+FEAR_ACTS Events to have impacted fear:
+FEAR_DEC The unit has become braver (its fear has decreased by number of times indicated).
+FEAR_INC The unit has become more cowardly (its fear has increased by number of times indicated).
+FEAR_MUL1 Personal combat experience (enemies killed: %d).
+FEAR_MUL1H The more enemies a unit kills, the less scared it becomes.
+FEAR_MUL2 There was a famine a while ago.
+FEAR_MUL2H If you think a hungry soldier is a better fighter, you are wrong.
+FEAR_MUL3 A command center (barracks) was demolished a while ago.
+FEAR_MUL3H A demolished barracks lowers a soldier's morale.
+FEAR_MUL4 Squad commander killed.
+FEAR_MUL4H Your troops feel helpless without a good commander.
+FEAR_MUL5 Squad drummer killed.
+FEAR_MUL5H The drummer not only keeps up spirits, he's also in charge of giving orders.
+FEAR_MUL6 You have no standard bearer.
+FEAR_MUL6H The honor of your squad has been trampled underfoot. They can't stand the disgrace.
+FEAR_MUL7 Over %d%% of the squad lost.
+FEAR_MUL7H Nobody wants to die, and soldiers will panic if defeat seems inevitable. 
+FEAR_MUL8 Commander's experience (enemies killed: %d).
+FEAR_MUL8H Very much depends on the leader.
+FEAR_MUL9 Squad experience (enemies killed: %d).
+FEAR_MUL9H The aggregate number of enemies vanquished by your glorious warriors.
+FEAR_MULA Feeling of comradeship.
+FEAR_MULAH The more people there are in a squad, the less scared they are. 
+FEAR_MULB Belief in victory (%d).
+FEAR_MULBH This value increases by 1 whenever a friendly unit nearby kills an enemy, and decreases by 1 if an enemy kills a friendly unit nearby. 
+FEAR_MULC Command center is close (distance: %d).
+FEAR_MULCH A dwelling is very close and there is no room to retreat. 
+FEAR_ITOG In total:

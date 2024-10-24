@@ -1,0 +1,7 @@
+#Info Info
+#Back_MultiBattleServer_Hint Close room.
+#Guardian_hint Guard troops.
+#UnitHistoryInfo Historical Reference
+
+#Looser Loser
+#Winner Winner

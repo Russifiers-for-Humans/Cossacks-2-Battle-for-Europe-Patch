@@ -1,0 +1,34 @@
+$EHIN_0 Mouse Moving Mode
+$EHIN_1 Texturing Mode
+$EHIN_2 Tree Mode
+$EHIN_3 Stone Mode
+$EHIN_4 Clear Trees & Stones
+$EHIN_5 Set Streams
+$EHIN_6 Set Water (C,F5) (press CTRL + X to make it navigable)
+$EHIN_7 Clear Water (C,F6)
+$EHIN_8 Set Waves (C,F7)
+$EHIN_9 Remove Waves (C,F8)
+$EHIN_10 Raise Or Lower Hills
+$EHIN_11 Raise Or Lower Plain
+$EHIN_12 Smoothing Mode
+$EHIN_13 Create Plateau
+$EHIN_14 Draw Action Line
+$EHIN_15 Paste Terrain Pattern (CTRL-V, use CTRL-C to save pattern)
+$EHIN_16 Lift Blocking Mode (S to switch)
+$EHIN_17 Set Additional Blocking (S to switch)
+$EHIN_18 Set Default Blocking (S to switch)
+$EHIN_19 Select Unit
+$EHIN_20 Create Mission Zone (only when ScrollLock is on)
+$EHIN_21 Create Mission Group (only when ScrollLock is on)
+$EHIN_22* Surface Editor
+$EHIN_23* Terrain Editor
+$EHIN_24* Refresh Blocking or Path Finding System
+$EHIN_25* Toggle 3D Or 2D Mode
+$EHIN_26* Set Initial Resources
+$EHIN_27* Toggle Peace Or War Mode
+$TE_HN1 Add Trees
+$TE_HN2 Add Water
+$TE_HN3 Add Hills
+$TE_HN4 Add Smoothing Zones
+$TE_HN5 Edit Hill Height
+$TE_HN6 Undo (Z)
